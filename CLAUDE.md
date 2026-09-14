@@ -1,0 +1,125 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Repo này là gì
+
+Workspace hỗ trợ công việc thực tế cho **Vũ Trần Thuý Nhi** — hiện đang làm **Nhân viên Hỗ trợ Kinh doanh (Sales Admin)** tại **Công ty TNHH Dược Khoa Xanh** (Hà Nội).
+
+Khác với `../SalesAdminInterview` (đã xong việc, dùng để luyện phỏng vấn và đã trúng tuyển vị trí này), thư mục này là nơi hỗ trợ công việc **hàng ngày** sau khi Nhi đã nhận việc.
+
+Thư mục mới bắt đầu — chưa có quy ước file, script hay công cụ nào được thiết lập ngoài danh mục công việc bàn giao. Cập nhật file này khi cấu trúc dự án phát triển thêm (đừng để phần "Cấu trúc" bên dưới lạc hậu so với thực tế).
+
+## Ngôn ngữ: Tiếng Việt
+
+Toàn bộ giao tiếp, tài liệu, file trong repo này dùng tiếng Việt — Nhi không làm việc bằng tiếng Anh.
+
+## Bối cảnh công ty (Dược Khoa Xanh)
+
+- Công ty TNHH Dược Khoa Xanh — BT06, 52 Lĩnh Nam, P. Tương Mai, Hà Nội.
+- Ngành: chăm sóc sức khoẻ **mẹ và bé** từ dược liệu thiên nhiên. Thành viên của **DK Pharma**, xuất phát từ ĐH Dược Hà Nội.
+- Bán hàng qua nhiều kênh: **NPP** (nhà phân phối), **Shop/nhà thuốc/CTV**, **hệ thống**, và kênh **ETC** (đấu thầu bệnh viện công).
+- Kinh doanh nội địa 63 tỉnh — không yêu cầu tiếng Anh trong công việc.
+
+## Hồ sơ Nhi
+
+- Cử nhân Quản trị Kinh doanh, ĐH Lâm nghiệp Việt Nam (2021, loại Giỏi).
+- 4 năm kinh nghiệm nghiên cứu viên tại Viện Sinh thái rừng và Môi trường trước khi chuyển ngành: làm việc trực tiếp với khách hàng, định giá/báo giá, chuẩn bị và theo dõi hồ sơ hợp đồng, xử lý số liệu Excel nâng cao (hàm, PivotTable, VLOOKUP, SUMIFS, biểu đồ).
+- **Kỹ năng kỹ thuật:** Excel thành thạo (hàm, PivotTable, SUMIFS/SUMPRODUCT, Data Validation, Excel Table), Word, PowerPoint. **Chưa biết** Power BI, SQL, VBA, Power Query.
+- Không dùng được tiếng Anh trong công việc.
+- Hồ sơ đầy đủ và quá trình xin việc: xem `../SalesAdminInterview/` — CV gốc tại `../SalesAdminInterview/ho-so/`, bài test thực hành vòng phỏng vấn Dược Khoa Xanh (đề xuất chương trình bán hàng, công cụ theo dõi CTKM, báo cáo tổng kết/đánh giá) tại `../SalesAdminInterview/bai-test-duockhoaxanh/`.
+
+## Quy tắc
+
+- **Không bịa.** Không thêm số liệu, tên khách hàng, tên sản phẩm hay dữ kiện công việc Nhi chưa cung cấp. Thiếu thông tin thì hỏi, đừng tự điền.
+- Nền tảng kỹ thuật của Nhi là Excel (hàm, PivotTable, SUMIFS, Data Validation) — ưu tiên giải pháp trong khả năng này; chỉ đề xuất Power BI/SQL/VBA nếu Nhi chủ động muốn học thêm, không mặc định là đã biết.
+
+## Danh mục công việc (bàn giao — `List_CongViec_Admin.xlsx`)
+
+Bản bàn giao công việc Sales Admin, 7 nhóm việc chính. Cờ hàng ngày/phát sinh/ưu tiên tuần đầu lấy nguyên từ file gốc.
+
+### 1. Đơn hàng (hàng ngày)
+1.1. Lên đơn hàng cho khách khi NVKD cần hỗ trợ — lên đơn trong phần mềm **AMIS**. Đầu mối: NVKD, Kế toán. ⭐ Ưu tiên thành thạo tuần đầu — ghi chú gốc: "sang hỏi luôn".
+1.2. Xác nhận hoá đơn (khớp thông tin với đối tác, gửi hoá đơn đã ký số, xác nhận thanh toán):
+   1. Gửi hoá đơn nháp cho đơn mới lên (làm việc với NVKD/khách hàng)
+   2. Yêu cầu khách kiểm tra & xác nhận hoá đơn đúng
+   3. Báo kế toán (chị Giang hoặc chị Tươi) ký số hoá đơn, gửi lại file
+   4. Gửi file hoá đơn đã ký số cho đối tác — note rõ đơn hàng nào
+   5. Cập nhật tình hình thanh toán vào nhóm cho kế toán (chị Giang/chị Tươi)
+1.3. Theo dõi tình trạng đơn hàng (đi được/không đi được trong ngày, thời điểm dự kiến khách nhận hàng):
+   1. Làm việc với kho (chị Dung hoặc chị Phương) về thời gian dự kiến gửi hàng sau khi khách thanh toán
+   2. Cập nhật tình hình đi đơn, thời gian dự kiến giao cho đối tác (làm việc với NVKD/khách hàng)
+1.4. Xử lý phát sinh: đổi trả hàng (đối chiếu điều kiện hợp đồng), hàng sai/nhầm — báo kho vận xác nhận số lượng và sắp lịch trả hàng.
+
+### 2. Giấy tờ, chứng từ (hàng ngày)
+2.1. Giấy tờ sản phẩm, thông tin sản phẩm phân phối kênh ngoài, profile công ty — gửi khách khi có yêu cầu. Đầu mối: NVKD hoặc HCNS.
+2.2. Hợp đồng mẫu (mua bán, ký gửi, tích luỹ...) — đối chiếu thông tin trên hợp đồng:
+   1. Lấy mẫu hợp đồng theo đối tượng từ NVKD, hoặc soạn bản mới nếu chưa có (đầu mối: NVKD hoặc chị Tươi)
+   2. Thêm thông tin khách hàng phía đối tác (đầu mối: NVKD)
+   3. Check nội dung điều khoản với kế toán (chị Tươi)
+2.3. Thông báo chính sách — làm file báo giá cụ thể theo đối tượng/chương trình/địa bàn (NVKD cung cấp).
+
+### 3. Tư liệu (hàng ngày)
+3.1. Bài viết content, hình ảnh, video cho sản phẩm/chương trình gửi khách hàng — làm việc với MKT-Media (Kiều: content; anh Nam: hình ảnh, video). Ghi chú gốc: CTV khu vực miền Trung — thông báo tới CTV, shop.
+3.2. Thu thập hình ảnh, video từ đối tác — cập nhật từ thị trường để phục vụ đăng bài/tháng (NVKD cung cấp theo KPI).
+
+### 4. Quản lý khách hàng của bộ phận (hàng ngày)
+4.1. Quản lý khách hàng của bộ phận là các shop.
+4.2. Chăm sóc shop: gửi bài viết, chương trình theo địa bàn.
+4.3. Xử lý phát sinh: thắc mắc/vấn đề của người tiêu dùng tại shop.
+
+### 5. Báo cáo, phân tích số liệu (hàng ngày + phát sinh + ⭐ ưu tiên tuần đầu)
+5.1. Tổng hợp doanh số ngày/tuần/tháng — nhắc sale cập nhật doanh số (đầu mối: NVKD).
+5.2. Mức độ đạt KPI cá nhân/bộ phận theo tuần — báo cáo tiến độ hàng tuần (NVKD, PGĐ).
+5.3. Phân tích dữ liệu đổ về của bộ phận (PGĐ).
+
+### 6. Chương trình, đề xuất (hàng ngày)
+6.1. Tham vấn chương trình cho bộ phận theo sản phẩm/tháng — dựa trên số liệu đã phân tích theo giai đoạn/cùng kỳ/xu hướng (NVKD).
+6.2. Đề xuất chương trình với BGĐ — bám tiến độ đề xuất và duyệt. Kế toán (chị Hà) và BGĐ (anh Đức) ký duyệt.
+6.3. Bám sát chương trình, tư vấn cho các đối tác phụ trách.
+6.4. Thông báo chương trình khuyến mại sang Sở Công Thương.
+
+### 7. Hỗ trợ điểm bán (hàng ngày)
+7.1. Hỗ trợ trade điểm bán khi cần.
+
+### Đầu mối làm việc chính
+
+| Ai | Vai trò |
+|---|---|
+| NVKD | Nhân viên kinh doanh — nguồn giao việc/đơn hàng chính |
+| Chị Giang, chị Tươi | Kế toán — ký số hoá đơn, đối chiếu điều khoản hợp đồng |
+| Chị Hà | Kế toán — ký duyệt chương trình |
+| Chị Dung, chị Phương | Kho — thời gian gửi/giao hàng |
+| Kiều | MKT — content |
+| Anh Nam | MKT — hình ảnh, video |
+| Anh Đức | BGĐ — ký duyệt chương trình |
+| PGĐ | Nhận báo cáo KPI tuần, phân tích dữ liệu bộ phận |
+| HCNS | Giấy tờ, profile công ty |
+
+### Phần mềm dùng
+- **AMIS** — lên đơn hàng.
+
+### Ưu tiên thành thạo trong tuần đầu tiên
+- 1.1 Lên đơn hàng trong AMIS.
+- 3.1 Thông báo chương trình/bài viết tới CTV khu vực miền Trung và các shop.
+- Nhóm 5 (báo cáo, phân tích số liệu) — cờ cả hàng ngày + phát sinh + ưu tiên tuần đầu, trọng tâm cần nắm sớm nhất.
+
+## Cấu trúc
+
+```
+Nhi/
+├── CLAUDE.md                        ← file này
+├── List_CongViec_Admin.xlsx         ← bàn giao công việc gốc (nguồn của mục "Danh mục công việc" ở trên)
+└── Phân tích công việc/              ← phân tích sâu từng nhóm việc, 1 folder con / mỗi "Công việc" trong file Excel
+    ├── 1. Đơn hàng/
+    ├── 2. Giấy tờ, chứng từ/
+    ├── 3. Tư liệu/
+    ├── 4. Quản lý khách hàng của bộ phận/
+    ├── 5. Báo cáo, phân tích số liệu/
+    ├── 6. Chương trình, đề xuất/
+    └── 7. Hỗ trợ điểm bán/
+        ├── Phân tích công việc.md    ← phân tích chi tiết theo "Các bước thực hiện", nhấn mạnh phần cần chú ý
+        └── Câu hỏi làm rõ.md         ← câu hỏi nên hỏi quản lý/đồng nghiệp để lấp lỗ hổng thông tin
+```
+
+Cập nhật mục này khi có thêm file/thư mục con.
