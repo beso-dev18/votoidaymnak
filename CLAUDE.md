@@ -122,10 +122,11 @@ Nhi/
     └── 7. Hỗ trợ điểm bán/
         ├── Phân tích công việc.md
         └── Câu hỏi làm rõ.md
-Danh mục sản phẩm/                      ← phân loại sản phẩm công ty lấy từ https://duockhoaxanh.com/collections/all
-├── Phân loại theo đối tượng.md         ← "Dành cho bé" / "Dành cho mẹ", theo đúng tag website gắn sẵn
-├── Phân loại theo nhãn hàng.md         ← Elemis, Oriky, Curmilk, Yaocare, Cuperin, Dao'Spa Mama
-└── Câu hỏi làm rõ.md                   ← điểm chưa chắc chắn khi đọc dữ liệu web, cần Nhi xác nhận
+Danh mục sản phẩm/                      ← phân loại sản phẩm công ty
+├── Phân loại theo đối tượng.md         ← "Dành cho bé" / "Dành cho mẹ", theo tag website (collections/all)
+├── Phân loại theo nhãn hàng.md         ← Elemis, Oriky, Curmilk, Yaocare, Cuperin, Dao'Spa Mama (theo tên trên web)
+├── Phân loại theo mục đích sử dụng (cột F).md  ← Mỹ phẩm / TPBVSK / TTBYT, theo file công bố chính thức Thông tin sp DKX.xlsx (SCB/SĐK)
+└── Câu hỏi làm rõ.md                   ← điểm chưa chắc chắn cần Nhi xác nhận
 ```
 
 Cập nhật mục này khi có thêm file/thư mục con.
