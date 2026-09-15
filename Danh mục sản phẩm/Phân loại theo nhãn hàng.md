@@ -14,7 +14,7 @@
 | 4 | Kem bôi da Elemis 30gr | 167.000₫ |
 | 5 | Nước tắm thảo dược Elemis 350ml | 305.000₫ |
 | 6 | Tắm gội trẻ em thảo dược Elemis 200ml | 218.000₫ |
-| 7 | Nước tắm thảo dược cho bé Elemis 500ml | 399.000₫ |
+| 7 | Nước tắm gội thảo dược cho bé Elemis 500ml | 399.000₫ |
 | 8 | Elemis Gold Sữa Tắm Gội Thảo Dược Cho Bé Từ 6 Tháng Tuổi | 319.000₫ |
 | 9 | Gạc rơ lưỡi thảo dược Elemis - hộp 10 gói | 73.000₫ |
 | 10 | Gạc rơ lưỡi thảo dược Elemis không mùi hộp 30 gói | 167.000₫ |
