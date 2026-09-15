@@ -127,6 +127,7 @@ Danh mục sản phẩm/                      ← phân loại sản phẩm côn
 ├── Phân loại theo nhãn hàng.md         ← Elemis, Oriky, Curmilk, Yaocare, Cuperin, Dao'Spa Mama (theo tên trên web)
 ├── Phân loại theo mục đích sử dụng (cột F).md  ← Mỹ phẩm / TPBVSK / TTBYT, theo file công bố chính thức Thông tin sp DKX.xlsx (SCB/SĐK)
 ├── So sánh thị trường - Nhóm Dành cho bé.md    ← so sánh 8 sản phẩm "dành cho bé" với đối thủ (thành phần, công dụng công bố, giá, độ phổ biến) — có cảnh báo an toàn acid boric
+├── So sánh thị trường - Nhóm Dành cho mẹ.md    ← so sánh 8 sản phẩm "dành cho mẹ" với đối thủ — có phát hiện marketing mâu thuẫn công bố (Yaocare Women) và ghi chú thiếu dữ liệu thành phần (Dao'Spa Mama, Yaocare mama)
 └── Câu hỏi làm rõ.md                   ← điểm chưa chắc chắn cần Nhi xác nhận
 ```
 
