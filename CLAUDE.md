@@ -34,6 +34,10 @@ Toàn bộ giao tiếp, tài liệu, file trong repo này dùng tiếng Việt �
 - **Không bịa.** Không thêm số liệu, tên khách hàng, tên sản phẩm hay dữ kiện công việc Nhi chưa cung cấp. Thiếu thông tin thì hỏi, đừng tự điền.
 - Nền tảng kỹ thuật của Nhi là Excel (hàm, PivotTable, SUMIFS, Data Validation) — ưu tiên giải pháp trong khả năng này; chỉ đề xuất Power BI/SQL/VBA nếu Nhi chủ động muốn học thêm, không mặc định là đã biết.
 
+## Git
+
+- Khi làm việc qua **session web tại claude.ai/code**: **không tạo branch mới** — push thẳng lên `main` với bất kỳ thay đổi nào.
+
 ## Danh mục công việc (bàn giao — `List_CongViec_Admin.xlsx`)
 
 Bản bàn giao công việc Sales Admin, 7 nhóm việc chính. Cờ hàng ngày/phát sinh/ưu tiên tuần đầu lấy nguyên từ file gốc.
