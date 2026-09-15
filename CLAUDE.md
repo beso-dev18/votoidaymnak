@@ -117,9 +117,15 @@ Nhi/
     ├── 4. Quản lý khách hàng của bộ phận/
     ├── 5. Báo cáo, phân tích số liệu/
     ├── 6. Chương trình, đề xuất/
+    │   ├── Phân tích công việc.md    ← phân tích chi tiết theo "Các bước thực hiện", nhấn mạnh phần cần chú ý
+    │   └── Câu hỏi làm rõ.md         ← câu hỏi nên hỏi quản lý/đồng nghiệp để lấp lỗ hổng thông tin
     └── 7. Hỗ trợ điểm bán/
-        ├── Phân tích công việc.md    ← phân tích chi tiết theo "Các bước thực hiện", nhấn mạnh phần cần chú ý
-        └── Câu hỏi làm rõ.md         ← câu hỏi nên hỏi quản lý/đồng nghiệp để lấp lỗ hổng thông tin
+        ├── Phân tích công việc.md
+        └── Câu hỏi làm rõ.md
+Danh mục sản phẩm/                      ← phân loại sản phẩm công ty lấy từ https://duockhoaxanh.com/collections/all
+├── Phân loại theo đối tượng.md         ← "Dành cho bé" / "Dành cho mẹ", theo đúng tag website gắn sẵn
+├── Phân loại theo nhãn hàng.md         ← Elemis, Oriky, Curmilk, Yaocare, Cuperin, Dao'Spa Mama
+└── Câu hỏi làm rõ.md                   ← điểm chưa chắc chắn khi đọc dữ liệu web, cần Nhi xác nhận
 ```
 
 Cập nhật mục này khi có thêm file/thư mục con.
