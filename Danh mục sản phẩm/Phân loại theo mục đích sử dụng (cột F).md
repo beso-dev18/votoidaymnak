@@ -19,7 +19,7 @@
 | 9 | Dung dịch vệ sinh phụ nữ thảo dược Yaocare Women | Chai 100ml | Bọt | 165/24/CBMP-BN | 06/4/2029 | Bắc Ninh |
 | 10 | Thảo dược xông vùng kín Oriky | Chai 10ml | Dung dịch | 38/24/CBMP-HB | 26/4/2029 | Hòa Bình |
 | 11 | Massage Baby Oil | Chai 60ml | Dầu dùng trên da | 45/26/CBMP-BN | 02/3/2031 | Bắc Ninh |
-| 12 | Gel vệ sinh phụ nữ Oriky | 150ml | Gel | 138/25/CBMP-BN | 21/04/2025 | Bắc Ninh |
+| 12 | Gel vệ sinh phụ nữ Oriky | 150ml | Gel | 138/25/CBMP-BN | 21/4/2030 | Bắc Ninh |
 
 ## Thực phẩm bảo vệ sức khỏe – TPBVSK (3 sản phẩm)
 
@@ -43,4 +43,4 @@
 - Điều này **giải đáp** 2 câu hỏi còn treo ở `Câu hỏi làm rõ.md`:
   - **Xịt muỗi thảo dược Elemis** được công bố là **TTBYT** (trang thiết bị y tế — dạng chống côn trùng), không phải mỹ phẩm.
   - **2 loại "Gạc rơ lưỡi thảo dược Elemis"** trên website (không mùi hộp 30 gói / hộp 30 chiếc) khớp với **2 SĐK PCBA khác nhau thật** trong file này (240000002 và 240000004: 1 loại "Hương dưa lưới", 1 loại thường) — xác nhận đây là 2 SKU thật, không phải dữ liệu trùng lặp trên web.
-- File nguồn có nhiều hạn SCB/SĐK khá gần (ví dụ Gel vệ sinh phụ nữ Oriky hết hạn 21/04/2025 — **đã qua hạn** tính đến hôm nay nếu đúng vậy) — Nhi nên rà lại việc gia hạn/công bố lại với bộ phận phụ trách, tôi không tự suy đoán tình trạng thực tế vì chỉ đọc đúng dữ liệu trong file.
+- Hạn SCB của Gel vệ sinh phụ nữ Oriky đã được Nhi đính chính là **21/4/2030** (file gốc ghi nhầm năm thành 2025).
