@@ -126,7 +126,8 @@ Nhi/
     └── 7. Hỗ trợ điểm bán/
         ├── Phân tích công việc.md
         ├── Câu hỏi làm rõ.md
-        └── Bộ sell-out kit theo sản phẩm (Elemis).md  ← sell-out kit (POSM, cơ chế thành phần, script, giá/khuyến mãi) cho 4 SP sếp yêu cầu: sữa tắm, kem bôi, xịt muỗi, gạc rơ lưỡi
+        ├── Bộ sell-out kit theo sản phẩm (Elemis).md  ← sell-out kit (POSM, cơ chế thành phần, script, giá/khuyến mãi) cho 4 SP sếp yêu cầu: sữa tắm, kem bôi, xịt muỗi, gạc rơ lưỡi
+        └── Xử lý từ chối mua hàng - script cho NVBH.md  ← câu hỏi/từ chối thường gặp của NTD tại quầy + câu trả lời gợi ý, theo từng sản phẩm trong sell-out kit
 Danh mục sản phẩm/                      ← phân loại sản phẩm công ty
 ├── Phân loại theo đối tượng.md         ← "Dành cho bé" / "Dành cho mẹ", theo tag website (collections/all)
 ├── Phân loại theo nhãn hàng.md         ← Elemis, Oriky, Curmilk, Yaocare, Cuperin, Dao'Spa Mama (theo tên trên web)
