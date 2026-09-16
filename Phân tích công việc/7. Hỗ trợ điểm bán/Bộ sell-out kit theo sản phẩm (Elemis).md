@@ -51,6 +51,23 @@
 
 ⚠️ Thành phần công bố còn có Fragrance, Propylene glycol, Cremophor RH40, EDTA — đây là tá dược/chất tạo mùi-ổn định công thức, không phải hoạt chất mang lại công dụng chính, **không đưa vào phần giới thiệu "điểm mạnh"**.
 
+### Quy trình xử lý theo từng vấn đề da (giai đoạn cơ chế chi tiết)
+
+⚠️ Phần này diễn giải theo **kiến thức dược lý/dược liệu học phổ thông** của từng hoạt chất, để Nhi/NV hiểu sâu "vì sao" — không phải kết quả thử nghiệm lâm sàng riêng của sản phẩm DKX (công ty chưa công bố số liệu này). Khi nói với NTD vẫn dùng bản rút gọn trong script/bài đào tạo (từ "hỗ trợ", không cam kết khỏi hẳn) — phần dưới đây là để NV **hiểu bản chất**, không phải để đọc nguyên văn cho khách.
+
+**Vấn đề A: Da mẩn đỏ / bỏng nhẹ do gió, nắng**
+
+- *Giai đoạn 1 — Làm dịu phản ứng viêm cấp (ngay khi da vừa bị đỏ/rát):* Thành phần đảm nhiệm là **rau má** (asiaticoside, madecassoside) và **ngải cứu**. Khi da bị tổn thương bề mặt do nắng/gió hanh, lớp biểu bì phản ứng bằng cách giãn mao mạch (gây đỏ) và giải phóng các chất trung gian gây viêm. Nhóm saponin trong rau má được tài liệu dược liệu học ghi nhận có hoạt tính ức chế một phần phản ứng viêm này, giúp giảm giãn mạch; tinh dầu ngải cứu bổ sung cảm giác dịu mát khi thoa. Kết quả ở giai đoạn này là da bớt đỏ, bớt rát — đây là làm dịu tức thời, da **chưa** phục hồi cấu trúc.
+- *Giai đoạn 2 — Tái tạo mô, phục hồi lớp da tổn thương:* Vẫn là **rau má** đảm nhiệm chính. Các hoạt chất asiaticoside, madecassoside, acid asiatic, acid madecassic được ghi nhận kích thích nguyên bào sợi (fibroblast) ở lớp trung bì tăng tổng hợp collagen, đồng thời thúc đẩy tế bào sừng ở lớp biểu bì tăng sinh để "vá" lại vùng da bong tróc/nứt do bỏng nhẹ. Đây vẫn là quá trình tự nhiên của cơ thể — rau má đóng vai trò hỗ trợ/thúc đẩy nhanh hơn theo tài liệu, không tự tạo ra da mới thay cơ thể. Kết quả: da đỡ bong tróc, dần mịn trở lại.
+- *Giai đoạn 3 — Bảo vệ, ngăn tổn thương tái diễn (sau khi da đã dịu và bắt đầu hồi phục):* Thành phần đảm nhiệm là **kẽm oxyd nano** và **Aquaxyl**. Kẽm oxyd là các hạt oxit kim loại không tan, bám lên lớp sừng tạo một lớp màng che phủ vật lý mỏng, ngăn cách da với tác nhân bên ngoài (gió, ẩm, ma sát). ⚠️ Về bản chất vật lý, kẽm oxyd cũng phản xạ một phần tia UV (đây là lý do kẽm oxyd được dùng trong kem chống nắng vật lý nói chung) — nhưng sản phẩm này **không được công bố/kiểm nghiệm như kem chống nắng**, nên tuyệt đối không tư vấn là "chống nắng" cho khách, chỉ nêu để hiểu bản chất khoa học. Aquaxyl củng cố hàng rào lipid biểu bì từ bên trong, giúp da tự giữ nước tốt hơn. Kết quả: da được che chắn khỏi tác nhân gây tổn thương lặp lại, giảm nguy cơ tái mẩn đỏ/khô nứt do cùng nguyên nhân.
+
+**Vấn đề B: Hăm tã (da ẩm ướt, ma sát, tiếp xúc phân/nước tiểu)**
+
+- *Giai đoạn 1 — Ngăn tiếp xúc trực tiếp (phòng ngừa/giảm ngay khi mới ửng đỏ):* **Kẽm oxyd** tạo màng che phủ ngay lập tức, giảm việc da tiếp xúc trực tiếp với độ ẩm và enzyme tiêu hoá trong phân/nước tiểu — đây là cơ chế phòng ngừa hăm quan trọng nhất, nên dùng sớm khi da mới hơi ửng đỏ sẽ hiệu quả hơn để hăm nặng mới dùng.
+- *Giai đoạn 2 — Làm dịu viêm, giảm ngứa rát:* **Rau má** và **ngải cứu** hoạt động như ở Vấn đề A — giảm viêm tại chỗ, giảm ngứa.
+- *Giai đoạn 3 — Duy trì độ ẩm, ngăn khô nứt do hăm kéo dài:* **Aquaxyl** giữ ẩm sâu, ngăn vùng da hăm bị khô nứt thêm do mất nước.
+- ⚠️ Nồng độ kẽm oxyd 2% thấp hơn nhiều kem hăm đặc trị trên thị trường (thường 10-40%) — phù hợp hăm nhẹ/phòng ngừa hàng ngày, **không thay thế** kem đặc trị khi hăm đã loét/chảy dịch nặng; trường hợp đó nên khuyên đi khám.
+
 | Hạng mục | Nội dung |
 |---|---|
 | USP thật (có căn cứ) | Kẽm oxyd nano + rau má + ngải cứu; công dụng "da bị bỏng do gió/nắng" — Bepanthen, Sudocrem không công bố |
@@ -140,6 +157,17 @@ Bao bì hộp 500ml có in sẵn tem **"Tiết kiệm 75.000đ"** — có thể 
 - Cơ chế: kháng khuẩn/kháng viêm, y học cổ truyền dùng phổ biến để hỗ trợ mụn nhọt/rôm sảy.
 - Đây là USP riêng thật của Gold — Dr.Papie/Kutieskin không có kim ngân trong công thức.
 
+### Quy trình xử lý theo vấn đề da (giai đoạn cơ chế chi tiết)
+
+⚠️ Cũng là diễn giải theo kiến thức dược lý/dược liệu học phổ thông, không phải kết quả thử nghiệm lâm sàng riêng của DKX — dùng để NV hiểu sâu, không đọc nguyên văn cho khách.
+
+**Vấn đề: Rôm sảy / mẩn ngứa do nóng, mồ hôi bít tắc lỗ chân lông**
+
+- *Giai đoạn 1 — Làm sạch, loại bỏ tác nhân gây bít tắc (ngay khi tắm):* **Chè xanh** (catechin/EGCG) và **sả chanh** (citral) có hoạt tính kháng khuẩn tại chỗ, giảm mật độ vi khuẩn trên da (đặc biệt nhóm vi khuẩn thường trú có thể làm nặng thêm viêm khi lỗ chân lông bị bít). Kết hợp với tác động làm sạch cơ học của việc tắm, đây là bước loại bỏ mồ hôi/bã nhờn tích tụ — nền tảng để các hoạt chất sau phát huy tác dụng.
+- *Giai đoạn 2 — Giảm viêm, làm mát vùng da đã nổi rôm sảy:* **Sài đất** (wedelolactone, flavonoid) có hoạt tính chống viêm được ghi nhận, giúp giảm sưng đỏ tại các nốt rôm sảy; **khổ qua** (charantin) bổ sung kháng khuẩn/kháng nấm nhẹ, hạn chế bội nhiễm tại nốt đã viêm. Kết quả: nốt rôm sảy bớt sưng đỏ, giảm ngứa.
+- *Giai đoạn 3 — Duy trì kháng khuẩn, hạn chế tái phát trong ngày:* **Kinh giới** và **tràm gió** lưu lại một phần tinh dầu trên da sau khi tắm, duy trì môi trường ít thuận lợi cho vi khuẩn/nấm phát triển tiếp. Riêng Elemis Gold có thêm **kim ngân** (chlorogenic acid, luteolin) bổ sung lớp kháng viêm mạnh hơn theo tài liệu.
+- Lưu ý: tắm chỉ là một phần kiểm soát rôm sảy — mặc thoáng, giữ môi trường mát cho bé là yếu tố quan trọng khác nằm ngoài phạm vi sản phẩm.
+
 **Nhận định tổng hợp:** phần lớn thảo dược trong dòng thường (chè xanh, sài đất, khổ qua, kinh giới, sả chanh, tràm gió) đều thuộc nhóm có phổ tác dụng trùng nhau — kháng khuẩn nhẹ + kháng viêm nhẹ. Đây chính là lý do khoa học vì sao công dụng công bố tổng thể dễ trùng lặp với đối thủ dùng thảo dược tương tự (đã ghi nhận ở phần so sánh thị trường) — điểm khác biệt thật sự nằm ở việc **có hay không có kim ngân** (chỉ Gold có), không phải khác biệt về cơ chế nền tảng của các thảo dược còn lại.
 
 ⚠️ Elemis Gold có thêm SLES (chất tạo bọt tổng hợp) trong thành phần công bố — đây là tá dược tạo bọt, không phải hoạt chất "tự nhiên" như web quảng cáo, không đưa vào phần giới thiệu công dụng.
@@ -196,6 +224,16 @@ Sản phẩm đã qua kiểm nghiệm trước khi đưa ra thị trường, k�
 **Dịch chiết hẹ (Allium tuberosum)** — dùng trong loại "hương dưa lưới"
 - Hoạt chất chính: allicin và các hợp chất lưu huỳnh (tương tự tỏi).
 - Cơ chế: kháng khuẩn/kháng nấm; dân gian dùng phổ biến nhất để hỗ trợ tưa lưỡi cho trẻ — đây là dược liệu "kinh điển" nhất trong nhóm gạc rơ lưỡi trên thị trường (kể cả đối thủ Dr.Papie).
+
+### Quy trình xử lý theo vấn đề (giai đoạn cơ chế chi tiết)
+
+⚠️ Cũng là diễn giải theo kiến thức dược lý/dược liệu học phổ thông, không phải kết quả thử nghiệm lâm sàng riêng của DKX — dùng để NV hiểu sâu, không đọc nguyên văn cho khách.
+
+**Vấn đề: Nấm lưỡi / tưa lưỡi (do nấm Candida albicans phát triển từ cặn sữa)**
+
+- *Giai đoạn 1 — Làm sạch cơ học, loại bỏ "nguồn thức ăn" của nấm:* **NaCl** hỗ trợ làm sạch niêm mạc, loại bỏ cặn sữa bám dính — chính cặn sữa lên men là "thức ăn" khiến Candida albicans phát triển. **Glycerin** giữ ẩm gạc, giúp thao tác lau nhẹ nhàng, không làm tổn thương niêm mạc mỏng manh của trẻ trong lúc làm sạch. Kết quả: loại bỏ phần lớn cặn sữa ngay từ bước đầu.
+- *Giai đoạn 2 — Thay đổi môi trường để nấm khó phát triển tiếp:* **Natri bicarbonat** kiềm hoá môi trường khoang miệng. Candida albicans phát triển thuận lợi trong môi trường acid hình thành do cặn sữa lên men — nâng pH lên giúp hạn chế điều kiện thuận lợi cho nấm sinh sôi, không chỉ đơn thuần khử mùi.
+- *Giai đoạn 3 — Tấn công trực tiếp vi khuẩn/nấm còn sót lại:* **Acid boric** có hoạt tính sát khuẩn-kháng nấm nhẹ (bao gồm ức chế Candida) ở nồng độ đã kiểm nghiệm an toàn; **Xylitol** ức chế vi khuẩn sâu răng bám dính; dịch chiết **hẹ** (allicin) bổ sung kháng khuẩn/kháng nấm tự nhiên; **cúc la mã** (apigenin, bisabolol) làm dịu niêm mạc nếu có kích ứng nhẹ do nấm. Kết quả: giảm số lượng vi khuẩn/nấm còn sót lại sau bước làm sạch, hỗ trợ niêm mạc miệng phục hồi trạng thái khoẻ mạnh, giảm biểu hiện mảng trắng/hôi miệng.
 
 **Nhận định tổng hợp:** công thức tấn công đồng thời 2 cơ chế gây bệnh khác nhau — Xylitol + Natri bicarbonat xử lý phần "môi trường thuận lợi cho vi khuẩn/nấm phát triển" (bám dính + độ pH), trong khi acid boric + dịch chiết thảo dược bổ sung lớp kháng khuẩn/kháng nấm trực tiếp tại chỗ. Đây là cách phối hợp đa cơ chế, khác với sản phẩm chỉ dựa vào 1 hoạt chất chính (ví dụ Dr.Papie chủ yếu dựa vào dịch chiết hẹ).
 
