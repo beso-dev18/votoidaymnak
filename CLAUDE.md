@@ -133,6 +133,12 @@ Danh mục sản phẩm/                      ← phân loại sản phẩm côn
 ├── So sánh thị trường - Nhóm Dành cho bé.md    ← so sánh 8 sản phẩm "dành cho bé" với đối thủ (thành phần, công dụng công bố, giá, độ phổ biến) — có cảnh báo an toàn acid boric
 ├── So sánh thị trường - Nhóm Dành cho mẹ.md    ← so sánh 8 sản phẩm "dành cho mẹ" với đối thủ — có phát hiện marketing mâu thuẫn công bố (Yaocare Women) và ghi chú thiếu dữ liệu thành phần (Dao'Spa Mama, Yaocare mama)
 └── Câu hỏi làm rõ.md                   ← điểm chưa chắc chắn cần Nhi xác nhận
+Sell-out kit Elemis/                    ← bộ công cụ giúp shop/nhà thuốc/CTV bán ra 3 SP Elemis (sữa tắm, kem bôi, gạc rơ lưỡi)
+├── Nguồn tham khảo.md                  ← link website DKX (collections/all), link 3 SP, nguồn mẫu sell-out kit/POSM/product knowledge
+├── Đề xuất phương án sell-out kit.md   ← khung 6 phần: gồm gì, thông tin gì, hỗ trợ sell-out ra sao; việc cần hỏi trước khi soạn
+├── Thành phần và cơ chế tác dụng - Elemis.md  ← tài liệu nền nội bộ: từng thành phần hoạt động thế nào → công dụng công bố (không dùng nói nguyên văn với khách)
+├── Bộ sell-out kit - Elemis.md         ← bản thảo kit chia theo TỪNG SẢN PHẨM (mỗi SP: thông tin, lý do chọn/so sánh, script, FAQ, POSM) + phần chung (bộ 3, giá, KM, trưng bày, tư liệu số); chỗ thiếu dữ liệu đánh dấu [CẦN XÁC NHẬN]
+├── *.docx                              ← bản Word xuất từ 2 file .md trên (script chuyển: python-docx, không có pandoc trên máy) — .md là bản gốc, sửa .md rồi xuất lại
 ```
 
 Cập nhật mục này khi có thêm file/thư mục con.
