@@ -2,7 +2,7 @@
 
 **Bối cảnh:** Giai đoạn sau khi tổ chức chương trình, NVBH tại shop đã tư vấn cho NTD nhưng gặp từ chối/thắc mắc khiến NTD ngần ngại mua. File này tổng hợp câu hỏi/từ chối thường gặp và câu trả lời gợi ý, dựa hoàn toàn trên dữ liệu đã xác minh trong `Danh mục sản phẩm/` và `Bộ sell-out kit theo sản phẩm (Elemis).md` — không thêm số liệu/công dụng chưa có nguồn.
 
-⚠️ Nguyên tắc chung khi trả lời: dùng từ "hỗ trợ/làm dịu/giảm/ngừa/phòng ngừa", không dùng "trị dứt điểm/chữa khỏi" cho sản phẩm mỹ phẩm; chỗ nào chưa có dữ liệu xác nhận (ví dụ độ tuổi tối thiểu xịt muỗi) thì hướng dẫn thận trọng thay vì tự khẳng định.
+⚠️ Nguyên tắc chung khi trả lời: dùng từ "hỗ trợ/làm dịu/giảm/ngừa/phòng ngừa", không dùng "trị dứt điểm/chữa khỏi" cho sản phẩm mỹ phẩm; chỗ nào chưa có dữ liệu xác nhận thì hướng dẫn thận trọng thay vì tự khẳng định.
 
 ---
 
@@ -29,8 +29,8 @@
 
 | Từ chối/câu hỏi của NTD | Câu trả lời gợi ý | Ghi chú |
 |---|---|---|
-| "Xịt này hiệu quả bao lâu, có bằng hãng khác không?" | Theo chứng nhận in trên bao bì: hiệu quả xua muỗi sốt xuất huyết Ae. aegypti đạt 94,2% sau 1 giờ, kéo dài ~3 giờ liên tục. Ngắn hơn một số hãng dùng hoạt chất hoá học (Remos ~6h, Soffell ~8h), đổi lại là 100% tinh dầu tự nhiên — nên xịt lại sau 2-3 giờ để duy trì hiệu quả | Trả lời thẳng, không né tránh chênh lệch thời gian |
-| "Bé nhà tôi mấy tháng tuổi dùng được?" | ⚠️ Sản phẩm không công bố rõ độ tuổi tối thiểu. Nên hướng dẫn: dùng theo hướng dẫn trên bao bì, thử một vùng da nhỏ trước; nếu bé còn nhỏ hoặc da nhạy cảm nên hỏi ý kiến bác sĩ/dược sĩ trước khi dùng | Không tự nêu một con số tháng tuổi cụ thể — cần hỏi R&D để có câu trả lời chính thức |
+| "Xịt này hiệu quả bao lâu, có bằng hãng khác không?" | Theo tài liệu giới thiệu sản phẩm chính thức: chứng nhận xua muỗi sốt xuất huyết Ae. aegypti đạt 100% ngay sau khi dùng, 99,42% sau 1 giờ, kéo dài 3 giờ liên tục. Ngắn hơn một số hãng dùng hoạt chất hoá học (Remos ~6h, Soffell ~8h), đổi lại là 100% tinh dầu tự nhiên — nên xịt lại sau 2-3 giờ để duy trì hiệu quả | Trả lời thẳng, không né tránh chênh lệch thời gian |
+| "Bé nhà tôi mấy tháng tuổi dùng được?" | Sản phẩm dùng được cho trẻ trên 3 tháng tuổi, người trưởng thành, và phụ nữ có thai (theo tài liệu chính thức). Với trẻ từ 3 tháng: chỉ xịt xung quanh không gian/lên quần áo, không xịt trực tiếp lên da; từ 2 tuổi trở lên mới xịt trực tiếp lên tay/chân | Đã có câu trả lời chính thức, không cần né tránh nữa |
 | "Xịt này có an toàn không, có hoá chất độc hại không?" | Thành phần 100% tinh dầu tự nhiên (sả Java, sả chanh, bạch đàn chanh, an tức hương) — không dùng hoạt chất hoá học tổng hợp như Picaridin/DEET | — |
 
 ## Sữa tắm / tắm gội Elemis (200ml/350ml/500ml/Gold)
@@ -54,5 +54,4 @@
 
 ## Việc còn mở
 
-- Câu trả lời cho "bé mấy tháng tuổi dùng được xịt muỗi" hiện là hướng xử lý an toàn tạm thời, chưa phải câu trả lời chính thức — cần hỏi R&D để chốt độ tuổi tối thiểu cụ thể.
 - Chưa có script cho các câu hỏi liên quan tới khuyến mãi/giá tại quầy vì phần khuyến mãi cho NTD vẫn đang chờ NVKD xác nhận (xem `Bộ sell-out kit theo sản phẩm (Elemis).md`).

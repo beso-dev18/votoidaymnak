@@ -129,7 +129,10 @@ Nhi/
         ├── Bộ sell-out kit theo sản phẩm (Elemis).md  ← sell-out kit (POSM, cơ chế thành phần, script, giá/khuyến mãi) cho 4 SP sếp yêu cầu: sữa tắm, kem bôi, xịt muỗi, gạc rơ lưỡi
         ├── Xử lý từ chối mua hàng - script cho NVBH.md  ← câu hỏi/từ chối thường gặp của NTD tại quầy + câu trả lời gợi ý, theo từng sản phẩm trong sell-out kit
         ├── Bài đào tạo sản phẩm cho NV shop (nói miệng 5-10 phút).md  ← bài nói đào tạo NV shop về thành phần/công dụng/lợi ích/khác biệt từng sản phẩm, dùng trước khi NV tự tư vấn NTD
-        └── Bài đào tạo sản phẩm cho NV shop (dạng gạch đầu dòng).md  ← cùng nội dung, rút gọn thành gạch đầu dòng để xem nhanh
+        ├── Bài đào tạo sản phẩm cho NV shop (dạng gạch đầu dòng).md  ← cùng nội dung, rút gọn thành gạch đầu dòng để xem nhanh
+        ├── Giới thiệu sản phẩm - Kem bôi da Elemis.md      ← dựng theo cấu trúc mẫu Xịt muỗi Elemis.pptx sếp cung cấp (nỗi đau KH, thông tin SP, công dụng, thành phần, USP, hướng dẫn dùng, cam kết, so sánh đối thủ, FAQ)
+        ├── Giới thiệu sản phẩm - Sữa tắm gội Elemis.md     ← cùng cấu trúc, cho dòng sữa tắm/tắm gội
+        └── Giới thiệu sản phẩm - Gạc rơ lưỡi Elemis.md     ← cùng cấu trúc, cho gạc rơ lưỡi
 Danh mục sản phẩm/                      ← phân loại sản phẩm công ty
 ├── Phân loại theo đối tượng.md         ← "Dành cho bé" / "Dành cho mẹ", theo tag website (collections/all)
 ├── Phân loại theo nhãn hàng.md         ← Elemis, Oriky, Curmilk, Yaocare, Cuperin, Dao'Spa Mama (theo tên trên web)

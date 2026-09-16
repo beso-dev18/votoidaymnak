@@ -22,10 +22,11 @@ Bản rút gọn của `Bài đào tạo sản phẩm cho NV shop (nói miệng 
 - **Thành phần chính:** tinh dầu sả Java, sả chanh, bạch đàn chanh; an tức hương (kháng khuẩn nhẹ, tạo hương)
 - **Cơ chế:** mùi tinh dầu khiến muỗi tránh xa (xua đuổi, không diệt)
 - **Công dụng:** xua muỗi, hỗ trợ làm dịu/tan vết muỗi đốt
-- **Số liệu thật trên bao bì:** hiệu quả 94,2% sau 1 giờ; kéo dài ~3 giờ liên tục
+- **Số liệu chính thức:** hiệu quả 100% ngay sau khi dùng, 99,42% sau 1 giờ; kéo dài 3 giờ liên tục
+- **Đối tượng sử dụng:** trẻ trên 3 tháng tuổi, người trưởng thành, phụ nữ có thai. Từ 3 tháng: chỉ xịt quanh không gian/quần áo, không xịt trực tiếp da. Từ 2 tuổi: xịt trực tiếp tay/chân (2-3 lần/30cm²)
 - **Lợi ích cho bé:** an toàn hơn cho da nhạy cảm vì không dùng hoá chất tổng hợp (Picaridin/DEET)
 - **Khác biệt:** 100% tinh dầu tự nhiên — đổi lại thời gian hiệu quả ngắn hơn Remos (6h)/Soffell (8h) → hướng dẫn xịt lại sau 2-3 giờ
-- ⚠️ Không tự chốt độ tuổi tối thiểu (SCB chưa công bố rõ) — hướng dẫn dùng theo bao bì, hỏi bác sĩ nếu bé còn nhỏ/da nhạy cảm
+- ⚠️ Không dùng cho trẻ dưới 3 tháng tuổi (dễ kích ứng đường hô hấp non nớt khi hít phải tinh dầu)
 
 ## 3. Sữa tắm / tắm gội Elemis (200ml/350ml/500ml/Gold 220ml)
 
@@ -51,4 +52,4 @@ Bản rút gọn của `Bài đào tạo sản phẩm cho NV shop (nói miệng 
 
 ## Việc còn mở
 
-Giống file bản nói miệng: cập nhật thêm khi có khuyến mãi NTD (chờ NVKD) và xác nhận độ tuổi tối thiểu xịt muỗi (hỏi R&D).
+Giống file bản nói miệng: cập nhật thêm khi có khuyến mãi NTD (chờ NVKD).

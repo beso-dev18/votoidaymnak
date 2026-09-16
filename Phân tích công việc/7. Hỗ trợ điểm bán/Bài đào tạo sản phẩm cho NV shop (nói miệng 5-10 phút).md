@@ -30,11 +30,11 @@ Có 2 điều cần lưu ý khi giới thiệu: một là **không nói sản ph
 
 Thành phần chính gồm **tinh dầu sả Java, sả chanh, bạch đàn chanh**, và thêm **an tức hương** — đây là một loại nhựa cây có tính kháng khuẩn nhẹ và tạo mùi thơm tự nhiên. Cơ chế hoạt động của xịt muỗi này khác với các loại xịt hoá học — nó không diệt muỗi mà dùng mùi hương tinh dầu khiến muỗi khó chịu và tránh xa vùng da đã xịt.
 
-Công dụng chính là xua muỗi và hỗ trợ làm dịu, giúp tan vết muỗi đốt. Ngay trên bao bì sản phẩm có in số liệu cụ thể, mình nên nhớ để nói với khách cho thuyết phục: sản phẩm được chứng nhận **hiệu quả xua muỗi truyền bệnh sốt xuất huyết đạt 94,2% sau 1 giờ**, và **hiệu quả kéo dài khoảng 3 giờ liên tục**.
+Công dụng chính là xua muỗi và hỗ trợ làm dịu, giúp tan vết muỗi đốt. Đây là số liệu chính thức mình nên nhớ để nói với khách cho thuyết phục: sản phẩm được chứng nhận **hiệu quả xua muỗi truyền bệnh sốt xuất huyết đạt 100% ngay sau khi dùng, 99,42% sau 1 giờ**, và **hiệu quả kéo dài 3 giờ liên tục**.
 
 Về khác biệt, điểm mạnh nhất là **100% tinh dầu tự nhiên**, không dùng các hoạt chất hoá học tổng hợp như Picaridin hay DEET mà nhiều hãng khác dùng. Đây là lý do sản phẩm này an toàn hơn cho da nhạy cảm của bé. Tất nhiên, đổi lại thời gian hiệu quả sẽ ngắn hơn — khoảng 3 tiếng so với 6-8 tiếng của một số hãng dùng hoá chất. Nếu khách hỏi về điều này, mình nên trả lời thẳng thắn, hướng dẫn khách **xịt lại sau khoảng 2-3 tiếng** thay vì né tránh câu hỏi.
 
-Một lưu ý quan trọng: sản phẩm **chưa công bố rõ độ tuổi tối thiểu được dùng** — nên nếu khách hỏi bé mấy tháng dùng được, mình không tự đưa ra một con số cụ thể. Nên hướng dẫn khách dùng theo hướng dẫn in trên bao bì, thử một vùng da nhỏ trước, và nếu bé còn quá nhỏ hoặc da nhạy cảm thì nên hỏi ý kiến bác sĩ trước khi dùng."
+Một lưu ý quan trọng về độ tuổi: sản phẩm dùng được cho **trẻ trên 3 tháng tuổi**, người trưởng thành, và phụ nữ có thai. Nhưng cách dùng khác nhau theo tuổi: với trẻ từ 3 tháng tuổi, chỉ xịt xung quanh không gian hoặc lên quần áo, không xịt trực tiếp lên da; từ 2 tuổi trở lên mới xịt trực tiếp lên tay/chân (2-3 lần xịt trên diện tích khoảng 30cm²). Không khuyến cáo dùng cho trẻ dưới 3 tháng vì việc xịt xung quanh có thể khiến bé hít phải tinh dầu, dễ kích ứng đường hô hấp non nớt."
 
 ## 3. Sữa tắm / tắm gội Elemis (200ml, 350ml, 500ml, Gold 220ml)
 
@@ -68,5 +68,5 @@ Về khác biệt, sản phẩm này có công thức đa dạng dược liệu 
 
 ## Việc còn mở
 
-- Nội dung dựa trên dữ liệu đã có tới thời điểm hiện tại — khi có khuyến mãi cụ thể cho NTD (đang chờ NVKD) hoặc xác nhận độ tuổi tối thiểu xịt muỗi (cần hỏi R&D), nên cập nhật thêm vào bài nói.
+- Nội dung dựa trên dữ liệu đã có tới thời điểm hiện tại — khi có khuyến mãi cụ thể cho NTD (đang chờ NVKD), nên cập nhật thêm vào bài nói.
 - Đây là bài đào tạo NV shop, khác với script xử lý từ chối mua hàng (`Xử lý từ chối mua hàng - script cho NVBH.md`) — nên dùng cả 2 file cùng nhau: file này để NV hiểu sản phẩm trước, file kia để xử lý tình huống khi tư vấn thực tế.

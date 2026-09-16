@@ -27,7 +27,7 @@
 
 Đọc trực tiếp từ ảnh bao bì đính kèm trong file báo giá — độ tin cậy cao hơn mô tả web vì là nội dung công ty tự in trên sản phẩm:
 
-- **Xịt muỗi Elemis:** bao bì in rõ "Được chứng nhận hiệu quả xua muỗi truyền bệnh sốt xuất huyết Ae. aegypti đến **94,2% sau 1 giờ**" và "Hiệu quả kéo dài **~3 giờ liên tục**" — khớp với mốc "~3 giờ" đã ghi nhận từ SCB trước đó, nhưng có thêm con số 94,2% cụ thể để dùng trong tư vấn/POSM.
+- **Xịt muỗi Elemis:** theo tài liệu giới thiệu sản phẩm chính thức (`Xịt muỗi Elemis.pptx` do Nhi cung cấp — nguồn đáng tin hơn ảnh bao bì độ phân giải thấp đọc trước đó, xin đính chính lại số liệu): chứng nhận xua muỗi Ae. aegypti đạt **100% ngay sau khi sử dụng**, **99,42% sau 1 giờ**, hiệu quả kéo dài **3 giờ liên tục**. Đối tượng sử dụng: **trẻ trên 3 tháng tuổi**, người trưởng thành, dùng được cho phụ nữ có thai — giải đáp câu hỏi để mở trước đó về độ tuổi tối thiểu.
 - **Sữa tắm 500ml:** bao bì có in sẵn tem "Tiết kiệm 75.000đ" (so với mua lẻ) — có thể tận dụng làm điểm nhấn POSM có sẵn, không cần thiết kế thêm.
 - **Tagline in trên bao bì dòng tắm gội (200/350/500ml):** "Tắm thơm tho - Không lo viêm da". ⚠️ Claim "không lo viêm da" tương tự claim đã ghi nhận là **không có trong SCB chính thức** (trước đó chỉ thấy trên web cho riêng Elemis Gold — nay thấy in cả trên bao bì dòng thường). Đây là nội dung công ty đã in sẵn, không phải Nhi tạo ra, nhưng khi tư vấn bằng lời nên tránh nhắc lại/nhấn mạnh thêm claim này để không tăng rủi ro.
 - **Kem bôi da Elemis:** bao bì in "Dưỡng ẩm cho da bé êm dịu bên trong", "Hỗ trợ kháng khuẩn & làm dịu da", "Chiết xuất rau má & ngải cứu", "Sản phẩm an toàn cho mẹ, trẻ sơ sinh & trẻ nhỏ" — dùng từ "hỗ trợ" đúng chuẩn, không dùng "trị/chữa".

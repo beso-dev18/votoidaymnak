@@ -104,10 +104,10 @@ Nồng độ kẽm oxyd trong sản phẩm là 2%, thấp hơn nhiều kem hăm 
 
 | Hạng mục | Nội dung |
 |---|---|
-| USP thật | 100% tinh dầu tự nhiên (sả Java, sả chanh, bạch đàn chanh) — không hoạt chất hoá học như Picaridin/DEET của đối thủ. Bao bì in sẵn số liệu cụ thể: **"chứng nhận hiệu quả xua muỗi truyền bệnh sốt xuất huyết Ae. aegypti đến 94,2% sau 1 giờ"**, **"hiệu quả kéo dài ~3 giờ liên tục"** — dùng đúng số liệu in trên bao bì khi tư vấn, mạnh hơn nói chung chung |
-| Điểm yếu cần chuẩn bị | Hiệu quả kéo dài ~3 giờ, thấp hơn Remos (6h) và Soffell (8h); **không công bố độ tuổi tối thiểu sử dụng** |
-| ⚠️ Lưu ý khi tư vấn | Không tự khẳng định "dùng được cho trẻ mấy tháng tuổi" khi SCB không ghi rõ — cần hỏi R&D trước khi chốt câu trả lời chính thức trong script |
-| Script tư vấn | Với câu hỏi về thời gian hiệu quả ngắn hơn đối thủ: hướng dẫn xịt lại sau ~2-3 giờ thay vì né tránh; dùng số liệu 94,2%/1 giờ in trên bao bì để mở đầu tư vấn |
+| USP thật | 100% tinh dầu tự nhiên (sả Java, sả chanh, bạch đàn chanh) — không hoạt chất hoá học như Picaridin/DEET của đối thủ. Theo tài liệu giới thiệu sản phẩm chính thức: chứng nhận xua muỗi Ae. aegypti đạt **100% ngay sau khi dùng**, **99,42% sau 1 giờ**, hiệu quả kéo dài **3 giờ liên tục** (đính chính lại so với số 94,2% đọc từ ảnh bao bì độ phân giải thấp trước đó) |
+| Điểm yếu cần chuẩn bị | Hiệu quả kéo dài ~3 giờ, thấp hơn Remos (6h) và Soffell (8h) |
+| Đối tượng sử dụng | **Trẻ trên 3 tháng tuổi**, người trưởng thành, dùng được cho phụ nữ có thai (theo tài liệu chính thức — giải đáp câu hỏi để mở trước đó về độ tuổi tối thiểu) |
+| Script tư vấn | Với câu hỏi về thời gian hiệu quả ngắn hơn đối thủ: hướng dẫn xịt lại sau ~2-3 giờ thay vì né tránh; dùng số liệu 100%/ngay và 99,42%/1 giờ để mở đầu tư vấn |
 | POSM | Banner/tem nhấn "100% tinh dầu tự nhiên, an toàn"; bao bì đã có sẵn hình ảnh + số liệu chứng nhận, có thể dùng luôn làm standee thu nhỏ |
 | Kích cầu | Đẩy theo mùa (mùa mưa/cao điểm sốt xuất huyết), combo với sản phẩm có sả/tràm |
 | Chương trình sell-in (cho shop/NPP khi nhập) | 5 tặng 1 (~16,7% chiết khấu hàng), áp dụng cho cả 2 quy cách 50ml/120ml |
