@@ -8,6 +8,8 @@
 
 ⚠️ **Lưu ý khi dùng phần "Cơ chế thành phần" bên dưới:** cột "Cơ chế tác động" là kiến thức dược liệu/dược lý **phổ thông** của từng thành phần (không phải kết quả thử nghiệm lâm sàng riêng của DKX — công ty chưa cung cấp số liệu này). Theo quy định quảng cáo mỹ phẩm tại Việt Nam, **không dùng từ "trị/chữa/điều trị"** khi tư vấn cho các sản phẩm thuộc nhóm mỹ phẩm (kem bôi, sữa tắm) — chỉ dùng "hỗ trợ", "làm dịu", "giảm", "ngừa". Đây là quy tắc cần đưa vào script tư vấn để tránh rủi ro pháp lý cho công ty.
 
+**Giá và khuyến mãi cập nhật theo `Danh mục sản phẩm/Bảng giá và chương trình OTC.md`** (bảng báo giá kênh OTC, áp dụng từ 01/04/2025) — **thấp hơn** giá web đã ghi trước đó ở cả 4 sản phẩm; dùng giá OTC làm chính vì đây đúng là kênh shop→NTD mà sell-out kit này phục vụ. ⚠️ Cột "Chương trình" (mua X tặng Y) trong bảng báo giá là **chiết khấu cho shop/NPP khi nhập hàng (sell-in)**, không phải khuyến mãi cho NTD khi mua lẻ — phần khuyến mãi thật sự dành cho NTD tại quầy vẫn cần NVKD xác nhận riêng (xem ô "Khuyến mãi cụ thể" từng sản phẩm).
+
 ## Khung 6 nhóm của 1 bộ sell-out kit đầy đủ
 
 1. Vật phẩm trưng bày tại điểm bán (POSM): standee, kệ, poster, tester/mẫu dùng thử
@@ -19,7 +21,7 @@
 
 ---
 
-## 1. Kem bôi da Elemis (30g — 167.000đ)
+## 1. Kem bôi da Elemis (30g — 115.000đ giá OTC, web ghi 167.000đ)
 
 ### Cơ chế thành phần
 
@@ -36,13 +38,14 @@
 |---|---|
 | USP thật (có căn cứ) | Kẽm oxyd nano + rau má + ngải cứu; công dụng "da bị bỏng do gió/nắng" — Bepanthen, Sudocrem không công bố |
 | ⚠️ Điểm cần né trong nội dung | Web ghi "không hương liệu" nhưng thành phần công bố có Fragrance — **không đưa claim này vào tư liệu/script** |
-| Điểm cần chuẩn bị đối phó | Giá quy đổi ~55.700đ/10g, đắt hơn Bepanthen (~24.000đ/10g) và Sudocrem (~19.800đ/10g) 2-3 lần |
-| POSM | Kệ/tem để cạnh khu kem chống hăm-dưỡng da; hình minh hoạ công dụng "bỏng gió/nắng" |
+| Điểm cần chuẩn bị đối phó | Giá quy đổi theo giá OTC ~38.300đ/10g (giá web trước ~55.700đ/10g) — vẫn đắt hơn Bepanthen (~24.000đ/10g) và Sudocrem (~19.800đ/10g) |
+| POSM | Kệ/tem để cạnh khu kem chống hăm-dưỡng da; hình minh hoạ công dụng "bỏng gió/nắng"; bao bì đã in sẵn "Dưỡng ẩm cho da bé êm dịu bên trong", "Hỗ trợ kháng khuẩn & làm dịu da" — dùng nguyên câu này cho tem/POSM |
 | Script tư vấn | Khi bị hỏi vì sao đắt hơn Bepanthen: nêu công thức kẽm oxyd + thảo dược kết hợp, nhà máy đạt GMP-WHO — không dùng lý do "không hương liệu" |
 | Kích cầu | Sản phẩm nhỏ gọn — phù hợp làm quà tặng kèm khi mua combo tắm gội (cross-sell) |
-| Khuyến mãi cụ thể | ⏳ Đang chờ NVKD cung cấp |
+| Chương trình sell-in (cho shop/NPP khi nhập) | 10 tặng 2 (~16,7% chiết khấu hàng) |
+| Khuyến mãi cho NTD tại quầy | ⏳ Đang chờ NVKD cung cấp — chương trình sell-in ở trên chưa phải khuyến mãi bán lẻ, cần hỏi rõ shop có được san sẻ lại phần này cho NTD không |
 
-## 2. Xịt muỗi thảo dược Elemis (50ml/120ml — 131.000đ/283.000đ)
+## 2. Xịt muỗi thảo dược Elemis (50ml/120ml — giá OTC 90.000đ/195.000đ, web ghi 131.000đ/283.000đ)
 
 ### Cơ chế thành phần
 
@@ -50,22 +53,32 @@
 |---|---|---|---|
 | Tinh dầu sả Java, sả chanh | Chứa citronellal/citral — mùi hương gây khó chịu cho khứu giác muỗi, khiến muỗi tránh xa vùng da có xịt (xua đuổi, không diệt) | Muỗi đốt gây ngứa, nguy cơ truyền bệnh (sốt xuất huyết, tay chân miệng...) | Xua muỗi bằng tinh dầu tự nhiên, không dùng hoạt chất hoá học tổng hợp trên da bé |
 | Bạch đàn chanh (lemon eucalyptus) | Chứa citronellol/PMD (para-menthane-diol) — cơ chế xua đuổi tương tự, được WHO ghi nhận có hiệu quả xua muỗi ở nồng độ đủ cao | Muỗi đốt | Tăng hiệu quả xua đuổi, mùi hương dễ chịu hơn hoá chất tổng hợp |
+| An tức hương (Benzoin) | Nhựa cây có tính kháng khuẩn nhẹ, tạo hương thơm tự nhiên | Hỗ trợ giữ mùi hương, kháng khuẩn nhẹ trên vùng da xịt | Mùi dễ chịu hơn, hỗ trợ kháng khuẩn nhẹ |
 
-⚠️ **Nói thật với NTD, không né tránh:** tinh dầu tự nhiên bay hơi nhanh hơn hoạt chất tổng hợp (Picaridin/DEET) — đây là lý do khoa học khiến thời gian hiệu quả công bố chỉ ~3 giờ, ngắn hơn Remos/Soffell. Đổi lại là an toàn hơn cho da nhạy cảm của bé — nên trình bày đây là đánh đổi có chủ đích (an toàn hơn, cần xịt lại thường xuyên hơn), không phải nhược điểm cần giấu.
+⚠️ Ethanol 96%, Polyethylene glycol 400, Vanillin là dung môi/tá dược giúp hoà tan và ổn định tinh dầu — không phải hoạt chất xua muỗi chính, không đưa vào phần "điểm mạnh".
+
+⚠️ **Nói thật với NTD, không né tránh:** tinh dầu tự nhiên bay hơi nhanh hơn hoạt chất tổng hợp (Picaridin/DEET) — đây là lý do khoa học khiến thời gian hiệu quả ngắn hơn Remos/Soffell. Đổi lại là an toàn hơn cho da nhạy cảm của bé — nên trình bày đây là đánh đổi có chủ đích (an toàn hơn, cần xịt lại thường xuyên hơn), không phải nhược điểm cần giấu.
 
 | Hạng mục | Nội dung |
 |---|---|
-| USP thật | 100% tinh dầu tự nhiên (sả Java, sả chanh, bạch đàn chanh) — không hoạt chất hoá học như Picaridin/DEET của đối thủ |
-| Điểm yếu cần chuẩn bị | Hiệu quả công bố ~3 giờ, thấp hơn Remos (6h) và Soffell (8h); **không công bố độ tuổi tối thiểu sử dụng** |
+| USP thật | 100% tinh dầu tự nhiên (sả Java, sả chanh, bạch đàn chanh) — không hoạt chất hoá học như Picaridin/DEET của đối thủ. Bao bì in sẵn số liệu cụ thể: **"chứng nhận hiệu quả xua muỗi truyền bệnh sốt xuất huyết Ae. aegypti đến 94,2% sau 1 giờ"**, **"hiệu quả kéo dài ~3 giờ liên tục"** — dùng đúng số liệu in trên bao bì khi tư vấn, mạnh hơn nói chung chung |
+| Điểm yếu cần chuẩn bị | Hiệu quả kéo dài ~3 giờ, thấp hơn Remos (6h) và Soffell (8h); **không công bố độ tuổi tối thiểu sử dụng** |
 | ⚠️ Lưu ý khi tư vấn | Không tự khẳng định "dùng được cho trẻ mấy tháng tuổi" khi SCB không ghi rõ — cần hỏi R&D trước khi chốt câu trả lời chính thức trong script |
-| Script tư vấn | Với câu hỏi về thời gian hiệu quả ngắn hơn đối thủ: hướng dẫn xịt lại sau ~2-3 giờ thay vì né tránh |
-| POSM | Banner/tem nhấn "100% tinh dầu tự nhiên, an toàn" |
+| Script tư vấn | Với câu hỏi về thời gian hiệu quả ngắn hơn đối thủ: hướng dẫn xịt lại sau ~2-3 giờ thay vì né tránh; dùng số liệu 94,2%/1 giờ in trên bao bì để mở đầu tư vấn |
+| POSM | Banner/tem nhấn "100% tinh dầu tự nhiên, an toàn"; bao bì đã có sẵn hình ảnh + số liệu chứng nhận, có thể dùng luôn làm standee thu nhỏ |
 | Kích cầu | Đẩy theo mùa (mùa mưa/cao điểm sốt xuất huyết), combo với sản phẩm có sả/tràm |
-| Khuyến mãi cụ thể | ⏳ Đang chờ NVKD cung cấp |
+| Chương trình sell-in (cho shop/NPP khi nhập) | 5 tặng 1 (~16,7% chiết khấu hàng), áp dụng cho cả 2 quy cách 50ml/120ml |
+| Khuyến mãi cho NTD tại quầy | ⏳ Đang chờ NVKD cung cấp |
 
 ## 3. Sữa tắm / tắm gội Elemis (làm chung cho cả dòng)
 
 Gộp chung các quy cách: Nước tắm thảo dược 350ml, Tắm gội trẻ em 200ml/500ml, Elemis Gold 220ml — theo xác nhận làm kit chung trước mắt.
+
+**Giá OTC (01/04/2025):** 200ml = 150.000đ, 350ml = 210.000đ, 500ml = 275.000đ, Gold 220ml = 220.000đ — đều thấp hơn giá web đã ghi trước đó (218.000/305.000/399.000/319.000đ).
+
+Bao bì thật in tagline chung "**Tắm thơm tho - Không lo viêm da**" cho cả 3 quy cách 200/350/500ml. ⚠️ Claim "không lo viêm da" không có trong SCB chính thức (trước đây chỉ thấy trên web, riêng cho Gold) — nay thấy in cả trên bao bì dòng thường. Đây là nội dung công ty đã in sẵn, không phải Nhi tạo ra, nhưng khi tư vấn bằng lời nên tránh nhấn mạnh thêm claim này.
+
+Bao bì hộp 500ml có in sẵn tem **"Tiết kiệm 75.000đ"** — có thể tận dụng làm điểm nhấn POSM có sẵn, không cần thiết kế thêm. Riêng ảnh sản phẩm cho hộp 200ml còn thiếu trong tư liệu hiện có (chỉ có logo công ty) — cần bổ sung ảnh thật.
 
 ### Cơ chế thành phần
 
@@ -89,10 +102,11 @@ Gộp chung các quy cách: Nước tắm thảo dược 350ml, Tắm gội tr�
 | Điểm yếu cần chuẩn bị | Giá quy đổi ~109.000-145.000đ/100ml, cao hơn Dr.Papie (~50.000đ) và Kutieskin (~64.000đ) 1.7-3 lần; công dụng công bố phần lớn trùng lặp đối thủ, Kutieskin công bố phạm vi rộng hơn (thêm hăm da, viêm da) |
 | Script tư vấn | USP thuyết phục giá cao: nguồn dược liệu + nhà máy đạt chuẩn GMP-WHO (DK Pharma) — lợi thế cạnh tranh thật, không phải công dụng riêng biệt |
 | POSM | Tester dùng thử tại điểm bán — quan trọng vì DKX chưa có mặt trên Pharmacity/sàn lớn, NTD chưa quen thương hiệu |
-| Kích cầu | Chênh lệch giá rõ rệt so với đối thủ nên cần cơ chế bù (mua kèm/tặng kèm) mạnh hơn |
-| Khuyến mãi cụ thể | ⏳ Đang chờ NVKD cung cấp |
+| Kích cầu | Chênh lệch giá rõ rệt so với đối thủ nên cần cơ chế bù (mua kèm/tặng kèm) mạnh hơn; tận dụng tem "Tiết kiệm 75.000đ" có sẵn trên hộp 500ml |
+| Chương trình sell-in (cho shop/NPP khi nhập) | 200ml: 14 tặng 2 · 350ml: 10 tặng 2 · 500ml: 12 tặng 2 · Gold: 8 tặng 2 |
+| Khuyến mãi cho NTD tại quầy | ⏳ Đang chờ NVKD cung cấp |
 
-## 4. Gạc rơ lưỡi thảo dược Elemis (Hộp 10/30/40 gói — 73.000-167.000đ)
+## 4. Gạc rơ lưỡi thảo dược Elemis (Hộp 30 gói — giá OTC 115.000đ cả 2 loại, web ghi 73.000-167.000đ)
 
 Sản phẩm đã qua kiểm nghiệm trước khi đưa ra thị trường, kết quả an toàn cho trẻ nhỏ.
 
@@ -109,16 +123,19 @@ Sản phẩm đã qua kiểm nghiệm trước khi đưa ra thị trường, k�
 
 | Hạng mục | Nội dung |
 |---|---|
-| USP thật | Kết hợp thêm rau ngót, chè xanh/cúc la mã — công thức đa dạng dược liệu hơn Dr.Papie (chỉ có hẹ là dược liệu chính) |
+| USP thật | Kết hợp thêm rau ngót, chè xanh/cúc la mã — công thức đa dạng dược liệu hơn Dr.Papie (chỉ có hẹ là dược liệu chính). Bao bì in sẵn "Làm sạch & bảo vệ an toàn răng miệng cho bé", "Phòng ngừa các bệnh về răng miệng (nấm lưỡi, tưa lưỡi, nổi hạch, viêm nướu...)" — dùng đúng nguyên câu này, đã chuẩn ngôn từ ("phòng ngừa", không "trị/chữa") |
 | Script tư vấn | Nhấn "đã qua kiểm nghiệm an toàn trước khi lưu hành", hướng dẫn rõ tần suất sử dụng theo bao bì |
 | POSM | Trưng bày cạnh khu vệ sinh răng miệng/tưa lưỡi cho bé; kèm tờ hướng dẫn sử dụng đúng cách (số lần/ngày) |
 | Kích cầu | Sản phẩm tiêu hao nhanh (theo ngày) — phù hợp chương trình mua theo combo/số lượng lớn để duy trì khách quay lại |
-| Khuyến mãi cụ thể | ⏳ Đang chờ NVKD cung cấp |
+| Chương trình sell-in (cho shop/NPP khi nhập) | Hương dưa lưới: 10 tặng 3 (~30% chiết khấu — cao hơn hẳn loại không mùi, có thể công ty đang đẩy mạnh vị này); Không mùi: 10 tặng 2 |
+| Khuyến mãi cho NTD tại quầy | ⏳ Đang chờ NVKD cung cấp |
 
 ---
 
 ## Việc còn mở
 
-- Khuyến mãi/cơ chế kích cầu cụ thể cho cả 4 sản phẩm — đang chờ NVKD phản hồi, cập nhật vào bảng tương ứng khi có.
+- **Khuyến mãi cho NTD tại quầy** (khác với chương trình sell-in cho shop/NPP đã có trong bảng giá OTC) — vẫn đang chờ NVKD phản hồi, cập nhật vào ô tương ứng khi có.
+- Xác nhận lý do chênh lệch giá web vs giá OTC (kênh khác nhau hay giá đã thay đổi theo thời gian) — nếu cần dùng chính thức thì hỏi kế toán/NVKD.
+- Bổ sung ảnh sản phẩm thật cho hộp 200ml (hiện tư liệu chỉ có logo công ty).
 - Nội dung mạng xã hội/hình ảnh cụ thể (mục 5, 6 trong khung) cần phối hợp với MKT (Kiều — content, anh Nam — hình ảnh/video), thuộc nhóm việc "3. Tư liệu" — chưa triển khai ở file này.
 - Cách phân phối kit tới nhóm ~55% shop chưa được xác thực/tương tác trực tiếp (qua NPP hoặc thực địa) — vấn đề riêng, chưa có giải pháp trong phạm vi file này.

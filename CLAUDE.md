@@ -125,13 +125,15 @@ Nhi/
     │   └── Câu hỏi làm rõ.md         ← câu hỏi nên hỏi quản lý/đồng nghiệp để lấp lỗ hổng thông tin
     └── 7. Hỗ trợ điểm bán/
         ├── Phân tích công việc.md
-        └── Câu hỏi làm rõ.md
+        ├── Câu hỏi làm rõ.md
+        └── Bộ sell-out kit theo sản phẩm (Elemis).md  ← sell-out kit (POSM, cơ chế thành phần, script, giá/khuyến mãi) cho 4 SP sếp yêu cầu: sữa tắm, kem bôi, xịt muỗi, gạc rơ lưỡi
 Danh mục sản phẩm/                      ← phân loại sản phẩm công ty
 ├── Phân loại theo đối tượng.md         ← "Dành cho bé" / "Dành cho mẹ", theo tag website (collections/all)
 ├── Phân loại theo nhãn hàng.md         ← Elemis, Oriky, Curmilk, Yaocare, Cuperin, Dao'Spa Mama (theo tên trên web)
 ├── Phân loại theo mục đích sử dụng (cột F).md  ← Mỹ phẩm / TPBVSK / TTBYT, theo file công bố chính thức Thông tin sp DKX.xlsx (SCB/SĐK)
 ├── So sánh thị trường - Nhóm Dành cho bé.md    ← so sánh 8 sản phẩm "dành cho bé" với đối thủ (thành phần, công dụng công bố, giá, độ phổ biến) — có cảnh báo an toàn acid boric
 ├── So sánh thị trường - Nhóm Dành cho mẹ.md    ← so sánh 8 sản phẩm "dành cho mẹ" với đối thủ — có phát hiện marketing mâu thuẫn công bố (Yaocare Women) và ghi chú thiếu dữ liệu thành phần (Dao'Spa Mama, Yaocare mama)
+├── Bảng giá và chương trình OTC.md     ← giá bán lẻ + chương trình sell-in (mua X tặng Y) kênh OTC từ 01/04/2025, cùng ghi chú claim thật trên bao bì sản phẩm
 └── Câu hỏi làm rõ.md                   ← điểm chưa chắc chắn cần Nhi xác nhận
 ```
 
