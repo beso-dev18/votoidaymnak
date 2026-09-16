@@ -29,25 +29,41 @@
 
 ⚠️ Cách viết dưới đây giải thích trực tiếp cơ chế thật của từng hoạt chất (đã ghi tên cụ thể), không dùng ví von — có thể dùng gần như nguyên văn khi nói với khách, chỉ cần giữ từ "hỗ trợ/giúp" thay vì "trị/chữa".
 
-**Rau má — tái tạo da và chống viêm**
+**Rau má — quá trình tái tạo da, từng bước một**
 
-*Tái tạo da:* khi da bị trầy, nứt hay tổn thương do nắng gió, da cần tạo ra collagen mới để lấp đầy và làm lành vùng tổn thương. Việc này do nguyên bào sợi — một loại tế bào trong da — đảm nhiệm. Hoạt chất **asiaticoside** trong rau má kích thích nguyên bào sợi hoạt động mạnh hơn, sản sinh nhiều collagen hơn để lấp đầy vùng da tổn thương; đồng thời thúc đẩy lớp da bên trên sinh thêm tế bào mới để thay thế phần da bị bong tróc. Kết quả: vùng da bong tróc, nứt nẻ liền lại nhanh hơn, da mịn trở lại sớm hơn.
+1. Khi thoa kem lên vùng da tổn thương (trầy, nứt, bong tróc do nắng/gió), hoạt chất **asiaticoside** trong rau má thấm vào da và tiếp xúc với nguyên bào sợi — loại tế bào nằm trong da, chuyên sản xuất collagen (chất tạo khung nâng đỡ cho da).
+2. Asiaticoside kích thích nguyên bào sợi tăng sản xuất collagen nhiều hơn mức bình thường.
+3. Lượng collagen mới sinh ra lấp dần vào các vị trí da bị tổn thương/nứt/bong tróc, đồng thời lớp biểu bì bên trên được kích thích sinh thêm tế bào da mới để phủ lên trên.
+4. Kết quả: sau một thời gian dùng đều đặn, vùng da tổn thương liền lại, bề mặt da mịn màng trở lại — nhanh hơn so với để da tự lành không có tác động gì.
 
-*Chống viêm:* khi da bị kích ứng, các tế bào da tiết ra chất gây viêm khiến mạch máu dưới da giãn ra (biểu hiện là da đỏ lên) và đầu dây thần kinh trở nên nhạy cảm hơn (biểu hiện là cảm giác rát). Hoạt chất trong rau má làm giảm bớt các chất gây viêm này, giúp giảm giãn mạch và giảm độ nhạy cảm của dây thần kinh. Kết quả: da bớt đỏ, bớt rát nhanh hơn.
+**Rau má — quá trình chống viêm, từng bước một**
 
-**Ngải cứu**
+1. Khi da bị kích ứng do nắng/gió, các tế bào da tại vùng đó tiết ra chất gây viêm, khiến mạch máu dưới da giãn ra và đầu dây thần kinh trở nên nhạy cảm hơn.
+2. Mạch máu giãn biểu hiện ra ngoài là da đỏ lên; dây thần kinh nhạy cảm hơn biểu hiện ra ngoài là cảm giác rát/khó chịu.
+3. Khi thoa kem, hoạt chất trong rau má thấm vào vùng da này và làm giảm lượng chất gây viêm đang được tiết ra.
+4. Kết quả: mạch máu bớt giãn, dây thần kinh bớt nhạy cảm — da bớt đỏ, bớt rát trong thời gian ngắn sau khi thoa.
 
-Tinh dầu ngải cứu có 2 tác dụng: có tính kháng khuẩn nhẹ, giúp hạn chế vi khuẩn xâm nhập vào vùng da đang tổn thương; và tạo cảm giác mát dịu ngay khi thoa lên da nhờ tính bay hơi của tinh dầu, giúp bé dễ chịu ngay lập tức.
+**Ngải cứu — quá trình tác động**
 
-**Kẽm oxyd nano 2%**
+1. Khi thoa lên da, tinh dầu ngải cứu bắt đầu bay hơi ngay lập tức trên bề mặt da, tạo cảm giác mát — đây là tác dụng cảm nhận được tức thì.
+2. Đồng thời, tinh dầu tiếp xúc với bề mặt da và ức chế sự phát triển của vi khuẩn tại chỗ — vùng da đang tổn thương vốn dễ bị vi khuẩn xâm nhập hơn da lành.
+3. Kết quả: bé dễ chịu ngay lập tức nhờ cảm giác mát, đồng thời giảm nguy cơ vùng da tổn thương bị nhiễm khuẩn thêm trong lúc chờ rau má phục hồi da.
 
-Kẽm oxyd là các hạt khoáng chất mịn. Khi thoa lên da, các hạt này bám và phủ kín bề mặt da, tạo một lớp màng mỏng ngăn nước tiểu, phân và hơi ẩm tiếp xúc trực tiếp với da bên dưới — đây là lý do kẽm oxyd hiệu quả trong phòng ngừa và hỗ trợ hăm tã. Các hạt khoáng chất này cũng phản chiếu một phần ánh nắng khi da tiếp xúc ngoài trời. ⚠️ Sản phẩm chưa được kiểm nghiệm/công bố chỉ số chống nắng (SPF/PA) nên không nên giới thiệu là kem chống nắng.
+**Kẽm oxyd nano 2% — quá trình tác động**
 
-Nồng độ kẽm oxyd trong sản phẩm là 2%, thấp hơn nhiều kem hăm tã đặc trị trên thị trường (thường dùng 10-40%). Do đó sản phẩm phù hợp dùng phòng ngừa/hỗ trợ hăm nhẹ hàng ngày, không đủ để xử lý hăm đã loét hoặc chảy dịch nặng — trường hợp đó nên khuyên đi khám.
+1. Khi thoa kem lên da, các hạt kẽm oxyd kích thước nano phân tán đều và bám lên bề mặt da.
+2. Các hạt này liên kết với nhau, tạo thành một lớp màng mỏng phủ kín bề mặt da.
+3. Lớp màng này ngăn cách da với nước tiểu, phân, hơi ẩm bên ngoài — các tác nhân này không còn tiếp xúc trực tiếp được với da.
+4. Kết quả: da được bảo vệ ngay từ khi thoa, giảm nguy cơ hoặc giảm mức độ hăm do ẩm ướt/ma sát gây ra. Cùng cơ chế vật lý này, các hạt khoáng chất cũng phản chiếu một phần ánh nắng khi da tiếp xúc ngoài trời — ⚠️ nhưng sản phẩm chưa được kiểm nghiệm/công bố chỉ số chống nắng (SPF/PA) nên không giới thiệu là kem chống nắng cho khách.
 
-**Aquaxyl**
+Nồng độ kẽm oxyd trong sản phẩm là 2%, thấp hơn nhiều kem hăm tã đặc trị trên thị trường (thường dùng 10-40%) — nên lớp màng bảo vệ này mỏng, đủ dùng phòng ngừa/hỗ trợ hăm nhẹ hàng ngày, không đủ để xử lý hăm đã loét hoặc chảy dịch nặng — trường hợp đó nên khuyên đi khám.
 
-Aquaxyl gồm 2 phân tử đường giúp da tự tăng khả năng giữ nước từ bên trong, khác với glycerin thông thường chỉ cấp ẩm tạm thời rồi bay hơi sau vài giờ. Nhờ đó da được dưỡng ẩm lâu hơn, ít khô ráp trở lại.
+**Aquaxyl — quá trình tác động**
+
+1. Khi thoa lên da, Aquaxyl (gồm 2 phân tử đường: xylitylglucoside và anhydroxylitol) thấm vào lớp biểu bì.
+2. Xylitylglucoside kích thích tế bào da tự sản xuất thêm glycosaminoglycan — chất giữ nước tự nhiên của da.
+3. Anhydroxylitol củng cố hàng rào bảo vệ ở lớp ngoài cùng của da, khiến nước khó thoát ra ngoài hơn.
+4. Kết quả: da tự giữ được độ ẩm lâu hơn từ bên trong, khác với glycerin thông thường chỉ cấp ẩm tạm thời trên bề mặt rồi bay hơi sau vài giờ.
 
 **4 thành phần phối hợp:** kẽm oxyd ngăn tác nhân gây hại tiếp xúc với da từ bên ngoài; Aquaxyl giữ ẩm cho da từ bên trong; rau má thúc đẩy da tái tạo khi đã tổn thương; ngải cứu giảm viêm và mang lại cảm giác dễ chịu ngay lập tức. Bốn thành phần có vai trò khác nhau, bổ sung cho nhau chứ không trùng lặp — đây là câu trả lời khi khách hỏi vì sao phải kết hợp nhiều thành phần.
 
@@ -113,21 +129,30 @@ Bao bì hộp 500ml có in sẵn tem **"Tiết kiệm 75.000đ"** — có thể 
 
 Rôm sảy hình thành khi lỗ thoát mồ hôi trên da bị bụi bẩn và tế bào chết bít lại, khiến mồ hôi không thoát ra được và ứ lại dưới da, gây sưng đỏ và ngứa tại chỗ. Các thành phần thảo dược trong sữa tắm tác động theo 3 phần: làm sạch để khơi thông lỗ chân lông, giảm viêm tại các nốt đã nổi, và duy trì kháng khuẩn sau khi tắm.
 
-**Chè xanh và sả chanh**
+**Chè xanh và sả chanh — quá trình tác động (trong lúc tắm)**
 
-Chè xanh chứa **EGCG**, sả chanh chứa **citral** — cả hai có khả năng ức chế vi khuẩn thường trú trên da (như tụ cầu), loại vi khuẩn có thể phát triển mạnh khi lỗ chân lông bị bít và làm viêm nặng thêm. Khi tắm, nước ấm kết hợp với 2 hoạt chất này giúp làm mềm và loại bỏ lớp bụi/tế bào chết đang bít miệng lỗ chân lông, giúp mồ hôi thoát ra dễ hơn.
+1. Khi nước tắm tiếp xúc với da, nhiệt độ ấm và tác động cơ học của việc tắm bắt đầu làm mềm lớp bụi/tế bào chết đang bít miệng lỗ chân lông.
+2. Đồng thời, **EGCG** (từ chè xanh) và **citral** (từ sả chanh) tiếp xúc với bề mặt da và ức chế vi khuẩn thường trú trên da (như tụ cầu) — loại vi khuẩn có thể phát triển mạnh khi lỗ chân lông bị bít và làm viêm nặng thêm.
+3. Lớp bụi/tế bào chết bong ra, mồ hôi trong ống tuyến được khơi thông và thoát ra dễ hơn.
+4. Kết quả: giảm số lượng vi khuẩn trên bề mặt da và giảm khả năng lỗ chân lông tiếp tục bị bít trong khi tắm.
 
-**Sài đất và khổ qua**
+**Sài đất và khổ qua — quá trình tác động (với các nốt rôm sảy đã nổi)**
 
-Với những nốt rôm sảy đã hình thành, sài đất (chứa **wedelolactone**) làm giảm phản ứng sưng viêm tại chỗ, giúp da bớt đỏ và giảm ngứa. Khổ qua bổ sung khả năng kháng khuẩn nhẹ, hạn chế nốt rôm sảy bị nhiễm khuẩn nặng thêm thành mụn nhọt — đây là lý do dân gian hay dùng khổ qua nấu nước tắm cho trẻ bị rôm sảy.
+1. Tại các nốt rôm sảy đã hình thành (da đang sưng đỏ, ngứa), **wedelolactone** trong sài đất tiếp xúc với vùng da này và làm giảm phản ứng sưng viêm tại chỗ.
+2. Mạch máu tại nốt rôm sảy bớt giãn, do đó nốt bớt đỏ; đồng thời cảm giác ngứa giảm bớt.
+3. Khổ qua tiếp xúc với cùng vùng da và bổ sung khả năng kháng khuẩn nhẹ, hạn chế vi khuẩn xâm nhập vào nốt da đã tổn thương hàng rào bảo vệ.
+4. Kết quả: nốt rôm sảy bớt sưng đỏ, bé bớt ngứa, giảm nguy cơ nốt rôm sảy bị nhiễm khuẩn nặng thêm thành mụn nhọt.
 
-**Kinh giới và tràm gió**
+**Kinh giới và tràm gió — quá trình tác động (kéo dài sau khi tắm)**
 
-Tinh dầu trong kinh giới và tràm gió lưu lại một phần trên da sau khi tắm — không bị rửa trôi hết như các chất tan trong nước — duy trì khả năng kháng khuẩn thêm vài giờ sau đó. Điều này giúp hạn chế lỗ chân lông bị bít trở lại trong ngày, đặc biệt với bé ra nhiều mồ hôi.
+1. Trong lúc tắm, tinh dầu kinh giới và tràm gió tiếp xúc với da như các hoạt chất khác.
+2. Khác với các chất tan trong nước bị rửa trôi hoàn toàn khi xả nước, một phần tinh dầu của 2 thành phần này bám lại trên bề mặt da sau khi tắm xong.
+3. Phần tinh dầu còn lại tiếp tục duy trì khả năng kháng khuẩn trên da trong vài giờ tiếp theo.
+4. Kết quả: hạn chế vi khuẩn phát triển trở lại và lỗ chân lông bị bít lại trong ngày, đặc biệt hữu ích với bé ra nhiều mồ hôi sau khi tắm.
 
 **Riêng Elemis Gold — kim ngân và hương nhu**
 
-Kim ngân (chứa **chlorogenic acid**, **luteolin**) có hoạt tính kháng viêm mạnh, là thành phần **chỉ có ở Elemis Gold, không có ở Dr.Papie và Kutieskin** — đây là câu trả lời khi khách hỏi vì sao Gold đắt hơn. Hương nhu bổ sung thêm khả năng kháng khuẩn ngoài da.
+Kim ngân (chứa **chlorogenic acid**, **luteolin**) tiếp xúc với da và có hoạt tính kháng viêm mạnh hơn nhóm thảo dược còn lại theo tài liệu — đây là thành phần **chỉ có ở Elemis Gold, không có ở Dr.Papie và Kutieskin**, nên khi khách hỏi vì sao Gold đắt hơn, đây là câu trả lời cụ thể. Hương nhu bổ sung thêm khả năng kháng khuẩn ngoài da theo cùng cơ chế tiếp xúc trực tiếp như các tinh dầu khác.
 
 ⚠️ Cần trung thực về 2 điểm: (1) phần lớn các thảo dược còn lại (chè xanh, sài đất, khổ qua, kinh giới, sả chanh, tràm gió) có công dụng khá giống nhau — kháng khuẩn nhẹ và kháng viêm nhẹ — nên sản phẩm đối thủ dùng thảo dược tương tự cũng có công dụng tương tự, không nên khẳng định sản phẩm này vượt trội hoàn toàn; (2) Elemis Gold có thêm SLES (chất tạo bọt tổng hợp) trong thành phần công bố, không phải "100% thảo dược, tạo bọt tự nhiên" như quảng cáo trên web — không nhắc lại claim này khi tư vấn.
 
@@ -156,19 +181,25 @@ Sản phẩm đã qua kiểm nghiệm trước khi đưa ra thị trường, k�
 
 Trong miệng bé luôn có sẵn một lượng nhỏ nấm Candida. Cặn sữa còn sót lại sau khi bú là nguồn dinh dưỡng cho nấm này phát triển — nếu không được làm sạch, nấm sẽ sinh sôi và bám thành từng mảng trắng trên lưỡi, khó lau sạch chỉ bằng nước thường. Gạc rơ lưỡi xử lý theo 3 bước: làm sạch cơ học, thay đổi môi trường để hạn chế nấm phát triển, và kháng khuẩn/kháng nấm trực tiếp.
 
-**Bước 1 — NaCl và Glycerin**
+**Bước 1 — NaCl và Glycerin: quá trình tác động**
 
-Thao tác lau bằng gạc loại bỏ cặn sữa bám trên lưỡi và niêm mạc miệng — đây là bước quan trọng nhất vì cắt nguồn dinh dưỡng khiến nấm tiếp tục phát triển. NaCl hỗ trợ làm sạch niêm mạc. Glycerin giữ cho gạc luôn ẩm, giúp thao tác lau nhẹ nhàng, không làm tổn thương niêm mạc miệng bé vốn rất mỏng và nhạy cảm.
+1. Khi mẹ dùng gạc lau lưỡi/niêm mạc miệng bé, lực ma sát nhẹ từ thao tác lau kết hợp với NaCl giúp làm sạch niêm mạc, loại bỏ cặn sữa bám trên lưỡi và má trong.
+2. Cặn sữa được lấy đi cũng đồng thời là cắt nguồn dinh dưỡng khiến nấm Candida tiếp tục lên men và phát triển.
+3. Glycerin giữ cho gạc luôn ẩm trong suốt quá trình lau, giúp thao tác diễn ra nhẹ nhàng, không cọ xát làm tổn thương niêm mạc miệng bé vốn rất mỏng và nhạy cảm.
+4. Kết quả: phần lớn cặn sữa được loại bỏ ngay sau mỗi lần rơ lưỡi.
 
-**Bước 2 — Natri bicarbonat**
+**Bước 2 — Natri bicarbonat: quá trình tác động**
 
-Nấm Candida phát triển thuận lợi trong môi trường acid, hình thành do cặn sữa lên men. Natri bicarbonat trung hoà bớt độ acid trong khoang miệng, tạo môi trường bất lợi hơn cho nấm phát triển tiếp — không chỉ đơn thuần khử mùi hôi miệng.
+1. Cặn sữa còn sót lại (nếu có) lên men tạo ra môi trường acid trong khoang miệng — đây là môi trường nấm Candida phát triển thuận lợi.
+2. Khi rơ lưỡi, Natri bicarbonat tiếp xúc với niêm mạc miệng và trung hoà bớt độ acid này.
+3. Kết quả: môi trường khoang miệng trở nên bất lợi hơn cho nấm phát triển tiếp — đây là tác động vào điều kiện sống của nấm, không chỉ đơn thuần khử mùi hôi miệng.
 
-**Bước 3 — Acid boric, Xylitol và dịch chiết thảo dược**
+**Bước 3 — Acid boric, Xylitol và dịch chiết thảo dược: quá trình tác động**
 
-Acid boric có hoạt tính sát khuẩn và kháng nấm nhẹ, được dùng phổ biến trong các sản phẩm vệ sinh răng miệng dạng gạc, ở nồng độ đã được kiểm nghiệm an toàn cho sản phẩm này. Xylitol không bị vi khuẩn gây sâu răng (Streptococcus mutans) lên men để sinh acid như đường thường, nên hạn chế hình thành mảng bám. Dịch chiết hẹ có hoạt tính kháng khuẩn và kháng nấm tự nhiên, là thành phần phổ biến trong các sản phẩm gạc rơ lưỡi trên thị trường, kể cả đối thủ. Riêng loại không mùi dùng cúc la mã thay cho hẹ — một dược liệu dịu nhẹ, làm dịu niêm mạc nếu bé có kích ứng nhẹ.
-
-Kết quả sau các lần rơ lưỡi đều đặn: cặn sữa và nấm được làm sạch dần, môi trường miệng bé duy trì trạng thái ít thuận lợi cho nấm phát triển trở lại, mảng trắng và hôi miệng giảm dần.
+1. Với phần nấm/vi khuẩn còn sót lại sau bước làm sạch cơ học, Acid boric tiếp xúc trực tiếp và phát huy hoạt tính sát khuẩn — kháng nấm nhẹ, ở nồng độ đã được kiểm nghiệm an toàn cho sản phẩm này.
+2. Xylitol tiếp xúc với vi khuẩn gây sâu răng (Streptococcus mutans) trong mảng bám — vi khuẩn này không thể lên men Xylitol để sinh acid như với đường thường, nên mảng bám khó hình thành thêm.
+3. Dịch chiết hẹ (hoặc cúc la mã ở bản không mùi) tiếp xúc với niêm mạc và bổ sung thêm kháng khuẩn/kháng nấm tự nhiên; cúc la mã còn làm dịu niêm mạc nếu bé có kích ứng nhẹ.
+4. Kết quả sau các lần rơ lưỡi đều đặn: lượng nấm/vi khuẩn còn sót lại giảm dần, môi trường miệng bé duy trì trạng thái ít thuận lợi cho nấm phát triển trở lại, mảng trắng và hôi miệng giảm dần.
 
 | Hạng mục | Nội dung |
 |---|---|
