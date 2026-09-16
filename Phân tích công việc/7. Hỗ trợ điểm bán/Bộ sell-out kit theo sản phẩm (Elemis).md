@@ -2,6 +2,8 @@
 
 **Bối cảnh:** Sếp yêu cầu xây bộ sell-out kit (công cụ giúp shop bán hàng ra người tiêu dùng cuối — NTD) cho 4 sản phẩm đang cần tập trung: sữa tắm, kem bôi, xịt muỗi, gạc rơ lưỡi — đều thuộc nhãn Elemis.
 
+**Cập nhật sau trao đổi với sếp:** công ty đã có sẵn sell-out kit khá đầy đủ cho **xịt muỗi** (xem mục 2, giữ nguyên để tham khảo) — từ đây tập trung làm sâu cho **3 sản phẩm còn lại: kem bôi, sữa tắm, gạc rơ lưỡi**. Riêng phần "Cơ chế thành phần" của 3 sản phẩm này được phân tích sâu hơn (tên hoạt chất cụ thể, cơ chế chi tiết hơn thay vì chỉ mô tả chung chung) theo yêu cầu.
+
 **Vì sao cần sell-out kit:** dữ liệu hiện tại cho thấy công ty chỉ xác thực/tương tác trực tiếp được ~50% số shop (90% shop có tên qua kế thừa từ NPP, còn 10% hoàn toàn chưa có trong danh sách) — nghĩa là sell-out kit không chỉ cần có đủ nội dung mà còn phải tính đến việc phân phối kit đó tới shop bằng cách nào khi kênh liên hệ trực tiếp còn hạn chế (xem thêm ghi chú ở cuối file).
 
 **Nguồn dữ liệu sản phẩm:** `Danh mục sản phẩm/So sánh thị trường - Nhóm Dành cho bé.md` và `Danh mục sản phẩm/Phân loại theo mục đích sử dụng (cột F).md` — dữ liệu công bố chính thức (SCB/SĐK), không tự suy diễn.
@@ -23,14 +25,29 @@
 
 ## 1. Kem bôi da Elemis (30g — 115.000đ giá OTC, web ghi 167.000đ)
 
-### Cơ chế thành phần
+### Cơ chế thành phần (phân tích sâu)
 
-| Thành phần | Cơ chế tác động | Vấn đề da giải quyết | Lợi ích cho bé |
-|---|---|---|---|
-| Kẽm oxyd nano 2% | Tạo lớp màng bảo vệ vật lý trên bề mặt da, hút ẩm dư thừa, có tính làm se và kháng khuẩn nhẹ | Da ẩm ướt kéo dài do tã lót gây kích ứng, mẩn đỏ do ma sát | Giảm hăm, giảm mẩn đỏ, bảo vệ da khỏi ẩm/ma sát |
-| Rau má | Chứa saponin (asiaticoside) được ghi nhận hỗ trợ tái tạo mô, kích thích sinh collagen, làm dịu viêm | Da tổn thương nhẹ, nứt nẻ, kích ứng | Hỗ trợ da mau phục hồi, làm dịu vùng da khó chịu |
-| Ngải cứu | Tinh dầu có hoạt tính kháng khuẩn tại chỗ, dân gian dùng giảm viêm ngoài da | Mẩn ngứa, viêm nhẹ ngoài da | Hỗ trợ giảm ngứa, dịu da |
-| Aquaxyl | Công nghệ dưỡng ẩm sinh học (hỗn hợp đường tự nhiên), giữ nước ở lớp biểu bì | Da khô, mất nước | Dưỡng ẩm sâu và giữ ẩm lâu hơn glycerin thông thường |
+**Kẽm oxyd nano 2%**
+- Bản chất: oxit kim loại vô cơ, bào chế dạng hạt nano giúp tán mịn và bám đều trên da hơn dạng hạt thường.
+- Cơ chế (3 tác dụng cộng hưởng): (1) tạo lớp màng che phủ vật lý trên da, giảm tiếp xúc trực tiếp giữa da với độ ẩm/enzyme trong phân-nước tiểu — nguyên nhân chính gây hăm tã; (2) tính làm se nhẹ (astringent) giúp giảm rỉ dịch, hỗ trợ da mau khô thoáng; (3) ức chế nhẹ một số vi khuẩn/nấm trên bề mặt da (kháng khuẩn phổ rộng nhẹ, không thay thế thuốc kháng sinh/kháng nấm).
+- Ghi chú nồng độ: 2% là mức thấp so với nhiều kem hăm tã đặc trị trên thị trường (thường dùng 10-40% kẽm oxyd) — nồng độ thấp + dạng nano giúp kem mỏng nhẹ, dễ thấm, phù hợp dùng phòng ngừa/hăm nhẹ hàng ngày hơn là đặc trị hăm đã loét nặng. Đây là điểm cần biết để tư vấn đúng mức độ hăm phù hợp.
+
+**Chiết xuất rau má (Centella asiatica)**
+- Hoạt chất chính: nhóm saponin triterpenoid — asiaticoside, madecassoside, acid asiatic, acid madecassic.
+- Cơ chế: các saponin này được ghi nhận trong tài liệu dược liệu học kích thích nguyên bào sợi (fibroblast) tổng hợp collagen, thúc đẩy tái tạo biểu mô, đồng thời có hoạt tính chống viêm nhẹ.
+- Vấn đề giải quyết cụ thể: hỗ trợ liền các tổn thương da nông (trầy xước nhẹ, nứt nẻ), giảm viêm tại chỗ khi da kích ứng — không phải thuốc trị sẹo/vết thương hở lớn.
+
+**Chiết xuất ngải cứu (Artemisia vulgaris)**
+- Hoạt chất chính: tinh dầu chứa thujone, cineol.
+- Cơ chế: hoạt tính kháng khuẩn/kháng nấm tại chỗ theo y học cổ truyền (thường dùng trong nước tắm/xông cho trẻ). Trong mỹ phẩm chỉ dùng ở dạng chiết xuất/nồng độ đã kiểm soát để tránh kích ứng từ thujone.
+- Vấn đề giải quyết cụ thể: hỗ trợ giảm ngứa, viêm nhẹ ngoài da.
+
+**Aquaxyl**
+- Bản chất: không phải 1 chất dưỡng ẩm đơn thuần mà là hỗn hợp 2 phân tử đường — xylitylglucoside và anhydroxylitol.
+- Cơ chế: xylitylglucoside kích thích tế bào biểu bì tự tổng hợp glycosaminoglycan (chất giữ nước tự nhiên của da); anhydroxylitol tăng cường hàng rào lipid biểu bì. Nhờ vậy giữ ẩm dài hạn hơn cơ chế hút ẩm tức thời của glycerin thông thường.
+- Vấn đề giải quyết cụ thể: da khô mãn tính, hàng rào bảo vệ da yếu — thường gặp ở da trẻ sơ sinh vì lớp sừng còn mỏng.
+
+**Cách 4 thành phần phối hợp (dùng khi khách hỏi sâu "vì sao kết hợp nhiều thứ"):** kẽm oxyd tạo lớp bảo vệ vật lý bên ngoài → Aquaxyl củng cố hàng rào giữ nước bên trong biểu bì → rau má và ngải cứu hỗ trợ phục hồi/kháng khuẩn tại chỗ khi da đã tổn thương. 3 lớp tác động bổ sung cho nhau thay vì trùng lặp.
 
 ⚠️ Thành phần công bố còn có Fragrance, Propylene glycol, Cremophor RH40, EDTA — đây là tá dược/chất tạo mùi-ổn định công thức, không phải hoạt chất mang lại công dụng chính, **không đưa vào phần giới thiệu "điểm mạnh"**.
 
@@ -46,6 +63,8 @@
 | Khuyến mãi cho NTD tại quầy | ⏳ Đang chờ NVKD cung cấp — chương trình sell-in ở trên chưa phải khuyến mãi bán lẻ, cần hỏi rõ shop có được san sẻ lại phần này cho NTD không |
 
 ## 2. Xịt muỗi thảo dược Elemis (50ml/120ml — giá OTC 90.000đ/195.000đ, web ghi 131.000đ/283.000đ)
+
+✅ **Công ty đã có sẵn sell-out kit khá đầy đủ cho sản phẩm này — không cần làm thêm.** Giữ nguyên phần dưới đây để tham khảo/đối chiếu, không đầu tư thêm thời gian phân tích sâu như 3 sản phẩm còn lại.
 
 ### Cơ chế thành phần
 
@@ -80,18 +99,48 @@ Bao bì thật in tagline chung "**Tắm thơm tho - Không lo viêm da**" cho c
 
 Bao bì hộp 500ml có in sẵn tem **"Tiết kiệm 75.000đ"** — có thể tận dụng làm điểm nhấn POSM có sẵn, không cần thiết kế thêm. Riêng ảnh sản phẩm cho hộp 200ml còn thiếu trong tư liệu hiện có (chỉ có logo công ty) — cần bổ sung ảnh thật.
 
-### Cơ chế thành phần
+### Cơ chế thành phần (phân tích sâu)
 
-| Thành phần | Cơ chế tác động | Vấn đề da giải quyết | Lợi ích cho bé |
-|---|---|---|---|
-| Chè xanh | Chứa polyphenol/catechin — chống oxy hoá, có hoạt tính kháng khuẩn nhẹ | Vi khuẩn gây mụn/rôm sảy | Hỗ trợ làm sạch da, giảm nguy cơ viêm nhiễm nhẹ |
-| Sài đất | Chứa flavonoid có hoạt tính kháng khuẩn/kháng viêm tại chỗ, dân gian dùng thanh nhiệt | Rôm sảy, mẩn ngứa, mụn nhọt | Làm dịu da, hỗ trợ giảm rôm sảy |
-| Khổ qua | Chứa hợp chất có tính kháng khuẩn/kháng viêm, dân gian dùng thanh nhiệt giải độc ngoài da | Rôm sảy, mẩn ngứa do nóng trong | Làm mát da |
-| Kinh giới | Tinh dầu có hoạt tính kháng khuẩn/kháng nấm nhẹ, dân gian dùng giảm ngứa/dị ứng ngoài da | Mẩn ngứa, dị ứng da nhẹ | Hỗ trợ giảm ngứa |
-| Sả chanh | Tinh dầu citral — kháng khuẩn/kháng nấm, đồng thời có tác dụng xua côn trùng nhẹ | Mùi cơ thể, côn trùng, vi khuẩn trên da | Thơm mát, hỗ trợ ngừa côn trùng đốt khi tắm |
-| Tràm gió | Tinh dầu chứa cineol — kháng khuẩn/kháng viêm, thường dùng giữ ấm cho trẻ sơ sinh | Kháng khuẩn da, hỗ trợ giữ ấm | Sạch da, giữ ấm nhẹ sau tắm |
-| *Riêng Elemis Gold:* Hương nhu | Tinh dầu kháng khuẩn/kháng nấm, dân gian dùng sát khuẩn ngoài da | Vi khuẩn/nấm trên da | Hỗ trợ làm sạch, sát khuẩn nhẹ |
-| *Riêng Elemis Gold:* Kim ngân | Chứa flavonoid có hoạt tính kháng khuẩn/kháng viêm, dân gian dùng thanh nhiệt giải độc | Rôm sảy, mụn nhọt | Hỗ trợ làm dịu, giảm rôm sảy — đây là USP riêng, Dr.Papie/Kutieskin không có |
+**Chè xanh (Camellia sinensis)**
+- Hoạt chất chính: catechin, chủ yếu là EGCG (epigallocatechin gallate).
+- Cơ chế: chất chống oxy hoá mạnh; tài liệu ghi nhận EGCG có hoạt tính ức chế một số vi khuẩn Gram dương liên quan đến mụn (như tụ cầu khuẩn — Staphylococcus).
+- Vấn đề giải quyết cụ thể: hỗ trợ làm sạch da, giảm nguy cơ viêm nhiễm nhẹ do vi khuẩn trên da gây mụn/rôm sảy.
+
+**Sài đất (Wedelia chinensis)**
+- Hoạt chất chính: wedelolactone và các flavonoid.
+- Cơ chế: y học cổ truyền dùng thanh nhiệt giải độc; ghi nhận hoạt tính kháng khuẩn, kháng viêm tại chỗ.
+- Vấn đề giải quyết cụ thể: rôm sảy, mẩn ngứa, mụn nhọt — đây là dược liệu dân gian dùng phổ biến nhất cho việc này.
+
+**Khổ qua (Momordica charantia)**
+- Hoạt chất chính: charantin và các glycosid đắng đặc trưng của khổ qua.
+- Cơ chế: y học cổ truyền ghi nhận hoạt tính kháng khuẩn/kháng nấm, thường dùng nấu nước tắm hạ nhiệt cho trẻ bị rôm sảy do nóng trong.
+- Vấn đề giải quyết cụ thể: rôm sảy, mẩn ngứa liên quan tới nhiệt.
+
+**Kinh giới (Elsholtzia ciliata)**
+- Hoạt chất chính: tinh dầu chứa các hợp chất nhóm carvacrol/thymol.
+- Cơ chế: kháng khuẩn, kháng nấm phổ khá rộng nhờ nhóm hợp chất này.
+- Vấn đề giải quyết cụ thể: mẩn ngứa, dị ứng da nhẹ.
+
+**Sả chanh (Cymbopogon citratus)**
+- Hoạt chất chính: citral (chiếm phần lớn tinh dầu sả chanh).
+- Cơ chế: kháng khuẩn, kháng nấm; đồng thời citral cũng là hoạt chất xua côn trùng phổ biến (giải thích cơ chế khoa học đằng sau công dụng phụ "ngừa côn trùng nhẹ" khi tắm).
+- Vấn đề giải quyết cụ thể: vi khuẩn trên da, mùi cơ thể, hỗ trợ giảm côn trùng đốt.
+
+**Tràm gió (Melaleuca cajuputi)**
+- Hoạt chất chính: cineol (eucalyptol).
+- Cơ chế: kháng khuẩn/kháng viêm, đông y hay dùng dạng xoa/xông giữ ấm cho trẻ sơ sinh.
+- Vấn đề giải quyết cụ thể: hỗ trợ kháng khuẩn da, giữ ấm nhẹ sau tắm.
+
+**Riêng Elemis Gold — Hương nhu (Ocimum sanctum/gratissimum)**
+- Hoạt chất chính: eugenol.
+- Cơ chế: kháng khuẩn, kháng nấm; dân gian dùng xông cảm, sát khuẩn ngoài da.
+
+**Riêng Elemis Gold — Kim ngân (Lonicera japonica)**
+- Hoạt chất chính: chlorogenic acid, luteolin — 2 hoạt chất được nghiên cứu nhiều nhất về tính kháng khuẩn/kháng viêm trong nhóm dược liệu này.
+- Cơ chế: kháng khuẩn/kháng viêm, y học cổ truyền dùng phổ biến để hỗ trợ mụn nhọt/rôm sảy.
+- Đây là USP riêng thật của Gold — Dr.Papie/Kutieskin không có kim ngân trong công thức.
+
+**Nhận định tổng hợp:** phần lớn thảo dược trong dòng thường (chè xanh, sài đất, khổ qua, kinh giới, sả chanh, tràm gió) đều thuộc nhóm có phổ tác dụng trùng nhau — kháng khuẩn nhẹ + kháng viêm nhẹ. Đây chính là lý do khoa học vì sao công dụng công bố tổng thể dễ trùng lặp với đối thủ dùng thảo dược tương tự (đã ghi nhận ở phần so sánh thị trường) — điểm khác biệt thật sự nằm ở việc **có hay không có kim ngân** (chỉ Gold có), không phải khác biệt về cơ chế nền tảng của các thảo dược còn lại.
 
 ⚠️ Elemis Gold có thêm SLES (chất tạo bọt tổng hợp) trong thành phần công bố — đây là tá dược tạo bọt, không phải hoạt chất "tự nhiên" như web quảng cáo, không đưa vào phần giới thiệu công dụng.
 
@@ -110,16 +159,45 @@ Bao bì hộp 500ml có in sẵn tem **"Tiết kiệm 75.000đ"** — có thể 
 
 Sản phẩm đã qua kiểm nghiệm trước khi đưa ra thị trường, kết quả an toàn cho trẻ nhỏ.
 
-### Cơ chế thành phần
+### Cơ chế thành phần (phân tích sâu)
 
-| Thành phần | Cơ chế tác động | Vấn đề giải quyết | Lợi ích cho bé |
-|---|---|---|---|
-| Xylitol | Ức chế vi khuẩn gây sâu răng bám dính lên niêm mạc/răng | Mảng bám, vi khuẩn gây sâu răng | Hỗ trợ ngừa sâu răng sớm |
-| NaCl | Tạo môi trường đẳng trương nhẹ, hỗ trợ làm sạch niêm mạc | Cặn sữa, mảng bám | Vệ sinh nhẹ nhàng, không gây xót miệng bé |
-| Glycerin | Giữ ẩm, làm mềm niêm mạc | Khô/kích ứng niêm mạc khi rơ lưỡi | Thao tác rơ lưỡi êm ái hơn |
-| Natri bicarbonat | Trung hoà acid trong khoang miệng | Môi trường acid do cặn sữa tồn đọng | Hỗ trợ giảm hôi miệng, cân bằng pH khoang miệng |
-| Acid boric | Tính sát khuẩn — kháng nấm nhẹ ở nồng độ thấp dùng trong chế phẩm vệ sinh răng miệng dạng gạc, đã qua kiểm nghiệm an toàn trước khi lưu hành | Nấm lưỡi, tưa lưỡi, vi khuẩn gây hôi miệng | Hỗ trợ ngừa nấm miệng, an toàn khi dùng đúng hướng dẫn |
-| Dịch chiết rau ngót/chè xanh/hẹ/cúc la mã (tuỳ loại) | Hoạt tính kháng khuẩn/kháng nấm nhẹ tại chỗ | Nấm lưỡi, tưa lưỡi, viêm nướu nhẹ | Hỗ trợ vệ sinh khoang miệng |
+**Xylitol**
+- Bản chất: đường alcohol 5 carbon.
+- Cơ chế (2 lớp tác dụng): (1) vi khuẩn miệng — đặc biệt Streptococcus mutans, vi khuẩn chính gây sâu răng — không thể lên men xylitol để sinh acid như với đường thường; (2) tài liệu ghi nhận xylitol còn ức chế trực tiếp khả năng bám dính của S. mutans lên bề mặt răng/niêm mạc. Nhờ vậy tác động vào tận gốc cơ chế hình thành mảng bám, không chỉ làm sạch cơ học đơn thuần.
+- Vấn đề giải quyết cụ thể: mảng bám, vi khuẩn gây sâu răng sớm ở trẻ.
+
+**NaCl**
+- Cơ chế: ở nồng độ phù hợp tạo áp suất thẩm thấu nhẹ hỗ trợ làm sạch niêm mạc; về lý thuyết muối có tính sát khuẩn nhẹ theo cơ chế ưu trương, nhưng ở nồng độ dùng trong gạc rơ lưỡi thì vai trò chính là làm sạch hơn là sát khuẩn.
+- Vấn đề giải quyết cụ thể: cặn sữa, mảng bám, làm sạch nhẹ nhàng không gây xót miệng bé.
+
+**Glycerin**
+- Cơ chế: là chất hút ẩm (humectant), giữ cho gạc luôn ẩm và làm mềm niêm mạc miệng bé.
+- Vấn đề giải quyết cụ thể: giảm ma sát/khô rát khi thao tác rơ lưỡi.
+
+**Natri bicarbonat**
+- Cơ chế: kiềm hoá môi trường khoang miệng. Điều này quan trọng vì nấm Candida albicans — nguyên nhân chính gây tưa lưỡi/nấm lưỡi ở trẻ — phát triển thuận lợi trong môi trường acid do cặn sữa lên men; nâng pH giúp hạn chế điều kiện thuận lợi cho nấm phát triển, không chỉ đơn thuần "khử mùi".
+- Vấn đề giải quyết cụ thể: môi trường acid do cặn sữa tồn đọng, hôi miệng.
+
+**Acid boric**
+- Cơ chế: hoạt tính sát khuẩn — kháng nấm nhẹ (bao gồm ức chế Candida) ở nồng độ thấp — đây là lý do hoạt chất này được dùng phổ biến trong các chế phẩm vệ sinh răng miệng dạng gạc trên thị trường.
+- Vấn đề giải quyết cụ thể: nấm lưỡi, tưa lưỡi, vi khuẩn gây hôi miệng.
+- Đồng thời đây cũng chính là hoạt chất cần kiểm soát nồng độ chặt chẽ theo độ tuổi sử dụng (xem cảnh báo an toàn đã ghi nhận trước đó) — sản phẩm đã qua kiểm nghiệm an toàn trước khi lưu hành.
+
+**Dịch chiết rau ngót (Sauropus androgynus)**
+- Giàu vitamin C và flavonoid, hỗ trợ kháng khuẩn nhẹ, dân gian dùng thanh nhiệt.
+
+**Dịch chiết chè xanh**
+- Catechin (như đã phân tích ở mục sữa tắm) — kháng khuẩn, chống oxy hoá.
+
+**Dịch chiết cúc la mã (Matricaria chamomilla)** — dùng trong loại "không mùi"
+- Hoạt chất chính: apigenin, bisabolol.
+- Cơ chế: chống viêm, làm dịu niêm mạc — được đánh giá là một trong những dược liệu dịu nhẹ nhất, thường dùng khi cần công thức ít mùi/ít kích ứng hơn.
+
+**Dịch chiết hẹ (Allium tuberosum)** — dùng trong loại "hương dưa lưới"
+- Hoạt chất chính: allicin và các hợp chất lưu huỳnh (tương tự tỏi).
+- Cơ chế: kháng khuẩn/kháng nấm; dân gian dùng phổ biến nhất để hỗ trợ tưa lưỡi cho trẻ — đây là dược liệu "kinh điển" nhất trong nhóm gạc rơ lưỡi trên thị trường (kể cả đối thủ Dr.Papie).
+
+**Nhận định tổng hợp:** công thức tấn công đồng thời 2 cơ chế gây bệnh khác nhau — Xylitol + Natri bicarbonat xử lý phần "môi trường thuận lợi cho vi khuẩn/nấm phát triển" (bám dính + độ pH), trong khi acid boric + dịch chiết thảo dược bổ sung lớp kháng khuẩn/kháng nấm trực tiếp tại chỗ. Đây là cách phối hợp đa cơ chế, khác với sản phẩm chỉ dựa vào 1 hoạt chất chính (ví dụ Dr.Papie chủ yếu dựa vào dịch chiết hẹ).
 
 | Hạng mục | Nội dung |
 |---|---|
