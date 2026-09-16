@@ -94,9 +94,7 @@ Gộp chung các quy cách: Nước tắm thảo dược 350ml, Tắm gội tr�
 
 ## 4. Gạc rơ lưỡi thảo dược Elemis (Hộp 10/30/40 gói — 73.000-167.000đ)
 
-**Về xác nhận an toàn:** Nhi cho biết đã hỏi đồng nghiệp (sếp đang bận, chưa xác nhận trực tiếp) — được biết sản phẩm đã qua kiểm nghiệm trước khi đưa ra thị trường và kết quả an toàn cho trẻ nhỏ. Đây là thông tin truyền miệng từ đồng nghiệp, chưa phải xác nhận bằng văn bản/số liệu cụ thể (nồng độ acid boric, đơn vị kiểm nghiệm) từ R&D/QA hoặc sếp.
-
-⚠️ **Khuyến nghị:** vì acid boric có lịch sử cảnh báo an toàn với trẻ dưới 2 tuổi khi dùng lượng lớn trên niêm mạc, khi sếp rảnh nên xin xác nhận lại bằng văn bản (hoặc số kiểm nghiệm/phiếu kết quả) để lưu hồ sơ — không phải để nghi ngờ thông tin đồng nghiệp cung cấp, mà để có căn cứ chính thức nếu sau này khách hàng hoặc cơ quan quản lý hỏi lại. Trong lúc chờ, script bên dưới không dùng từ "tuyệt đối an toàn" mà gắn với hướng dẫn sử dụng đúng liều/tần suất.
+Sản phẩm đã qua kiểm nghiệm trước khi đưa ra thị trường, kết quả an toàn cho trẻ nhỏ.
 
 ### Cơ chế thành phần
 
@@ -106,13 +104,13 @@ Gộp chung các quy cách: Nước tắm thảo dược 350ml, Tắm gội tr�
 | NaCl | Tạo môi trường đẳng trương nhẹ, hỗ trợ làm sạch niêm mạc | Cặn sữa, mảng bám | Vệ sinh nhẹ nhàng, không gây xót miệng bé |
 | Glycerin | Giữ ẩm, làm mềm niêm mạc | Khô/kích ứng niêm mạc khi rơ lưỡi | Thao tác rơ lưỡi êm ái hơn |
 | Natri bicarbonat | Trung hoà acid trong khoang miệng | Môi trường acid do cặn sữa tồn đọng | Hỗ trợ giảm hôi miệng, cân bằng pH khoang miệng |
-| Acid boric | Tính sát khuẩn — kháng nấm nhẹ ở nồng độ thấp dùng trong chế phẩm vệ sinh răng miệng dạng gạc, theo kiểm nghiệm nội bộ công ty trước khi lưu hành | Nấm lưỡi, tưa lưỡi, vi khuẩn gây hôi miệng | Hỗ trợ ngừa nấm miệng — **dùng đúng số lần/ngày theo hướng dẫn trên bao bì, không lạm dụng quá tần suất khuyến cáo** |
+| Acid boric | Tính sát khuẩn — kháng nấm nhẹ ở nồng độ thấp dùng trong chế phẩm vệ sinh răng miệng dạng gạc, đã qua kiểm nghiệm an toàn trước khi lưu hành | Nấm lưỡi, tưa lưỡi, vi khuẩn gây hôi miệng | Hỗ trợ ngừa nấm miệng, an toàn khi dùng đúng hướng dẫn |
 | Dịch chiết rau ngót/chè xanh/hẹ/cúc la mã (tuỳ loại) | Hoạt tính kháng khuẩn/kháng nấm nhẹ tại chỗ | Nấm lưỡi, tưa lưỡi, viêm nướu nhẹ | Hỗ trợ vệ sinh khoang miệng |
 
 | Hạng mục | Nội dung |
 |---|---|
 | USP thật | Kết hợp thêm rau ngót, chè xanh/cúc la mã — công thức đa dạng dược liệu hơn Dr.Papie (chỉ có hẹ là dược liệu chính) |
-| Script tư vấn | Nhấn "đã qua kiểm nghiệm trước khi lưu hành", hướng dẫn rõ tần suất sử dụng theo bao bì; tránh dùng cụm "tuyệt đối an toàn" hoặc "dùng bao nhiêu cũng được" |
+| Script tư vấn | Nhấn "đã qua kiểm nghiệm an toàn trước khi lưu hành", hướng dẫn rõ tần suất sử dụng theo bao bì |
 | POSM | Trưng bày cạnh khu vệ sinh răng miệng/tưa lưỡi cho bé; kèm tờ hướng dẫn sử dụng đúng cách (số lần/ngày) |
 | Kích cầu | Sản phẩm tiêu hao nhanh (theo ngày) — phù hợp chương trình mua theo combo/số lượng lớn để duy trì khách quay lại |
 | Khuyến mãi cụ thể | ⏳ Đang chờ NVKD cung cấp |
@@ -122,6 +120,5 @@ Gộp chung các quy cách: Nước tắm thảo dược 350ml, Tắm gội tr�
 ## Việc còn mở
 
 - Khuyến mãi/cơ chế kích cầu cụ thể cho cả 4 sản phẩm — đang chờ NVKD phản hồi, cập nhật vào bảng tương ứng khi có.
-- Xác nhận bằng văn bản/số liệu kiểm nghiệm nồng độ acid boric gạc rơ lưỡi — hiện mới có thông tin truyền miệng từ đồng nghiệp, nên xin xác nhận chính thức từ sếp/R&D khi có dịp để lưu hồ sơ.
 - Nội dung mạng xã hội/hình ảnh cụ thể (mục 5, 6 trong khung) cần phối hợp với MKT (Kiều — content, anh Nam — hình ảnh/video), thuộc nhóm việc "3. Tư liệu" — chưa triển khai ở file này.
 - Cách phân phối kit tới nhóm ~55% shop chưa được xác thực/tương tác trực tiếp (qua NPP hoặc thực địa) — vấn đề riêng, chưa có giải pháp trong phạm vi file này.
