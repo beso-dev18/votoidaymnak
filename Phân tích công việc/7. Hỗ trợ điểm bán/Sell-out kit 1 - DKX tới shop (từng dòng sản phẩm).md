@@ -8,11 +8,10 @@
 
 ---
 
-## ⚠️ Ba điều phải xác nhận trước khi dùng kit này với shop thật
+## ⚠️ Hai ô để trống trong kit này — không tự điền, không giả định
 
-1. **Giá shop nhập từ NPP là bao nhiêu** — bảng báo giá chỉ có giá bán lẻ. Không có giá nhập thì không trả lời được câu shop hỏi đầu tiên: "bán cái này tôi lãi bao nhiêu?". Tất cả ô "Lãi của shop" bên dưới để trống chờ số này.
-2. **Chương trình "mua X tặng Y" áp cho ai** — DKX tặng cho NPP, hay NPP tặng lại cho shop, hay cả hai? Toàn bộ phần dưới đây viết theo giả định **shop được hưởng chương trình khi nhập từ NPP**. Nếu giả định này sai thì phải sửa lại toàn bộ phần "Chương trình".
-3. **Nồng độ acid boric trong gạc rơ lưỡi** — chưa có câu trả lời từ R&D/QA. Trước khi có, không chủ động đẩy mạnh dòng gạc và không cam kết gì về độ an toàn ngoài dòng chữ in trên bao bì.
+1. **Lãi của shop** — bảng báo giá chỉ có giá bán lẻ, không có giá shop nhập từ NPP. Mọi ô "Lãi của shop" bên dưới **để trống** chờ NVKD/kế toán cung cấp.
+2. **Chương trình mua X tặng Y** — chưa xác nhận chương trình trong bảng báo giá áp cho lớp nào trong chuỗi (DKX→NPP hay NPP→shop). Mọi ô "Chương trình" bên dưới **để trống**, không suy đoán và không quy ra phần trăm. Số liệu gốc trong bảng báo giá vẫn lưu ở `Danh mục sản phẩm/Bảng giá và chương trình OTC.md`; chỉ điền vào kit khi NVKD đã xác nhận.
 
 ---
 
@@ -20,7 +19,7 @@
 
 | # | Cấu phần | Hiện trạng |
 |---|---|---|
-| 1 | **Bảng một trang cho chủ shop**: giá lẻ, chương trình, quy đổi %, quy cách, HSD | ✅ Có trong file này (mục "Bảng tổng") |
+| 1 | **Bảng một trang cho chủ shop**: giá lẻ, quy đổi đơn vị, quy cách, HSD | ✅ Có trong file này (mục "Bảng tổng"). Cột chương trình để trống |
 | 2 | **Lý do nhập theo từng dòng**: bán cho ai, khác gì hàng đang bán | ✅ Có trong file này (mục theo từng dòng) |
 | 3 | **Bộ câu vặn của shop + cách trả lời** | ✅ Có trong file này |
 | 4 | **Bài đào tạo 5-10 phút cho người đứng quầy** | ✅ `Bài giới thiệu 5-10 phút - bản nói với SHOP.md` |
@@ -34,44 +33,20 @@
 
 | Dòng sản phẩm | Quy cách | Giá bán lẻ | Quy đổi | Chương trình | HSD |
 |---|---|---|---|---|---|
-| Tắm gội trẻ em Elemis | 200ml | 150.000đ | 75.000đ/100ml | 14 tặng 2 | 30 tháng |
-| Tắm gội trẻ em Elemis | 350ml | 210.000đ | 60.000đ/100ml | 10 tặng 2 | 30 tháng |
-| Tắm gội trẻ em Elemis | 500ml | 275.000đ | **55.000đ/100ml** | 12 tặng 2 | 30 tháng |
-| Gel tắm gội Elemis Gold | 220ml | 220.000đ | 100.000đ/100ml | 8 tặng 2 | 24 tháng |
-| Gạc rơ lưỡi Elemis — hương dưa lưới | Hộp 30 gói | 115.000đ | 3.833đ/gói | **10 tặng 3** | 24 tháng |
-| Gạc rơ lưỡi Elemis — không mùi | Hộp 30 gói | 115.000đ | 3.833đ/gói | 10 tặng 2 | 24 tháng |
-| Kem bôi da Elemis | Tuýp 30g | 115.000đ | 38.333đ/10g | 10 tặng 2 | 36 tháng |
-| Bọt rửa tay Elemis | Chai 250ml | 245.000đ | 98.000đ/100ml | 5 tặng 1 | 24 tháng |
-| Xịt muỗi Elemis | 50ml | 90.000đ | 180.000đ/100ml | 5 tặng 1 | 36 tháng |
-| Xịt muỗi Elemis | 120ml | 195.000đ | 162.500đ/100ml | 5 tặng 1 | 36 tháng |
-| Dầu massage Oriky | 60ml | 135.000đ | 112.500đ/50ml | 10 tặng 2 | 36 tháng |
-| Curmilk cốm lợi sữa | Hộp 20 gói x 5g | 235.000đ | 11.750đ/gói | 7 tặng 1 | 36 tháng |
-| Yaocare Women | 100ml | 135.000đ | 135.000đ/100ml | 7 tặng 1 | 24 tháng |
-| Dao'Spa Mama | Hộp 3 lọ x 250ml | 385.000đ | 51.333đ/100ml | 7 tặng 1 | 36 tháng |
-
-## Quy đổi chương trình sell-in ra phần trăm
-
-Hai cách tính đều đúng nhưng ra số khác nhau — **phải nói rõ đang dùng cách nào**, nếu không shop sẽ tưởng mình nói vống. Cách 2 là cách shop hay tự nhẩm ("bỏ tiền mua 10, được thêm 2, tức là thêm 20%").
-
-| Chương trình | Cách 1 — hàng tặng chiếm bao nhiêu % tổng hàng nhận | Cách 2 — hàng tặng so với tiền bỏ ra | Giá trị hàng tặng tính theo giá lẻ |
-|---|---|---|---|
-| Gạc dưa lưới — 10 tặng 3 | **23,1%** | **30,0%** | 345.000đ / lô |
-| Elemis Gold — 8 tặng 2 | 20,0% | 25,0% | 440.000đ / lô |
-| Kem, gạc không mùi, dầu massage — 10 tặng 2 | 16,7% | 20,0% | 230.000đ (kem, gạc) · 270.000đ (dầu) |
-| Bọt rửa tay, xịt muỗi — 5 tặng 1 | 16,7% | 20,0% | 245.000đ (bọt) · 90.000đ (xịt 50ml) · 195.000đ (xịt 120ml) |
-| Tắm gội 500ml — 12 tặng 2 | 14,3% | 16,7% | 550.000đ / lô |
-| Tắm gội 200ml — 14 tặng 2 | 12,5% | 14,3% | 300.000đ / lô |
-| Curmilk, Yaocare Women, Dao'Spa — 7 tặng 1 | 12,5% | 14,3% | 235.000đ · 135.000đ · 385.000đ |
-
-**Đọc bảng này ra được 3 điều để nói với shop:**
-
-- **Gạc rơ lưỡi hương dưa lưới đang được đẩy mạnh nhất** (23,1%, cao hơn hẳn phần còn lại, và cao hơn chính bản không mùi). Nếu shop chỉ chọn 1 loại gạc, hướng họ chọn bản hương dưa lưới.
-- **Nhóm 7 tặng 1 (Curmilk, Yaocare Women, Dao'Spa) là nhóm ưu đãi thấp nhất** — với 3 dòng này không nên bán bằng chương trình, phải bán bằng lý do khác (xem từng mục dưới).
-- **Dao'Spa 7 tặng 1 nhưng giá trị hàng tặng cao nhất tuyệt đối (385.000đ/lô)** vì đơn giá cao. Với shop nhìn theo tiền tuyệt đối thay vì %, đây là con số đáng nói.
-
-⚠️ Cột "giá trị hàng tặng" tính theo **giá bán lẻ**, tức là doanh thu shop thu thêm được nếu bán hết phần tặng — **không phải** phần lãi, vì chưa trừ giá nhập.
-
----
+| Tắm gội trẻ em Elemis | 200ml | 150.000đ | 75.000đ/100ml | ⏳ | 30 tháng |
+| Tắm gội trẻ em Elemis | 350ml | 210.000đ | 60.000đ/100ml | ⏳ | 30 tháng |
+| Tắm gội trẻ em Elemis | 500ml | 275.000đ | **55.000đ/100ml** | ⏳ | 30 tháng |
+| Gel tắm gội Elemis Gold | 220ml | 220.000đ | 100.000đ/100ml | ⏳ | 24 tháng |
+| Gạc rơ lưỡi Elemis — hương dưa lưới | Hộp 30 gói | 115.000đ | 3.833đ/gói | ⏳ | 24 tháng |
+| Gạc rơ lưỡi Elemis — không mùi | Hộp 30 gói | 115.000đ | 3.833đ/gói | ⏳ | 24 tháng |
+| Kem bôi da Elemis | Tuýp 30g | 115.000đ | 38.333đ/10g | ⏳ | 36 tháng |
+| Bọt rửa tay Elemis | Chai 250ml | 245.000đ | 98.000đ/100ml | ⏳ | 24 tháng |
+| Xịt muỗi Elemis | 50ml | 90.000đ | 180.000đ/100ml | ⏳ | 36 tháng |
+| Xịt muỗi Elemis | 120ml | 195.000đ | 162.500đ/100ml | ⏳ | 36 tháng |
+| Dầu massage Oriky | 60ml | 135.000đ | 112.500đ/50ml | ⏳ | 36 tháng |
+| Curmilk cốm lợi sữa | Hộp 20 gói x 5g | 235.000đ | 11.750đ/gói | ⏳ | 36 tháng |
+| Yaocare Women | 100ml | 135.000đ | 135.000đ/100ml | ⏳ | 24 tháng |
+| Dao'Spa Mama | Hộp 3 lọ x 250ml | 385.000đ | 51.333đ/100ml | ⏳ | 36 tháng |
 
 ## Vị thế giá so với thị trường — điểm cần đính chính so với phân tích cũ
 
@@ -134,7 +109,7 @@ Mỗi dòng gồm: ai sẽ mua → khác gì hàng shop đang bán → cách tr�
 | **Vấn đề giải quyết** | Rôm sảy, mẩn ngứa, mụn nhọt; làm sạch và kháng khuẩn cho da bé |
 | **Khác gì hàng đang bán** | Elemis Gold có **kim ngân (Lonicera japonica)** — không thấy trong thành phần công bố của Dr.Papie và Kutieskin. Bản thường có **sài đất + khổ qua + kinh giới + tràm gió** với công thức đa dược liệu |
 | **Lý do shop nên đẩy** | Đây là **dòng dẫn dắt (mã đầu kéo)** của cả danh mục: dùng hàng ngày, hết nhanh, khách quay lại đều. Chai 500ml là mã có giá/100ml tốt nhất danh mục (55.000đ), gần ngang mặt bằng đối thủ — dùng mã này để phá rào giá |
-| **Chương trình** | 200ml: 14 tặng 2 · 350ml: 10 tặng 2 · 500ml: 12 tặng 2 · Gold: 8 tặng 2 |
+| **Chương trình** | ⏳ Để trống — chờ NVKD xác nhận |
 | **Lãi của shop** | ⏳ Chờ giá nhập từ NPP |
 | **Trưng bày** | Khu tắm gội trẻ em, ngang tầm mắt. Hộp 500ml có in sẵn tem **"Tiết kiệm 75.000đ"** — quay mặt tem ra ngoài, không cần thiết kế POSM mới |
 | **Bán kèm** | Kem bôi da (da bé đang rôm sảy) · Dầu massage (sau tắm) · Bọt rửa tay |
@@ -159,12 +134,11 @@ Mỗi dòng gồm: ai sẽ mua → khác gì hàng shop đang bán → cách tr�
 | **Ai sẽ mua** | Mẹ có con từ sơ sinh đến khi bé tự đánh răng được |
 | **Vấn đề giải quyết** | Tưa lưỡi, nấm lưỡi, cặn sữa, hôi miệng, viêm nướu |
 | **Khác gì hàng đang bán** | Thêm **rau ngót và chè xanh** (bản dưa lưới) hoặc **cúc la mã** (bản không mùi) — Dr.Papie chỉ có hẹ là dược liệu chính. Có **2 phiên bản mùi**, giải đúng vấn đề "bé không chịu mùi" |
-| **Lý do shop nên đẩy** | **Mã quay vòng nhanh nhất danh mục** — dùng mỗi ngày, hộp 30 gói hết trong khoảng 1 tháng nếu dùng 1 gói/ngày. Khách tự quay lại, shop không phải tư vấn lại từ đầu. Chương trình bản dưa lưới là ưu đãi cao nhất toàn danh mục |
-| **Chương trình** | Hương dưa lưới: **10 tặng 3** (23,1%) · Không mùi: 10 tặng 2 (16,7%) |
+| **Lý do shop nên đẩy** | **Mã quay vòng nhanh nhất danh mục** — dùng mỗi ngày, hộp 30 gói hết trong khoảng 1 tháng nếu dùng 1 gói/ngày. Khách tự quay lại, shop không phải tư vấn lại từ đầu |
+| **Chương trình** | ⏳ Để trống — chờ NVKD xác nhận |
 | **Lãi của shop** | ⏳ Chờ giá nhập từ NPP |
 | **Trưng bày** | Khu chăm sóc răng miệng cho bé, hoặc **ngay quầy thu ngân** — đây là mã đơn giá thấp (115.000đ), dễ mua thêm theo cảm hứng |
 | **Bán kèm** | Tắm gội (bộ vệ sinh hàng ngày cho bé) · Kem bôi da |
-| **⚠️ Rủi ro phải biết trước** | Thành phần có **acid boric**. Chưa có nồng độ cụ thể từ R&D/QA. Nếu shop là nhà thuốc có dược sĩ, khả năng bị hỏi rất cao. **Trước khi có câu trả lời chính thức: không chủ động đẩy mạnh dòng này, chỉ nói đúng nội dung in trên bao bì, và nếu bị hỏi thì ghi nhận lại để hỏi công ty rồi trả lời sau — tuyệt đối không tự khẳng định là an toàn** |
 
 **Câu shop sẽ vặn:**
 
@@ -172,7 +146,7 @@ Mỗi dòng gồm: ai sẽ mua → khác gì hàng shop đang bán → cách tr�
 > → Khác ở hai chỗ: công thức có thêm rau ngót/chè xanh hoặc cúc la mã, và có bản không mùi cho bé khó tính. Quy ra 3.833đ/gói cho một lần vệ sinh miệng của bé — mức giá này khách hầu như không mặc cả.
 
 > *"Lấy loại nào?"*
-> → Nếu lấy một loại, lấy **hương dưa lưới**: chương trình tốt hơn (10 tặng 3 so với 10 tặng 2) và bé dễ hợp tác hơn khi rơ lưỡi.
+> → Nếu lấy một loại, lấy **hương dưa lưới** — bé dễ hợp tác hơn khi rơ lưỡi nên mẹ dùng đều, hàng ra nhanh hơn.
 
 ---
 
@@ -184,7 +158,7 @@ Mỗi dòng gồm: ai sẽ mua → khác gì hàng shop đang bán → cách tr�
 | **Vấn đề giải quyết** | Hăm tã, rôm sảy, da khô, mẩn đỏ, kích ứng |
 | **Khác gì hàng đang bán** | Kết hợp **kẽm oxyd nano 2% + rau má + ngải cứu + Aquaxyl**. Công bố có riêng công dụng **"da bị bỏng do gió hoặc do ánh nắng"** — Bepanthen và Sudocrem không công bố công dụng này |
 | **Lý do shop nên đẩy** | Mã **bán kèm tốt nhất danh mục** — bé nào rôm sảy/hăm là mẹ mua cả tắm gội lẫn kem. Đơn giá vừa phải, tuýp nhỏ dễ chốt thêm. HSD 36 tháng, dài nhất nhóm — rủi ro tồn kho thấp |
-| **Chương trình** | 10 tặng 2 (16,7%) |
+| **Chương trình** | ⏳ Để trống — chờ NVKD xác nhận |
 | **Lãi của shop** | ⏳ Chờ giá nhập từ NPP |
 | **Trưng bày** | Cạnh khu kem chống hăm, ngay bên cạnh Bepanthen/Sudocrem — để khách so sánh |
 | **Bán kèm** | Tắm gội · Dầu massage |
@@ -207,7 +181,7 @@ Mỗi dòng gồm: ai sẽ mua → khác gì hàng shop đang bán → cách tr�
 | **Vấn đề giải quyết** | Muỗi đốt, nguy cơ sốt xuất huyết; làm dịu vết đốt |
 | **Khác gì hàng đang bán** | **100% tinh dầu tự nhiên** (sả Java, sả chanh, bạch đàn chanh) — Remos dùng Picaridin, Soffell dùng DEET, đều là hoạt chất tổng hợp. Có số liệu chứng nhận: xua muỗi *Ae. aegypti* đạt **100% ngay sau khi dùng, 99,42% sau 1 giờ, hiệu quả 3 giờ**. Dùng được cho **trẻ trên 3 tháng** và phụ nữ có thai |
 | **Lý do shop nên đẩy** | Mã **bán theo mùa mạnh nhất** — vào mùa mưa/dịch là hàng tự chạy. Đơn giá 90.000đ rất dễ chốt. Công ty **đã có sẵn tài liệu giới thiệu hoàn chỉnh**, shop không phải tự dựng nội dung |
-| **Chương trình** | 5 tặng 1 (16,7%) — áp cho cả 2 quy cách |
+| **Chương trình** | ⏳ Để trống — chờ NVKD xác nhận |
 | **Lãi của shop** | ⏳ Chờ giá nhập từ NPP |
 | **Trưng bày** | Đẩy ra mặt tiền/quầy thu ngân trong mùa mưa. Ngoài mùa thì để khu chống côn trùng |
 | **Bán kèm** | Tắm gội · Kem bôi da (làm dịu vết đốt đã gãi) |
@@ -228,7 +202,7 @@ Mỗi dòng gồm: ai sẽ mua → khác gì hàng shop đang bán → cách tr�
 | **Vấn đề giải quyết** | Làm sạch và kháng khuẩn tay bé, hạn chế lây bệnh qua tay |
 | **Khác gì hàng đang bán** | Có **Aquaxyl** (dưỡng ẩm sinh học) — Chicco không có. Dạng bọt, dịu, không làm khô tay bé |
 | **Lý do shop nên đẩy** | Mã **bán theo mùa tựu trường và mùa dịch đường hô hấp/tay chân miệng**. Dùng hàng ngày, quay vòng đều |
-| **Chương trình** | 5 tặng 1 (16,7%) |
+| **Chương trình** | ⏳ Để trống — chờ NVKD xác nhận |
 | **Lãi của shop** | ⏳ Chờ giá nhập từ NPP |
 | **Trưng bày** | Khu vệ sinh cá nhân trẻ em |
 | **Bán kèm** | Tắm gội · Bộ đi học cùng gạc rơ lưỡi |
@@ -246,7 +220,7 @@ Mỗi dòng gồm: ai sẽ mua → khác gì hàng shop đang bán → cách tr�
 | **Vấn đề giải quyết** | Da bé khô, cần dưỡng ẩm; massage giúp bé thư giãn, ngủ ngoan |
 | **Khác gì hàng đang bán** | Kết hợp **3 loại dầu thực vật**: cám gạo + hạnh nhân + hạt nho. Johnson's dùng **dầu khoáng**, Chicco chỉ có cám gạo đơn lẻ. Thêm tinh dầu tràm gió và Vitamin E |
 | **Lý do shop nên đẩy** | Bán được quanh năm, không theo mùa. HSD 36 tháng. Gắn với khách sơ sinh — nhóm khách quay lại nhiều nhất của shop mẹ&bé |
-| **Chương trình** | 10 tặng 2 (16,7%) |
+| **Chương trình** | ⏳ Để trống — chờ NVKD xác nhận |
 | **Lãi của shop** | ⏳ Chờ giá nhập từ NPP |
 | **Trưng bày** | Khu sơ sinh, cạnh tắm gội |
 | **Bán kèm** | Tắm gội (dùng ngay sau khi tắm) · Kem bôi da |
@@ -267,7 +241,7 @@ Mỗi dòng gồm: ai sẽ mua → khác gì hàng shop đang bán → cách tr�
 | **Vấn đề giải quyết** | Hỗ trợ lợi sữa, tăng tiết sữa; hỗ trợ giảm nguy cơ tắc sữa |
 | **Khác gì hàng đang bán** | Có **Curcumin + Piperin** (piperin giúp tăng hấp thu curcumin) — không thấy ở Mabio. Nền dược liệu: thông thảo, bồ công anh, chùm ngây |
 | **Lý do shop nên đẩy** | Đây là **mã có nhu cầu cấp bách nhất danh mục** — mẹ ít sữa là vấn đề gấp, không trì hoãn, không mặc cả nhiều. 11.750đ/gói, quy ra chưa tới 12.000đ/ngày |
-| **Chương trình** | 7 tặng 1 (12,5%) — thuộc nhóm ưu đãi thấp nhất, nên bán bằng nhu cầu chứ không bằng chương trình |
+| **Chương trình** | ⏳ Để trống — chờ NVKD xác nhận |
 | **Lãi của shop** | ⏳ Chờ giá nhập từ NPP |
 | **Trưng bày** | Khu sau sinh / mẹ bầu, cạnh các mã lợi sữa khác |
 | **Bán kèm** | Dao'Spa Mama · Yaocare Women (bộ chăm sóc sau sinh) |
@@ -284,7 +258,7 @@ Mỗi dòng gồm: ai sẽ mua → khác gì hàng shop đang bán → cách tr�
 | **Vấn đề giải quyết** | Làm sạch, khô thoáng, ngừa mùi; hỗ trợ kháng khuẩn, giảm ngứa |
 | **Khác gì hàng đang bán** | Có **cao nghệ đắng (Curcuma comosa) và bạch đồng nữ** — Lactacyd và Dạ Hương không có. Công bố rõ **dùng được cho nam giới**, điểm không đối thủ nào nêu |
 | **Lý do shop nên đẩy** | Mã duy nhất trong danh mục phục vụ **nhóm khách trưởng thành nói chung**, không phụ thuộc có con nhỏ — mở rộng tệp khách của shop ngoài nhóm mẹ&bé |
-| **Chương trình** | 7 tặng 1 (12,5%) |
+| **Chương trình** | ⏳ Để trống — chờ NVKD xác nhận |
 | **Lãi của shop** | ⏳ Chờ giá nhập từ NPP |
 | **Trưng bày** | Khu chăm sóc phụ nữ, cạnh Lactacyd/Dạ Hương |
 | **Bán kèm** | Dao'Spa Mama · Curmilk (bộ sau sinh) |
@@ -301,7 +275,7 @@ Mỗi dòng gồm: ai sẽ mua → khác gì hàng shop đang bán → cách tr�
 | **Vấn đề giải quyết** | Vệ sinh cơ thể sau sinh, làm sạch da, hỗ trợ kháng khuẩn, làm ấm da, phục hồi da và tóc |
 | **Khác gì hàng đang bán** | Bài thuốc tắm của người Dao với bộ dược liệu đặc thù (cơm cháy, chùa dù, hoa ông lão, liên đằng hoa nhỏ...) — hoàn toàn khác gốc dược liệu của Lovin'Skin Mama (sài đất, lá khế, rau má, nghệ) |
 | **Lý do shop nên đẩy** | **Mã duy nhất trong danh mục rẻ hơn đối thủ:** 51.333đ/100ml so với Lovin'Skin Mama ~71.000đ — rẻ hơn khoảng 28%. Đơn giá 385.000đ là **mã có giá trị đơn hàng cao nhất danh mục**, kéo doanh thu/lượt khách lên rõ rệt. Hộp 3 lọ hợp làm **quà tặng sản phụ** |
-| **Chương trình** | 7 tặng 1 (12,5%) — nhưng giá trị hàng tặng **385.000đ/lô, cao nhất danh mục** |
+| **Chương trình** | ⏳ Để trống — chờ NVKD xác nhận |
 | **Lãi của shop** | ⏳ Chờ giá nhập từ NPP |
 | **Trưng bày** | Khu sau sinh; đóng gói dạng quà nếu shop có dịch vụ gói quà |
 | **Bán kèm** | Curmilk · Yaocare Women — combo sau sinh trọn bộ |
@@ -329,8 +303,7 @@ Mỗi dòng gồm: ai sẽ mua → khác gì hàng shop đang bán → cách tr�
 # Việc còn mở
 
 - Giá shop nhập từ NPP và mức lãi shop được hưởng → NVKD/kế toán. **Chặn việc.**
-- Chương trình mua X tặng Y áp cho lớp nào trong chuỗi → NVKD. **Chặn việc.**
-- Nồng độ acid boric trong gạc rơ lưỡi → R&D/QA. **Chặn việc với riêng dòng gạc.**
+- Chương trình mua X tặng Y áp cho lớp nào trong chuỗi → NVKD. Có xác nhận rồi mới điền vào các ô đang để trống. **Chặn việc.**
 - Chính sách đổi trả, hàng cận date, cơ số nhập tối thiểu → NVKD + kế toán (chị Tươi) + kho (chị Dung/chị Phương).
 - Danh mục POSM hiện có → MKT (Kiều, anh Nam).
 - Khuyến mãi dành cho NTD mua lẻ → NVKD.

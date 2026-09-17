@@ -10,7 +10,9 @@
 
 ⚠️ **Lưu ý khi dùng phần "Cơ chế thành phần" bên dưới:** cột "Cơ chế tác động" là kiến thức dược liệu/dược lý **phổ thông** của từng thành phần (không phải kết quả thử nghiệm lâm sàng riêng của DKX — công ty chưa cung cấp số liệu này). Theo quy định quảng cáo mỹ phẩm tại Việt Nam, **không dùng từ "trị/chữa/điều trị"** khi tư vấn cho các sản phẩm thuộc nhóm mỹ phẩm (kem bôi, sữa tắm) — chỉ dùng "hỗ trợ", "làm dịu", "giảm", "ngừa". Đây là quy tắc cần đưa vào script tư vấn để tránh rủi ro pháp lý cho công ty.
 
-**Giá và khuyến mãi cập nhật theo `Danh mục sản phẩm/Bảng giá và chương trình OTC.md`** (bảng báo giá kênh OTC, áp dụng từ 01/04/2025) — **thấp hơn** giá web đã ghi trước đó ở cả 4 sản phẩm; dùng giá OTC làm chính vì đây đúng là kênh shop→NTD mà sell-out kit này phục vụ. ⚠️ Cột "Chương trình" (mua X tặng Y) trong bảng báo giá là **chiết khấu cho shop/NPP khi nhập hàng (sell-in)**, không phải khuyến mãi cho NTD khi mua lẻ — phần khuyến mãi thật sự dành cho NTD tại quầy vẫn cần NVKD xác nhận riêng (xem ô "Khuyến mãi cụ thể" từng sản phẩm).
+**Cập nhật:** ô "Chương trình mua X tặng Y" của cả 4 sản phẩm nay **để trống** — chưa xác nhận chương trình trong bảng báo giá áp cho lớp nào trong chuỗi (DKX→NPP hay NPP→shop), nên không suy đoán và không quy ra phần trăm. Số liệu gốc vẫn lưu ở `Danh mục sản phẩm/Bảng giá và chương trình OTC.md`, chỉ điền vào kit khi NVKD đã xác nhận.
+
+**Giá cập nhật theo `Danh mục sản phẩm/Bảng giá và chương trình OTC.md`** (bảng báo giá kênh OTC, áp dụng từ 01/04/2025) — **thấp hơn** giá web đã ghi trước đó ở cả 4 sản phẩm; dùng giá OTC làm chính vì đây đúng là kênh shop→NTD mà sell-out kit này phục vụ. ⚠️ Cột "Chương trình" (mua X tặng Y) trong bảng báo giá **không phải** khuyến mãi cho NTD khi mua lẻ — phần khuyến mãi dành cho NTD tại quầy vẫn cần NVKD xác nhận riêng (xem ô "Khuyến mãi cụ thể" từng sản phẩm).
 
 ## Khung 6 nhóm của 1 bộ sell-out kit đầy đủ
 
@@ -83,7 +85,7 @@ Nồng độ kẽm oxyd trong sản phẩm là 2%, thấp hơn nhiều kem hăm 
 | POSM | Kệ/tem để cạnh khu kem chống hăm-dưỡng da; hình minh hoạ công dụng "bỏng gió/nắng"; bao bì đã in sẵn "Dưỡng ẩm cho da bé êm dịu bên trong", "Hỗ trợ kháng khuẩn & làm dịu da" — dùng nguyên câu này cho tem/POSM |
 | Script tư vấn | Khi bị hỏi vì sao đắt hơn Bepanthen: nêu công thức kẽm oxyd + thảo dược kết hợp, nhà máy đạt GMP-WHO — không dùng lý do "không hương liệu" |
 | Kích cầu | Sản phẩm nhỏ gọn — phù hợp làm quà tặng kèm khi mua combo tắm gội (cross-sell) |
-| Chương trình sell-in (cho shop/NPP khi nhập) | 10 tặng 2 — hàng tặng chiếm 16,7% tổng hàng nhận, hay 20% so với tiền bỏ ra |
+| Chương trình mua X tặng Y | ⏳ Để trống — chưa xác nhận chương trình áp cho lớp nào trong chuỗi, không suy đoán. Số liệu gốc xem `Danh mục sản phẩm/Bảng giá và chương trình OTC.md` |
 | Khuyến mãi cho NTD tại quầy | ⏳ Đang chờ NVKD cung cấp — chương trình sell-in ở trên chưa phải khuyến mãi bán lẻ, cần hỏi rõ shop có được san sẻ lại phần này cho NTD không |
 
 ## 2. Xịt muỗi thảo dược Elemis (50ml/120ml — giá OTC 90.000đ/195.000đ, web ghi 131.000đ/283.000đ)
@@ -110,7 +112,7 @@ Nồng độ kẽm oxyd trong sản phẩm là 2%, thấp hơn nhiều kem hăm 
 | Script tư vấn | Với câu hỏi về thời gian hiệu quả ngắn hơn đối thủ: hướng dẫn xịt lại sau ~2-3 giờ thay vì né tránh; dùng số liệu 100%/ngay và 99,42%/1 giờ để mở đầu tư vấn |
 | POSM | Banner/tem nhấn "100% tinh dầu tự nhiên, an toàn"; bao bì đã có sẵn hình ảnh + số liệu chứng nhận, có thể dùng luôn làm standee thu nhỏ |
 | Kích cầu | Đẩy theo mùa (mùa mưa/cao điểm sốt xuất huyết), combo với sản phẩm có sả/tràm |
-| Chương trình sell-in (cho shop/NPP khi nhập) | 5 tặng 1 — hàng tặng chiếm 16,7% tổng hàng nhận, hay 20% so với tiền bỏ ra; áp dụng cho cả 2 quy cách 50ml/120ml |
+| Chương trình mua X tặng Y | ⏳ Để trống — chưa xác nhận chương trình áp cho lớp nào trong chuỗi, không suy đoán |
 | Khuyến mãi cho NTD tại quầy | ⏳ Đang chờ NVKD cung cấp |
 
 ## 3. Sữa tắm / tắm gội Elemis (làm chung cho cả dòng)
@@ -168,7 +170,7 @@ Khi tắm, chè xanh và sả chanh làm sạch vi khuẩn và giúp khơi thôn
 | Script tư vấn | USP thuyết phục giá cao: nguồn dược liệu + nhà máy đạt chuẩn GMP-WHO (DK Pharma) — lợi thế cạnh tranh thật, không phải công dụng riêng biệt |
 | POSM | Tester dùng thử tại điểm bán — quan trọng vì DKX chưa có mặt trên Pharmacity/sàn lớn, NTD chưa quen thương hiệu |
 | Kích cầu | Dùng **chai 500ml làm mã phá rào giá** (55.000đ/100ml, gần ngang đối thủ) khi khách chê đắt; riêng Gold vẫn cần cơ chế bù (mua kèm/tặng kèm); tận dụng tem "Tiết kiệm 75.000đ" có sẵn trên hộp 500ml |
-| Chương trình sell-in (cho shop/NPP khi nhập) | 200ml: 14 tặng 2 · 350ml: 10 tặng 2 · 500ml: 12 tặng 2 · Gold: 8 tặng 2 |
+| Chương trình mua X tặng Y | ⏳ Để trống — chưa xác nhận chương trình áp cho lớp nào trong chuỗi, không suy đoán |
 | Khuyến mãi cho NTD tại quầy | ⏳ Đang chờ NVKD cung cấp |
 
 ## 4. Gạc rơ lưỡi thảo dược Elemis (Hộp 30 gói — giá OTC 115.000đ cả 2 loại, web ghi 73.000-167.000đ)
@@ -207,7 +209,7 @@ Trong miệng bé luôn có sẵn một lượng nhỏ nấm Candida. Cặn sữ
 | Script tư vấn | Nhấn "đã qua kiểm nghiệm an toàn trước khi lưu hành", hướng dẫn rõ tần suất sử dụng theo bao bì |
 | POSM | Trưng bày cạnh khu vệ sinh răng miệng/tưa lưỡi cho bé; kèm tờ hướng dẫn sử dụng đúng cách (số lần/ngày) |
 | Kích cầu | Sản phẩm tiêu hao nhanh (theo ngày) — phù hợp chương trình mua theo combo/số lượng lớn để duy trì khách quay lại |
-| Chương trình sell-in (cho shop/NPP khi nhập) | Hương dưa lưới: 10 tặng 3 — hàng tặng chiếm **23,1%** tổng hàng nhận, hay **30%** so với tiền bỏ ra (cao nhất toàn danh mục, công ty nhiều khả năng đang đẩy mạnh vị này); Không mùi: 10 tặng 2 (16,7% / 20%) |
+| Chương trình mua X tặng Y | ⏳ Để trống — chưa xác nhận chương trình áp cho lớp nào trong chuỗi, không suy đoán |
 | Khuyến mãi cho NTD tại quầy | ⏳ Đang chờ NVKD cung cấp |
 
 ---

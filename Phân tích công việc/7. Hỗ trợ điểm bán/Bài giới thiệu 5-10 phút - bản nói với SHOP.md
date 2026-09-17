@@ -4,7 +4,7 @@
 **Thời lượng:** 5-10 phút cho mỗi dòng sản phẩm.
 **Nguyên tắc chi phối toàn bài:** chủ shop là người kinh doanh. Họ không nghe "sản phẩm em tốt lắm" — họ nghe **"món này bán được cho ai ở shop chị, và bán ra thì được gì"**. Mọi câu trong bài đều phải trả lời một trong hai ý đó.
 
-**Phân biệt với file khác trong thư mục này:** `Bài đào tạo sản phẩm cho NV shop (nói miệng 5-10 phút).md` là bài **đào tạo kiến thức sản phẩm** cho nhân viên đứng quầy (4 mã Elemis). File này là bài **chào hàng với chủ shop** cho toàn bộ 9 dòng sản phẩm, có gắn chương trình khuyến mãi.
+**Phân biệt với file khác trong thư mục này:** `Bài đào tạo sản phẩm cho NV shop (nói miệng 5-10 phút).md` là bài **đào tạo kiến thức sản phẩm** cho nhân viên đứng quầy (4 mã Elemis). File này là bài **chào hàng với chủ shop** cho toàn bộ 9 dòng sản phẩm.
 
 ---
 
@@ -18,6 +18,12 @@ Chủ shop gần như chắc chắn sẽ hỏi **"bán cái này tôi lãi bao n
 
 **Tuyệt đối không đoán một con số.** Chủ shop nhớ rất dai; sai một lần là hỏng độ tin cậy cho mọi lần sau.
 
+**Chương trình mua X tặng Y cũng vậy — để trống, chưa nói.** Chưa xác nhận chương trình trong bảng báo giá áp cho lớp nào trong chuỗi, nên trong bài không có câu nào nhắc tới. Nếu chủ shop chủ động hỏi:
+
+> *"Phần chương trình em phải xác nhận lại với bên công ty rồi báo chị cho chắc ạ, em không nói vống được."*
+
+Khi NVKD đã xác nhận, chèn câu chương trình vào đúng khối **(3:30 – 5:00)** của từng dòng sản phẩm.
+
 ---
 
 ## Khung chung — dùng cho mọi dòng sản phẩm
@@ -27,7 +33,7 @@ Chủ shop gần như chắc chắn sẽ hỏi **"bán cái này tôi lãi bao n
 | 0:00 – 0:45 | **Hỏi trước, đừng nói ngay** | Biết shop đang bán gì, khách của shop là ai — để nói đúng trọng tâm |
 | 0:45 – 2:00 | **Món này bán cho ai ở shop chị** | Chủ shop cần thấy tệp khách có sẵn, không phải đi kiếm khách mới |
 | 2:00 – 3:30 | **Khác gì hàng chị đang bán** | Xoá nỗi lo "nhập về tự ăn doanh số của nhau" |
-| 3:30 – 5:00 | **Con số: giá lẻ, quy đổi, chương trình** | Phần chủ shop chờ nghe nhất |
+| 3:30 – 5:00 | **Con số: giá lẻ, quy đổi đơn vị** | Phần chủ shop chờ nghe nhất. ⏳ Khối này còn để trống phần chương trình — chèn vào khi NVKD xác nhận |
 | 5:00 – 6:30 | **Trưng bày ở đâu, bán kèm với gì** | Cho thấy mình lo tới khâu bán ra, không phải đẩy hàng xong là xong |
 | 6:30 – 7:30 | **Hỗ trợ từ công ty + chốt bước tiếp theo** | Kết bằng một việc cụ thể, không kết bằng "chị suy nghĩ nhé" |
 
@@ -65,7 +71,6 @@ Câu này xử lý cùng lúc ba nỗi lo lớn nhất của chủ shop: **vốn
 
 > *"Giá bán lẻ: chai 200ml 150 nghìn, 350ml 210 nghìn, 500ml 275 nghìn, Gold 220ml là 220 nghìn."*
 > *"Chị để ý chai 500ml: tính ra 55 nghìn cho mỗi 100ml — gần bằng mặt bằng các loại phổ thông. Mã này là mã phá rào giá, khách chê đắt thì mình đưa chai 500ml ra."*
-> *"Chương trình nhập: 200ml là 14 tặng 2, 350ml 10 tặng 2, 500ml 12 tặng 2, Gold 8 tặng 2. Gold ưu đãi tốt nhất trong nhóm — bỏ tiền mua 8 được thêm 2, tức thêm 25% hàng."*
 > *"Hạn sử dụng 30 tháng nên chị không phải lo cận date."*
 
 **(5:00 – 6:30) Trưng bày và bán kèm**
@@ -89,13 +94,12 @@ Câu này xử lý cùng lúc ba nỗi lo lớn nhất của chủ shop: **vốn
 **(3:30 – 5:00) Con số**
 
 > *"Giá lẻ 115 nghìn hộp 30 gói, tính ra chưa tới 4 nghìn một ngày — khách gần như không mặc cả ở mức giá này."*
-> *"Chương trình: bản hương dưa lưới là **10 tặng 3**, cao nhất toàn danh mục bên em. Bản không mùi 10 tặng 2. Nếu chị chỉ lấy một loại, em khuyên lấy bản hương dưa lưới: chương trình tốt hơn mà bé cũng dễ hợp tác hơn."*
+> *"Nếu chị chỉ lấy một loại, em khuyên lấy bản hương dưa lưới — bé dễ hợp tác hơn khi rơ lưỡi nên mẹ dùng đều, hàng ra nhanh hơn."*
 
 **(5:00 – 6:30) Trưng bày và bán kèm**
 
 > *"Mã này chị để **ngay quầy thu ngân** là hiệu quả nhất — đơn giá thấp, khách dễ lấy thêm lúc thanh toán. Bán kèm với chai tắm gội thành bộ vệ sinh hàng ngày cho bé."*
 
-⚠️ **Lưu ý nội bộ, không nói ra:** nếu shop là nhà thuốc có dược sĩ và bị hỏi về **acid boric** trong thành phần — **không tự khẳng định là an toàn**. Nói: *"Cái này em xin phép hỏi lại bộ phận kỹ thuật bên em rồi trả lời chị chính xác ạ."* Ghi nhận và hỏi R&D/QA.
 
 ---
 
@@ -112,7 +116,7 @@ Câu này xử lý cùng lúc ba nỗi lo lớn nhất của chủ shop: **vốn
 
 **(3:30 – 5:00) Con số**
 
-> *"115 nghìn tuýp 30 gram. Chương trình 10 tặng 2, tức bỏ tiền mua 10 được thêm 2, thêm 20% hàng."*
+> *"115 nghìn tuýp 30 gram."*
 
 **(5:00 – 6:30) Trưng bày**
 
@@ -136,7 +140,7 @@ Câu này xử lý cùng lúc ba nỗi lo lớn nhất của chủ shop: **vốn
 
 **(3:30 – 5:00) Con số**
 
-> *"Chai 50ml 90 nghìn, chai 120ml 195 nghìn. Chương trình 5 tặng 1 cho cả hai quy cách, tức thêm 20% hàng so với tiền bỏ ra."*
+> *"Chai 50ml 90 nghìn, chai 120ml 195 nghìn."*
 > *"Chai 120ml tính theo dung tích rẻ hơn — khách nhà đông người thì hướng sang chai to."*
 
 **(5:00 – 6:30) Trưng bày**
@@ -161,7 +165,7 @@ Câu này xử lý cùng lúc ba nỗi lo lớn nhất của chủ shop: **vốn
 **(3:30 – 6:30) Cách bán mà em đề xuất**
 
 > *"Em đề xuất chị đừng bán độc lập. Hai cách: một là ghép **combo đi học** với chai tắm gội, hai là dùng làm quà tặng khi khách mua đơn lớn. Như vậy giá không bị đặt cạnh hàng phổ thông."*
-> *"Chương trình 5 tặng 1. Chị lấy ít thôi, một hai chai xem thử."*
+> *"Chị lấy ít thôi, một hai chai xem thử."*
 
 Nói thẳng điểm yếu ở mã này **làm tăng độ tin cậy cho toàn bộ những mã khác** mình đã giới thiệu. Chủ shop phân biệt được ngay ai đang đẩy hàng và ai đang tư vấn thật.
 
@@ -180,7 +184,7 @@ Nói thẳng điểm yếu ở mã này **làm tăng độ tin cậy cho toàn b
 
 **(3:30 – 5:00) Con số**
 
-> *"135 nghìn chai 60ml. Chương trình 10 tặng 2."*
+> *"135 nghìn chai 60ml."*
 
 **(5:00 – 6:30) Trưng bày**
 
@@ -200,7 +204,7 @@ Nói thẳng điểm yếu ở mã này **làm tăng độ tin cậy cho toàn b
 
 **(3:30 – 5:00) Con số**
 
-> *"235 nghìn hộp 20 gói, chương trình 7 tặng 1. Em nói thật là chương trình nhóm này thấp hơn mấy mã cho bé — 7 tặng 1 thôi. Nhưng mã này không bán bằng chương trình, nó bán bằng nhu cầu."*
+> *"235 nghìn hộp 20 gói. Mã này không bán bằng chương trình chị ạ, nó bán bằng nhu cầu — mẹ nào ít sữa là mua ngay."*
 
 **(5:00 – 6:30) Lưu ý bắt buộc**
 
@@ -226,7 +230,7 @@ Nói thẳng điểm yếu ở mã này **làm tăng độ tin cậy cho toàn b
 
 **(3:30 – 5:00) Con số**
 
-> *"135 nghìn, chương trình 7 tặng 1. Hạn dùng 24 tháng."*
+> *"135 nghìn chai 100ml. Hạn dùng 24 tháng."*
 
 **(5:00 – 6:30) Lưu ý về ngôn từ**
 
@@ -247,7 +251,7 @@ Nói thẳng điểm yếu ở mã này **làm tăng độ tin cậy cho toàn b
 
 **(3:30 – 5:00) Con số**
 
-> *"385 nghìn hộp 3 lọ. Chương trình 7 tặng 1 — phần trăm thì không cao bằng mấy mã cho bé, nhưng vì đơn giá lớn nên **giá trị hàng tặng là 385 nghìn một lô, cao nhất danh mục**."*
+> *"385 nghìn hộp 3 lọ — đây là mã có giá trị đơn hàng cao nhất bên em."*
 > *"Hạn dùng 36 tháng."*
 
 **(5:00 – 6:30) Trưng bày và bán kèm**
@@ -273,21 +277,22 @@ Nói thẳng điểm yếu ở mã này **làm tăng độ tin cậy cho toàn b
 
 # Bảng nhắc nhanh — cầm theo khi đi gặp shop
 
-| Dòng | Giá lẻ | Chương trình | Câu nói mạnh nhất |
-|---|---|---|---|
-| Tắm gội 200/350/500ml | 150 / 210 / 275k | 14+2 / 10+2 / 12+2 | "Chai 500ml tính ra 55 nghìn mỗi 100ml, gần bằng hàng phổ thông" |
-| Elemis Gold 220ml | 220k | 8 tặng 2 | "Có kim ngân — Dr.Papie và Kutieskin đều không có" |
-| Gạc rơ lưỡi dưa lưới | 115k | **10 tặng 3** | "Quay vòng nhanh nhất, chưa tới 4 nghìn một ngày" |
-| Gạc rơ lưỡi không mùi | 115k | 10 tặng 2 | "Bản không mùi cho bé hay ọe khi rơ lưỡi" |
-| Kem bôi da 30g | 115k | 10 tặng 2 | "Bôi hàng ngày để phòng, và có công dụng da bỏng gió/nắng" |
-| Xịt muỗi 50/120ml | 90 / 195k | 5 tặng 1 | "100% tinh dầu, chứng nhận 100% ngay sau xịt, 3 tiếng" |
-| Bọt rửa tay 250ml | 245k | 5 tặng 1 | "Chỉ nên ghép combo, đừng bán độc lập" |
-| Dầu massage 60ml | 135k | 10 tặng 2 | "Dầu thực vật, không phải dầu khoáng như Johnson's" |
-| Curmilk cốm | 235k | 7 tặng 1 | "Nhu cầu cấp bách nhất, khách không mặc cả" |
-| Yaocare Women 100ml | 135k | 7 tặng 1 | "Mở rộng tệp khách ngoài mẹ&bé, dùng được cho cả nam" |
-| Dao'Spa Mama 3 lọ | 385k | 7 tặng 1 | "Mã duy nhất rẻ hơn đối thủ; hàng tặng 385 nghìn/lô, cao nhất" |
+| Dòng | Giá lẻ | Câu nói mạnh nhất |
+|---|---|---|
+| Tắm gội 200/350/500ml | 150 / 210 / 275k | "Chai 500ml tính ra 55 nghìn mỗi 100ml, gần bằng hàng phổ thông" |
+| Elemis Gold 220ml | 220k | "Có kim ngân — Dr.Papie và Kutieskin đều không có" |
+| Gạc rơ lưỡi dưa lưới | 115k | "Quay vòng nhanh nhất, chưa tới 4 nghìn một ngày" |
+| Gạc rơ lưỡi không mùi | 115k | "Bản không mùi cho bé hay ọe khi rơ lưỡi" |
+| Kem bôi da 30g | 115k | "Bôi hàng ngày để phòng, và có công dụng da bỏng gió/nắng" |
+| Xịt muỗi 50/120ml | 90 / 195k | "100% tinh dầu, chứng nhận 100% ngay sau xịt, 3 tiếng" |
+| Bọt rửa tay 250ml | 245k | "Chỉ nên ghép combo, đừng bán độc lập" |
+| Dầu massage 60ml | 135k | "Dầu thực vật, không phải dầu khoáng như Johnson's" |
+| Curmilk cốm | 235k | "Nhu cầu cấp bách nhất, khách không mặc cả" |
+| Yaocare Women 100ml | 135k | "Mở rộng tệp khách ngoài mẹ&bé, dùng được cho cả nam" |
+| Dao'Spa Mama 3 lọ | 385k | "Mã duy nhất rẻ hơn đối thủ; giá trị đơn hàng cao nhất danh mục" |
 
-**Ba việc luôn phải nhớ:**
+**Bốn việc luôn phải nhớ:**
 1. Không đoán con số lãi của shop khi chưa có giá nhập từ NPP.
 2. Nói trước điểm yếu của mã yếu (bọt rửa tay, Yaocare Women, dầu massage có BHT) — đổi lại được độ tin cậy cho những mã còn lại.
 3. Kết bằng một việc cụ thể và một mốc thời gian, không kết bằng "chị suy nghĩ nhé".
+4. Không nhắc chương trình mua X tặng Y cho tới khi NVKD xác nhận — bị hỏi thì hẹn trả lời sau.

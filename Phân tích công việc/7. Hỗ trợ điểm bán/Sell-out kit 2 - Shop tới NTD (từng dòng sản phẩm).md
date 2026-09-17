@@ -44,7 +44,7 @@ Bài nói chi tiết theo từng dòng sản phẩm: xem `Bài giới thiệu 5-
 
 ## ⏳ Hai thứ còn thiếu làm yếu hẳn bộ kit này
 
-1. **Khuyến mãi dành cho NTD mua lẻ tại quầy.** Chương trình "mua X tặng Y" trong bảng báo giá là **ưu đãi cho shop/NPP khi nhập hàng**, không phải cho người mua lẻ. Hiện **chưa có** chương trình nào cho NTD → người đứng quầy không có gì để chốt ngoài lời tư vấn. Cần NVKD xác nhận.
+1. **Khuyến mãi dành cho NTD mua lẻ tại quầy.** Hiện **chưa có** chương trình nào dành cho người mua lẻ → người đứng quầy không có gì để chốt ngoài lời tư vấn. Cần NVKD xác nhận. (Chương trình mua X tặng Y trong bảng báo giá là chuyện giữa các lớp trong kênh, chưa xác nhận áp cho ai — **không mang ra nói với NTD trong mọi trường hợp**.)
 2. **Lượng dùng mỗi lần của từng sản phẩm.** Có số này mới quy được giá về **tiền/ngày** — cách xử lý câu "đắt quá" hiệu quả nhất. Hiện chỉ tính được cho gạc rơ lưỡi; các mã còn lại cần lấy hướng dẫn sử dụng từ bao bì thật.
 
 **Bảng quy tiền/ngày — phần đã tính được:**
@@ -121,8 +121,6 @@ Mỗi dòng: bán cho ai → 3 câu chốt → 3 câu từ chối hay gặp → 
 **Khuyên đi khám khi:** mảng trắng dày, lau không ra, bé bỏ bú hoàn toàn hoặc quấy nhiều — cần bác sĩ, không tự xử lý bằng gạc.
 
 **Bán kèm:** tắm gội (bộ vệ sinh hàng ngày cho bé).
-
-⚠️ **Lưu ý nội bộ, không nói với khách:** thành phần có acid boric, công ty **chưa cung cấp nồng độ**. Nếu khách hoặc dược sĩ hỏi về acid boric: **không tự khẳng định là an toàn**, ghi nhận lại và hẹn hỏi công ty trả lời sau. Cho tới khi có câu trả lời chính thức từ R&D/QA, chỉ nói đúng nội dung in trên bao bì.
 
 ---
 
@@ -327,7 +325,6 @@ Mỗi dòng: bán cho ai → 3 câu chốt → 3 câu từ chối hay gặp → 
 
 - **Khuyến mãi cho NTD mua lẻ** → NVKD. Thiếu cái này thì người đứng quầy không có gì để chốt.
 - **Lượng dùng mỗi lần của từng sản phẩm** (lấy từ hướng dẫn trên bao bì) để hoàn thiện bảng quy tiền/ngày.
-- **Nồng độ acid boric trong gạc rơ lưỡi** → R&D/QA. Chưa có thì chưa đẩy mạnh dòng gạc.
 - **Vị/mùi thực tế của Curmilk cốm** để trả lời câu "có dễ uống không".
 - **Chính sách đổi trả cho NTD** nếu dùng không hợp.
 - **Đầu mối tiếp nhận phản ánh của NTD** (ai nghe, số nào) — hiện chưa có.

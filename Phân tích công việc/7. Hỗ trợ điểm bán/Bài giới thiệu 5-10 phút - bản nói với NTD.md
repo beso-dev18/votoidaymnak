@@ -24,7 +24,7 @@
 
 ## ⏳ Chỗ hiện đang thiếu — cần biết trước khi dùng bài
 
-**Chưa có chương trình khuyến mãi dành cho người mua lẻ.** Chương trình "mua X tặng Y" trong bảng báo giá là ưu đãi cho shop khi nhập hàng, **không phải** cho khách mua lẻ. Cần NVKD xác nhận chương trình bán lẻ.
+**Chưa có chương trình khuyến mãi dành cho người mua lẻ.** Cần NVKD xác nhận. Chương trình mua X tặng Y trong bảng báo giá là chuyện giữa các lớp trong kênh — **không mang ra nói với khách trong mọi trường hợp**.
 
 **Trong lúc chờ, phần "ưu đãi" trong bài dùng hai thứ có thật:**
 - **Quy cách lớn rẻ hơn theo dung tích** — chai 500ml rẻ hơn chai 200ml gần 1/3 mỗi 100ml; chai xịt muỗi 120ml rẻ hơn chai 50ml; hộp Dao'Spa 3 lọ rẻ hơn mua lẻ.
@@ -127,8 +127,6 @@ Khi có chương trình bán lẻ chính thức, chèn vào đúng khối **(4:0
 
 > *"Chị lấy hộp hương dưa lưới nhé. Rơ cho bé theo hướng dẫn trên bao bì, đừng chà mạnh vì miệng bé mỏng lắm."*
 > *"Nếu mảng trắng dày, lau không ra, hoặc bé bỏ bú hẳn thì chị cho đi khám nhé, đừng cố tự xử lý ở nhà."*
-
-⚠️ **Nội bộ:** nếu khách hoặc dược sĩ hỏi về **acid boric** trong thành phần — **không tự khẳng định là an toàn**. Nói: *"Cái này em xin phép hỏi lại bên công ty rồi báo chị chính xác ạ."*
 
 ---
 

@@ -21,7 +21,7 @@ DKX  →  NPP  →  Shop nhỏ lẻ  →  NTD
 Ba hệ quả bắt buộc phải nhớ khi làm kit:
 
 1. **DKX không bán trực tiếp cho shop.** Shop nhập hàng từ NPP, không từ DKX. Nghĩa là DKX **không kiểm soát giá shop nhập vào** và **không kiểm soát lãi của shop** — hai thứ shop quan tâm nhất. Kit "DKX → shop" vì vậy không phải là kit chào giá, mà là kit **làm cho shop muốn bán** món hàng họ đã/sẽ nhập từ NPP.
-2. **Có 2 lớp "sell" khác nhau, đừng lẫn:** DKX → NPP và NPP → shop là **sell-in** (đẩy hàng vào kênh). Shop → NTD là **sell-out** (hàng ra khỏi kênh, tiền thật về). Chương trình "mua X tặng Y" trong bảng báo giá là công cụ **sell-in**. Nếu chỉ đẩy sell-in mà không làm sell-out, hàng nằm lại kho shop, shop lỗ vốn và lần sau không nhập nữa — đây chính là lý do sếp yêu cầu làm sell-out kit.
+2. **Có 2 lớp "sell" khác nhau, đừng lẫn:** DKX → NPP và NPP → shop là **sell-in** (đẩy hàng vào kênh). Shop → NTD là **sell-out** (hàng ra khỏi kênh, tiền thật về). Chương trình "mua X tặng Y" trong bảng báo giá là công cụ **sell-in** (chưa xác nhận áp cho lớp nào — để trống, không suy đoán). Nếu chỉ đẩy sell-in mà không làm sell-out, hàng nằm lại kho shop, shop lỗ vốn và lần sau không nhập nữa — đây chính là lý do sếp yêu cầu làm sell-out kit.
 3. **Mắt xích yếu nhất là người đứng quầy ở shop.** DKX nói hay đến mấy, người thật sự mở miệng tư vấn cho NTD là nhân viên shop — người không được trả lương bởi DKX, bán cùng lúc hàng trăm mã hàng, và sẽ tư vấn món nào họ **nhớ và tự tin nhất**. Toàn bộ kit phải phục vụ mục tiêu: làm cho người đứng quầy nhớ được và tự tin nói.
 
 ---
@@ -36,7 +36,7 @@ Shop là **người kinh doanh**, không phải người dùng. Họ không quan
 |---|---|---|
 | "Bán 1 hộp này tôi lãi bao nhiêu?" | Đây là thước đo duy nhất để so món hàng mới với món họ đang bán | ⏳ **Chưa** — báo giá OTC chỉ có **giá bán lẻ**, không có giá shop nhập từ NPP. Không có giá nhập thì không tính được lãi |
 | "Lãi bao nhiêu phần trăm?" | Nhà thuốc quen so theo % để xếp hạng ưu tiên tư vấn | ⏳ Cùng lý do trên |
-| "Chương trình 10 tặng 2 là tôi được hưởng hay NPP được hưởng?" | Nếu NPP giữ lại phần tặng thì shop không được gì | ⏳ **Chưa xác nhận** — bảng báo giá không ghi rõ chương trình áp cho lớp nào |
+| "Chương trình mua X tặng Y là tôi được hưởng hay NPP được hưởng?" | Nếu NPP giữ lại phần tặng thì shop không được gì | ⏳ **Chưa xác nhận** — bảng báo giá không ghi rõ chương trình áp cho lớp nào. Trong kit để trống ô này, không suy đoán |
 | "Phải nhập bao nhiêu mới được chương trình? Tính theo từng mã hay cộng dồn cả đơn?" | Quyết định số vốn phải bỏ ra một lần | ⏳ Chưa có quy định cụ thể trong báo giá |
 | "Có thưởng doanh số tháng/quý không? Có tích luỹ không?" | Nhà thuốc rất nhạy với thưởng sau (trả thưởng, tích luỹ) vì không ảnh hưởng giá bán ra | ⏳ Chưa có dữ liệu. Danh mục công việc có nhắc "hợp đồng tích luỹ" (mục 2.2) — có thể công ty đã có, cần hỏi |
 
@@ -133,8 +133,6 @@ NTD ở đây chủ yếu là **mẹ có con nhỏ** (nhóm "dành cho bé") và
 | "Có phải hàng thật không? Dạo này thuốc giả, sữa giả nhiều quá." | Bối cảnh thuốc giả/TPCN giả bị phát hiện liên tục, niềm tin NTD xuống thấp | ✅ Có số công bố + tên nhà máy + xuất thân DK Pharma từ ĐH Dược Hà Nội — đây là vũ khí mạnh nhất của DKX với nhóm lo hàng giả |
 | "Dùng lâu dài có tích tụ gì không?" | Sản phẩm dùng hàng ngày cho bé | ⏳ Không có dữ liệu dùng dài hạn |
 
-❗ **Điểm an toàn phải xử lý trước khi ra thị trường:** cả 2 loại gạc rơ lưỡi Elemis chứa **acid boric**, dùng bôi trực tiếp khoang miệng cho trẻ từ sơ sinh. Cảnh báo dược thư khuyến cáo không dùng dạng bôi chứa acid boric cho trẻ dưới 2 tuổi. Repo đã ghi nhận vấn đề này và **chưa có nồng độ cụ thể để kết luận**. Phải hỏi R&D/QA trước, vì nếu một NTD hoặc một dược sĩ ở shop tra ra và hỏi tại quầy mà mình không có câu trả lời chuẩn thì hậu quả rất nặng.
-
 ## B2. Hiệu quả — "dùng có ăn thua không?"
 
 | NTD thật sự hỏi | DKX trả lời được chưa |
@@ -209,23 +207,22 @@ Xếp theo mức độ chặn việc:
 
 **Nhóm 1 — chặn hoàn toàn, phải có mới đi gặp shop được:**
 1. **Giá shop nhập từ NPP** (hoặc ít nhất khoảng lãi shop được hưởng). Không có thì không trả lời được câu hỏi đầu tiên của shop. → Hỏi NVKD/kế toán.
-2. **Chương trình "mua X tặng Y" áp cho ai** — DKX→NPP hay NPP→shop, hay cả hai. → Hỏi NVKD.
-3. **Nồng độ acid boric trong gạc rơ lưỡi** và căn cứ an toàn cho trẻ sơ sinh. → Hỏi R&D/QA.
+2. **Chương trình "mua X tặng Y" áp cho ai** — DKX→NPP hay NPP→shop, hay cả hai. → Hỏi NVKD. Chưa có xác nhận thì ô chương trình trong kit để trống.
 
 **Nhóm 2 — làm kit yếu đi rõ rệt nếu thiếu:**
-4. **Khuyến mãi dành cho NTD mua lẻ tại quầy** (khác sell-in). → NVKD.
-5. **Chính sách đổi trả / hàng cận date cho shop.** → Kế toán (chị Tươi) + NVKD, lấy từ điều khoản hợp đồng mẫu.
-6. **Danh mục POSM hiện có** (standee, kệ, poster, tester). → MKT (Kiều, anh Nam).
-7. **Giải thích chênh lệch giá web vs giá OTC.** → NVKD/kế toán.
+3. **Khuyến mãi dành cho NTD mua lẻ tại quầy** (khác sell-in). → NVKD.
+4. **Chính sách đổi trả / hàng cận date cho shop.** → Kế toán (chị Tươi) + NVKD, lấy từ điều khoản hợp đồng mẫu.
+5. **Danh mục POSM hiện có** (standee, kệ, poster, tester). → MKT (Kiều, anh Nam).
+6. **Giải thích chênh lệch giá web vs giá OTC.** → NVKD/kế toán.
 
 **Nhóm 3 — nên có để kit thuyết phục hơn:**
-8. Cơ số nhập tối thiểu và thời gian giao hàng trung bình. → Kho (chị Dung/chị Phương).
-9. Tốc độ bán thực tế ở các shop đang bán tốt. → Dữ liệu doanh số bộ phận (nhóm việc 5).
-10. Hình ảnh/video/phản hồi thật từ thị trường. → NVKD theo KPI (nhóm việc 3.2).
-11. **Sửa lại các điểm sai/vượt công bố trong bảng báo giá** (mục B6, đặc biệt Curmilk và Dao'Spa). → Báo NVKD/bộ phận phụ trách tài liệu.
+7. Cơ số nhập tối thiểu và thời gian giao hàng trung bình. → Kho (chị Dung/chị Phương).
+8. Tốc độ bán thực tế ở các shop đang bán tốt. → Dữ liệu doanh số bộ phận (nhóm việc 5).
+9. Hình ảnh/video/phản hồi thật từ thị trường. → NVKD theo KPI (nhóm việc 3.2).
+10. **Sửa lại các điểm sai/vượt công bố trong bảng báo giá** (mục B6, đặc biệt Curmilk và Dao'Spa). → Báo NVKD/bộ phận phụ trách tài liệu.
 
 **Nhóm 4 — nằm ngoài phạm vi kit nhưng ảnh hưởng trực tiếp:**
-12. Cách đưa kit tới nhóm shop chưa xác thực/chưa liên hệ trực tiếp được (phải qua NPP hay đi thực địa).
+11. Cách đưa kit tới nhóm shop chưa xác thực/chưa liên hệ trực tiếp được (phải qua NPP hay đi thực địa).
 
 ---
 
