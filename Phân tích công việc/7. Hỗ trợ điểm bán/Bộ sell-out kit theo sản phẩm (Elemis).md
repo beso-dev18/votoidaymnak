@@ -83,7 +83,7 @@ Nồng độ kẽm oxyd trong sản phẩm là 2%, thấp hơn nhiều kem hăm 
 | POSM | Kệ/tem để cạnh khu kem chống hăm-dưỡng da; hình minh hoạ công dụng "bỏng gió/nắng"; bao bì đã in sẵn "Dưỡng ẩm cho da bé êm dịu bên trong", "Hỗ trợ kháng khuẩn & làm dịu da" — dùng nguyên câu này cho tem/POSM |
 | Script tư vấn | Khi bị hỏi vì sao đắt hơn Bepanthen: nêu công thức kẽm oxyd + thảo dược kết hợp, nhà máy đạt GMP-WHO — không dùng lý do "không hương liệu" |
 | Kích cầu | Sản phẩm nhỏ gọn — phù hợp làm quà tặng kèm khi mua combo tắm gội (cross-sell) |
-| Chương trình sell-in (cho shop/NPP khi nhập) | 10 tặng 2 (~16,7% chiết khấu hàng) |
+| Chương trình sell-in (cho shop/NPP khi nhập) | 10 tặng 2 — hàng tặng chiếm 16,7% tổng hàng nhận, hay 20% so với tiền bỏ ra |
 | Khuyến mãi cho NTD tại quầy | ⏳ Đang chờ NVKD cung cấp — chương trình sell-in ở trên chưa phải khuyến mãi bán lẻ, cần hỏi rõ shop có được san sẻ lại phần này cho NTD không |
 
 ## 2. Xịt muỗi thảo dược Elemis (50ml/120ml — giá OTC 90.000đ/195.000đ, web ghi 131.000đ/283.000đ)
@@ -110,7 +110,7 @@ Nồng độ kẽm oxyd trong sản phẩm là 2%, thấp hơn nhiều kem hăm 
 | Script tư vấn | Với câu hỏi về thời gian hiệu quả ngắn hơn đối thủ: hướng dẫn xịt lại sau ~2-3 giờ thay vì né tránh; dùng số liệu 100%/ngay và 99,42%/1 giờ để mở đầu tư vấn |
 | POSM | Banner/tem nhấn "100% tinh dầu tự nhiên, an toàn"; bao bì đã có sẵn hình ảnh + số liệu chứng nhận, có thể dùng luôn làm standee thu nhỏ |
 | Kích cầu | Đẩy theo mùa (mùa mưa/cao điểm sốt xuất huyết), combo với sản phẩm có sả/tràm |
-| Chương trình sell-in (cho shop/NPP khi nhập) | 5 tặng 1 (~16,7% chiết khấu hàng), áp dụng cho cả 2 quy cách 50ml/120ml |
+| Chương trình sell-in (cho shop/NPP khi nhập) | 5 tặng 1 — hàng tặng chiếm 16,7% tổng hàng nhận, hay 20% so với tiền bỏ ra; áp dụng cho cả 2 quy cách 50ml/120ml |
 | Khuyến mãi cho NTD tại quầy | ⏳ Đang chờ NVKD cung cấp |
 
 ## 3. Sữa tắm / tắm gội Elemis (làm chung cho cả dòng)
@@ -164,10 +164,10 @@ Khi tắm, chè xanh và sả chanh làm sạch vi khuẩn và giúp khơi thôn
 |---|---|
 | USP thật | Elemis Gold có thành phần kim ngân — không thấy ở Dr.Papie/Kutieskin |
 | ⚠️ Điểm cần né (riêng Elemis Gold) | Web ghi "hệ tạo bọt tự nhiên, 100% thảo dược, không hương liệu hoá học" nhưng có SLES; web còn ghi thêm công dụng "viêm da, hăm da" **không có trong SCB chính thức** — không đưa 2 claim này vào tài liệu bán hàng |
-| Điểm yếu cần chuẩn bị | Giá quy đổi ~109.000-145.000đ/100ml, cao hơn Dr.Papie (~50.000đ) và Kutieskin (~64.000đ) 1.7-3 lần; công dụng công bố phần lớn trùng lặp đối thủ, Kutieskin công bố phạm vi rộng hơn (thêm hăm da, viêm da) |
+| Điểm yếu cần chuẩn bị | ⚠️ **Đính chính:** con số "~109.000-145.000đ/100ml, cao hơn đối thủ 1.7-3 lần" ghi trước đây là tính theo **giá web**, không phải giá OTC. Tính lại theo giá OTC: 200ml = 75.000đ/100ml · 350ml = 60.000đ · **500ml = 55.000đ** · Gold = 100.000đ. So với Dr.Papie (~50.000đ) và Kutieskin (~64.000đ) thì chai 350/500ml gần ngang mặt bằng, thậm chí rẻ hơn Kutieskin; chỉ Gold còn cao hơn ~1,6-2 lần. Điểm yếu thật còn lại: công dụng công bố phần lớn trùng lặp đối thủ, Kutieskin công bố phạm vi rộng hơn (thêm hăm da, viêm da) |
 | Script tư vấn | USP thuyết phục giá cao: nguồn dược liệu + nhà máy đạt chuẩn GMP-WHO (DK Pharma) — lợi thế cạnh tranh thật, không phải công dụng riêng biệt |
 | POSM | Tester dùng thử tại điểm bán — quan trọng vì DKX chưa có mặt trên Pharmacity/sàn lớn, NTD chưa quen thương hiệu |
-| Kích cầu | Chênh lệch giá rõ rệt so với đối thủ nên cần cơ chế bù (mua kèm/tặng kèm) mạnh hơn; tận dụng tem "Tiết kiệm 75.000đ" có sẵn trên hộp 500ml |
+| Kích cầu | Dùng **chai 500ml làm mã phá rào giá** (55.000đ/100ml, gần ngang đối thủ) khi khách chê đắt; riêng Gold vẫn cần cơ chế bù (mua kèm/tặng kèm); tận dụng tem "Tiết kiệm 75.000đ" có sẵn trên hộp 500ml |
 | Chương trình sell-in (cho shop/NPP khi nhập) | 200ml: 14 tặng 2 · 350ml: 10 tặng 2 · 500ml: 12 tặng 2 · Gold: 8 tặng 2 |
 | Khuyến mãi cho NTD tại quầy | ⏳ Đang chờ NVKD cung cấp |
 
@@ -207,7 +207,7 @@ Trong miệng bé luôn có sẵn một lượng nhỏ nấm Candida. Cặn sữ
 | Script tư vấn | Nhấn "đã qua kiểm nghiệm an toàn trước khi lưu hành", hướng dẫn rõ tần suất sử dụng theo bao bì |
 | POSM | Trưng bày cạnh khu vệ sinh răng miệng/tưa lưỡi cho bé; kèm tờ hướng dẫn sử dụng đúng cách (số lần/ngày) |
 | Kích cầu | Sản phẩm tiêu hao nhanh (theo ngày) — phù hợp chương trình mua theo combo/số lượng lớn để duy trì khách quay lại |
-| Chương trình sell-in (cho shop/NPP khi nhập) | Hương dưa lưới: 10 tặng 3 (~30% chiết khấu — cao hơn hẳn loại không mùi, có thể công ty đang đẩy mạnh vị này); Không mùi: 10 tặng 2 |
+| Chương trình sell-in (cho shop/NPP khi nhập) | Hương dưa lưới: 10 tặng 3 — hàng tặng chiếm **23,1%** tổng hàng nhận, hay **30%** so với tiền bỏ ra (cao nhất toàn danh mục, công ty nhiều khả năng đang đẩy mạnh vị này); Không mùi: 10 tặng 2 (16,7% / 20%) |
 | Khuyến mãi cho NTD tại quầy | ⏳ Đang chờ NVKD cung cấp |
 
 ---

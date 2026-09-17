@@ -126,6 +126,11 @@ Nhi/
     └── 7. Hỗ trợ điểm bán/
         ├── Phân tích công việc.md
         ├── Câu hỏi làm rõ.md
+        ├── Mối quan tâm của shop và NTD (nền tảng cho sell-out kit).md  ← nghiên cứu nền: shop lo gì (lãi, tồn kho, rủi ro giá/pháp lý), NTD lo gì (an toàn, hiệu quả, giá, niềm tin); đối chiếu xem DKX đã có dữ liệu trả lời chưa; danh sách lỗ hổng cần hỏi
+        ├── Sell-out kit 1 - DKX tới shop (từng dòng sản phẩm).md   ← kit chào hàng với chủ shop cho cả 9 dòng SP: bảng giá/chương trình quy ra %, vị thế giá so thị trường, bảng pháp lý, câu shop hay vặn
+        ├── Sell-out kit 2 - Shop tới NTD (từng dòng sản phẩm).md   ← kit cho người đứng quầy: 3 câu chốt + 3 câu từ chối mỗi dòng SP, combo bán kèm, quy tắc ngôn từ, khi nào khuyên đi khám
+        ├── Bài giới thiệu 5-10 phút - bản nói với SHOP.md  ← bài chào hàng có bấm giờ, nói với chủ shop (trọng tâm: tiền, quay vòng, rủi ro), kèm chương trình khuyến mãi
+        ├── Bài giới thiệu 5-10 phút - bản nói với NTD.md   ← bài tư vấn có bấm giờ, nói với người mua (trọng tâm: an toàn cho con, hiệu quả, giá quy ra tiền/ngày)
         ├── Bộ sell-out kit theo sản phẩm (Elemis).md  ← sell-out kit (POSM, cơ chế thành phần, script, giá/khuyến mãi) cho 4 SP sếp yêu cầu: sữa tắm, kem bôi, xịt muỗi, gạc rơ lưỡi
         ├── Xử lý từ chối mua hàng - script cho NVBH.md  ← câu hỏi/từ chối thường gặp của NTD tại quầy + câu trả lời gợi ý, theo từng sản phẩm trong sell-out kit
         ├── Bài đào tạo sản phẩm cho NV shop (nói miệng 5-10 phút).md  ← bài nói đào tạo NV shop về thành phần/công dụng/lợi ích/khác biệt từng sản phẩm, dùng trước khi NV tự tư vấn NTD
