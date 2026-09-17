@@ -38,7 +38,7 @@ Sản xuất tại Nhà máy Dược phẩm DKPharma — dòng thường tại c
 
 Chè xanh, sài đất, khổ qua, kinh giới, sả chanh, tràm gió — riêng Elemis Gold có thêm kim ngân, hương nhu.
 
-Cơ chế tác động chi tiết từng thành phần — xem `Bộ sell-out kit theo sản phẩm (Elemis).md`, mục 3.
+Cơ chế tác động chi tiết từng thành phần — xem `Bộ sell-out kit theo sản phẩm.md`, mục 3.
 
 ⚠️ Không có trích dẫn nghiên cứu khoa học/khảo nghiệm độc lập cụ thể như xịt muỗi — phần cơ chế dựa trên kiến thức dược liệu học phổ thông (EGCG trong chè xanh, wedelolactone trong sài đất, chlorogenic acid/luteolin trong kim ngân...), không phải kết quả thử nghiệm riêng của sản phẩm này.
 

@@ -1,6 +1,6 @@
 # Xử lý từ chối mua hàng — script cho nhân viên bán hàng tại điểm bán
 
-**Bối cảnh:** Giai đoạn sau khi tổ chức chương trình, NVBH tại shop đã tư vấn cho NTD nhưng gặp từ chối/thắc mắc khiến NTD ngần ngại mua. File này tổng hợp câu hỏi/từ chối thường gặp và câu trả lời gợi ý, dựa hoàn toàn trên dữ liệu đã xác minh trong `Danh mục sản phẩm/` và `Bộ sell-out kit theo sản phẩm (Elemis).md` — không thêm số liệu/công dụng chưa có nguồn.
+**Bối cảnh:** Giai đoạn sau khi tổ chức chương trình, NVBH tại shop đã tư vấn cho NTD nhưng gặp từ chối/thắc mắc khiến NTD ngần ngại mua. File này tổng hợp câu hỏi/từ chối thường gặp và câu trả lời gợi ý, dựa hoàn toàn trên dữ liệu đã xác minh trong `Danh mục sản phẩm/` và `Bộ sell-out kit theo sản phẩm.md` — không thêm số liệu/công dụng chưa có nguồn.
 
 ⚠️ Nguyên tắc chung khi trả lời: dùng từ "hỗ trợ/làm dịu/giảm/ngừa/phòng ngừa", không dùng "trị dứt điểm/chữa khỏi" cho sản phẩm mỹ phẩm; chỗ nào chưa có dữ liệu xác nhận thì hướng dẫn thận trọng thay vì tự khẳng định.
 
@@ -50,8 +50,58 @@
 | "Dùng cho trẻ sơ sinh được không?" | Theo công bố, dùng cho khoang miệng trẻ từ sơ sinh — dùng đúng liều/tần suất theo hướng dẫn trên bao bì | — |
 | "Gạc này trị được tưa lưỡi/nấm miệng dứt điểm không?" | Bao bì ghi "giúp phòng tránh và hỗ trợ điều trị hiệu quả các vấn đề răng miệng" — dùng đúng câu này, không khẳng định khỏi hoàn toàn. Nếu bé bị nặng/kéo dài nên đưa đi khám | Đây là nguyên văn mô tả chính thức của công ty trong bảng báo giá |
 
+## Dầu massage Oriky (60ml)
+
+| Từ chối/câu hỏi của NTD | Câu trả lời gợi ý | Ghi chú |
+|---|---|---|
+| "Dầu này khác gì Johnson's?" | Johnson's dùng dầu khoáng, còn sản phẩm này dùng 3 loại dầu thực vật kết hợp (cám gạo, hạnh nhân, hạt nho) cùng tinh dầu tràm gió | Đây là USP thật có căn cứ |
+| "Sao đắt hơn?" | Giá quy đổi ~112.500đ/50ml so với Johnson's ~70.000-100.000đ và Chicco ~82.000đ — chênh lệch đến từ bộ 3 dầu thực vật và nhà máy đạt chuẩn GMP-WHO | — |
+| "Có chất bảo quản không, có tự nhiên hoàn toàn không?" | Trả lời trung thực: có BHT — chất chống oxy hoá giúp dầu không bị ôi, dùng ở nồng độ cho phép | ⚠️ **Không nói "100% tự nhiên"** — Johnson's và Chicco đều cam kết không có BHT, nếu khách đã biết sẽ mất niềm tin |
+| "Massage có giúp bé ngủ ngon thật không?" | Sản phẩm hỗ trợ — tinh dầu tràm gió toả hơi ấm dễ chịu, kết hợp với nhịp vỗ về của massage giúp bé thư giãn. Không hứa "ngủ ngon ngay" | Dùng đúng câu công bố "giúp bé thư giãn, ngủ ngoan hơn" |
+
+## Bọt rửa tay Elemis (250ml)
+
+| Từ chối/câu hỏi của NTD | Câu trả lời gợi ý | Ghi chú |
+|---|---|---|
+| "Rửa tay nhiều lần có khô da không?" | Sản phẩm có bộ dưỡng ẩm kép Aquaxyl – Glycerin – Lô hội giữ ẩm ngay sau khi rửa, nên đỡ khô hơn xà phòng thường | Đây là USP thật và là lý lẽ mạnh nhất cho mức giá |
+| "Sao đắt hơn Chicco?" | Giá quy đổi ~98.000đ/100ml so với Chicco ~60.000đ/100ml. Khác biệt ở bộ dưỡng ẩm kép có Aquaxyl mà Chicco không có | ⚠️ Không nói "kháng khuẩn mạnh hơn" — chưa có số liệu so sánh |
+| "Có diệt khuẩn được không?" | Công dụng công bố là "làm sạch và hỗ trợ kháng khuẩn" | ⚠️ Không nói "diệt khuẩn 99%" vì không có số liệu kiểm nghiệm |
+| "Bé mấy tháng dùng được?" | ⚠️ Chưa có mốc tuổi chính thức trong tài liệu hiện có — hướng dẫn dùng theo bao bì, nếu khách cần chắc chắn thì xin phép hỏi lại | Chicco công bố 0m+, DKX chưa có mốc tương đương |
+
+## Curmilk — cốm lợi sữa (TPBVSK)
+
+⚠️ **Mọi câu trả lời cho sản phẩm này đều phải kèm:** *"Thực phẩm này không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh."*
+
+| Từ chối/câu hỏi của NTD | Câu trả lời gợi ý | Ghi chú |
+|---|---|---|
+| "Uống bao lâu thì có sữa?" | Sản phẩm hỗ trợ cải thiện tình trạng ít sữa; hiệu quả tuỳ cơ địa, chế độ dinh dưỡng và nghỉ ngơi của mẹ | ⚠️ **Tuyệt đối không hứa mốc thời gian** ("3 ngày là có sữa") — vừa sai quy định TPBVSK vừa dễ bị khiếu nại |
+| "Có phải thuốc không?" | Không, đây là thực phẩm bảo vệ sức khoẻ, hỗ trợ chứ không thay thế thuốc chữa bệnh | Đây là câu bắt buộc phải nói đúng |
+| "So với Mabio thì sao?" | Curmilk có Curcumin + Piperin mà Mabio không có; ngược lại Mabio công bố phạm vi rộng hơn (thêm hỗ trợ giấc ngủ, giảm stress) | Nói trung thực cả 2 chiều, không khẳng định "tốt hơn" |
+| "Tôi dị ứng sữa bò/không uống được sữa" | Thành phần có sữa bột ít béo — trường hợp này nên cân nhắc và hỏi ý kiến dược sĩ trước khi dùng | ⚠️ Phải chủ động hỏi trước khi bán, không đợi khách tự nói |
+| "Đang uống thuốc khác có dùng được không?" | Nên hỏi ý kiến bác sĩ trước khi dùng thêm | Không tự khẳng định an toàn khi phối hợp |
+
+## Yaocare Women — dung dịch vệ sinh phụ nữ
+
+| Từ chối/câu hỏi của NTD | Câu trả lời gợi ý | Ghi chú |
+|---|---|---|
+| "Sao đắt hơn Dạ Hương nhiều vậy?" | Giá OTC 135.000đ/100ml so với Dạ Hương 30.000đ/100ml. Khác biệt ở bộ dược liệu (cao nghệ đắng, bạch đồng nữ) và nhà máy đạt chuẩn GMP-WHO | ⚠️ Không nói "hiệu quả hơn" — chưa có số liệu so sánh |
+| "Sản phẩm có hoá chất không?" | Trả lời trung thực: có chất tạo bọt và hương liệu ở mức cho phép trong mỹ phẩm | ⚠️ **Không nói "không chứa hoá chất/hương liệu"** dù web công ty có viết vậy — thành phần công bố có SLES và Hương liệu |
+| "Đang bị viêm/nấm ngứa dùng được không?" | Sản phẩm hỗ trợ làm sạch và hỗ trợ kháng khuẩn, **không thay thế thuốc điều trị**. Nếu ngứa nhiều, khí hư bất thường, đau thì nên đi khám phụ khoa | ⚠️ Đây là mỹ phẩm — không nói "chữa/trị viêm phụ khoa" dù bảng báo giá dùng cụm "hỗ trợ điều trị" |
+| "Dùng hàng ngày có hại không?" | Sản phẩm có acid lactic giúp giữ pH vùng kín ở mức sinh lý, phù hợp vệ sinh hàng ngày — khác với dùng sữa tắm thường vốn làm pH tăng cao và dễ gây mất cân bằng | Đây là lý lẽ khoa học dễ hiểu, nên dùng làm trục chính |
+| "Chồng tôi dùng được không?" | Được — sản phẩm công bố rõ dùng cho cả nam và nữ | Đây là điểm Lactacyd/Dạ Hương không có |
+
+## Dao'Spa Mama — dung dịch xông tắm sau sinh
+
+| Từ chối/câu hỏi của NTD | Câu trả lời gợi ý | Ghi chú |
+|---|---|---|
+| "Sao đắt thế?" | Nếu so với Lovin'Skin Mama cùng phân khúc thì sản phẩm này **rẻ hơn**: ~51.300đ/100ml so với ~71.000đ/100ml khi mua hộp 3 lọ | ✅ Đây là sản phẩm hiếm hoi có lợi thế giá — không được bỏ qua lý lẽ này |
+| "Có hết đau mỏi người sau sinh không?" | Sản phẩm hỗ trợ giảm cảm giác đau mỏi nhờ bộ dược liệu kết hợp hơi ấm của nước. Nếu đau nhiều/kéo dài nên đi khám | ⚠️ Không nói "chữa khỏi đau xương khớp/hậu sản" |
+| "Dùng để tắm hay xông?" | Dùng được cả hai — pha vào nước ấm để tắm, hoặc xông. Khi xông, tinh dầu màng tang và chùa dù bay theo hơi nước tạo cảm giác thư giãn | — |
+| "Sau sinh bao lâu thì dùng được?" | ⚠️ Chưa có mốc thời gian chính thức trong tài liệu hiện có — xin phép hỏi lại thay vì tự đưa ra con số | Cần hỏi R&D/NVKD để chốt |
+| "Dùng để rửa vùng kín được không?" | Đây là dung dịch xông tắm toàn thân, không phải dung dịch vệ sinh phụ nữ. Nếu chị cần loại vệ sinh vùng kín thì có Yaocare Women | Cơ hội bán chéo hợp lý, đúng nhu cầu |
+
 ---
 
 ## Việc còn mở
 
-- Chưa có script cho các câu hỏi liên quan tới khuyến mãi/giá tại quầy vì phần khuyến mãi cho NTD vẫn đang chờ NVKD xác nhận (xem `Bộ sell-out kit theo sản phẩm (Elemis).md`).
+- Chưa có script cho các câu hỏi liên quan tới khuyến mãi/giá tại quầy vì phần khuyến mãi cho NTD vẫn đang chờ NVKD xác nhận (xem `Bộ sell-out kit theo sản phẩm.md`).

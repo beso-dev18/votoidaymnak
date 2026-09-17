@@ -40,7 +40,7 @@ Sản xuất tại Nhà máy Dược phẩm DKPharma, chi nhánh Bắc Ninh — 
 
 Kẽm oxyd nano 2%, chiết xuất rau má, chiết xuất ngải cứu, Aquaxyl.
 
-Cơ chế tác động chi tiết từng thành phần (đã phân tích theo từng bước) — xem `Bộ sell-out kit theo sản phẩm (Elemis).md`, mục 1.
+Cơ chế tác động chi tiết từng thành phần (đã phân tích theo từng bước) — xem `Bộ sell-out kit theo sản phẩm.md`, mục 1.
 
 ⚠️ Không có trích dẫn nghiên cứu khoa học/khảo nghiệm độc lập cụ thể (kiểu "được chứng minh trong bài báo X") như xịt muỗi — phần cơ chế dựa trên kiến thức dược liệu học phổ thông về từng hoạt chất (asiaticoside, kẽm oxyd...), không phải kết quả thử nghiệm riêng của sản phẩm này.
 

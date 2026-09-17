@@ -126,19 +126,24 @@ Nhi/
     └── 7. Hỗ trợ điểm bán/
         ├── Phân tích công việc.md
         ├── Câu hỏi làm rõ.md
-        ├── Bộ sell-out kit theo sản phẩm (Elemis).md  ← sell-out kit (POSM, cơ chế thành phần, script, giá/khuyến mãi) cho 4 SP sếp yêu cầu: sữa tắm, kem bôi, xịt muỗi, gạc rơ lưỡi
+        ├── Bộ sell-out kit theo sản phẩm.md  ← sell-out kit (POSM, cơ chế thành phần theo từng bước, script, giá/khuyến mãi) cho **toàn bộ 9 nhóm SP trong bảng báo giá OTC**: kem bôi, xịt muỗi, sữa tắm, gạc rơ lưỡi, dầu massage Oriky, bọt rửa tay, Curmilk, Yaocare Women, Dao'Spa Mama
         ├── Xử lý từ chối mua hàng - script cho NVBH.md  ← câu hỏi/từ chối thường gặp của NTD tại quầy + câu trả lời gợi ý, theo từng sản phẩm trong sell-out kit
         ├── Bài đào tạo sản phẩm cho NV shop (nói miệng 5-10 phút).md  ← bài nói đào tạo NV shop về thành phần/công dụng/lợi ích/khác biệt từng sản phẩm, dùng trước khi NV tự tư vấn NTD
         ├── Bài đào tạo sản phẩm cho NV shop (dạng gạch đầu dòng).md  ← cùng nội dung, rút gọn thành gạch đầu dòng để xem nhanh
         ├── Giới thiệu sản phẩm - Kem bôi da Elemis.md      ← dựng theo cấu trúc mẫu Xịt muỗi Elemis.pptx sếp cung cấp (nỗi đau KH, thông tin SP, công dụng, thành phần, USP, hướng dẫn dùng, cam kết, so sánh đối thủ, FAQ)
         ├── Giới thiệu sản phẩm - Sữa tắm gội Elemis.md     ← cùng cấu trúc, cho dòng sữa tắm/tắm gội
-        └── Giới thiệu sản phẩm - Gạc rơ lưỡi Elemis.md     ← cùng cấu trúc, cho gạc rơ lưỡi
+        ├── Giới thiệu sản phẩm - Gạc rơ lưỡi Elemis.md     ← cùng cấu trúc, cho gạc rơ lưỡi
+        ├── Giới thiệu sản phẩm - Dầu massage Oriky.md      ← cùng cấu trúc
+        ├── Giới thiệu sản phẩm - Bọt rửa tay Elemis.md     ← cùng cấu trúc
+        ├── Giới thiệu sản phẩm - Curmilk (cốm lợi sữa).md  ← cùng cấu trúc — ⚠️ TPBVSK, ngôn từ tư vấn chặt hơn (bắt buộc khuyến cáo "không phải là thuốc")
+        ├── Giới thiệu sản phẩm - Yaocare Women.md          ← cùng cấu trúc — SP cho mẹ, ⚠️ có mâu thuẫn marketing vs công bố (SLES/hương liệu)
+        └── Giới thiệu sản phẩm - Dao'Spa Mama.md           ← cùng cấu trúc — SP cho mẹ, là SP hiếm hoi có giá OTC rẻ hơn đối thủ trực tiếp
 Danh mục sản phẩm/                      ← phân loại sản phẩm công ty
 ├── Phân loại theo đối tượng.md         ← "Dành cho bé" / "Dành cho mẹ", theo tag website (collections/all)
 ├── Phân loại theo nhãn hàng.md         ← Elemis, Oriky, Curmilk, Yaocare, Cuperin, Dao'Spa Mama (theo tên trên web)
 ├── Phân loại theo mục đích sử dụng (cột F).md  ← Mỹ phẩm / TPBVSK / TTBYT, theo file công bố chính thức Thông tin sp DKX.xlsx (SCB/SĐK)
 ├── So sánh thị trường - Nhóm Dành cho bé.md    ← so sánh 8 sản phẩm "dành cho bé" với đối thủ (thành phần, công dụng công bố, giá, độ phổ biến) — có cảnh báo an toàn acid boric
-├── So sánh thị trường - Nhóm Dành cho mẹ.md    ← so sánh 8 sản phẩm "dành cho mẹ" với đối thủ — có phát hiện marketing mâu thuẫn công bố (Yaocare Women) và ghi chú thiếu dữ liệu thành phần (Dao'Spa Mama, Yaocare mama)
+├── So sánh thị trường - Nhóm Dành cho mẹ.md    ← so sánh 8 sản phẩm "dành cho mẹ" với đối thủ — có phát hiện marketing mâu thuẫn công bố (Yaocare Women); thành phần Dao'Spa Mama đã bổ sung từ bảng báo giá OTC, còn Yaocare mama vẫn thiếu
 ├── Bảng giá và chương trình OTC.md     ← giá bán lẻ + chương trình sell-in (mua X tặng Y) kênh OTC từ 01/04/2025, cùng ghi chú claim thật trên bao bì sản phẩm
 └── Câu hỏi làm rõ.md                   ← điểm chưa chắc chắn cần Nhi xác nhận
 ```

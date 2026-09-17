@@ -48,6 +48,70 @@ Bản rút gọn của `Bài đào tạo sản phẩm cho NV shop (nói miệng 
 - **Gợi ý chọn loại:** hương dưa lưới — thơm nhẹ; không mùi — hợp bé/gia đình nhạy mùi
 - ⚠️ Không nói "trị dứt điểm" nấm lưỡi/tưa lưỡi
 
+## 5. Dầu massage Oriky (60ml — 135.000đ)
+
+- **Thành phần chính:**
+  - Dầu hạt nho — kết cấu nhẹ, tạo độ trơn để massage lâu không kéo rát da bé
+  - Dầu cám gạo + dầu hạnh nhân — thấm vào lớp ngoài của da, bổ sung lipid cho lớp bảo vệ da còn mỏng ở trẻ nhỏ → nước bốc hơi chậm lại
+  - Chiết xuất dầu dừa (Capric Triglyceride) — giúp dầu dàn đều, thấm nhanh, không nặng dầu
+  - Vitamin E — chống oxy hoá, giữ dầu không ôi + bảo vệ da
+  - Tinh dầu tràm gió — toả hơi ấm, kháng khuẩn nhẹ, góp phần giúp bé thư giãn
+- **Công dụng:** massage giúp bé thư giãn, ngủ ngoan hơn; dưỡng ẩm, làm mềm da
+- **Khác biệt:** 3 loại dầu thực vật kết hợp — Johnson's dùng dầu khoáng, Chicco chỉ có cám gạo đơn lẻ
+- **So giá:** ~112.500đ/50ml vs Johnson's ~70.000-100.000đ, Chicco ~82.000đ
+- ⚠️ Có **BHT** (chất chống ôi dầu) — Johnson's và Chicco đều cam kết không có → **không nói "100% tự nhiên"**, khách hỏi thì trả lời thẳng
+
+## 6. Bọt rửa tay Elemis (250ml — 245.000đ)
+
+- **Thành phần chính:**
+  - Cocamidopropyl Betaine (gốc dừa) — chất làm sạch dịu nhẹ: đầu hút dầu bám bụi bẩn, đầu hút nước kéo trôi khi xả; ít lấy đi dầu tự nhiên của da
+  - Trà xanh (EGCG) + tinh dầu sả chanh — ức chế vi khuẩn trên da tay
+  - Cúc la mã — làm dịu da sau khi rửa
+  - **Bộ dưỡng ẩm kép Aquaxyl – Glycerin – Lô hội** — Glycerin giữ nước bề mặt, Aquaxyl kích thích da tự giữ nước, lô hội làm dịu
+- **Công dụng:** làm sạch, hỗ trợ kháng khuẩn, giữ da tay mềm mại
+- **Khác biệt (USP mạnh nhất):** bộ dưỡng ẩm kép có Aquaxyl — Chicco không có → rửa nhiều lần/ngày vẫn đỡ khô
+- **Tiện lợi:** dạng bọt sẵn, bé tự dùng được, tiết kiệm lượng dùng
+- **So giá:** ~98.000đ/100ml vs Chicco ~60.000đ/100ml (~1,6 lần)
+- ⚠️ Không nói "kháng khuẩn mạnh hơn" (chưa có số liệu), không nói "diệt khuẩn 99%"
+
+## 7. Curmilk — cốm lợi sữa (hộp 20 gói — 235.000đ)
+
+⚠️ **TPBVSK, không phải mỹ phẩm/thuốc** — ngôn từ chặt hơn hẳn.
+
+- **Thành phần chính (3 lớp tác động):**
+  - Chùm ngây — giàu vitamin A, C, canxi, sắt → bổ sung nền dinh dưỡng cho mẹ (thiếu dinh dưỡng là nguyên nhân phổ biến gây ít sữa)
+  - Thông thảo — dược liệu YHCT có công năng thông tuyến sữa → hỗ trợ giảm nguy cơ tắc sữa
+  - Curcumin 100mg — chống oxy hoá, hỗ trợ kháng viêm → liên quan tới nguy cơ viêm khi tắc sữa kéo dài
+- **Công dụng:** hỗ trợ cải thiện ít sữa; hỗ trợ giảm nguy cơ tắc sữa
+- **Khác biệt:** có Curcumin + Piperin (theo hồ sơ công bố) — Mabio không có
+- ⚠️ **Bắt buộc nói:** "Thực phẩm này không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh"
+- ⚠️ **Không hứa mốc thời gian** ("3 ngày có sữa")
+- ⚠️ Có sữa bột trong thành phần → **chủ động hỏi** dị ứng đạm sữa bò/không dung nạp lactose trước khi bán
+- ⚠️ Mabio công bố phạm vi rộng hơn (giấc ngủ, stress) — nói trung thực cả 2 chiều
+
+## 8. Yaocare Women — dung dịch vệ sinh phụ nữ (100ml — 135.000đ)
+
+- **Trục tư vấn chính — cơ chế pH:** vùng kín khoẻ có pH 3,8-4,5 do lợi khuẩn tạo ra → sữa tắm/xà phòng có tính kiềm làm pH tăng → lợi khuẩn giảm → vi khuẩn/nấm gây hại phát triển (ngứa, khí hư, mùi) → **acid lactic** trong sản phẩm giữ pH ở mức sinh lý
+- **Thành phần khác:**
+  - Lá trầu không (chavicol, eugenol) — kháng khuẩn, kháng nấm → giảm ngứa, giảm mùi
+  - Cao nghệ đắng + bạch đồng nữ — dược liệu YHCT cho vấn đề phụ khoa, không có ở Lactacyd/Dạ Hương
+  - Lô hội — làm dịu; tinh dầu oải hương — tạo mùi
+- **USP:** công bố **dùng được cho cả nam và nữ** — đối thủ chuyên biệt cho nữ
+- **So giá:** 135.000đ/100ml vs Dạ Hương 30.000đ/100ml (~4,5 lần)
+- ⚠️ **Không nói "không hoá chất/không hương liệu"** — thành phần công bố có SLES + Hương liệu (web công ty viết sai)
+- ⚠️ **Không nói "chữa/trị viêm phụ khoa"** — là mỹ phẩm; khách có triệu chứng nặng → khuyên đi khám
+
+## 9. Dao'Spa Mama — xông tắm sau sinh (hộp 3 lọ x 250ml — 385.000đ)
+
+- **Thành phần:** 5 dịch chiết dược liệu vùng cao — cơm cháy, hoa ông lão, liên đằng hoa nhỏ, chùa dù, màng tang (bộ dược liệu theo hướng bài tắm người Dao, nhóm "khu phong trừ thấp")
+- **Cơ chế theo 2 đường cùng lúc:**
+  - Qua da (khi tắm): cơm cháy + hoa ông lão + liên đằng hoa nhỏ tiếp xúc da diện rộng, kết hợp hơi ấm nước làm giãn mạch ngoại vi → hỗ trợ giảm đau mỏi
+  - Qua hô hấp (khi xông): màng tang + chùa dù bay theo hơi nước → kháng khuẩn giảm mùi cơ thể + tạo cảm giác thư giãn
+- **Công dụng:** làm sạch da, hỗ trợ kháng khuẩn/khử mùi, làm ấm da, thư giãn, hỗ trợ phục hồi da/tóc sau sinh
+- ✅ **USP mạnh nhất — giá:** ~51.300đ/100ml (hộp 3 lọ), **rẻ hơn** Lovin'Skin Mama ~71.000đ/100ml. Sản phẩm hiếm hoi của công ty có giá tốt hơn đối thủ trực tiếp
+- ⚠️ Cơ chế theo YHCT, chưa có nghiên cứu lâm sàng riêng → chỉ nói "hỗ trợ", **không nói "chữa"** đau xương khớp/hậu sản
+- **Bán chéo:** khách hỏi rửa vùng kín → đây là xông tắm toàn thân, giới thiệu Yaocare Women
+
 ---
 
 ## Việc còn mở

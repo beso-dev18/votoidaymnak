@@ -36,7 +36,7 @@ Theo đúng câu công bố chính thức của công ty: "Giúp làm sạch và
 
 Xylitol, NaCl, Glycerin, Natri bicarbonat, acid boric, dịch chiết rau ngót, chè xanh, hẹ (bản hương dưa lưới) hoặc cúc la mã (bản không mùi).
 
-Cơ chế tác động chi tiết từng thành phần — xem `Bộ sell-out kit theo sản phẩm (Elemis).md`, mục 4.
+Cơ chế tác động chi tiết từng thành phần — xem `Bộ sell-out kit theo sản phẩm.md`, mục 4.
 
 ⚠️ Về an toàn acid boric: sản phẩm đã qua kiểm nghiệm an toàn trước khi lưu hành (theo thông tin nội bộ công ty). Không có trích dẫn khảo nghiệm độc lập công khai như Viện Sốt rét - Ký sinh trùng - Côn trùng Trung ương đã khảo nghiệm cho xịt muỗi — nếu cần dữ liệu tương đương để đưa vào tài liệu chính thức, nên hỏi R&D/QA.
 

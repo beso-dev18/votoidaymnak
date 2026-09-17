@@ -11,16 +11,17 @@
 
 | Tiêu chí | **Dao'Spa Mama (DKX)** | **Lovin'Skin Mama** | **Lovely** |
 |---|---|---|---|
-| Thành phần chính | ⚠️ Không có dữ liệu trong hồ sơ công bố | Sài đất, lá khế, rau má, nghệ vàng; nghệ tây/tinh dầu cam sả hoặc oải hương | Không tìm được chi tiết |
-| Trùng hoạt chất với DKX? | — | Không xác định được (thiếu dữ liệu DKX) | Không xác định được |
-| Điểm khác biệt riêng | Không xác định được | Có nghệ tây (saffron) dưỡng trắng | Giá rất rẻ so với phân khúc |
+| Thành phần chính | ✅ **Đã có (bổ sung 17/09/2026 từ bảng báo giá OTC):** dịch chiết cơm cháy (Sambucus javanica), hoa ông lão (Clematis uncinata), liên đằng hoa nhỏ (Illigera parviflora), chùa dù (Elsholtzia penduliflora), màng tang (Litsea cubeba) | Sài đất, lá khế, rau má, nghệ vàng; nghệ tây/tinh dầu cam sả hoặc oải hương | Không tìm được chi tiết |
+| Trùng hoạt chất với DKX? | — | **Không trùng** — 2 bộ dược liệu hoàn toàn khác nhau | Không xác định được |
+| Điểm khác biệt riêng | Bộ dược liệu vùng cao theo hướng bài tắm người Dao (khu phong trừ thấp) | Có nghệ tây (saffron) dưỡng trắng | Giá rất rẻ so với phân khúc |
 | Công dụng công bố (đầy đủ) | Vệ sinh cơ thể, làm sạch da, loại bỏ tế bào chết; hỗ trợ kháng khuẩn, tiêu diệt vi khuẩn gây mùi; thư giãn da; làm ấm da, bảo vệ hàng rào ẩm; phục hồi diện mạo da/tóc sau sinh | Làm sạch dịu nhẹ, kháng khuẩn, ngừa viêm phụ khoa, làm sáng da | Làm sạch, an toàn cho da |
 | Quy cách/Giá | 250ml — 239.000đ | 260ml — 185.000đ | 500ml — 99.500đ |
 | Giá quy đổi /100ml | ~95.600đ | ~71.000đ | ~19.900đ |
 | Độ phổ biến | Không có dữ liệu | Không có dữ liệu cụ thể | Không có dữ liệu cụ thể |
 
-**Công dụng DKX có mà đối thủ không có:** không xác định được — thiếu dữ liệu thành phần DKX nên không thể so sánh công bằng.
-**⚠️ Lỗ hổng dữ liệu:** file công bố không ghi thành phần cho sản phẩm này — cần Nhi bổ sung từ hồ sơ gốc/nhãn sản phẩm nếu muốn so sánh sâu hơn.
+**Công dụng DKX có mà đối thủ không có:** hỗ trợ phục hồi diện mạo da/tóc sau sinh và làm ấm da — Lovin'Skin Mama/Lovely không công bố riêng 2 điểm này.
+**✅ Lỗ hổng dữ liệu đã được lấp:** thành phần lấy từ bảng báo giá sản phẩm OTC (xem `Bảng giá và chương trình OTC.md`) — trước đây file công bố để trống mục này.
+**Giá theo kênh OTC:** hộp 3 lọ x 250ml = 385.000đ → **~51.300đ/100ml, rẻ hơn Lovin'Skin Mama (~71.000đ/100ml)** — khác hẳn kết luận khi tính theo giá web (95.600đ/100ml). Đây là sản phẩm hiếm hoi của DKX có giá tốt hơn đối thủ trực tiếp.
 
 ---
 
@@ -130,7 +131,7 @@
 
 ## Tổng kết chung — nhóm Dành cho mẹ
 
-1. **2 sản phẩm hoàn toàn thiếu dữ liệu thành phần trong hồ sơ công bố:** Dao'Spa Mama và Yaocare Mama — cần bổ sung nếu muốn so sánh/kiểm tra đầy đủ.
+1. ~~**2 sản phẩm hoàn toàn thiếu dữ liệu thành phần trong hồ sơ công bố:** Dao'Spa Mama và Yaocare Mama~~ → **Đã lấp 1/2 (17/09/2026):** thành phần Dao'Spa Mama lấy được từ bảng báo giá OTC. **Còn lại Yaocare Mama** vẫn thiếu — cần bổ sung.
 2. **Thêm 1 trường hợp marketing mâu thuẫn với công bố chính thức:** Yaocare Women quảng cáo "không chứa hương liệu" nhưng thành phần có SLES và Hương liệu — nâng tổng số trường hợp mâu thuẫn phát hiện được (tính cả nhóm Dành cho bé) lên **4 sản phẩm**.
 3. **2 sản phẩm chứa chất bảo quản/phẩm màu tổng hợp đáng chú ý:** Gel vệ sinh phụ nữ Oriky (Ponceau 4R), Thảo dược xông vùng kín Oriky (Methylparaben + Sunset Yellow FCF).
 4. **Giá vẫn cao hơn đối thủ ở hầu hết sản phẩm** — riêng Dạ Hương (phân khúc phổ thông) rẻ hơn Yaocare Women/Gel Oriky tới 5-8 lần/100ml.
@@ -147,7 +148,7 @@
 - [CumarGold New - Nhà thuốc Long Châu](https://nhathuoclongchau.com.vn/thuc-pham-chuc-nang/cumargold-nano-curcumin-new-4x10-32939.html)
 
 ## Việc cần làm tiếp
-1. Bổ sung thành phần đầy đủ cho Dao'Spa Mama và Yaocare Mama (hiện thiếu trong hồ sơ).
+1. ~~Bổ sung thành phần đầy đủ cho Dao'Spa Mama~~ (đã có từ bảng báo giá OTC) — **còn lại Yaocare Mama** vẫn thiếu trong hồ sơ.
 2. Đối chiếu marketing Yaocare Women với công bố chính thức (mâu thuẫn về hương liệu/SLES) với bộ phận công bố/MKT.
 3. Kiểm tra định vị "tự nhiên/không hoá chất" của dòng Oriky có áp dụng cho Gel vệ sinh và Xông vùng kín không, vì 2 sản phẩm này có phẩm màu/paraben tổng hợp.
 4. Nếu cần, tìm thêm đối thủ nano curcumin đúng công dụng "làm đẹp da/lành vết thương" cho Cuperin.
