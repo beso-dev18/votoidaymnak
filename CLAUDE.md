@@ -145,7 +145,7 @@ Danh mục sản phẩm/                      ← phân loại sản phẩm côn
 ├── So sánh thị trường - Nhóm Dành cho bé.md    ← so sánh 8 sản phẩm "dành cho bé" với đối thủ (thành phần, công dụng công bố, giá, độ phổ biến) — có cảnh báo an toàn acid boric
 ├── So sánh thị trường - Nhóm Dành cho mẹ.md    ← so sánh 8 sản phẩm "dành cho mẹ" với đối thủ — có phát hiện marketing mâu thuẫn công bố (Yaocare Women); thành phần Dao'Spa Mama đã bổ sung từ bảng báo giá OTC, còn Yaocare mama vẫn thiếu
 ├── Bảng giá và chương trình OTC.md     ← giá bán lẻ + chương trình sell-in (mua X tặng Y) kênh OTC từ 01/04/2025, cùng ghi chú claim thật trên bao bì sản phẩm
-├── Phân tích công dụng sản phẩm.md     ← (kèm bản .docx cùng tên xuất từ file này) với 13 SP trong bảng giá OTC: mỗi công dụng chính = 1 dòng, nêu rõ hoạt chất (tên thông dụng/hoá học) + dược liệu chứa nó + cơ chế; bảng hoạt chất lặp lại — tài liệu dùng để bán hàng, không có phần cảnh báo/caveat
+├── Phân tích công dụng sản phẩm.md     ← (kèm bản .docx cùng tên xuất từ file này) với 13 SP trong bảng giá OTC. **Đã sửa theo comment của chị Hoàng Thuý Quỳnh (17/09/2026):** mỗi sản phẩm trình bày dạng **bảng 3 cột Thành phần – Cơ chế – Tác dụng** dưới dòng "Tác dụng sản phẩm:"; bỏ phần phạm vi/nguồn ở đầu và bảng tổng hợp hoạt chất lặp lại ở cuối — tài liệu dùng để bán hàng, không có phần cảnh báo/caveat
 └── Câu hỏi làm rõ.md                   ← điểm chưa chắc chắn cần Nhi xác nhận
 ```
 
