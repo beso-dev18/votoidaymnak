@@ -131,42 +131,77 @@ Bao bì hộp 500ml có in sẵn tem **"Tiết kiệm 75.000đ"** — có thể 
 
 ⚠️ Cách viết dưới đây giải thích trực tiếp cơ chế thật của từng hoạt chất (ghi tên cụ thể), không dùng ví von — có thể dùng gần như nguyên văn khi tư vấn.
 
-Rôm sảy hình thành khi lỗ thoát mồ hôi trên da bị bụi bẩn và tế bào chết bít lại, khiến mồ hôi không thoát ra được và ứ lại dưới da, gây sưng đỏ và ngứa tại chỗ. Các thành phần thảo dược trong sữa tắm tác động theo 3 phần: làm sạch để khơi thông lỗ chân lông, giảm viêm tại các nốt đã nổi, và duy trì kháng khuẩn sau khi tắm.
+**Dòng thường và Elemis Gold là 2 công thức khác nhau** (theo hồ sơ công bố + trang sản phẩm duockhoaxanh.com, đối chiếu 17/09/2026):
 
-**Chè xanh và sả chanh — quá trình tác động (trong lúc tắm)**
+| | Dòng thường 200/350/500ml | Elemis Gold 220ml |
+|---|---|---|
+| Dịch chiết thảo dược | Chè xanh, chanh, sài đất, khổ qua, kinh giới | Hương nhu, kim ngân, chè xanh |
+| Tinh dầu | Sả chanh, mùi, tràm gió | Sả chanh, mùi |
+| Thành phần khác | Diệp lục tố, papain | Papain, glycerin |
+| Thế mạnh | Bộ thảo dược ngừa rôm sảy (sài đất, khổ qua, kinh giới) | Kháng viêm (kim ngân) + dưỡng ẩm (glycerin) |
 
-1. Khi nước tắm tiếp xúc với da, nhiệt độ ấm và tác động cơ học của việc tắm bắt đầu làm mềm lớp bụi/tế bào chết đang bít miệng lỗ chân lông.
-2. Đồng thời, **EGCG** (từ chè xanh) và **citral** (từ sả chanh) tiếp xúc với bề mặt da và ức chế vi khuẩn thường trú trên da (như tụ cầu) — loại vi khuẩn có thể phát triển mạnh khi lỗ chân lông bị bít và làm viêm nặng thêm.
-3. Lớp bụi/tế bào chết bong ra, mồ hôi trong ống tuyến được khơi thông và thoát ra dễ hơn.
-4. Kết quả: giảm số lượng vi khuẩn trên bề mặt da và giảm khả năng lỗ chân lông tiếp tục bị bít trong khi tắm.
+Rôm sảy hình thành khi lỗ thoát mồ hôi trên da bị bụi bẩn và tế bào chết bít lại, khiến mồ hôi không thoát ra được và ứ lại dưới da, gây sưng đỏ và ngứa tại chỗ. Các thành phần tác động theo 3 phần: làm sạch để khơi thông lỗ chân lông, kháng khuẩn trên bề mặt da, và giảm viêm tại các nốt đã nổi.
+
+#### Dòng thường (200/350/500ml)
+
+**Chanh và papain — quá trình làm sạch (trong lúc tắm)**
+
+1. Nước ấm và thao tác tắm làm mềm lớp bụi/tế bào chết đang bít miệng lỗ chân lông.
+2. **Acid citric** (chanh) làm sạch nhẹ các vảy trên da đầu; **papain** (enzyme từ đu đủ) cắt liên kết giữ tế bào chết trên bề mặt da nên chúng bong ra mà không cần chà xát.
+3. Kết quả: lớp bít tắc bong ra, mồ hôi trong ống tuyến thoát ra dễ hơn — đây là bước xử lý gốc rễ của rôm sảy.
+
+**Chè xanh, sả chanh, kinh giới, tràm gió — quá trình kháng khuẩn (trong lúc tắm)**
+
+1. **EGCG** (chè xanh) và **citral** (sả chanh) tiếp xúc với bề mặt da và ức chế vi khuẩn thường trú (như tụ cầu) — loại vi khuẩn phát triển mạnh khi lỗ chân lông bị bít và làm viêm nặng thêm.
+2. **Elsholtzia ketone** (tinh dầu kinh giới) và **cineol** (tinh dầu tràm gió) phá màng tế bào vi khuẩn khi tiếp xúc trực tiếp, bổ sung cho 2 hoạt chất trên.
+3. Cineol và citral bay hơi trên da tạo cảm giác mát và là nguồn mùi thơm tự nhiên; mùi citral còn lưu trên da là mùi muỗi tránh.
+4. Kết quả: giảm số lượng vi khuẩn trên bề mặt da, da mát và thơm sau tắm.
 
 **Sài đất và khổ qua — quá trình tác động (với các nốt rôm sảy đã nổi)**
 
 1. Tại các nốt rôm sảy đã hình thành (da đang sưng đỏ, ngứa), **wedelolactone** trong sài đất tiếp xúc với vùng da này và làm giảm phản ứng sưng viêm tại chỗ.
 2. Mạch máu tại nốt rôm sảy bớt giãn, do đó nốt bớt đỏ; đồng thời cảm giác ngứa giảm bớt.
-3. Khổ qua tiếp xúc với cùng vùng da và bổ sung khả năng kháng khuẩn nhẹ, hạn chế vi khuẩn xâm nhập vào nốt da đã tổn thương hàng rào bảo vệ.
+3. **Momordicin** (khổ qua) tiếp xúc với cùng vùng da và bổ sung khả năng kháng khuẩn, hạn chế vi khuẩn xâm nhập vào nốt da đã tổn thương hàng rào bảo vệ.
 4. Kết quả: nốt rôm sảy bớt sưng đỏ, bé bớt ngứa, giảm nguy cơ nốt rôm sảy bị nhiễm khuẩn nặng thêm thành mụn nhọt.
 
-**Kinh giới và tràm gió — quá trình tác động (kéo dài sau khi tắm)**
+**Tinh dầu mùi và diệp lục tố — làm dịu, giữ ẩm, khử mùi**
 
-1. Trong lúc tắm, tinh dầu kinh giới và tràm gió tiếp xúc với da như các hoạt chất khác.
-2. Khác với các chất tan trong nước bị rửa trôi hoàn toàn khi xả nước, một phần tinh dầu của 2 thành phần này bám lại trên bề mặt da sau khi tắm xong.
-3. Phần tinh dầu còn lại tiếp tục duy trì khả năng kháng khuẩn trên da trong vài giờ tiếp theo.
-4. Kết quả: hạn chế vi khuẩn phát triển trở lại và lỗ chân lông bị bít lại trong ngày, đặc biệt hữu ích với bé ra nhiều mồ hôi sau khi tắm.
+1. **Linalool** (tinh dầu mùi) làm dịu da; dịch chiết thảo dược dạng nước không kéo lipid tự nhiên khỏi da như xà phòng kiềm nên da không khô ráp sau tắm.
+2. **Chlorophyllin** (diệp lục tố) cùng EGCG trung hoà gốc tự do trên bề mặt da và hút mùi mồ hôi.
 
-**Riêng Elemis Gold — kim ngân và hương nhu**
+#### Elemis Gold (220ml, bé từ 6 tháng)
 
-Kim ngân (chứa **chlorogenic acid**, **luteolin**) tiếp xúc với da và có hoạt tính kháng viêm mạnh hơn nhóm thảo dược còn lại theo tài liệu — đây là thành phần **chỉ có ở Elemis Gold, không có ở Dr.Papie và Kutieskin**, nên khi khách hỏi vì sao Gold đắt hơn, đây là câu trả lời cụ thể. Hương nhu bổ sung thêm khả năng kháng khuẩn ngoài da theo cùng cơ chế tiếp xúc trực tiếp như các tinh dầu khác.
+**Kim ngân — quá trình kháng viêm (điểm riêng của Gold)**
 
-⚠️ Cần trung thực về 2 điểm: (1) phần lớn các thảo dược còn lại (chè xanh, sài đất, khổ qua, kinh giới, sả chanh, tràm gió) có công dụng khá giống nhau — kháng khuẩn nhẹ và kháng viêm nhẹ — nên sản phẩm đối thủ dùng thảo dược tương tự cũng có công dụng tương tự, không nên khẳng định sản phẩm này vượt trội hoàn toàn; (2) Elemis Gold có thêm SLES (chất tạo bọt tổng hợp) trong thành phần công bố, không phải "100% thảo dược, tạo bọt tự nhiên" như quảng cáo trên web — không nhắc lại claim này khi tư vấn.
+1. **Acid chlorogenic** và **luteolin** (kim ngân) tiếp xúc với vùng da đang nổi rôm/mẩn và ức chế các chất gây viêm.
+2. Mạch máu tại chỗ bớt giãn, nốt bớt đỏ, cảm giác ngứa giảm.
+3. Kim ngân **chỉ có ở Elemis Gold, không có ở dòng thường, Dr.Papie và Kutieskin** — khi khách hỏi vì sao Gold đắt hơn, đây là câu trả lời cụ thể.
+
+**Hương nhu, chè xanh, sả chanh — quá trình kháng khuẩn**
+
+1. **Eugenol** (tinh dầu hương nhu) phá màng tế bào vi khuẩn khi tiếp xúc trực tiếp.
+2. **EGCG** (chè xanh) và **citral** (sả chanh) ức chế vi khuẩn thường trú trên da như ở dòng thường.
+3. Mùi citral và eugenol còn lưu trên da sau tắm là mùi muỗi tránh — căn cứ cho công dụng "hạn chế muỗi/côn trùng đốt" trong công bố Gold.
+
+**Papain, glycerin, tinh dầu mùi — làm sạch và dưỡng ẩm**
+
+1. **Papain** cắt liên kết giữ tế bào chết → bong nhẹ, lỗ chân lông thông thoáng.
+2. **Glycerin** hút và giữ nước trên bề mặt da; **linalool** (tinh dầu mùi) làm dịu da và tạo mùi thơm.
+3. Kết quả: Gold thiên về dưỡng ẩm hơn dòng thường — phù hợp bé da khô, bé từ 6 tháng.
+
+⚠️ Cần trung thực về 3 điểm: (1) Gold **không chứa** sài đất, khổ qua, kinh giới, tràm gió — không nói "Gold có mọi thứ dòng thường có, thêm kim ngân"; (2) các thảo dược kháng khuẩn/kháng viêm nhẹ ở cả 2 dòng có ở nhiều sản phẩm đối thủ dùng thảo dược tương tự, không nên khẳng định vượt trội hoàn toàn; (3) Elemis Gold có thêm SLES (chất tạo bọt tổng hợp) trong thành phần công bố, không phải "100% thảo dược, tạo bọt tự nhiên" như quảng cáo trên web — không nhắc lại claim này khi tư vấn.
 
 ### Áp dụng vào tình huống thực tế — Rôm sảy / mẩn ngứa do nóng, bí mồ hôi
 
-Khi tắm, chè xanh và sả chanh làm sạch vi khuẩn và giúp khơi thông lỗ chân lông đang bị bít — đây là bước xử lý gốc rễ chứ không chỉ làm sạch bề ngoài. Với các nốt rôm sảy đã nổi, sài đất và khổ qua giúp giảm viêm, giảm sưng đỏ và ngứa. Sau khi tắm, kinh giới và tràm gió tiếp tục duy trì tác dụng kháng khuẩn trong vài giờ, giúp hạn chế rôm sảy nổi lại trong ngày dù bé ra mồ hôi nhiều. Lưu ý: tắm chỉ xử lý được phần vi khuẩn và bít tắc trên da — mặc đồ thoáng và giữ phòng mát vẫn là yếu tố quan trọng để ngăn rôm sảy tái phát, nằm ngoài khả năng của sản phẩm.
+**Dòng thường:** khi tắm, chanh và papain làm bong lớp bít tắc, chè xanh/sả chanh/kinh giới/tràm gió làm sạch vi khuẩn — đây là bước xử lý gốc rễ chứ không chỉ làm sạch bề ngoài. Với các nốt rôm sảy đã nổi, sài đất và khổ qua giúp giảm viêm, giảm sưng đỏ và ngứa. Chọn dòng thường khi vấn đề chính của bé là rôm sảy, mụn nhọt do nóng.
+
+**Elemis Gold:** kim ngân giảm viêm tại nốt mẩn, hương nhu/chè xanh/sả chanh kháng khuẩn, glycerin giữ ẩm. Chọn Gold khi bé từ 6 tháng, da khô hoặc hay mẩn ngứa, hoặc khách sẵn sàng trả cao hơn cho thành phần kháng viêm riêng.
+
+Lưu ý: tắm chỉ xử lý được phần vi khuẩn và bít tắc trên da — mặc đồ thoáng và giữ phòng mát vẫn là yếu tố quan trọng để ngăn rôm sảy tái phát, nằm ngoài khả năng của sản phẩm.
 
 | Hạng mục | Nội dung |
 |---|---|
-| USP thật | Elemis Gold có thành phần kim ngân — không thấy ở Dr.Papie/Kutieskin |
+| USP thật | Dòng thường: bộ 5 thảo dược ngừa rôm sảy + papain làm sạch. Elemis Gold: kim ngân (kháng viêm — không thấy ở Dr.Papie/Kutieskin) + glycerin dưỡng ẩm |
 | ⚠️ Điểm cần né (riêng Elemis Gold) | Web ghi "hệ tạo bọt tự nhiên, 100% thảo dược, không hương liệu hoá học" nhưng có SLES; web còn ghi thêm công dụng "viêm da, hăm da" **không có trong SCB chính thức** — không đưa 2 claim này vào tài liệu bán hàng |
 | Điểm yếu cần chuẩn bị | Giá quy đổi ~109.000-145.000đ/100ml, cao hơn Dr.Papie (~50.000đ) và Kutieskin (~64.000đ) 1.7-3 lần; công dụng công bố phần lớn trùng lặp đối thủ, Kutieskin công bố phạm vi rộng hơn (thêm hăm da, viêm da) |
 | Script tư vấn | USP thuyết phục giá cao: nguồn dược liệu + nhà máy đạt chuẩn GMP-WHO (DK Pharma) — lợi thế cạnh tranh thật, không phải công dụng riêng biệt |

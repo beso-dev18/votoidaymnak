@@ -32,7 +32,7 @@ Bản rút gọn của `Bài đào tạo sản phẩm cho NV shop (nói miệng 
 
 - **Giá:** 200ml 150.000đ · 350ml 210.000đ · 500ml 275.000đ · Gold 220.000đ
 - **Thành phần dòng thường:** chè xanh, sài đất, khổ qua, kinh giới, sả chanh, tràm gió
-- **Thành phần riêng Gold:** thêm kim ngân, hương nhu — Dr.Papie/Kutieskin không có
+- **Gold là công thức riêng (không phải dòng thường + thêm):** kim ngân, hương nhu, chè xanh, sả chanh, mùi, papain, glycerin — thế mạnh kháng viêm (kim ngân) + dưỡng ẩm (glycerin); kim ngân Dr.Papie/Kutieskin không có. Gold **không có** sài đất, khổ qua, kinh giới, tràm gió
 - **Công dụng:** làm sạch da, hỗ trợ kháng khuẩn, hỗ trợ ngừa rôm sảy/mụn ngọt
 - **Độ tuổi (quan trọng, hỏi trước khi tư vấn):** dòng thường dùng từ sơ sinh; **Gold chỉ từ 6 tháng tuổi trở lên**
 - **So giá:** 500ml có giá quy đổi tốt nhất (~55.000đ/100ml) — gần ngang Dr.Papie (~49.900đ), rẻ hơn Kutieskin (~64.000đ); các quy cách khác và Gold cao hơn 2 đối thủ này

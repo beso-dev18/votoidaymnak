@@ -42,7 +42,7 @@ Một lưu ý quan trọng về độ tuổi: sản phẩm dùng được cho **
 
 "Sản phẩm thứ ba là dòng **sữa tắm gội thảo dược Elemis**, có 4 quy cách: 200ml giá 150.000đ, 350ml giá 210.000đ, 500ml giá 275.000đ, và bản cao cấp hơn là Gel tắm gội Elemis Gold 220ml giá 220.000đ.
 
-Thành phần chính của dòng thường gồm **chè xanh, sài đất, khổ qua, kinh giới, sả chanh và tràm gió** — đều là những thảo dược quen thuộc, có tính kháng khuẩn và kháng viêm nhẹ, giúp làm mát da. Riêng bản Elemis Gold có thêm 2 thành phần đặc biệt là **kim ngân** và **hương nhu** — đây chính là điểm khác biệt so với các hãng như Dr.Papie hay Kutieskin, vì họ không có kim ngân trong công thức.
+Thành phần chính của dòng thường gồm **chè xanh, chanh, sài đất, khổ qua, kinh giới, sả chanh, tinh dầu mùi và tràm gió** — đều là những thảo dược quen thuộc, có tính kháng khuẩn và kháng viêm nhẹ, giúp làm mát da. Bản Elemis Gold là **công thức riêng, không phải dòng thường cộng thêm**: gồm **kim ngân, hương nhu, chè xanh, sả chanh, tinh dầu mùi, papain và glycerin** — thế mạnh của Gold là kim ngân kháng viêm và glycerin dưỡng ẩm; kim ngân chính là điểm khác biệt so với các hãng như Dr.Papie hay Kutieskin, vì họ không có kim ngân trong công thức. Các bạn nhớ: Gold không có sài đất, khổ qua, kinh giới, tràm gió — nên đừng nói với khách là Gold có mọi thứ dòng thường có.
 
 Về công dụng, sản phẩm giúp làm sạch da, hỗ trợ kháng khuẩn, hỗ trợ ngừa rôm sảy và mụn ngọt cho bé. Có một điểm mình cần đặc biệt lưu ý các bạn: dòng thường (200/350/500ml) an toàn dùng **từ sơ sinh**, nhưng riêng **Elemis Gold chỉ dành cho bé từ 6 tháng tuổi trở lên** — hai dòng này khác nhau về độ tuổi, nên khi tư vấn phải hỏi tuổi bé trước để giới thiệu đúng loại.
 

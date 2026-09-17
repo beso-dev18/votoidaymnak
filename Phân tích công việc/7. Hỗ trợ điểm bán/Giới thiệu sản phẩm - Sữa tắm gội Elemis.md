@@ -36,7 +36,7 @@ Sản xuất tại Nhà máy Dược phẩm DKPharma — dòng thường tại c
 
 ## 6. Thành phần chính
 
-Chè xanh, sài đất, khổ qua, kinh giới, sả chanh, tràm gió — riêng Elemis Gold có thêm kim ngân, hương nhu.
+Dòng thường: chè xanh, chanh, sài đất, khổ qua, kinh giới, sả chanh, tinh dầu mùi, tràm gió, diệp lục tố, papain. Elemis Gold là công thức riêng: hương nhu, kim ngân, chè xanh, sả chanh, tinh dầu mùi, papain, glycerin (theo hồ sơ công bố + trang sản phẩm duockhoaxanh.com, đối chiếu 17/09/2026).
 
 Cơ chế tác động chi tiết từng thành phần — xem `Bộ sell-out kit theo sản phẩm.md`, mục 3.
 
@@ -63,7 +63,7 @@ Cơ chế tác động chi tiết từng thành phần — xem `Bộ sell-out ki
 
 | Tiêu chí | Tắm gội Elemis (dòng thường) | Elemis Gold | Dr.Papie | Kutieskin |
 |---|---|---|---|---|
-| Thảo dược chính | Chè xanh, sài đất, khổ qua, kinh giới, sả chanh, tràm gió | + Kim ngân, hương nhu | 9 loại thảo dược "chuẩn Âu" | Nano Curcumin + 12 thảo dược |
+| Thảo dược chính | Chè xanh, chanh, sài đất, khổ qua, kinh giới, sả chanh, mùi, tràm gió | Hương nhu, kim ngân, chè xanh, sả chanh, mùi (công thức riêng) | 9 loại thảo dược "chuẩn Âu" | Nano Curcumin + 12 thảo dược |
 | Điểm khác biệt riêng | — | Kim ngân (không thấy ở 2 đối thủ) | Không xà phòng | Nano Curcumin |
 | Giá quy đổi/100ml | 55.000-75.000đ tuỳ quy cách (giá OTC) | ~100.000đ | ~49.900đ | ~64.000đ |
 | Độ phổ biến | Chưa có mặt trên Pharmacity | Chưa có mặt trên Pharmacity | 4.9/5 sao, 124.956 lượt thích | Bán tại Con Cưng, Kids Plaza, Long Châu |
@@ -75,7 +75,7 @@ Cơ chế tác động chi tiết từng thành phần — xem `Bộ sell-out ki
 1. **Sao đắt hơn Dr.Papie/Kutieskin?** Tuỳ quy cách — quy cách 500ml có giá gần ngang Dr.Papie và rẻ hơn Kutieskin; các quy cách khác và Gold cao hơn, bù lại bằng nguồn dược liệu và nhà máy GMP-WHO.
 2. **Sữa tắm này có trị viêm da/hăm da không?** Đây là mỹ phẩm, không phải thuốc trị viêm da. Sản phẩm giúp làm sạch, hỗ trợ kháng khuẩn nhẹ, hỗ trợ ngừa rôm sảy. ⚠️ Claim "không lo viêm da" in trên bao bì không có trong SCB chính thức — không nhắc lại khi tư vấn.
 3. **Dùng được cho trẻ sơ sinh không?** Dòng thường: có, an toàn từ sơ sinh. Elemis Gold: chỉ từ 6 tháng tuổi trở lên.
-4. **Elemis Gold có gì khác dòng thường mà đắt hơn?** Có thêm kim ngân — thành phần kháng viêm không thấy ở Dr.Papie/Kutieskin.
+4. **Elemis Gold có gì khác dòng thường mà đắt hơn?** Công thức khác hẳn dòng thường: kim ngân (kháng viêm) + hương nhu (kháng khuẩn) + glycerin dưỡng ẩm — kim ngân không thấy ở Dr.Papie/Kutieskin.
 
 ---
 
