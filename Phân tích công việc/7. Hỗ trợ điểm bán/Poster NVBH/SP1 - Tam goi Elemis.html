@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Tắm gội Elemis — Poster NVBH</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#2A4E7E; --blue:#4F81BD; --wash:#EAF1F9; --wash2:#F5F8FC;
+    --green:#1F6E45; --greenwash:#E7F3EC;
+    --red:#B3261E; --redwash:#FCEEEC;
+    --amber:#8A5A00; --amberwash:#FDF3DF;
+    --s:1.08; --ink:#16202E; --mute:#5A6B80; --line:#CBD8E6;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  @page{size:A4 portrait;margin:0}
+  html,body{background:#fff}
+  body{
+    font-family:'Be Vietnam Pro','DejaVu Sans','Liberation Sans',Arial,sans-serif;
+    color:var(--ink); -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{width:210mm;height:297mm;padding:6mm 7.5mm 5mm;display:flex;flex-direction:column;gap:2.4mm}
+
+  /* ---------- header ---------- */
+  .hd{background:var(--navy);color:#fff;border-radius:3mm;padding:3.2mm 4.5mm;display:flex;align-items:center;gap:4.5mm}
+  .hd .num{font-size:calc(12pt * var(--s));font-weight:800;background:rgba(255,255,255,.16);border-radius:2mm;padding:1.6mm 3mm;letter-spacing:.04em;white-space:nowrap}
+  .hd h1{font-size:calc(17.5pt * var(--s));font-weight:800;line-height:1.18;letter-spacing:-.01em}
+  .hd .sub{font-size:calc(9.5pt * var(--s));font-weight:400;opacity:.9;margin-top:1mm}
+  .hd .badges{margin-left:auto;display:flex;flex-direction:column;gap:1.4mm;align-items:flex-end;flex-shrink:0}
+  .bdg{font-size:calc(7.8pt * var(--s));font-weight:600;background:#fff;color:var(--navy);border-radius:1.5mm;padding:1.2mm 2.4mm;white-space:nowrap}
+  .bdg.g{background:#8FE3B4;color:#0C3D24}
+
+  /* ---------- giá ---------- */
+  .prices{display:grid;grid-template-columns:1fr 1fr 1fr;gap:2.6mm}
+  .pc{border:0.5mm solid var(--line);border-radius:2.5mm;padding:2.1mm 2.6mm;text-align:center;background:var(--wash2);position:relative}
+  .pc.best{border-color:var(--green);background:var(--greenwash);border-width:0.7mm}
+  .pc .sz{font-size:calc(9pt * var(--s));font-weight:700;color:var(--mute)}
+  .pc .pr{font-size:calc(16pt * var(--s));font-weight:800;color:var(--navy);line-height:1.22;margin:.4mm 0}
+  .pc.best .pr{color:var(--green)}
+  .pc .per{font-size:calc(8.6pt * var(--s));font-weight:600;color:var(--ink)}
+  .pc .per b{font-size:calc(10.5pt * var(--s))}
+  .pc .lan{font-size:calc(7.6pt * var(--s));color:var(--mute);margin-top:.4mm}
+  .tag{position:absolute;top:-2.2mm;left:50%;transform:translateX(-50%);background:var(--green);color:#fff;
+       font-size:calc(7pt * var(--s));font-weight:800;padding:.7mm 2.4mm;border-radius:1mm;letter-spacing:.04em;white-space:nowrap}
+
+  /* ---------- lưới chính ---------- */
+  .grid{display:grid;grid-template-columns:1.34fr 1fr;gap:2.6mm;flex:1;min-height:0}
+  .col{display:flex;flex-direction:column;gap:2.4mm;min-height:0}
+  .box{border:0.4mm solid var(--line);border-radius:2.5mm;overflow:hidden;display:flex;flex-direction:column}
+  .box>h2{background:var(--wash);color:var(--navy);font-size:calc(8.4pt * var(--s));font-weight:800;line-height:1.3;
+          padding:1.4mm 2.6mm;letter-spacing:.04em;border-bottom:0.4mm solid var(--line)}
+  .box .bd{padding:2.1mm 2.6mm;font-size:calc(8.4pt * var(--s));line-height:1.4}
+
+  /* pitch */
+  .pitch{background:var(--wash2);border-left:1.2mm solid var(--blue);padding:2.3mm 2.6mm;
+         font-size:calc(8.9pt * var(--s));line-height:1.46;font-style:italic}
+  .pitch b{font-style:normal;font-weight:700;color:var(--navy)}
+
+  /* bảng đối đáp */
+  table{width:100%;border-collapse:collapse}
+  td{padding:1.25mm 2.1mm;font-size:calc(8.1pt * var(--s));line-height:1.36;vertical-align:top;border-top:0.3mm solid var(--line)}
+  tr:first-child td{border-top:none}
+  td.q{width:36%;font-weight:700;color:var(--navy);background:var(--wash2)}
+  td.a b{color:var(--green)}
+
+  /* cách dùng */
+  .steps{display:flex;flex-direction:column;gap:1.5mm}
+  .st{display:flex;gap:2.4mm;align-items:flex-start}
+  .st .n{flex:0 0 5mm;height:5mm;border-radius:50%;background:var(--navy);color:#fff;
+         font-size:calc(8pt * var(--s));font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:.2mm}
+  .st .t{font-size:calc(8.4pt * var(--s));line-height:1.38}
+  .st .t b{color:var(--navy)}
+  .hl{background:var(--amberwash);border:0.4mm solid #E8C97A;border-radius:2mm;padding:1.6mm 2.2mm;
+      font-size:calc(8pt * var(--s));line-height:1.38;margin-top:1.6mm}
+  .hl b{color:var(--amber)}
+
+  /* lý do */
+  ol.why{list-style:none;counter-reset:w;display:flex;flex-direction:column;gap:1.4mm}
+  ol.why li{counter-increment:w;display:flex;gap:2mm;font-size:calc(8.3pt * var(--s));line-height:1.36}
+  ol.why li::before{content:counter(w);flex:0 0 4.4mm;height:4.4mm;border-radius:1mm;background:var(--greenwash);
+        color:var(--green);font-weight:800;font-size:calc(7.6pt * var(--s));display:flex;align-items:center;justify-content:center;margin-top:.3mm}
+  ol.why li>span{flex:1}
+  ol.why b{color:var(--green)}
+
+  /* bán kèm */
+  .cross{display:flex;gap:2.4mm}
+  .ci{flex:1;background:var(--wash2);border:0.4mm solid var(--line);border-radius:2mm;padding:1.6mm 2mm;font-size:calc(8pt * var(--s));line-height:1.33}
+  .ci b{display:block;color:var(--navy);font-size:calc(8.4pt * var(--s))}
+  .ci span{color:var(--mute)}
+
+  /* cấm nói */
+  .stop{background:var(--redwash);border:0.5mm solid var(--red);border-radius:2.5mm;padding:2.1mm 3mm}
+  .stop h3{color:var(--red);font-size:calc(9pt * var(--s));font-weight:800;letter-spacing:.05em;margin-bottom:1.6mm}
+  .stop ul{list-style:none;display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.6mm 3mm}
+  .stop li{font-size:calc(7.9pt * var(--s));line-height:1.34;padding-left:3.6mm;position:relative}
+  .stop li::before{content:"✕";position:absolute;left:0;color:var(--red);font-weight:800;font-size:calc(8pt * var(--s))}
+  .stop li b{color:var(--red)}
+
+  .box.refer{border-color:#E0A9A4}
+  .box.refer>h2{background:var(--redwash);color:var(--red);border-bottom-color:#E0A9A4}
+  .box.refer b{color:var(--red)}
+  .foot{display:flex;justify-content:space-between;font-size:calc(7.2pt * var(--s));color:var(--mute);padding-top:.5mm}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="hd">
+    <div class="num">SP 1</div>
+    <div>
+      <h1>TẮM GỘI TRẺ EM THẢO DƯỢC ELEMIS</h1>
+      <div class="sub">Dung dịch <b>cô đặc</b> — pha vào nước tắm. Không phải sữa tắm tạo bọt.</div>
+    </div>
+    <div class="badges">
+      <div class="bdg g">An toàn cho trẻ sơ sinh</div>
+      <div class="bdg">Mỹ phẩm · SCB 83/25/CBMP-HB</div>
+    </div>
+  </div>
+
+  <div class="prices">
+    <div class="pc">
+      <div class="sz">Chai 200ml</div>
+      <div class="pr">150.000đ</div>
+      <div class="per"><b>3.750đ</b> / lần tắm</div>
+      <div class="lan">≈ 40 lần tắm</div>
+    </div>
+    <div class="pc">
+      <div class="sz">Chai 350ml</div>
+      <div class="pr">210.000đ</div>
+      <div class="per"><b>3.000đ</b> / lần tắm</div>
+      <div class="lan">≈ 70 lần tắm</div>
+    </div>
+    <div class="pc best">
+      <div class="tag">RẺ NHẤT / LẦN TẮM</div>
+      <div class="sz">Chai 500ml</div>
+      <div class="pr">275.000đ</div>
+      <div class="per"><b>2.750đ</b> / lần tắm</div>
+      <div class="lan">≈ 100 lần tắm</div>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="col">
+
+      <div class="box">
+        <h2>NÓI 30 GIÂY — HỌC THUỘC ĐOẠN NÀY</h2>
+        <div class="bd" style="padding:2.4mm 2.6mm">
+          <div class="pitch">
+            “Đây là nước tắm thảo dược <b>cô đặc</b> của Elemis – DK Pharma. Mẹ chỉ pha <b>5ml vào chậu 5 lít</b>, tắm xong <b>không cần tráng</b>. Có <b>sài đất, kinh giới, chè xanh, khổ qua</b> — mấy vị các bà hay nấu tắm cho bé — giúp <b>ngừa rôm sảy</b>, làm mát da, thơm cả ngày. <b>Không xà phòng</b> nên không khô da, sơ sinh dùng được. Chai 200ml tắm được khoảng <b>40 lần</b>, chưa tới <b>4.000đ một lần tắm</b>.”
+          </div>
+        </div>
+      </div>
+
+      <div class="box" style="flex:1">
+        <h2>KHÁCH NÓI → MÌNH ĐÁP</h2>
+        <table>
+          <tr>
+            <td class="q">“Sao tắm không có bọt?”</td>
+            <td class="a">“Đúng rồi ạ, <b>không có xà phòng và chất tạo bọt</b> nên không bọt. Sạch bằng thảo dược với nước ấm, <b>không làm khô da bé</b>.”</td>
+          </tr>
+          <tr>
+            <td class="q">“Đắt hơn loại em đang dùng”</td>
+            <td class="a">“Chị lấy <b>chai 500ml</b> thì tính ra <b>2.750đ một lần tắm</b> thôi ạ — chai nhỏ mới đắt hơn theo dung tích.”</td>
+          </tr>
+          <tr>
+            <td class="q">“Đang dùng loại khác quen rồi”</td>
+            <td class="a">“Dạ tốt quá vì mình đã có thói quen chăm rồi. Mẹ <b>dùng thử chai 200ml</b>, khác ở chỗ <b>không xà phòng</b> nên da bé không khô, và <b>không phải tráng lại</b>.”</td>
+          </tr>
+          <tr>
+            <td class="q">“Bé sơ sinh tắm được không?”</td>
+            <td class="a">“Được ạ, công bố ghi <b>an toàn cho trẻ sơ sinh</b>, pha rất loãng — 5ml trong 5 lít nước.”</td>
+          </tr>
+          <tr>
+            <td class="q">“Chưa nghe tên Elemis bao giờ”</td>
+            <td class="a">“Dạ lần đầu nghe thì mình cẩn trọng là đúng. Elemis là nhãn của <b>DK Pharma, xuất phát từ ĐH Dược Hà Nội</b>, số công bố in trên hộp mẹ xem được.”</td>
+          </tr>
+          <tr>
+            <td class="q" style="color:var(--green);background:var(--greenwash)">Khách <b>đã đồng ý mua</b> → chốt thêm</td>
+            <td class="a">“Tắm xong mẹ thoa thêm <b>kem này</b> chỗ tã với chỗ da khô — cùng nhãn, dùng cùng nhau tiện.”</td>
+          </tr>
+          <tr>
+            <td class="q">“Bé nhà em da nhạy cảm lắm”</td>
+            <td class="a">“Chị <b>ngửi thử</b> ở đây trước. Lần đầu <b>pha loãng hơn</b> một chút, tắm thử một hai hôm xem da bé thế nào rồi hẵng dùng đều.”</td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+
+    <div class="col">
+
+      <div class="box">
+        <h2>CÁCH DÙNG — HƯỚNG DẪN MẸ</h2>
+        <div class="bd">
+          <div class="steps">
+            <div class="st"><div class="n">1</div><div class="t">Pha <b>5ml</b> vào chậu <b>5 lít</b> nước ấm <b>36–38°C</b></div></div>
+            <div class="st"><div class="n">2</div><div class="t">Tắm và gội cho bé như bình thường</div></div>
+            <div class="st"><div class="n">3</div><div class="t"><b>KHÔNG tráng lại</b> bằng nước sạch — dặn kỹ câu này</div></div>
+          </div>
+          <div class="hl">
+            <b>Chỗ rôm, ngứa nhiều:</b> pha đậm <b>1ml + 10ml nước</b>, thấm lên vùng đó <b>10–20 phút</b>, ngày 2–3 lần.
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <h2>3 LÝ DO CHỌN</h2>
+        <div class="bd">
+          <ol class="why">
+            <li><span><b>Cô đặc</b> — 1 chai 200ml tắm được <b>40 lần</b></span></li>
+            <li><span><b>Không xà phòng, không tạo bọt</b> → không khô da, không cần tráng lại</span></li>
+            <li><span><b>8 dược liệu tắm dân gian:</b> sài đất, kinh giới, khổ qua, chè xanh, chanh, sả, tràm, mùi</span></li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="box">
+        <h2>NHẬN RA KHÁCH CẦN MUA</h2>
+        <div class="bd" style="font-size:calc(8.5pt * var(--s))">
+          Mẹ hỏi về <b>rôm sảy, mẩn ngứa, mụn nhọt</b> · bé <b>gãi nhiều</b> ·
+          da bé <b>nổi hột đỏ ở cổ, lưng, trán</b> · trời nóng bé ra nhiều mồ hôi.
+        </div>
+      </div>
+
+      <div class="box refer">
+        <h2>KHUYÊN ĐI KHÁM, ĐỪNG BÁN — KHI</h2>
+        <div class="bd" style="font-size:calc(8.5pt * var(--s))">
+          Da bé đã có <b>mụn mủ, chảy dịch, lở loét</b>, hoặc bé <b>sốt kèm nổi ban</b>.
+          Đây không còn là rôm sảy thường.
+        </div>
+      </div>
+
+      <div class="box">
+        <h2>BÁN KÈM</h2>
+        <div class="bd">
+          <div class="cross">
+            <div class="ci"><b>Kem bôi da Elemis</b><span>115.000đ — tắm xong bôi chỗ tã, chỗ da khô</span></div>
+            <div class="ci"><b>Dầu massage Oriky</b><span>135.000đ — massage sau tắm, bé dễ ngủ</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="stop">
+    <h3>TUYỆT ĐỐI KHÔNG NÓI</h3>
+    <ul>
+      <li>Không dùng từ <b>“trị / chữa / điều trị”</b> — đây là mỹ phẩm. Nói “hỗ trợ, giúp, ngừa, làm dịu”.</li>
+      <li>Không nhắc câu <b>“không lo viêm da”</b> in trên vỏ hộp — công dụng này không có trong công bố.</li>
+      <li>Không hứa <b>“mấy ngày là hết rôm”</b> — nói “dùng đều rồi theo dõi, tuỳ cơ địa bé”.</li>
+    </ul>
+  </div>
+
+  <div class="foot">
+    <span>Dược Khoa Xanh · Poster tư vấn tại quầy dành cho NVBH</span>
+    <span>Giá theo báo giá OTC áp dụng từ 01/04/2025</span>
+  </div>
+
+</div>
+</body>
+</html>
