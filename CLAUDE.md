@@ -148,8 +148,10 @@ Danh mục sản phẩm/                      ← phân loại sản phẩm côn
 ├── Phân tích công dụng sản phẩm.md     ← (kèm bản .docx cùng tên xuất từ file này) với 13 SP trong bảng giá OTC: mỗi công dụng chính = 1 dòng, nêu rõ hoạt chất (tên thông dụng/hoá học) + dược liệu chứa nó + cơ chế; bảng hoạt chất lặp lại — tài liệu dùng để bán hàng, không có phần cảnh báo/caveat
 └── Câu hỏi làm rõ.md                   ← điểm chưa chắc chắn cần Nhi xác nhận
 Báo cáo tuần/                           ← báo cáo công việc tuần gửi cấp trên, mỗi tuần 1 bộ file
-├── Mẫu 1 - Báo cáo công việc tuần ....docx  ← mẫu bảng hành chính 6 cột (STT, tên công việc, thời gian, kết quả làm được, chưa làm được, hướng giải quyết), khổ A4 ngang
-└── Mẫu 2 - Báo cáo kết quả công việc tuần ....docx  ← mẫu theo mục: mục tiêu tuần → công việc & kết quả (bảng) → vấn đề xin ý kiến → kế hoạch tuần tới, khổ A4 dọc
+├── Mẫu gốc công ty - Bao cao ket qua tuan DKX (phong ban).docx  ← ⭐ MẪU CHÍNH THỨC sếp cung cấp, bản dùng cho phòng ban; có header logo + MST công ty. Khung O-P-I: I. Tổng kết kết quả tuần (1.1 bảng Mục tiêu/Kế hoạch/Thực hiện/Note → 1.2 bảng Mục tiêu/Yếu tố/Giải pháp/Note → 1.3 số liệu → 1.4 yếu tố quản trị O-P-I → 1.5 nhân sự) → II. Tổng kết (tài sản gia tăng / rủi ro cần tránh) → III. Kiến nghị BGĐ (5 nhóm) → IV. Kế hoạch tuần tới. Cuối file có phần "Lưu ý" hướng dẫn: nhân viên BP Kinh doanh có 3 mục tiêu trọng tâm = (1) khách hàng mới/cũ, (2) giá trị cốt lõi DN, (3) phát triển năng lực bản thân
+├── Mẫu DKX (cá nhân) - Báo cáo kết quả công việc tuần ....docx  ← bản cá nhân của Nhi dựng từ mẫu gốc trên (sửa trực tiếp file nên giữ nguyên header/logo/font). Khác bản phòng ban: 1.5 đổi thành "Tự đánh giá bản thân", bỏ phần "Lưu ý" hướng dẫn và phần mục tiêu của Trưởng bộ phận. Đây là bản dùng để gửi sếp
+├── Mẫu 1 - Báo cáo công việc tuần ....docx  ← mẫu bảng hành chính 6 cột (STT, tên công việc, thời gian, kết quả làm được, chưa làm được, hướng giải quyết), khổ A4 ngang — tham khảo, không phải mẫu công ty
+└── Mẫu 2 - Báo cáo kết quả công việc tuần ....docx  ← mẫu theo mục: mục tiêu tuần → công việc & kết quả (bảng) → vấn đề xin ý kiến → kế hoạch tuần tới, khổ A4 dọc — tham khảo, không phải mẫu công ty
 ```
 
 Cập nhật mục này khi có thêm file/thư mục con.
