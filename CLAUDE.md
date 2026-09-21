@@ -147,6 +147,8 @@ Danh mục sản phẩm/                      ← phân loại sản phẩm côn
 ├── Bảng giá và chương trình OTC.md     ← giá bán lẻ + chương trình sell-in (mua X tặng Y) kênh OTC từ 01/04/2025, cùng ghi chú claim thật trên bao bì sản phẩm
 ├── Phân tích công dụng sản phẩm.md     ← (kèm bản .docx cùng tên xuất từ file này) với 13 SP trong bảng giá OTC: mỗi công dụng chính = 1 dòng, nêu rõ hoạt chất (tên thông dụng/hoá học) + dược liệu chứa nó + cơ chế; bảng hoạt chất lặp lại — tài liệu dùng để bán hàng, không có phần cảnh báo/caveat
 └── Câu hỏi làm rõ.md                   ← điểm chưa chắc chắn cần Nhi xác nhận
+Quà tặng chương trình/                  ← nghiên cứu nguồn hàng làm quà tặng kèm CTKM
+└── Miếng bọt biển tắm bé - Nhãn hiệu và nhà cung cấp.md  ← 4 chất liệu (cellulose nén, konjac, mút PU, bọt biển biển tự nhiên), mỗi loại 5-6 nhãn hiệu + 5-6 nhà cung cấp kèm link, MOQ/phí khuôn thu được, và danh sách điểm chưa xác minh. Đã chọn: cellulose nén (tầng đại trà) + konjac khô (tầng cao)
 ```
 
 Cập nhật mục này khi có thêm file/thư mục con.
