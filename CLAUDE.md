@@ -126,6 +126,7 @@ Nhi/
     └── 7. Hỗ trợ điểm bán/
         ├── Phân tích công việc.md
         ├── Câu hỏi làm rõ.md
+        ├── Bộ sell-out kit - Toàn bộ danh mục OTC.docx   ← bản Word xuất từ file .md bên dưới, định dạng bám đúng file kit gốc của công ty (Letter, lề 2cm, Calibri, H1 365F91, H2 4F81BD, bảng nền E7EEF7). Dùng để in/gửi shop. Sửa nội dung ở file .md rồi xuất lại, đừng sửa thẳng file .docx
         ├── Bộ sell-out kit - Toàn bộ danh mục OTC (theo mẫu công ty).md  ← ⭐ BẢN CHÍNH: 10 dòng SP trong báo giá OTC, dựng đúng mẫu 6 mục của công ty (Bộ sell-out kit - Elemis.docx) + tích hợp khung xử lý từ chối Nhân–Quả. Mỗi SP: thông tin · lý do chọn & so sánh · script tư vấn · xử lý từ chối · FAQ · POSM
         ├── Mối quan tâm của shop và NTD (nền tảng cho sell-out kit).md  ← nghiên cứu nền: shop lo gì (lãi, tồn kho, rủi ro giá/pháp lý), NTD lo gì (an toàn, hiệu quả, giá, niềm tin); đối chiếu xem DKX đã có dữ liệu trả lời chưa; danh sách lỗ hổng cần hỏi
         ├── Sell-out kit 1 - DKX tới shop (từng dòng sản phẩm).md   ← kit chào hàng với chủ shop cho cả 9 dòng SP: bảng giá/chương trình quy ra %, vị thế giá so thị trường, bảng pháp lý, câu shop hay vặn
