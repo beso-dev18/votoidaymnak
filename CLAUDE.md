@@ -126,6 +126,7 @@ Nhi/
     └── 7. Hỗ trợ điểm bán/
         ├── Phân tích công việc.md
         ├── Câu hỏi làm rõ.md
+        ├── Bộ sell-out kit - Toàn bộ danh mục OTC (theo mẫu công ty).md  ← ⭐ BẢN CHÍNH: 10 dòng SP trong báo giá OTC, dựng đúng mẫu 6 mục của công ty (Bộ sell-out kit - Elemis.docx) + tích hợp khung xử lý từ chối Nhân–Quả. Mỗi SP: thông tin · lý do chọn & so sánh · script tư vấn · xử lý từ chối · FAQ · POSM
         ├── Mối quan tâm của shop và NTD (nền tảng cho sell-out kit).md  ← nghiên cứu nền: shop lo gì (lãi, tồn kho, rủi ro giá/pháp lý), NTD lo gì (an toàn, hiệu quả, giá, niềm tin); đối chiếu xem DKX đã có dữ liệu trả lời chưa; danh sách lỗ hổng cần hỏi
         ├── Sell-out kit 1 - DKX tới shop (từng dòng sản phẩm).md   ← kit chào hàng với chủ shop cho cả 9 dòng SP: bảng giá/chương trình quy ra %, vị thế giá so thị trường, bảng pháp lý, câu shop hay vặn
         ├── Sell-out kit 2 - Shop tới NTD (từng dòng sản phẩm).md   ← kit cho người đứng quầy: 3 câu chốt + 3 câu từ chối mỗi dòng SP, combo bán kèm, quy tắc ngôn từ, khi nào khuyên đi khám
@@ -144,7 +145,7 @@ Danh mục sản phẩm/                      ← phân loại sản phẩm côn
 ├── Phân loại theo mục đích sử dụng (cột F).md  ← Mỹ phẩm / TPBVSK / TTBYT, theo file công bố chính thức Thông tin sp DKX.xlsx (SCB/SĐK)
 ├── So sánh thị trường - Nhóm Dành cho bé.md    ← so sánh 8 sản phẩm "dành cho bé" với đối thủ (thành phần, công dụng công bố, giá, độ phổ biến) — có cảnh báo an toàn acid boric
 ├── So sánh thị trường - Nhóm Dành cho mẹ.md    ← so sánh 8 sản phẩm "dành cho mẹ" với đối thủ — có phát hiện marketing mâu thuẫn công bố (Yaocare Women) và ghi chú thiếu dữ liệu thành phần (Dao'Spa Mama, Yaocare mama)
-├── Bảng giá và chương trình OTC.md     ← giá bán lẻ + chương trình sell-in (mua X tặng Y) kênh OTC từ 01/04/2025, cùng ghi chú claim thật trên bao bì sản phẩm
+├── Bảng giá và chương trình OTC.md     ← giá bán lẻ + chương trình (mua X tặng Y) kênh OTC từ 01/04/2025, cùng ghi chú claim thật trên bao bì sản phẩm. ⚠️ Giá ở đây KHÁC giá trong bộ sell-out kit gốc của công ty (bản đó dùng giá web) — chưa chốt dùng giá nào
 └── Câu hỏi làm rõ.md                   ← điểm chưa chắc chắn cần Nhi xác nhận
 ```
 
