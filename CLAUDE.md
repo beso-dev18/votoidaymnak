@@ -147,6 +147,9 @@ Danh mục sản phẩm/                      ← phân loại sản phẩm côn
 ├── Bảng giá và chương trình OTC.md     ← giá bán lẻ + chương trình sell-in (mua X tặng Y) kênh OTC từ 01/04/2025, cùng ghi chú claim thật trên bao bì sản phẩm
 ├── Phân tích công dụng sản phẩm.md     ← (kèm bản .docx cùng tên xuất từ file này) với 13 SP trong bảng giá OTC: mỗi công dụng chính = 1 dòng, nêu rõ hoạt chất (tên thông dụng/hoá học) + dược liệu chứa nó + cơ chế; bảng hoạt chất lặp lại — tài liệu dùng để bán hàng, không có phần cảnh báo/caveat
 └── Câu hỏi làm rõ.md                   ← điểm chưa chắc chắn cần Nhi xác nhận
+Báo cáo tuần/                           ← báo cáo công việc tuần gửi cấp trên, mỗi tuần 1 bộ file
+├── Mẫu 1 - Báo cáo công việc tuần ....docx  ← mẫu bảng hành chính 6 cột (STT, tên công việc, thời gian, kết quả làm được, chưa làm được, hướng giải quyết), khổ A4 ngang
+└── Mẫu 2 - Báo cáo kết quả công việc tuần ....docx  ← mẫu theo mục: mục tiêu tuần → công việc & kết quả (bảng) → vấn đề xin ý kiến → kế hoạch tuần tới, khổ A4 dọc
 ```
 
 Cập nhật mục này khi có thêm file/thư mục con.
