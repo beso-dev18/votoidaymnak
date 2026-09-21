@@ -114,6 +114,7 @@ Bản bàn giao công việc Sales Admin, 7 nhóm việc chính. Cờ hàng ngà
 Nhi/
 ├── CLAUDE.md                        ← file này
 ├── List_CongViec_Admin.xlsx         ← bàn giao công việc gốc (nguồn của mục "Danh mục công việc" ở trên)
+├── Tài liệu gốc công ty/                ← ⛔ BẢN GỐC CÔNG TY CUNG CẤP, KHÔNG SỬA. Báo giá OTC, Phân tích công dụng sản phẩm, Thông tin sp DKX, kit Elemis mẫu, Quy tắc xử lý từ chối, bộ slide Elemis. Mọi phân tích đều là file riêng ở ngoài, trỏ ngược về đây
 └── Phân tích công việc/              ← phân tích sâu từng nhóm việc, 1 folder con / mỗi "Công việc" trong file Excel
     ├── 1. Đơn hàng/
     ├── 2. Giấy tờ, chứng từ/
@@ -126,6 +127,13 @@ Nhi/
     └── 7. Hỗ trợ điểm bán/
         ├── Phân tích công việc.md
         ├── Câu hỏi làm rõ.md
+        ├── Sell-out kit theo vấn đề da bé/   ← ⭐ kit xếp THEO VẤN ĐỀ CỦA BÉ thay vì theo sản phẩm — đúng thứ tự thực tế ở quầy. 13 vấn đề, mỗi vấn đề xử lý theo 3 bước: làm sạch → xử lý vấn đề → nuôi dưỡng & bảo vệ
+        │   ├── README.md                     ← nguồn dữ liệu, cách dựng lại, cách thêm vấn đề mới
+        │   ├── Sell-out kit theo vấn đề da bé.docx  ← ⭐ BẢN CHÍNH (Word A4 ngang): mỗi vấn đề một mục lớn + sơ đồ nhánh dạng bảng gộp ô
+        │   ├── dulieu.js                     ← nguồn duy nhất: vấn đề → bước → sản phẩm → thành phần + cơ chế. Sửa ở đây, mọi file khác sinh lại theo
+        │   ├── taosodo.js · taoword.js · sodo.css  ← sinh sơ đồ HTML và bản Word từ dulieu.js
+        │   ├── So do - 0 - Bang tra nhanh.pdf ← 1 trang A4 ngang: 13 vấn đề × 7 sản phẩm, dán quầy
+        │   └── So do - 1..13 - <tên>.pdf      ← sơ đồ nhánh riêng từng vấn đề, in lẻ khi cần
         ├── Poster NVBH/                    ← poster A4 cho nhân viên bán hàng tại shop, mỗi SP 2 bản: 1 trang (dán quầy) và 2 trang (phát cho NVBH giữ). Màu và ảnh lấy từ bộ slide Elemis chính thức của công ty
         │   ├── README - cach dung.md       ← bố cục, cách dựng lại, lưu ý khi in, và 3 điểm cần công ty xác nhận
         │   ├── _chung.css                  ← kiểu dùng chung cả 2 bản (màu thương hiệu #2F9036 lấy từ logo)
