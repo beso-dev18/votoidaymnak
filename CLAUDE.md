@@ -126,12 +126,13 @@ Nhi/
     └── 7. Hỗ trợ điểm bán/
         ├── Phân tích công việc.md
         ├── Câu hỏi làm rõ.md
-        ├── Poster NVBH/                    ← poster A4 1 trang/sản phẩm, in dán quầy hoặc phát cho NVBH. Nội dung rút từ bộ sell-out kit
-        │   ├── README - cach dung.md       ← bố cục poster, cách dựng lại, lưu ý khi in
-        │   ├── render.js                   ← script dựng PDF+PNG từ HTML, tự báo lỗi nếu chữ bị cắt/tràn trang
-        │   ├── SP1 - Tam goi Elemis.html   ← bản gốc để sửa nội dung
-        │   ├── SP1 - Tam goi Elemis.pdf    ← bản in
-        │   └── SP1 - Tam goi Elemis.png    ← ảnh xem nhanh/gửi Zalo
+        ├── Poster NVBH/                    ← poster A4 cho nhân viên bán hàng tại shop, mỗi SP 2 bản: 1 trang (dán quầy) và 2 trang (phát cho NVBH giữ). Màu và ảnh lấy từ bộ slide Elemis chính thức của công ty
+        │   ├── README - cach dung.md       ← bố cục, cách dựng lại, lưu ý khi in, và 3 điểm cần công ty xác nhận
+        │   ├── _chung.css                  ← kiểu dùng chung cả 2 bản (màu thương hiệu #2F9036 lấy từ logo)
+        │   ├── assets/                     ← ảnh tách từ Presentation1.pptx: sản phẩm, logo, dược liệu, 4 bước tắm, giấy kiểm nghiệm
+        │   ├── render.js · probe.js · kiemtra.js  ← dựng PDF+PNG, tự báo lỗi nếu chữ bị cắt/tràn trang; probe dò cỡ chữ tối ưu
+        │   ├── SP1 - Tam goi Elemis (1 trang).html/.pdf/.png
+        │   └── SP1 - Tam goi Elemis (2 trang).html/.pdf/.png
         ├── Bộ sell-out kit - Toàn bộ danh mục OTC.docx   ← bản Word xuất từ file .md bên dưới, định dạng bám đúng file kit gốc của công ty (Letter, lề 2cm, Calibri, H1 365F91, H2 4F81BD, bảng nền E7EEF7). Dùng để in/gửi shop. Sửa nội dung ở file .md rồi xuất lại, đừng sửa thẳng file .docx
         ├── Bộ sell-out kit - Toàn bộ danh mục OTC (theo mẫu công ty).md  ← ⭐ BẢN CHÍNH: 10 dòng SP trong báo giá OTC, dựng đúng mẫu 6 mục của công ty (Bộ sell-out kit - Elemis.docx) + tích hợp khung xử lý từ chối Nhân–Quả. Mỗi SP: thông tin · lý do chọn & so sánh · script tư vấn · xử lý từ chối · FAQ · POSM
         ├── Mối quan tâm của shop và NTD (nền tảng cho sell-out kit).md  ← nghiên cứu nền: shop lo gì (lãi, tồn kho, rủi ro giá/pháp lý), NTD lo gì (an toàn, hiệu quả, giá, niềm tin); đối chiếu xem DKX đã có dữ liệu trả lời chưa; danh sách lỗ hổng cần hỏi
