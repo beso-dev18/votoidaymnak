@@ -127,13 +127,13 @@ Nhi/
     └── 7. Hỗ trợ điểm bán/
         ├── Phân tích công việc.md
         ├── Câu hỏi làm rõ.md
-        ├── Sell-out kit theo vấn đề da bé/   ← ⭐ kit xếp THEO VẤN ĐỀ CỦA BÉ thay vì theo sản phẩm — đúng thứ tự thực tế ở quầy. 13 vấn đề, mỗi vấn đề xử lý theo 3 bước: làm sạch → xử lý vấn đề → nuôi dưỡng & bảo vệ
+        ├── Sell-out kit theo vấn đề da bé/   ← ⭐ kit xếp THEO VẤN ĐỀ CỦA BÉ thay vì theo sản phẩm — đúng thứ tự thực tế ở quầy. 9 vấn đề (gộp từ 13 theo mức trùng hoạt chất), mỗi vấn đề xử lý theo 3 bước: làm sạch → xử lý vấn đề → nuôi dưỡng & bảo vệ
         │   ├── README.md                     ← nguồn dữ liệu, cách dựng lại, cách thêm vấn đề mới
         │   ├── Sell-out kit theo vấn đề da bé.docx  ← ⭐ BẢN CHÍNH (Word A4 ngang): mỗi vấn đề một mục lớn + sơ đồ nhánh dạng bảng gộp ô
         │   ├── dulieu.js                     ← nguồn duy nhất: vấn đề → bước → sản phẩm → thành phần + cơ chế. Sửa ở đây, mọi file khác sinh lại theo
         │   ├── taosodo.js · taoword.js · sodo.css  ← sinh sơ đồ HTML và bản Word từ dulieu.js
-        │   ├── So do - 0 - Bang tra nhanh.pdf ← 1 trang A4 ngang: 13 vấn đề × 7 sản phẩm, dán quầy
-        │   └── So do - 1..13 - <tên>.pdf      ← sơ đồ nhánh riêng từng vấn đề, in lẻ khi cần
+        │   ├── So do - 0 - Bang tra nhanh.pdf ← 1 trang A4 ngang: 9 vấn đề × 7 sản phẩm, dán quầy
+        │   └── So do - 1..9 - <tên>.pdf      ← sơ đồ nhánh riêng từng vấn đề, in lẻ khi cần
         ├── Poster NVBH/                    ← poster A4 cho nhân viên bán hàng tại shop, mỗi SP 2 bản: 1 trang (dán quầy) và 2 trang (phát cho NVBH giữ). Màu và ảnh lấy từ bộ slide Elemis chính thức của công ty
         │   ├── README - cach dung.md       ← bố cục, cách dựng lại, lưu ý khi in, và 3 điểm cần công ty xác nhận
         │   ├── _chung.css                  ← kiểu dùng chung cả 2 bản (màu thương hiệu #2F9036 lấy từ logo)
