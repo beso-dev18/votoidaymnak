@@ -149,11 +149,16 @@ Nhi/
     │   ├── taosodo.js · taoword.js · canhchinh.js · sodo.css  ← sinh sơ đồ HTML và bản Word; canhchinh.js tự dò cỡ chữ lớn nhất mà trang không tràn
     │   ├── So do - 0 - Bang tra nhanh.pdf  ← 1 trang A4 ngang: 9 vấn đề × 7 sản phẩm, ô có số là sản phẩm đảm nhận bước đó. Dán quầy
     │   └── So do - 1..9 - <tên>.pdf    ← sơ đồ nhánh riêng từng vấn đề, in lẻ khi cần
-    └── Theo sản phẩm/                  ← tài liệu sell-out kit gắn theo từng sản phẩm cụ thể
-        ├── Xử lý từ chối mua hàng - script cho NVBH.md  ← câu hỏi/từ chối thường gặp của NTD tại quầy + câu trả lời gợi ý, theo từng sản phẩm trong sell-out kit
-        ├── Bộ sell-out kit theo sản phẩm.md  ← sell-out kit (POSM, cơ chế thành phần theo từng bước, script, giá/khuyến mãi) cho **toàn bộ 9 nhóm SP trong bảng báo giá OTC**: kem bôi, xịt muỗi, sữa tắm, gạc rơ lưỡi, dầu massage Oriky, bọt rửa tay, Curmilk, Yaocare Women, Dao'Spa Mama
-        ├── Bài đào tạo sản phẩm cho NV shop (nói miệng 5-10 phút).md  ← bài nói đào tạo NV shop về thành phần/công dụng/lợi ích/khác biệt từng sản phẩm, dùng trước khi NV tự tư vấn NTD
-        └── Bài đào tạo sản phẩm cho NV shop (dạng gạch đầu dòng).md  ← cùng nội dung, rút gọn thành gạch đầu dòng để xem nhanh
+    ├── Theo sản phẩm/                  ← tài liệu sell-out kit gắn theo từng sản phẩm cụ thể
+    │   ├── Xử lý từ chối mua hàng - script cho NVBH.md  ← câu hỏi/từ chối thường gặp của NTD tại quầy + câu trả lời gợi ý, theo từng sản phẩm trong sell-out kit
+    │   ├── Bộ sell-out kit theo sản phẩm.md  ← sell-out kit (POSM, cơ chế thành phần theo từng bước, script, giá/khuyến mãi) cho **toàn bộ 9 nhóm SP trong bảng báo giá OTC**: kem bôi, xịt muỗi, sữa tắm, gạc rơ lưỡi, dầu massage Oriky, bọt rửa tay, Curmilk, Yaocare Women, Dao'Spa Mama
+    │   ├── Bài đào tạo sản phẩm cho NV shop (nói miệng 5-10 phút).md  ← bài nói đào tạo NV shop về thành phần/công dụng/lợi ích/khác biệt từng sản phẩm, dùng trước khi NV tự tư vấn NTD
+    │   └── Bài đào tạo sản phẩm cho NV shop (dạng gạch đầu dòng).md  ← cùng nội dung, rút gọn thành gạch đầu dòng để xem nhanh
+    └── Poster gấp 3/                   ← tờ rơi gấp 3, khổ A4 ngang, mỗi mặt 3 cột — Mặt A rút từ "Khung xử lý từ chối mua hàng...", Mặt B rút từ "Theo vấn đề da bé/" (bảng tra nhanh 9 vấn đề + 5 vấn đề minh hoạ chi tiết). Ảnh dùng lại từ `../Poster NVBH/assets/`
+        ├── README - cach dung.md       ← cách in/gấp, nguồn nội dung từng mặt, giới hạn ảnh hiện có, lựa chọn biên tập
+        ├── _gap3.css                   ← kiểu dùng chung cả 2 mặt
+        ├── Mat A - Khung xu ly tu choi mua hang.html/.pdf/.png
+        └── Mat B - Van de da be.html/.pdf/.png
 Danh mục sản phẩm/                      ← phân loại sản phẩm công ty
 ├── Giới thiệu sản phẩm/                ← bài giới thiệu chi tiết từng sản phẩm, dựng theo cấu trúc mẫu Xịt muỗi Elemis.pptx sếp cung cấp (nỗi đau KH, thông tin SP, công dụng, thành phần, USP, hướng dẫn dùng, cam kết, so sánh đối thủ, FAQ)
 │   ├── Giới thiệu sản phẩm - Kem bôi da Elemis.md
