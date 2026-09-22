@@ -69,9 +69,12 @@ body{font-family:'Be Vietnam Pro','DejaVu Sans','Liberation Sans',Arial,sans-ser
 .ic .nm{font-size:calc(6.2pt * var(--s));font-weight:700;color:var(--gd);margin-top:.6mm;line-height:1.15}
 
 .certrow{display:flex;gap:1.6mm}
-.certrow figure{flex:1;border:0.35mm solid var(--line);border-radius:1.4mm;overflow:hidden;background:#fff}
-.certrow img{width:100%;display:block;height:13mm;object-fit:cover}
-.certrow figcaption{font-size:calc(5.8pt * var(--s));text-align:center;padding:.5mm .2mm;background:var(--wash);
+.certrow figure{flex:1;border:0.35mm solid var(--line);border-radius:1.4mm;background:#fff;
+                display:flex;flex-direction:column;align-items:center}
+.certrow .imwrap{width:100%;display:flex;align-items:center;justify-content:center;padding:1mm;min-height:15mm}
+.certrow img{max-width:100%;max-height:20mm;width:auto;height:auto;display:block}
+.certrow img.tall{max-height:30mm}
+.certrow figcaption{width:100%;font-size:calc(5.8pt * var(--s));text-align:center;padding:.5mm .2mm;background:var(--wash);
                     color:var(--gd);font-weight:700;line-height:1.2}
 
 .foot{margin-top:auto;font-size:calc(5.8pt * var(--s));color:var(--mute);text-align:center;line-height:1.35;

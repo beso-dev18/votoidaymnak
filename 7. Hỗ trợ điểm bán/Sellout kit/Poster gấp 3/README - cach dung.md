@@ -49,7 +49,7 @@ node "../../Poster NVBH/probe.js" "Mat A - Khung xu ly tu choi mua hang.html" "0
 ```
 
 Cỡ chữ điều khiển bằng biến `--s` trong từng file HTML — hiện Mặt A đặt `--s:0.86` (nhiều khối hơn nên
-chữ nhỏ hơn), Mặt B đặt `--s:0.90` (cả 9 vấn đề trong 3 cột nên chữ nhỏ hơn bản trước).
+chữ nhỏ hơn), Mặt B đặt `--s:0.82` (cả 9 vấn đề + ảnh không cắt xén cần nhiều chỗ hơn nên chữ nhỏ hơn bản trước).
 
 ## Hình ảnh dùng trong 2 mặt — và giới hạn hiện có
 
@@ -69,6 +69,11 @@ phẩm còn lại trong sell-out kit (Kem bôi, Dầu massage Oriky, Xịt muỗ
 **chưa có ảnh chai/hộp thật** trong repo, nên Mặt B chỉ xen được ảnh dược liệu và ảnh khách dùng Tắm gội —
 không có ảnh sản phẩm cho 6 dòng còn lại. Cần xin thêm ảnh từ MKT nếu muốn bổ sung; không dùng ảnh minh hoạ
 chung chung thay thế để tránh gây hiểu nhầm là ảnh sản phẩm thật.
+
+**Ảnh không bị cắt xén:** mọi ảnh minh hoạ (dược liệu, chứng nhận, ảnh khách dùng) chỉ được **thu nhỏ để
+vừa khung** (`max-width`/`max-height` + `width:auto`/`height:auto`, giữ nguyên tỉ lệ gốc) — không dùng
+`object-fit:cover` cắt bớt ảnh như bản trước. Khung ảnh có thể còn khoảng trắng hai bên nếu ảnh gốc không
+vừa khít tỉ lệ khung, đó là đánh đổi chấp nhận được để không mất chi tiết ảnh.
 
 ## Chọn lọc nội dung — không phải tự nghĩ thêm
 
