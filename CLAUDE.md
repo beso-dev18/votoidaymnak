@@ -130,14 +130,15 @@ Nhi/
         ├── Xử lý từ chối mua hàng - script cho NVBH.md  ← câu hỏi/từ chối thường gặp của NTD tại quầy + câu trả lời gợi ý, theo từng sản phẩm trong sell-out kit
         ├── Bài đào tạo sản phẩm cho NV shop (nói miệng 5-10 phút).md  ← bài nói đào tạo NV shop về thành phần/công dụng/lợi ích/khác biệt từng sản phẩm, dùng trước khi NV tự tư vấn NTD
         ├── Bài đào tạo sản phẩm cho NV shop (dạng gạch đầu dòng).md  ← cùng nội dung, rút gọn thành gạch đầu dòng để xem nhanh
-        ├── Giới thiệu sản phẩm - Kem bôi da Elemis.md      ← dựng theo cấu trúc mẫu Xịt muỗi Elemis.pptx sếp cung cấp (nỗi đau KH, thông tin SP, công dụng, thành phần, USP, hướng dẫn dùng, cam kết, so sánh đối thủ, FAQ)
-        ├── Giới thiệu sản phẩm - Sữa tắm gội Elemis.md     ← cùng cấu trúc, cho dòng sữa tắm/tắm gội
-        ├── Giới thiệu sản phẩm - Gạc rơ lưỡi Elemis.md     ← cùng cấu trúc, cho gạc rơ lưỡi
-        ├── Giới thiệu sản phẩm - Dầu massage Oriky.md      ← cùng cấu trúc
-        ├── Giới thiệu sản phẩm - Bọt rửa tay Elemis.md     ← cùng cấu trúc
-        ├── Giới thiệu sản phẩm - Curmilk (cốm lợi sữa).md  ← cùng cấu trúc — ⚠️ TPBVSK, ngôn từ tư vấn chặt hơn (bắt buộc khuyến cáo "không phải là thuốc")
-        ├── Giới thiệu sản phẩm - Yaocare Women.md          ← cùng cấu trúc — SP cho mẹ, ⚠️ có mâu thuẫn marketing vs công bố (SLES/hương liệu)
-        └── Giới thiệu sản phẩm - Dao'Spa Mama.md           ← cùng cấu trúc — SP cho mẹ, là SP hiếm hoi có giá OTC rẻ hơn đối thủ trực tiếp
+        └── Giới thiệu sản phẩm/             ← bài giới thiệu chi tiết từng sản phẩm, dựng theo cấu trúc mẫu Xịt muỗi Elemis.pptx sếp cung cấp (nỗi đau KH, thông tin SP, công dụng, thành phần, USP, hướng dẫn dùng, cam kết, so sánh đối thủ, FAQ)
+            ├── Giới thiệu sản phẩm - Kem bôi da Elemis.md
+            ├── Giới thiệu sản phẩm - Sữa tắm gội Elemis.md     ← cho dòng sữa tắm/tắm gội
+            ├── Giới thiệu sản phẩm - Gạc rơ lưỡi Elemis.md
+            ├── Giới thiệu sản phẩm - Dầu massage Oriky.md
+            ├── Giới thiệu sản phẩm - Bọt rửa tay Elemis.md
+            ├── Giới thiệu sản phẩm - Curmilk (cốm lợi sữa).md  ← ⚠️ TPBVSK, ngôn từ tư vấn chặt hơn (bắt buộc khuyến cáo "không phải là thuốc")
+            ├── Giới thiệu sản phẩm - Yaocare Women.md          ← SP cho mẹ, ⚠️ có mâu thuẫn marketing vs công bố (SLES/hương liệu)
+            └── Giới thiệu sản phẩm - Dao'Spa Mama.md           ← SP cho mẹ, là SP hiếm hoi có giá OTC rẻ hơn đối thủ trực tiếp
 Danh mục sản phẩm/                      ← phân loại sản phẩm công ty
 ├── Phân loại sản phẩm/                 ← các file phân loại sản phẩm theo tiêu chí
 │   ├── Phân loại theo đối tượng.md         ← "Dành cho bé" / "Dành cho mẹ", theo tag website (collections/all)
