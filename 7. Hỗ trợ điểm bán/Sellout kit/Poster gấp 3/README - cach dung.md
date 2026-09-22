@@ -10,7 +10,8 @@ Tờ rơi gấp 3 (tri-fold), khổ **A4 ngang** (297×210mm), mỗi mặt chia 
 
 Cả hai mặt là **bản cô đọng** để vừa 3 cột A4, không phải bản đầy đủ — giữ đúng dữ kiện, thành phần,
 cơ chế, cách dùng, dấu hiệu đi khám như file gốc, chỉ rút gọn câu chữ. Muốn xem đầy đủ (câu mở mẫu
-từng khối, script đối đáp từng câu hỏi...) thì mở đúng file nguồn ở bảng trên.
+từng khối, script đối đáp từng câu hỏi...) thì mở đúng file nguồn ở bảng trên. Mặt A không ghi phạm vi
+áp dụng ngay đầu trang nữa (đã có sẵn trong "Dùng cho" ở bảng trên và trong chính file nguồn).
 
 ## Cách in và gấp
 
@@ -48,16 +49,18 @@ Script tự báo lỗi nếu có chữ bị cắt hoặc tràn khổ giấy. Mu�
 node "../../Poster NVBH/probe.js" "Mat A - Khung xu ly tu choi mua hang.html" "0.80,0.84,0.86,0.90"
 ```
 
-Cỡ chữ điều khiển bằng biến `--s` trong từng file HTML — hiện Mặt A đặt `--s:0.86` (nhiều khối hơn nên
-chữ nhỏ hơn), Mặt B đặt `--s:0.82` (cả 9 vấn đề + ảnh không cắt xén cần nhiều chỗ hơn nên chữ nhỏ hơn bản trước).
+Cỡ chữ điều khiển bằng biến `--s` trong từng file HTML — hiện Mặt A đặt `--s:0.83` (8 khối + ảnh minh hoạ
+mới nên chữ nhỏ hơn bản trước), Mặt B đặt `--s:0.82` (cả 9 vấn đề + ảnh không cắt xén cần nhiều chỗ hơn).
 
 ## Hình ảnh dùng trong 2 mặt — và giới hạn hiện có
 
 Ảnh lấy từ `../../Poster NVBH/assets/` (đã tách sẵn từ bộ slide Elemis chính thức của công ty), dùng lại
 qua đường dẫn tương đối — không copy trùng file:
 
-- **Mặt A:** `logo.png` (header); `dkpharma.jpg`, `dhduoc.jpg` (khối 1 – Thương hiệu, khối 5 – Pháp lý,
-  đúng nguồn gốc DK Pharma/ĐH Dược Hà Nội); `cn-congbo.jpg`, `cn-kiemnghiem.jpg` (khối 5 – hồ sơ công bố/kiểm nghiệm).
+- **Mặt A:** `logo.png` (header); `sanpham.png` (ảnh sản phẩm thật đầu cột 1, minh hoạ "sản phẩm thật,
+  không chỉ lời nói"); `dkpharma.jpg`, `dhduoc.jpg` (khối 1 – Thương hiệu, khối 5 – Pháp lý, đúng nguồn gốc
+  DK Pharma/ĐH Dược Hà Nội); `cn-congbo.jpg`, `cn-kiemnghiem.jpg` (khối 5 – hồ sơ công bố/kiểm nghiệm);
+  `dl-dudu.png`, `dl-chanh.png` (khối 3 – Thành phần/an toàn, ví dụ dược liệu thật trong hồ sơ công bố).
 - **Mặt B:** `logo.png` (header); `dl-dudu.png`, `dl-chanh.png`, `dl-kinhgioi.png`, `dl-saidat.png`,
   `dl-khoqua.png` (5 dược liệu xen giữa cột 1 và các vấn đề dùng đúng dược liệu đó: đu đủ, chanh, kinh giới,
   sài đất, khổ qua); `kh2.jpg`, `kh3.jpg` (ảnh khách hàng thực tế đang dùng Tắm gội thảo dược Elemis — xen
