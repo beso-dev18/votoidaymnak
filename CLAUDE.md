@@ -176,6 +176,10 @@ Danh mục sản phẩm/                      ← phân loại sản phẩm côn
 ├── Phân tích công dụng/                ← phân tích công dụng & hoạt chất sản phẩm
 │   ├── Phân tích công dụng sản phẩm.md     ← với 13 SP trong bảng giá OTC: mỗi công dụng chính = 1 dòng, nêu rõ hoạt chất (tên thông dụng/hoá học) + dược liệu chứa nó + cơ chế; bảng hoạt chất lặp lại — tài liệu dùng để bán hàng, không có phần cảnh báo/caveat
 │   └── Phân tích công dụng sản phẩm.docx   ← bản .docx xuất từ file .md cùng tên
+├── Sản phẩm mới - Miếng tắm bọt biển Elemis/  ← phát triển SP mới, chưa có trong danh mục hiện tại — dùng thử chất liệu, tìm nhà phân phối & nhà sản xuất OEM
+│   ├── Nguồn - Tổng hợp nhãn hiệu và phân phối miếng bọt biển tắm bé.docx  ← file gốc Nhi cung cấp: 4 nhóm chất liệu (cellulose nén, konjac, mút PU, bọt biển tự nhiên) × nhãn hiệu/xuất xứ/phân phối, + bộ mẫu đề xuất mua
+│   ├── Kế hoạch dùng thử, tìm nhà phân phối & nhà sản xuất.md  ← lọc theo 2 chất liệu đã chọn (cellulose nén + konjac), mục tiêu chi phí 10-15k/miếng cho nhãn Elemis
+│   └── Câu hỏi làm rõ.md
 └── Câu hỏi làm rõ.md                   ← điểm chưa chắc chắn cần Nhi xác nhận
 Báo cáo tuần/                           ← báo cáo công việc tuần gửi cấp trên, mỗi tuần 1 bộ file
 ├── Mẫu gốc công ty - Bao cao ket qua tuan DKX (phong ban).docx  ← ⭐ MẪU CHÍNH THỨC sếp cung cấp, bản dùng cho phòng ban; có header logo + MST công ty. Khung O-P-I: I. Tổng kết kết quả tuần (1.1 bảng Mục tiêu/Kế hoạch/Thực hiện/Note → 1.2 bảng Mục tiêu/Yếu tố/Giải pháp/Note → 1.3 số liệu → 1.4 yếu tố quản trị O-P-I → 1.5 nhân sự) → II. Tổng kết (tài sản gia tăng / rủi ro cần tránh) → III. Kiến nghị BGĐ (5 nhóm) → IV. Kế hoạch tuần tới. Cuối file có phần "Lưu ý" hướng dẫn: nhân viên BP Kinh doanh có 3 mục tiêu trọng tâm = (1) khách hàng mới/cũ, (2) giá trị cốt lõi DN, (3) phát triển năng lực bản thân
