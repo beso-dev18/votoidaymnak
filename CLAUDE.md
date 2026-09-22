@@ -136,6 +136,7 @@ Nhi/
 └── Sellout kit/                        ← chuyển từ Phân tích công việc/7. Hỗ trợ điểm bán/ sang, gom mọi tài liệu ngoài "Phân tích công việc.md" và "Câu hỏi làm rõ.md"
     ├── Bộ sell-out kit theo sản phẩm.md  ← sell-out kit (POSM, cơ chế thành phần theo từng bước, script, giá/khuyến mãi) cho **toàn bộ 9 nhóm SP trong bảng báo giá OTC**: kem bôi, xịt muỗi, sữa tắm, gạc rơ lưỡi, dầu massage Oriky, bọt rửa tay, Curmilk, Yaocare Women, Dao'Spa Mama
     ├── Xử lý từ chối mua hàng - script cho NVBH.md  ← câu hỏi/từ chối thường gặp của NTD tại quầy + câu trả lời gợi ý, theo từng sản phẩm trong sell-out kit
+    ├── Khung xử lý từ chối mua hàng - khối vấn đề (toàn bộ SP OTC).md  ← framework tầng cao hơn: nhóm câu từ chối thành 8 khối vấn đề chung cho toàn bộ 13 SP/dòng trong bảng báo giá OTC (thương hiệu, giá, thành phần, hiệu quả, pháp lý, so sánh đối thủ, kênh phân phối, trì hoãn quyết định) + phương hướng trả lời chung và câu mở dẫn dắt theo công thức sandwich 3 lớp (Đồng cảm → Làm rõ + lợi thế → Điều hướng) cho mỗi khối, không phải câu trả lời cụ thể từng câu hỏi
     ├── Bài đào tạo sản phẩm cho NV shop (nói miệng 5-10 phút).md  ← bài nói đào tạo NV shop về thành phần/công dụng/lợi ích/khác biệt từng sản phẩm, dùng trước khi NV tự tư vấn NTD
     └── Bài đào tạo sản phẩm cho NV shop (dạng gạch đầu dòng).md  ← cùng nội dung, rút gọn thành gạch đầu dòng để xem nhanh
 Danh mục sản phẩm/                      ← phân loại sản phẩm công ty
