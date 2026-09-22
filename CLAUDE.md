@@ -139,9 +139,10 @@ Nhi/
         ├── Giới thiệu sản phẩm - Yaocare Women.md          ← cùng cấu trúc — SP cho mẹ, ⚠️ có mâu thuẫn marketing vs công bố (SLES/hương liệu)
         └── Giới thiệu sản phẩm - Dao'Spa Mama.md           ← cùng cấu trúc — SP cho mẹ, là SP hiếm hoi có giá OTC rẻ hơn đối thủ trực tiếp
 Danh mục sản phẩm/                      ← phân loại sản phẩm công ty
-├── Phân loại theo đối tượng.md         ← "Dành cho bé" / "Dành cho mẹ", theo tag website (collections/all)
-├── Phân loại theo nhãn hàng.md         ← Elemis, Oriky, Curmilk, Yaocare, Cuperin, Dao'Spa Mama (theo tên trên web)
-├── Phân loại theo mục đích sử dụng (cột F).md  ← Mỹ phẩm / TPBVSK / TTBYT, theo file công bố chính thức Thông tin sp DKX.xlsx (SCB/SĐK)
+├── Phân loại sản phẩm/                 ← các file phân loại sản phẩm theo tiêu chí
+│   ├── Phân loại theo đối tượng.md         ← "Dành cho bé" / "Dành cho mẹ", theo tag website (collections/all)
+│   ├── Phân loại theo nhãn hàng.md         ← Elemis, Oriky, Curmilk, Yaocare, Cuperin, Dao'Spa Mama (theo tên trên web)
+│   └── Phân loại theo mục đích sử dụng (cột F).md  ← Mỹ phẩm / TPBVSK / TTBYT, theo file công bố chính thức Thông tin sp DKX.xlsx (SCB/SĐK)
 ├── So sánh thị trường - Nhóm Dành cho bé.md    ← so sánh 8 sản phẩm "dành cho bé" với đối thủ (thành phần, công dụng công bố, giá, độ phổ biến) — có cảnh báo an toàn acid boric
 ├── So sánh thị trường - Nhóm Dành cho mẹ.md    ← so sánh 8 sản phẩm "dành cho mẹ" với đối thủ — có phát hiện marketing mâu thuẫn công bố (Yaocare Women); thành phần Dao'Spa Mama đã bổ sung từ bảng báo giá OTC, còn Yaocare mama vẫn thiếu
 ├── Bảng giá và chương trình OTC.md     ← giá bán lẻ + chương trình sell-in (mua X tặng Y) kênh OTC từ 01/04/2025, cùng ghi chú claim thật trên bao bì sản phẩm
