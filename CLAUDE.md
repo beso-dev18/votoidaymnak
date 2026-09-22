@@ -154,7 +154,7 @@ Nhi/
     │   ├── Bộ sell-out kit theo sản phẩm.md  ← sell-out kit (POSM, cơ chế thành phần theo từng bước, script, giá/khuyến mãi) cho **toàn bộ 9 nhóm SP trong bảng báo giá OTC**: kem bôi, xịt muỗi, sữa tắm, gạc rơ lưỡi, dầu massage Oriky, bọt rửa tay, Curmilk, Yaocare Women, Dao'Spa Mama
     │   ├── Bài đào tạo sản phẩm cho NV shop (nói miệng 5-10 phút).md  ← bài nói đào tạo NV shop về thành phần/công dụng/lợi ích/khác biệt từng sản phẩm, dùng trước khi NV tự tư vấn NTD
     │   └── Bài đào tạo sản phẩm cho NV shop (dạng gạch đầu dòng).md  ← cùng nội dung, rút gọn thành gạch đầu dòng để xem nhanh
-    └── Poster gấp 3/                   ← tờ rơi gấp 3, khổ A4 ngang, mỗi mặt 3 cột — Mặt A rút từ "Khung xử lý từ chối mua hàng...", Mặt B rút từ "Theo vấn đề da bé/" (bảng tra nhanh 9 vấn đề + 5 vấn đề minh hoạ chi tiết). Ảnh dùng lại từ `../Poster NVBH/assets/`
+    └── Poster gấp 3/                   ← tờ rơi gấp 3, khổ A4 ngang, mỗi mặt 3 cột — Mặt A rút từ "Khung xử lý từ chối mua hàng...", Mặt B rút từ "Theo vấn đề da bé/" (chi tiết đủ 3 bước cho cả 9/9 vấn đề, không có bảng ma trận). Ảnh (dược liệu, chứng nhận, khách dùng thật) dùng lại từ `../Poster NVBH/assets/`
         ├── README - cach dung.md       ← cách in/gấp, nguồn nội dung từng mặt, giới hạn ảnh hiện có, lựa chọn biên tập
         ├── _gap3.css                   ← kiểu dùng chung cả 2 mặt
         ├── Mat A - Khung xu ly tu choi mua hang.html/.pdf/.png

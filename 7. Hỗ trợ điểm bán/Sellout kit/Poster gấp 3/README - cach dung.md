@@ -6,11 +6,11 @@ Tờ rơi gấp 3 (tri-fold), khổ **A4 ngang** (297×210mm), mỗi mặt chia 
 | Mặt | Nguồn nội dung | Dùng cho |
 |---|---|---|
 | **Mặt A** — `Mat A - Khung xu ly tu choi mua hang` | `../Khung xử lý từ chối mua hàng - khối vấn đề (toàn bộ SP OTC).md` | NVKD làm việc với NPP/Shop/CTV, và NVBH tại điểm bán — 8 khối vấn đề từ chối mua hàng, dùng cho **toàn bộ SP OTC** |
-| **Mặt B** — `Mat B - Van de da be` | `../Theo vấn đề da bé/Sell-out kit theo vấn đề da bé.docx` (+ `dulieu.js` cùng thư mục) | NVBH tại điểm bán — tra cứu nhanh 9 vấn đề da bé, có 5 vấn đề minh hoạ chi tiết đủ 3 bước |
+| **Mặt B** — `Mat B - Van de da be` | `../Theo vấn đề da bé/Sell-out kit theo vấn đề da bé.docx` (+ `dulieu.js` cùng thư mục) | NVBH tại điểm bán — chi tiết đủ 3 bước cho **cả 9/9 vấn đề da bé** |
 
 Cả hai mặt là **bản cô đọng** để vừa 3 cột A4, không phải bản đầy đủ — giữ đúng dữ kiện, thành phần,
 cơ chế, cách dùng, dấu hiệu đi khám như file gốc, chỉ rút gọn câu chữ. Muốn xem đầy đủ (câu mở mẫu
-từng khối, chi tiết cả 9 vấn đề da bé, script đối đáp từng câu hỏi...) thì mở đúng file nguồn ở bảng trên.
+từng khối, script đối đáp từng câu hỏi...) thì mở đúng file nguồn ở bảng trên.
 
 ## Cách in và gấp
 
@@ -49,7 +49,7 @@ node "../../Poster NVBH/probe.js" "Mat A - Khung xu ly tu choi mua hang.html" "0
 ```
 
 Cỡ chữ điều khiển bằng biến `--s` trong từng file HTML — hiện Mặt A đặt `--s:0.86` (nhiều khối hơn nên
-chữ nhỏ hơn), Mặt B đặt `--s:1.00`.
+chữ nhỏ hơn), Mặt B đặt `--s:0.90` (cả 9 vấn đề trong 3 cột nên chữ nhỏ hơn bản trước).
 
 ## Hình ảnh dùng trong 2 mặt — và giới hạn hiện có
 
@@ -59,22 +59,24 @@ qua đường dẫn tương đối — không copy trùng file:
 - **Mặt A:** `logo.png` (header); `dkpharma.jpg`, `dhduoc.jpg` (khối 1 – Thương hiệu, khối 5 – Pháp lý,
   đúng nguồn gốc DK Pharma/ĐH Dược Hà Nội); `cn-congbo.jpg`, `cn-kiemnghiem.jpg` (khối 5 – hồ sơ công bố/kiểm nghiệm).
 - **Mặt B:** `logo.png` (header); `dl-dudu.png`, `dl-chanh.png`, `dl-kinhgioi.png`, `dl-saidat.png`,
-  `dl-khoqua.png` (5 dược liệu xuất hiện trong cơ chế của vấn đề 1–2: đu đủ, chanh, kinh giới, sài đất, khổ qua).
+  `dl-khoqua.png` (5 dược liệu xen giữa cột 1 và các vấn đề dùng đúng dược liệu đó: đu đủ, chanh, kinh giới,
+  sài đất, khổ qua); `kh2.jpg`, `kh3.jpg` (ảnh khách hàng thực tế đang dùng Tắm gội thảo dược Elemis — xen
+  giữa các mục ở cột 2 và cột 3, đúng như công ty đã dùng trong bộ slide/sell-out kit gốc).
 
 **⚠️ Giới hạn:** bộ ảnh công ty cung cấp hiện chỉ đủ cho sản phẩm **Tắm gội thảo dược Elemis** (dược liệu,
-bước tắm, chứng nhận) — như đã ghi trong `../../Poster NVBH/README - cach dung.md`. Sáu sản phẩm còn lại
-trong sell-out kit (Kem bôi, Dầu massage Oriky, Xịt muỗi, Gel Gold, Bọt rửa tay, Gạc rơ lưỡi) **chưa có ảnh
-chai/hộp thật** trong repo, nên Mặt B không có ảnh sản phẩm cho các dòng này — cần xin thêm ảnh từ MKT nếu
-muốn bổ sung. Không dùng ảnh minh hoạ chung chung thay thế để tránh gây hiểu nhầm là ảnh sản phẩm thật.
+bước tắm, chứng nhận, ảnh khách dùng) — như đã ghi trong `../../Poster NVBH/README - cach dung.md`. Sáu sản
+phẩm còn lại trong sell-out kit (Kem bôi, Dầu massage Oriky, Xịt muỗi, Gel Gold, Bọt rửa tay, Gạc rơ lưỡi)
+**chưa có ảnh chai/hộp thật** trong repo, nên Mặt B chỉ xen được ảnh dược liệu và ảnh khách dùng Tắm gội —
+không có ảnh sản phẩm cho 6 dòng còn lại. Cần xin thêm ảnh từ MKT nếu muốn bổ sung; không dùng ảnh minh hoạ
+chung chung thay thế để tránh gây hiểu nhầm là ảnh sản phẩm thật.
 
 ## Chọn lọc nội dung — không phải tự nghĩ thêm
 
 - Mặt A giữ đúng 8 khối + 4 nguyên tắc + công thức sandwich 3 lớp của file gốc, chỉ rút câu mở dẫn dắt
   mẫu xuống công thức chung (bỏ phần ví dụ minh hoạ theo từng khối để đủ chỗ).
-- Mặt B chọn minh hoạ chi tiết **5/9 vấn đề** (Hăm da, Rôm sảy/mẩn ngứa/mụn nhọt, Chàm sữa, Muỗi đốt, Cứt trâu)
-  để vừa 2 cột — đây là lựa chọn biên tập để cân đối bố cục, **không phải xếp hạng mức độ phổ biến** (chưa có
-  số liệu tần suất hỏi thực tế của Nhi). 4 vấn đề còn lại (Da khô/nứt nẻ do gió nắng, Vết thâm/sẹo mới, Da tay
-  khô rát, Tưa lưỡi) vẫn có đủ trong bảng tra nhanh cột 1 và trong bản Word/sơ đồ nhánh đầy đủ.
+- Mặt B trình bày chi tiết đủ 3 bước cho **cả 9/9 vấn đề** (không còn bảng ma trận tra nhanh — chỉ giữ
+  chú thích ý nghĩa số 1/2/3 ở đầu cột 1), mỗi vấn đề vẫn giữ đúng biểu hiện, thành phần, cơ chế, cách dùng,
+  dấu hiệu đi khám và lưu ý an toàn/độ tuổi như file gốc, chỉ rút gọn câu chữ để vừa cột.
 - Các cảnh báo/lưu ý còn treo trong file gốc (chưa chốt cách pha rôm sảy, giá OTC hay giá web, các mốc thời
   gian "hết hăm/hết chàm" chưa đưa vào...) — xem đầy đủ ở `../Theo vấn đề da bé/README.md` và
   `../../Poster NVBH/README - cach dung.md`, tờ gấp 3 này không lặp lại các mục "còn chờ xác nhận" đó vì đã
