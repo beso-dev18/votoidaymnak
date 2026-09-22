@@ -125,18 +125,19 @@ Nhi/
     │   └── Câu hỏi làm rõ.md         ← câu hỏi nên hỏi quản lý/đồng nghiệp để lấp lỗ hổng thông tin
     └── 7. Hỗ trợ điểm bán/
         ├── Phân tích công việc.md
-        ├── Câu hỏi làm rõ.md
-        ├── Bộ sell-out kit theo sản phẩm.md  ← sell-out kit (POSM, cơ chế thành phần theo từng bước, script, giá/khuyến mãi) cho **toàn bộ 9 nhóm SP trong bảng báo giá OTC**: kem bôi, xịt muỗi, sữa tắm, gạc rơ lưỡi, dầu massage Oriky, bọt rửa tay, Curmilk, Yaocare Women, Dao'Spa Mama
-        ├── Xử lý từ chối mua hàng - script cho NVBH.md  ← câu hỏi/từ chối thường gặp của NTD tại quầy + câu trả lời gợi ý, theo từng sản phẩm trong sell-out kit
-        ├── Bài đào tạo sản phẩm cho NV shop (nói miệng 5-10 phút).md  ← bài nói đào tạo NV shop về thành phần/công dụng/lợi ích/khác biệt từng sản phẩm, dùng trước khi NV tự tư vấn NTD
-        └── Bài đào tạo sản phẩm cho NV shop (dạng gạch đầu dòng).md  ← cùng nội dung, rút gọn thành gạch đầu dòng để xem nhanh
+        └── Câu hỏi làm rõ.md
 1. Đơn hàng/                            ← trống, để dành nội dung riêng ứng với nhóm việc 1 (đồng cấp Phân tích công việc, tên trùng với folder con cùng tên trong đó)
 2. Giấy tờ, chứng từ/                   ← trống, để dành nội dung riêng ứng với nhóm việc 2
 3. Tư liệu/                             ← trống, để dành nội dung riêng ứng với nhóm việc 3
 4. Quản lý khách hàng của bộ phận/      ← trống, để dành nội dung riêng ứng với nhóm việc 4
 5. Báo cáo, phân tích số liệu/          ← trống, để dành nội dung riêng ứng với nhóm việc 5
 6. Chương trình, đề xuất/               ← trống, để dành nội dung riêng ứng với nhóm việc 6
-7. Hỗ trợ điểm bán/                     ← trống, để dành nội dung riêng ứng với nhóm việc 7
+7. Hỗ trợ điểm bán/
+└── Sellout kit/                        ← chuyển từ Phân tích công việc/7. Hỗ trợ điểm bán/ sang, gom mọi tài liệu ngoài "Phân tích công việc.md" và "Câu hỏi làm rõ.md"
+    ├── Bộ sell-out kit theo sản phẩm.md  ← sell-out kit (POSM, cơ chế thành phần theo từng bước, script, giá/khuyến mãi) cho **toàn bộ 9 nhóm SP trong bảng báo giá OTC**: kem bôi, xịt muỗi, sữa tắm, gạc rơ lưỡi, dầu massage Oriky, bọt rửa tay, Curmilk, Yaocare Women, Dao'Spa Mama
+    ├── Xử lý từ chối mua hàng - script cho NVBH.md  ← câu hỏi/từ chối thường gặp của NTD tại quầy + câu trả lời gợi ý, theo từng sản phẩm trong sell-out kit
+    ├── Bài đào tạo sản phẩm cho NV shop (nói miệng 5-10 phút).md  ← bài nói đào tạo NV shop về thành phần/công dụng/lợi ích/khác biệt từng sản phẩm, dùng trước khi NV tự tư vấn NTD
+    └── Bài đào tạo sản phẩm cho NV shop (dạng gạch đầu dòng).md  ← cùng nội dung, rút gọn thành gạch đầu dòng để xem nhanh
 Danh mục sản phẩm/                      ← phân loại sản phẩm công ty
 ├── Giới thiệu sản phẩm/                ← bài giới thiệu chi tiết từng sản phẩm, dựng theo cấu trúc mẫu Xịt muỗi Elemis.pptx sếp cung cấp (nỗi đau KH, thông tin SP, công dụng, thành phần, USP, hướng dẫn dùng, cam kết, so sánh đối thủ, FAQ)
 │   ├── Giới thiệu sản phẩm - Kem bôi da Elemis.md
