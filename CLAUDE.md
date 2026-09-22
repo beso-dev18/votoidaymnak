@@ -133,8 +133,22 @@ Nhi/
 5. Báo cáo, phân tích số liệu/          ← trống, để dành nội dung riêng ứng với nhóm việc 5
 6. Chương trình, đề xuất/               ← trống, để dành nội dung riêng ứng với nhóm việc 6
 7. Hỗ trợ điểm bán/
+├── Poster NVBH/                        ← poster A4 in ra dán quầy hoặc phát cho nhân viên bán hàng tại shop. Màu thương hiệu #2F9036 và ảnh lấy từ bộ slide Elemis chính thức của công ty
+│   ├── README - cach dung.md           ← bố cục, cách dựng lại, lưu ý khi in, 3 điểm cần công ty xác nhận
+│   ├── _chung.css                      ← kiểu dùng chung cả 2 bản poster
+│   ├── assets/                         ← ảnh tách từ bộ slide Elemis: sản phẩm, logo, dược liệu, 4 bước tắm, giấy kiểm nghiệm, ảnh khách dùng
+│   ├── render.js · probe.js · kiemtra.js  ← dựng PDF+PNG bằng Chromium, tự báo lỗi nếu chữ bị cắt hoặc tràn khỏi khổ giấy
+│   ├── SP1 - Tam goi Elemis (1 trang).html/.pdf/.png  ← bản 1 trang, dán quầy
+│   └── SP1 - Tam goi Elemis (2 trang).html/.pdf/.png  ← bản 2 trang, phát cho NVBH giữ; trang 2 là phần cần học (4 bước tắm có hình, cách dùng khi chàm sữa/hăm tã, bảng 5 cấp độ hăm, giấy kiểm nghiệm)
 └── Sellout kit/                        ← chuyển từ Phân tích công việc/7. Hỗ trợ điểm bán/ sang, gom mọi tài liệu ngoài "Phân tích công việc.md" và "Câu hỏi làm rõ.md"
     ├── Khung xử lý từ chối mua hàng - khối vấn đề (toàn bộ SP OTC).md  ← framework tầng cao hơn: nhóm câu từ chối thành 8 khối vấn đề chung cho toàn bộ 13 SP/dòng trong bảng báo giá OTC (thương hiệu, giá, thành phần, hiệu quả, pháp lý, so sánh đối thủ, kênh phân phối, trì hoãn quyết định) + phương hướng trả lời chung và câu mở dẫn dắt theo công thức sandwich 3 lớp (Đồng cảm → Làm rõ + lợi thế → Điều hướng) cho mỗi khối, không phải câu trả lời cụ thể từng câu hỏi
+    ├── Theo vấn đề da bé/              ← ⭐ kit xếp THEO VẤN ĐỀ CỦA BÉ thay vì theo sản phẩm — đúng thứ tự thực tế ở quầy: khách nói "bé bị hăm" chứ không hỏi tên sản phẩm. 9 vấn đề (gộp từ 13 theo mức trùng hoạt chất), mỗi vấn đề xử lý theo 3 bước: làm sạch → xử lý vấn đề → nuôi dưỡng & bảo vệ
+    │   ├── README.md                   ← nguồn dữ liệu, căn cứ gộp vấn đề, cách dựng lại, cách thêm vấn đề mới
+    │   ├── Sell-out kit theo vấn đề da bé.docx  ← ⭐ BẢN CHÍNH (Word A4 ngang): mỗi vấn đề một mục lớn + sơ đồ nhánh dạng bảng gộp ô đủ 4 lớp (vấn đề da → bước xử lý → sản phẩm → thành phần + cơ chế)
+    │   ├── dulieu.js                   ← nguồn duy nhất của cả bản Word lẫn sơ đồ. Sửa ở đây rồi chạy lại 2 script, mọi file khác cập nhật theo
+    │   ├── taosodo.js · taoword.js · canhchinh.js · sodo.css  ← sinh sơ đồ HTML và bản Word; canhchinh.js tự dò cỡ chữ lớn nhất mà trang không tràn
+    │   ├── So do - 0 - Bang tra nhanh.pdf  ← 1 trang A4 ngang: 9 vấn đề × 7 sản phẩm, ô có số là sản phẩm đảm nhận bước đó. Dán quầy
+    │   └── So do - 1..9 - <tên>.pdf    ← sơ đồ nhánh riêng từng vấn đề, in lẻ khi cần
     └── Theo sản phẩm/                  ← tài liệu sell-out kit gắn theo từng sản phẩm cụ thể
         ├── Xử lý từ chối mua hàng - script cho NVBH.md  ← câu hỏi/từ chối thường gặp của NTD tại quầy + câu trả lời gợi ý, theo từng sản phẩm trong sell-out kit
         ├── Bộ sell-out kit theo sản phẩm.md  ← sell-out kit (POSM, cơ chế thành phần theo từng bước, script, giá/khuyến mãi) cho **toàn bộ 9 nhóm SP trong bảng báo giá OTC**: kem bôi, xịt muỗi, sữa tắm, gạc rơ lưỡi, dầu massage Oriky, bọt rửa tay, Curmilk, Yaocare Women, Dao'Spa Mama
