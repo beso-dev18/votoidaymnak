@@ -4,8 +4,8 @@ Nguồn: `mau_hop_dong_ctv.docx` (file Nhi gửi lên). Rà soát dưới góc �
 
 ## 2 file kết quả
 
-1. **`Hop dong CTV - Ban goc co nhan xet (comment).docx`** — giữ nguyên 100% nội dung gốc, chỉ gắn 21 comment (Word review comment, mở bằng Word/Google Docs/LibreOffice để xem ở lề phải) đánh dấu từng vấn đề tại đúng vị trí trong hợp đồng.
-2. **`Hop dong CTV - Ban da chinh sua (de xuat).docx`** — bản dựng lại hoàn chỉnh, đã sửa các lỗi/khoảng trống có thể sửa bằng câu chữ pháp lý chuẩn; những chỗ cần **số liệu/quyết định kinh doanh cụ thể** (tên CTV, % hoa hồng, số ngày báo trước, mức bồi thường...) vẫn để trống — không tự bịa số liệu, cần Nhi/BGĐ xác nhận rồi điền tay.
+1. **`Hop dong CTV - Ban goc co nhan xet (comment).docx`** — giữ nguyên 100% nội dung gốc, chỉ gắn 21 comment ngắn gọn (Word review comment, mở bằng Word/Google Docs/LibreOffice để xem ở lề phải) đánh dấu từng vấn đề tại đúng vị trí trong hợp đồng. Chưa ký với ai, chỉ là mẫu.
+2. **`Hop dong CTV - Ban da chinh sua (de xuat).docx`** — bản dựng lại hoàn chỉnh, **chữ màu đỏ là phần mới bổ sung hoặc đã chỉnh sửa so với bản gốc** (chữ đen giữ nguyên như bản gốc), có chú thích ở cuối file. Những chỗ cần **số liệu/quyết định kinh doanh cụ thể** (tên CTV, % hoa hồng, số ngày báo trước, mức bồi thường...) vẫn để trống — không tự bịa số liệu, cần Nhi/BGĐ xác nhận rồi điền tay.
 
 ## Các vấn đề chính đã phát hiện (tóm tắt 21 comment)
 

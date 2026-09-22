@@ -130,8 +130,8 @@ Nhi/
 2. Giấy tờ, chứng từ/
 └── Hợp đồng CTV/                        ← rà soát mẫu hợp đồng cộng tác viên do sếp cung cấp
     ├── README - Tóm tắt rà soát hợp đồng CTV.md  ← 21 vấn đề phát hiện (thể thức, thông tin còn thiếu, điều khoản tiêu chuẩn còn thiếu, rủi ro HĐLĐ trá hình, khấu trừ thuế TNCN), việc Nhi cần làm tiếp
-    ├── Hop dong CTV - Ban goc co nhan xet (comment).docx  ← giữ nguyên nội dung gốc, gắn 21 comment tại đúng vị trí
-    └── Hop dong CTV - Ban da chinh sua (de xuat).docx     ← bản dựng lại hoàn chỉnh, đã bổ sung điều khoản còn thiếu; chỗ cần số liệu/quyết định kinh doanh vẫn để trống, không tự bịa
+    ├── Hop dong CTV - Ban goc co nhan xet (comment).docx  ← giữ nguyên nội dung gốc, gắn 21 comment ngắn gọn tại đúng vị trí
+    └── Hop dong CTV - Ban da chinh sua (de xuat).docx     ← bản dựng lại hoàn chỉnh, chữ đỏ = phần mới/đã sửa so với bản gốc, chữ đen = giữ nguyên; chỗ cần số liệu/quyết định kinh doanh vẫn để trống, không tự bịa
 3. Tư liệu/                             ← trống, để dành nội dung riêng ứng với nhóm việc 3
 4. Quản lý khách hàng của bộ phận/      ← trống, để dành nội dung riêng ứng với nhóm việc 4
 5. Báo cáo, phân tích số liệu/          ← trống, để dành nội dung riêng ứng với nhóm việc 5
