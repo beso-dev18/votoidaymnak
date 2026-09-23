@@ -1,6 +1,6 @@
 # Khung xử lý từ chối mua hàng — các khối vấn đề & phương hướng trả lời (toàn bộ SP trong Bảng báo giá OTC)
 
-**Vai trò tiếp cận:** góc nhìn chuyên gia bán hàng/giám đốc kinh doanh khi giới thiệu **toàn bộ 13 sản phẩm/dòng** trong `Bảng giá và chương trình OTC.md` (bảng báo giá áp dụng từ 01/04/2025) tới khách hàng — áp dụng cho cả 2 tình huống: NVKD/Sales Admin làm việc với **đối tác kênh** (NPP, shop/nhà thuốc, CTV) khi họ cân nhắc nhập/bán sản phẩm, và NVBH tư vấn **người tiêu dùng** tại điểm bán.
+**Vai trò tiếp cận:** góc nhìn chuyên gia bán hàng/giám đốc kinh doanh khi NV shop tư vấn **toàn bộ 13 sản phẩm/dòng** trong `Bảng giá và chương trình OTC.md` (bảng báo giá áp dụng từ 01/04/2025) cho **người tiêu dùng (NTD) tại điểm bán** — dành cho NVBH/NV shop xử lý từ chối/thắc mắc khi khách đang cân nhắc mua.
 
 **Khác với file `Xử lý từ chối mua hàng - script cho NVBH.md`:** file đó là **câu trả lời cụ thể** cho từng câu hỏi của từng sản phẩm. File này là **framework ở tầng cao hơn** — nhóm các câu từ chối thành từng "khối vấn đề" lặp lại xuyên suốt mọi sản phẩm, và chỉ ra **phương hướng tư duy** để NVBH/NVKD tự ứng biến, không học thuộc kịch bản. Không đưa câu trả lời mẫu cho bất kỳ câu hỏi cụ thể nào.
 
@@ -59,10 +59,10 @@ Các câu mở dưới đây là **khung câu — không phải kịch bản h�
 
 **Phương hướng trả lời:**
 - Quy đổi giá về cùng đơn vị nhỏ nhất (đ/ml, đ/g, đ/gói...) trước khi so sánh — nhiều trường hợp chênh lệch cảm nhận ban đầu (so giá tổng bao bì khác quy cách) lớn hơn chênh lệch thật.
-- Tách "giá" ra khỏi "tổng giá trị nhận được": chương trình mua X tặng Y đang áp dụng, chính sách đổi trả, hỗ trợ tư liệu/đào tạo bán hàng đi kèm (với đối tác kênh) — trình bày như một gói, không chỉ một con số.
+- Tách "giá" ra khỏi "tổng giá trị nhận được": chương trình khuyến mãi đang áp dụng tại quầy, quà tặng kèm — trình bày như một gói, không chỉ một con số.
 - Khi thật sự đắt hơn đối thủ cùng phân khúc, chuyển sang lý do khác biệt định lượng được (thành phần/công thức riêng, nhà máy đạt chuẩn) thay vì nói chung chung "chất lượng cao hơn".
-- Hỏi ngược lại để hiểu ngân sách/kỳ vọng thật của khách, từ đó đề xuất đúng quy cách phù hợp (quy cách lớn hơn thường có đơn giá/đơn vị tốt hơn).
-- Với đối tác kênh mặc cả ngoài khung chính sách: không tự ý giảm giá, chuyển về đầu mối có thẩm quyền duyệt.
+- Hỏi ngược lại để hiểu ngân sách/kỳ vọng thật của khách, từ đó đề xuất đúng quy cách phù hợp (quy cách nhỏ hơn/lớn hơn tuỳ nhu cầu).
+- Nếu khách mặc cả ngoài khung khuyến mãi đang áp dụng: không tự ý giảm giá, xin ý kiến quản lý cửa hàng/công ty.
 
 **Tránh:** viện lý do "hiệu quả hơn/tốt hơn đối thủ" để biện minh cho giá cao khi chưa có số liệu so sánh khách quan — nhiều công dụng công bố của công ty trùng lặp với đối thủ chứ không vượt trội.
 
@@ -123,43 +123,7 @@ Các câu mở dưới đây là **khung câu — không phải kịch bản h�
 
 ---
 
-## 6. Khối SO SÁNH VỚI ĐỐI THỦ TRỰC TIẾP
-
-**Biểu hiện thường gặp:** "Sao không mua hẳn [thương hiệu khác], họ nổi tiếng/uy tín hơn?"
-
-**Câu mở dẫn dắt (sandwich 3 lớp):**
-1. Đồng cảm: "Em hiểu anh/chị muốn so sánh kỹ trước khi chọn, thị trường hiện có khá nhiều lựa chọn."
-2. Làm rõ + nêu lợi thế: "Mình đang so sánh về giá, thành phần hay độ phổ biến ạ? Ở điểm [thành phần/giá cụ thể đã có dữ liệu so sánh], sản phẩm bên em có [nêu đúng lợi thế theo `So sánh thị trường` đã xác minh]."
-3. Điều hướng: "Mình thử cân nhắc theo đúng tiêu chí anh/chị quan tâm nhất trước, em gửi thêm bảng so sánh cụ thể để anh/chị đối chiếu ạ."
-
-**Phương hướng trả lời:**
-- Chỉ so sánh trên những tiêu chí đã có dữ liệu xác thực trong tay (giá quy đổi, thành phần khác biệt thật) — không suy đoán hay hạ thấp đối thủ khi chưa kiểm chứng.
-- Chủ động dẫn dắt sang đúng sản phẩm/quy cách đang có lợi thế thật (nếu có, ví dụ lợi thế về giá ở một vài dòng) thay vì cố bảo vệ toàn bộ danh mục ngang nhau.
-- Khi công ty thực sự chưa bằng đối thủ ở một tiêu chí (ví dụ phạm vi công dụng hẹp hơn), thừa nhận và chuyển hướng sang tiêu chí khác có lợi thế, thay vì tránh né câu hỏi.
-
-**Tránh:** nói xấu, hạ thấp hoặc bịa nhược điểm của đối thủ không có căn cứ — vừa rủi ro pháp lý (cạnh tranh không lành mạnh) vừa mất uy tín nếu khách kiểm chứng.
-
----
-
-## 7. Khối KÊNH PHÂN PHỐI / HỢP TÁC (dành riêng cho NPP, Shop, CTV cân nhắc nhập hàng)
-
-**Biểu hiện thường gặp:** "Chính sách chiết khấu/đổi trả thế nào?", "Nhập về bán không chạy thì sao?", "Công ty hỗ trợ gì cho bên tôi bán hàng?"
-
-**Câu mở dẫn dắt (sandwich 3 lớp):**
-1. Đồng cảm: "Em hiểu anh/chị cần chắc chắn về rủi ro tồn kho và chính sách trước khi quyết định nhập hàng."
-2. Làm rõ + nêu lợi thế: "Mình đang lo nhất về chiết khấu, đổi trả hay hỗ trợ bán ra ạ? Về phần này, công ty có chương trình [nêu đúng mức mua X tặng Y đang áp dụng], cùng hỗ trợ tư liệu content/hình ảnh và đào tạo sản phẩm cho nhân viên bán hàng."
-3. Điều hướng: "Mình thử nhập số lượng nhỏ trước để đánh giá tốc độ bán, sau đó mình điều chỉnh đơn tiếp theo cho phù hợp ạ."
-
-**Phương hướng trả lời:**
-- Trình bày chương trình khuyến mãi sell-in đang áp dụng (mua X tặng Y theo từng sản phẩm) như một phần giá trị hợp tác, không chỉ là chiết khấu đơn thuần.
-- Nêu các hỗ trợ đi kèm công ty có thể cung cấp để giảm rủi ro tồn kho cho đối tác: tư liệu content/hình ảnh/video, đào tạo sản phẩm cho nhân viên bán hàng, chương trình sell-out tại điểm bán.
-- Với câu hỏi về chính sách đổi trả/tồn kho/công nợ cụ thể — không tự cam kết, xin phép xác nhận lại với đầu mối phụ trách (kế toán/NVKD) rồi phản hồi sau.
-
-**Tránh:** tự đưa ra cam kết về số lượng/tồn kho/đổi trả vượt thẩm quyền để chốt đơn nhanh — rủi ro phát sinh tranh chấp sau này thuộc nhóm "1.4 Xử lý phát sinh" mà bộ phận đang phải xử lý.
-
----
-
-## 8. Khối TRÌ HOÃN QUYẾT ĐỊNH
+## 6. Khối TRÌ HOÃN QUYẾT ĐỊNH
 
 **Biểu hiện thường gặp:** "Để tôi nghĩ thêm", "Chưa cần mua/nhập ngay", "Để hỏi ý kiến người khác đã"
 
@@ -179,5 +143,5 @@ Các câu mở dưới đây là **khung câu — không phải kịch bản h�
 
 ## Việc còn mở
 
-- Framework này là góc nhìn chuyên gia bán hàng tổng hợp từ dữ liệu đã có trong `Danh mục sản phẩm/` — chưa được NVKD/BGĐ xác nhận có đúng với thực tế đàm phán với NPP/Shop hay không. Nên xin ý kiến NVKD để bổ sung khối vấn đề đặc thù nếu có phát sinh thực tế chưa liệt kê ở đây.
-- Chính sách chiết khấu/đổi trả/công nợ cụ thể cho từng nhóm đối tác (NPP/Shop/CTV) chưa có trong dữ liệu hiện có — cần hỏi kế toán/NVKD để bổ sung phương hướng chính xác hơn cho Khối 7.
+- Framework này là góc nhìn chuyên gia bán hàng tổng hợp từ dữ liệu đã có trong `Danh mục sản phẩm/` — chưa được NVKD/BGĐ xác nhận có đúng với thực tế tư vấn NTD tại điểm bán hay không. Nên xin ý kiến NVKD để bổ sung khối vấn đề đặc thù nếu có phát sinh thực tế chưa liệt kê ở đây.
+- Bản này chỉ tập trung vào NV shop tư vấn NTD tại điểm bán — khối vấn đề riêng khi làm việc với đối tác kênh (NPP/Shop/CTV cân nhắc nhập hàng: chiết khấu, đổi trả, tồn kho, hợp tác) không nằm trong phạm vi file này, cần lập framework riêng nếu có nhu cầu.
