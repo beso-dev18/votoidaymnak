@@ -68,7 +68,6 @@ const DOITHU = {
         khacBiet: "Chicco cam kết không cồn, màu, hương liệu, paraben, petroleum, BHT, EDTA — còn DKX có BHT." },
     ],
     rieng: "Kết hợp 3 loại dầu thực vật (cám gạo + hạnh nhân + hạt nho) — Johnson's dùng dầu khoáng, Chicco chỉ có cám gạo đơn lẻ.",
-    canhBao: "DKX có BHT (chất chống oxy hoá tổng hợp) trong khi cả Johnson's và Chicco đều quảng cáo \"không chứa BHT\" — không chủ động nhắc thành phần này với khách.",
   },
   xit: {
     doiThu: [
@@ -80,7 +79,6 @@ const DOITHU = {
         khacBiet: 'Soffell công bố hiệu quả 8 giờ nhưng không dùng cho trẻ dưới 4 tuổi; DKX 100% tinh dầu, không hoạt chất hoá học.' },
     ],
     rieng: '100% tinh dầu tự nhiên, không hoạt chất hoá học (Picaridin/DEET) — dùng được cho bé nhỏ hơn 2 đối thủ trên (từ 3 tháng).',
-    canhBao: 'DKX công bố hiệu quả chỉ 3 giờ, ngắn hơn Remos (6 giờ) và Soffell (8 giờ) — vì vậy phải xịt lại sau 2–3 giờ như đã ghi ở "Cách dùng", không hứa hiệu quả cả ngày.',
   },
   gac: {
     doiThu: [
@@ -89,8 +87,6 @@ const DOITHU = {
         khacBiet: 'DKX có thêm rau ngót, chè xanh/cúc la mã và acid boric; Dr.Papie công thức đơn giản hơn, chỉ có hẹ là dược liệu chính.' },
     ],
     rieng: 'Thêm rau ngót, chè xanh/cúc la mã — công thức đa dạng dược liệu hơn Dr.Papie.',
-    canhBao: 'CẢNH BÁO AN TOÀN CHƯA XÁC MINH: gạc rơ lưỡi Elemis chứa acid boric. Theo dược thư, không dùng dạng bôi/thuốc mỡ chứa acid boric cho trẻ dưới 2 tuổi. Sản phẩm công bố dùng "từ sơ sinh" và bôi trực tiếp khoang miệng. Chưa có số liệu nồng độ cụ thể nên KHÔNG kết luận an toàn hay nguy hiểm — phải hỏi lại R&D/QA trước khi tư vấn khách. Dr.Papie không có acid boric trong thành phần công bố mà tìm được.',
-    canhBaoMuc: 'do',
   },
 };
 
