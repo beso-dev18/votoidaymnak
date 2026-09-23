@@ -32,8 +32,9 @@ VẤN ĐỀ DA → BƯỚC XỬ LÝ → SẢN PHẨM → THÀNH PHẦN → CƠ C
 
 Cột cuối gắn theo **sản phẩm** (giống cách cột "SẢN PHẨM" gộp ô theo từng lần sản phẩm đó xuất hiện
 trong bước) — vì dữ liệu đối thủ đối chiếu theo từng sản phẩm, không theo từng dòng thành phần riêng lẻ.
-Nội dung chỉ ghi phần **khác biệt**, không ghi phần giống nhau: hoạt chất/công dụng chỉ DKX có
-("Hơn hẳn:"), rồi khác biệt cụ thể so với từng đối thủ.
+Nội dung chỉ nói **DKX có gì**, không mô tả đối thủ có gì: hoạt chất/công dụng chỉ DKX có ("Hơn hẳn:"),
+rồi với mỗi đối thủ là một dòng "vs {tên đối thủ}: DKX ..." — chỉ nêu điểm khác biệt của DKX, không
+liệt kê thành phần hay điểm mạnh riêng của đối thủ.
 
 Dữ liệu nằm trong `DOITHU` ở **`dulieu.js`**, lấy nguyên từ
 `../../../Danh mục sản phẩm/So sánh thị trường/So sánh thị trường - Nhóm Dành cho bé.md` (đối chiếu
