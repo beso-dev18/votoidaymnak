@@ -20,7 +20,7 @@ khách không hỏi “cho tôi xem kem bôi da”, khách nói “bé nhà em b
 | Giá, quy cách | `../../../Danh mục sản phẩm/Báo giá sản phẩm OTC tất cả sp.docx` (01/04/2025) |
 | Thành phần, hoạt chất, cơ chế tác động | `../../../Danh mục sản phẩm/Phân tích công dụng/Phân tích công dụng sản phẩm.docx` |
 | Tỷ lệ pha, cách dùng | Bộ slide giới thiệu Elemis và bộ sell-out kit Elemis do công ty cung cấp (file gốc không nằm trong repo) |
-| So sánh với đối thủ (thành phần, hoạt chất trùng/khác) | `../../../Danh mục sản phẩm/So sánh thị trường/So sánh thị trường - Nhóm Dành cho bé.md` (đối chiếu 15/09/2026) |
+| So sánh với đối thủ (chỉ phần khác biệt) | `../../../Danh mục sản phẩm/So sánh thị trường/So sánh thị trường - Nhóm Dành cho bé.md` (đối chiếu 15/09/2026) |
 
 Không thêm bất kỳ thành phần, cơ chế, công dụng hay dữ liệu đối thủ nào ngoài các tài liệu trên.
 
@@ -32,9 +32,8 @@ VẤN ĐỀ DA → BƯỚC XỬ LÝ → SẢN PHẨM → THÀNH PHẦN → CƠ C
 
 Cột cuối gắn theo **sản phẩm** (giống cách cột "SẢN PHẨM" gộp ô theo từng lần sản phẩm đó xuất hiện
 trong bước) — vì dữ liệu đối thủ đối chiếu theo từng sản phẩm, không theo từng dòng thành phần riêng lẻ.
-Nội dung gồm: hoạt chất/công dụng chỉ DKX có ("Hơn hẳn:"), so với từng đối thủ (trùng hoạt chất gì,
-khác biệt gì), và cảnh báo nếu có (marketing không khớp công bố, hoặc an toàn — ví dụ acid boric trong
-gạc rơ lưỡi, tô màu đỏ; các cảnh báo khác tô màu vàng).
+Nội dung chỉ ghi phần **khác biệt**, không ghi phần giống nhau: hoạt chất/công dụng chỉ DKX có
+("Hơn hẳn:"), rồi khác biệt cụ thể so với từng đối thủ.
 
 Dữ liệu nằm trong `DOITHU` ở **`dulieu.js`**, lấy nguyên từ
 `../../../Danh mục sản phẩm/So sánh thị trường/So sánh thị trường - Nhóm Dành cho bé.md` (đối chiếu

@@ -55,7 +55,7 @@ function noiDungDoiThu(k) {
   if (!dt) return [P('⏳ Chưa đối chiếu đối thủ cho sản phẩm này.', { run: { size: 15, color: MUTE, italics: true } })];
   const out = [];
   if (dt.rieng) out.push(P('Hơn hẳn: ' + dt.rieng, { run: { bold: true, color: NAVY, size: 16 } }));
-  dt.doiThu.forEach(o => out.push(P(`vs ${o.ten}: ${o.trung}. ${o.khacBiet}`, { run: { size: 15 } })));
+  dt.doiThu.forEach(o => out.push(P(`vs ${o.ten}: ${o.khacBiet}`, { run: { size: 15 } })));
   if (dt.canhBao) out.push(P('⚠ ' + dt.canhBao, { run: { size: 15, color: dt.canhBaoMuc === 'do' ? RED : AMBER, italics: true } }));
   return out;
 }

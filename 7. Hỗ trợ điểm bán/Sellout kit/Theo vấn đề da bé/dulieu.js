@@ -20,10 +20,8 @@ const DOITHU = {
   kem: {
     doiThu: [
       { ten: 'Bepanthen Balm (30g)', tp: 'Dexpanthenol (tiền vitamin B5), Lanolin',
-        trung: 'Không trùng hoạt chất — cơ chế tái tạo da khác nhau',
         khacBiet: 'Bepanthen dùng Dexpanthenol chuyên biệt tái tạo da, còn dùng được cho nứt đầu ti mẹ; DKX dùng kẽm oxyd nano kết hợp rau má + ngải cứu.' },
       { ten: 'Sudocrem (60g)', tp: 'Kẽm oxyd, Lanolin, tinh dầu lavender',
-        trung: 'Trùng kẽm oxyd',
         khacBiet: 'DKX kết hợp kẽm oxyd với thảo dược (rau má, ngải cứu); Sudocrem kết hợp kẽm oxyd với lanolin và lavender.' },
     ],
     rieng: 'DKX công bố thêm "da bị bỏng do gió/nắng" — không thấy ở Bepanthen/Sudocrem.',
@@ -31,10 +29,8 @@ const DOITHU = {
   tamgoi: {
     doiThu: [
       { ten: 'Dr.Papie (230ml)', tp: '9 thảo dược hữu cơ: chè tuyết, khổ qua, trầu không, tràm, sả...',
-        trung: 'Trùng: khổ qua, tràm, sả chanh',
         khacBiet: 'Dr.Papie theo chuẩn dược liệu Âu, không xà phòng.' },
       { ten: 'Kutieskin (200ml)', tp: 'Nano Curcumin + 12 thảo dược: sài đất, kinh giới, khổ qua, chè xanh, rau má, nha đam, tràm, sả...',
-        trung: 'Trùng gần hết: sài đất, kinh giới, khổ qua, chè xanh, sả, tràm',
         khacBiet: 'Kutieskin có thêm Nano Curcumin (hãng công bố kháng viêm mạnh hơn nghệ thường); công bố thêm hăm da, viêm da, lông măng — DKX không công bố các công dụng này.' },
     ],
     rieng: 'Không có hoạt chất nào DKX có mà 2 đối thủ không có — bộ thảo dược phần lớn trùng lặp.',
@@ -42,10 +38,8 @@ const DOITHU = {
   gold: {
     doiThu: [
       { ten: 'Dr.Papie (230ml)', tp: 'Chè Shan Tuyết, khổ qua, kinh giới, cỏ mần trầu, sả, chanh, tràm',
-        trung: 'Trùng: chè xanh',
         khacBiet: 'Elemis Gold có hương nhu + kim ngân riêng; Dr.Papie theo chuẩn dược liệu Âu.' },
       { ten: 'Kutieskin (200ml)', tp: 'Nano Curcumin + sài đất, kinh giới, khổ qua, chè xanh',
-        trung: 'Trùng: chè xanh',
         khacBiet: 'Kutieskin có Nano Curcumin; công bố thêm hăm da, viêm da, lông măng.' },
     ],
     rieng: 'Hoạt chất kim ngân (Lonicera japonica) — không thấy trong thành phần công bố của 2 đối thủ.',
@@ -53,7 +47,6 @@ const DOITHU = {
   bot: {
     doiThu: [
       { ten: 'Chicco 0M+ — Ý (250ml)', tp: '96% gốc thực vật: trà xanh, acid lactic, cúc la mã, glycerin thực vật',
-        trung: 'Trùng: trà xanh, cúc la mã',
         khacBiet: 'Chicco đạt chuẩn EU (EC) 1223/2009, không SLS/SLES/BHT/EDTA; DKX có Aquaxyl (công nghệ dưỡng ẩm sinh học) mà Chicco không có.' },
     ],
     rieng: 'Aquaxyl (dưỡng ẩm sâu) — Chicco không liệt kê thành phần này.',
@@ -61,10 +54,8 @@ const DOITHU = {
   dau: {
     doiThu: [
       { ten: "Johnson's Baby Oil", tp: 'Dầu khoáng (mineral oil), Fragrance',
-        trung: 'Không trùng — dầu khoáng khác hẳn dầu thực vật',
         khacBiet: "Johnson's khoá ẩm cao (hãng công bố gấp 10 lần kem dưỡng thường, nhờ dầu khoáng); DKX dùng 3 loại dầu thực vật (cám gạo + hạnh nhân + hạt nho)." },
       { ten: 'Chicco (cám gạo)', tp: 'Dầu cám gạo, Omega 3/6, Vitamin E',
-        trung: 'Trùng: dầu cám gạo, Vitamin E',
         khacBiet: "Chicco cam kết không cồn, màu, hương liệu, paraben, petroleum, BHT, EDTA — còn DKX có BHT." },
     ],
     rieng: "Kết hợp 3 loại dầu thực vật (cám gạo + hạnh nhân + hạt nho) — Johnson's dùng dầu khoáng, Chicco chỉ có cám gạo đơn lẻ.",
@@ -72,10 +63,8 @@ const DOITHU = {
   xit: {
     doiThu: [
       { ten: 'Remos Baby Spray (Rohto)', tp: 'Picaridin 10–15% + tinh dầu khuynh diệp',
-        trung: 'Không trùng — hoạt chất tổng hợp (Picaridin, WHO khuyến nghị) khác tinh dầu tự nhiên',
         khacBiet: 'Remos công bố hiệu quả 6 giờ, an toàn từ 6 tháng, dùng được cho mẹ bầu/cho con bú.' },
       { ten: 'Soffell', tp: 'Diethylamide (DEET) 13%',
-        trung: 'Không trùng',
         khacBiet: 'Soffell công bố hiệu quả 8 giờ nhưng không dùng cho trẻ dưới 4 tuổi; DKX 100% tinh dầu, không hoạt chất hoá học.' },
     ],
     rieng: '100% tinh dầu tự nhiên, không hoạt chất hoá học (Picaridin/DEET) — dùng được cho bé nhỏ hơn 2 đối thủ trên (từ 3 tháng).',
@@ -83,7 +72,6 @@ const DOITHU = {
   gac: {
     doiThu: [
       { ten: 'Gạc răng miệng Dr.Papie (30 gói)', tp: 'Xylitol, NaCl, NaHCO3, dịch chiết lá hẹ',
-        trung: 'Trùng: Xylitol, NaCl, NaHCO3, hẹ',
         khacBiet: 'DKX có thêm rau ngót, chè xanh/cúc la mã và acid boric; Dr.Papie công thức đơn giản hơn, chỉ có hẹ là dược liệu chính.' },
     ],
     rieng: 'Thêm rau ngót, chè xanh/cúc la mã — công thức đa dạng dược liệu hơn Dr.Papie.',
