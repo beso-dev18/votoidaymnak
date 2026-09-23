@@ -27,7 +27,6 @@ const DOITHU = {
         khacBiet: 'DKX kết hợp kẽm oxyd với thảo dược (rau má, ngải cứu); Sudocrem kết hợp kẽm oxyd với lanolin và lavender.' },
     ],
     rieng: 'DKX công bố thêm "da bị bỏng do gió/nắng" — không thấy ở Bepanthen/Sudocrem.',
-    canhBao: 'Web DKX ghi "100% thiên nhiên, không hương liệu" nhưng thành phần công bố có Hương liệu (Fragrance) và các chất tổng hợp (Propylene glycol, Cremophor RH40, EDTA...) — không nói câu này với khách.',
   },
   tamgoi: {
     doiThu: [
@@ -50,7 +49,6 @@ const DOITHU = {
         khacBiet: 'Kutieskin có Nano Curcumin; công bố thêm hăm da, viêm da, lông măng.' },
     ],
     rieng: 'Hoạt chất kim ngân (Lonicera japonica) — không thấy trong thành phần công bố của 2 đối thủ.',
-    canhBao: 'Web ghi "hệ tạo bọt tự nhiên, 100% thảo dược, không hương liệu hoá học" nhưng thành phần công bố có Sodium Laureth Ether Sulfate (SLES). Web còn ghi thêm "viêm da, hăm da" — công dụng này KHÔNG có trong hồ sơ công bố chính thức (SCB), không được nói với khách.',
   },
   bot: {
     doiThu: [
