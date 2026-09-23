@@ -9,7 +9,7 @@ khách không hỏi “cho tôi xem kem bôi da”, khách nói “bé nhà em b
 
 | File | Là gì |
 |---|---|
-| **`Sell-out kit theo vấn đề da bé.docx`** | ⭐ Bản Word, khổ A4 ngang. Mỗi vấn đề một mục lớn, kèm sơ đồ nhánh dạng bảng gộp ô |
+| **`Sell-out kit theo vấn đề da bé.docx`** | ⭐ Bản Word, khổ A4 ngang. Mỗi vấn đề một mục lớn, kèm sơ đồ nhánh dạng bảng gộp ô, và cuối mỗi mục là bảng so sánh với đối thủ (thành phần, hoạt chất trùng/khác, giá quy đổi) |
 | `So do - 0 - Bang tra nhanh.pdf` | Một trang A4 ngang: 9 vấn đề × 7 sản phẩm, ô nào có số thì sản phẩm đó đảm nhận bước đó. Dán quầy |
 | `So do - 1..9 - <tên>.pdf` | Sơ đồ nhánh riêng từng vấn đề, in lẻ từng tờ khi cần |
 
@@ -20,8 +20,24 @@ khách không hỏi “cho tôi xem kem bôi da”, khách nói “bé nhà em b
 | Giá, quy cách | `../../../Danh mục sản phẩm/Báo giá sản phẩm OTC tất cả sp.docx` (01/04/2025) |
 | Thành phần, hoạt chất, cơ chế tác động | `../../../Danh mục sản phẩm/Phân tích công dụng/Phân tích công dụng sản phẩm.docx` |
 | Tỷ lệ pha, cách dùng | Bộ slide giới thiệu Elemis và bộ sell-out kit Elemis do công ty cung cấp (file gốc không nằm trong repo) |
+| So sánh với đối thủ (thành phần, hoạt chất trùng/khác, giá) | `../../../Danh mục sản phẩm/So sánh thị trường/So sánh thị trường - Nhóm Dành cho bé.md` (đối chiếu 15/09/2026) |
 
-Không thêm bất kỳ thành phần, cơ chế hay công dụng nào ngoài các tài liệu trên.
+Không thêm bất kỳ thành phần, cơ chế, công dụng hay dữ liệu đối thủ nào ngoài các tài liệu trên.
+
+## Phần "So sánh với đối thủ" trong bản Word
+
+Cuối mỗi vấn đề (sau bảng "Bộ sản phẩm tư vấn / Cách dùng / Khuyên đi khám") là bảng so sánh với đối thủ,
+lấy đúng những sản phẩm nằm trong "Bộ sản phẩm tư vấn" (`bo` + `boThem`) của vấn đề đó — mỗi sản phẩm
+đối chiếu với đối thủ đã tra trong `So sánh thị trường - Nhóm Dành cho bé.md`, gồm: thành phần chính đối
+thủ, hoạt chất trùng/khác với DKX, hoạt chất chỉ DKX có, cảnh báo (marketing không khớp công bố, hoặc
+an toàn — ví dụ acid boric trong gạc rơ lưỡi), và giá quy đổi.
+
+Giá đối thủ trong phần này là **giá web** (nguồn của file so sánh), khác với giá OTC 01/04/2025 dùng ở
+"Bộ sản phẩm tư vấn" phía trên — đã ghi chú rõ trong bản Word, chưa chốt dùng bảng giá nào cho khách xem.
+
+Dữ liệu nằm trong `DOITHU` ở **`dulieu.js`** — sửa ở đó rồi chạy lại `node taoword.js`. Chỉ 7 sản phẩm
+dùng cho bé mới có `DOITHU`; nếu thêm vấn đề mới dùng sản phẩm chưa có trong `DOITHU`, phải bổ sung đối
+thủ từ file so sánh nguồn trước, không tự suy đoán.
 
 ## Sơ đồ nhánh gồm 4 lớp
 
@@ -69,6 +85,9 @@ Script tự báo lỗi nếu có chữ bị cắt hoặc tràn khỏi khổ gi�
 Mở `dulieu.js`, thêm một khối vào mảng `VANDE` theo mẫu có sẵn:
 `id`, `ten`, `phu`, `cachDung`, `buoc` (3 bước, mỗi bước có sản phẩm và các cặp thành phần – cơ chế),
 `bo` (bộ sản phẩm chính), `boThem`, `kham`, và `luuY` nếu có. Rồi chạy lại 2 lệnh trên.
+
+Nếu vấn đề mới dùng sản phẩm đã có sẵn trong `DOITHU` thì phần "So sánh với đối thủ" tự sinh theo,
+không cần sửa gì thêm.
 
 ## Phạm vi
 

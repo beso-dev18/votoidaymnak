@@ -3,7 +3,7 @@ const fs = require('fs');
 const d = require('docx');
 const { Document, Packer, Paragraph, TextRun, Table, TableRow, TableCell, WidthType,
         ShadingType, BorderStyle, AlignmentType, VerticalMergeType, VerticalAlign, PageOrientation } = d;
-const { SP, VANDE } = require('./dulieu.js');
+const { SP, VANDE, DOITHU } = require('./dulieu.js');
 
 const W = 14570;                                  // bề ngang vùng nội dung, khổ A4 ngang
 const NAVY = '365F91', BLUE = '4F81BD', FILL = 'E7EEF7';
@@ -88,6 +88,38 @@ function soDo(v) {
   return new Table({ columnWidths: cols, width: { size: W, type: WidthType.DXA }, rows });
 }
 
+// ---------- so sánh với đối thủ ----------
+function khoiSoSanh(k) {
+  const dt = DOITHU[k];
+  if (!dt) return [];
+  const out = [];
+  out.push(new Paragraph({ spacing: { before: 160, after: 60 }, keepNext: true,
+    children: [new TextRun({ text: SP[k].ten, bold: true, color: NAVY, size: 20 })] }));
+  const cols = [2800, 3800, W - 6600];
+  const rows = [hdrRow([['ĐỐI THỦ', cols[0]], ['THÀNH PHẦN CHÍNH', cols[1]], ['TRÙNG / KHÁC HOẠT CHẤT VỚI DKX', cols[2]]])];
+  dt.doiThu.forEach(o => {
+    rows.push(new TableRow({ children: [
+      cell([P(o.ten, { run: { bold: true, size: 17 } })], { w: cols[0] }),
+      cell([P(o.tp, { run: { size: 16 } })], { w: cols[1] }),
+      cell([P(o.trung, { run: { bold: true, size: 16 } }), P(o.khacBiet, { run: { size: 16, color: MUTE } })], { w: cols[2] }),
+    ] }));
+  });
+  out.push(new Table({ columnWidths: cols, width: { size: W, type: WidthType.DXA }, rows }));
+  if (dt.rieng) out.push(P('Hoạt chất/công dụng chỉ DKX có: ' + dt.rieng, { run: { size: 17 } }));
+  if (dt.canhBao) out.push(khoiMau('CẢNH BÁO / MARKETING VS CÔNG BỐ', dt.canhBao, AMBER, AMBERFILL));
+  if (dt.gia) out.push(P(dt.gia, { run: { size: 16, color: MUTE, italics: true } }));
+  return out;
+}
+function soSanhDoiThu(v) {
+  const keys = [...new Set([...v.bo, ...v.boThem])];
+  const out = [];
+  out.push(H('SO SÁNH VỚI ĐỐI THỦ THỊ TRƯỜNG', 2));
+  out.push(P('Giá đối thủ lấy theo giá web (khác giá OTC 01/04/2025 dùng ở "Bộ sản phẩm tư vấn" trên), đối chiếu 15/09/2026. Nguồn: “So sánh thị trường - Nhóm Dành cho bé.md”.',
+    { run: { size: 15, color: MUTE, italics: true } }));
+  keys.forEach(k => out.push(...khoiSoSanh(k)));
+  return out;
+}
+
 // ---------- bảng tra nhanh ----------
 function bangTraNhanh() {
   const keys = ['tamgoi', 'gold', 'kem', 'dau', 'xit', 'bot', 'gac'];
@@ -122,7 +154,7 @@ body.push(new Paragraph({ spacing: { after: 120 },
   children: [new TextRun({ text: 'SELL-OUT KIT THEO VẤN ĐỀ DA BÉ', bold: true, color: NAVY, size: 40, font: 'Calibri Light' })] }));
 body.push(P('Khách đến shop nêu vấn đề của bé → tra đúng mục → biết ngay cần những sản phẩm nào, mỗi sản phẩm đảm nhận bước nào, nhờ thành phần gì và theo cơ chế nào.',
   { run: { size: 20, color: MUTE } }));
-body.push(P('Giá và quy cách lấy từ “Báo giá sản phẩm OTC tất cả sp.docx” (01/04/2025). Thành phần và cơ chế tác động lấy từ “Phân tích công dụng sản phẩm.docx”. Không thêm bất kỳ thành phần, cơ chế hay công dụng nào ngoài hai tài liệu này.',
+body.push(P('Giá và quy cách lấy từ “Báo giá sản phẩm OTC tất cả sp.docx” (01/04/2025). Thành phần và cơ chế tác động lấy từ “Phân tích công dụng sản phẩm.docx”. So sánh với đối thủ lấy từ “So sánh thị trường - Nhóm Dành cho bé.md” (đối chiếu 15/09/2026). Không thêm bất kỳ thành phần, cơ chế, công dụng hay dữ liệu đối thủ nào ngoài ba tài liệu này.',
   { run: { size: 17, color: MUTE, italics: true } }));
 
 body.push(H('BA BƯỚC XỬ LÝ — ÁP CHO MỌI VẤN ĐỀ', 1));
@@ -182,6 +214,8 @@ VANDE.forEach((v, i) => {
       cell([P(v.kham, { run: { size: 18 } })], { w: W - 3000, fill: REDFILL }),
     ] }),
   ]}));
+  body.push(P(''));
+  body.push(...soSanhDoiThu(v));
 });
 
 body.push(new Paragraph({ pageBreakBefore: true, spacing: { after: 0 }, children: [] }));
