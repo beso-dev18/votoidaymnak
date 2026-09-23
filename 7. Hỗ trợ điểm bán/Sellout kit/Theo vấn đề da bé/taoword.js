@@ -49,11 +49,23 @@ function khoiMau(nhan, noiDung, mau, fill) {
   ] })] });
 }
 
-// ---------- sơ đồ nhánh của 1 vấn đề ----------
+// ---------- nội dung cột "Sự khác biệt và hơn hẳn so với đối thủ" cho 1 sản phẩm ----------
+function noiDungDoiThu(k) {
+  const dt = DOITHU[k];
+  if (!dt) return [P('⏳ Chưa đối chiếu đối thủ cho sản phẩm này.', { run: { size: 15, color: MUTE, italics: true } })];
+  const out = [];
+  if (dt.rieng) out.push(P('Hơn hẳn: ' + dt.rieng, { run: { bold: true, color: NAVY, size: 16 } }));
+  dt.doiThu.forEach(o => out.push(P(`vs ${o.ten}: ${o.trung}. ${o.khacBiet}`, { run: { size: 15 } })));
+  if (dt.canhBao) out.push(P('⚠ ' + dt.canhBao, { run: { size: 15, color: dt.canhBaoMuc === 'do' ? RED : AMBER, italics: true } }));
+  return out;
+}
+
+// ---------- bảng tổng hợp: vấn đề da → bước xử lý → sản phẩm → thành phần → cơ chế → so với đối thủ ----------
 function soDo(v) {
-  const cols = [1900, 1900, 2600, 3400, 4770];
+  const cols = [1500, 1500, 2100, 2200, 3300, 3970];
   const rows = [hdrRow([['VẤN ĐỀ DA', cols[0]], ['BƯỚC XỬ LÝ', cols[1]], ['SẢN PHẨM', cols[2]],
-                        ['THÀNH PHẦN', cols[3]], ['CƠ CHẾ TÁC ĐỘNG', cols[4]]])];
+                        ['THÀNH PHẦN', cols[3]], ['CƠ CHẾ TÁC ĐỘNG', cols[4]],
+                        ['SỰ KHÁC BIỆT VÀ HƠN HẲN SO VỚI ĐỐI THỦ', cols[5]]])];
   const tong = v.buoc.reduce((a, b) => a + b.sp.reduce((x, s) => x + s.tp.length, 0), 0);
   let dauTien = true;
 
@@ -81,43 +93,14 @@ function soDo(v) {
         } else cs.push(null);
         cs.push(cell([P(tp[0], { run: { bold: true, color: NAVY, size: 17 } })], { w: cols[3] }));
         cs.push(cell([P(tp[1], { run: { size: 17 } })], { w: cols[4] }));
+        if (ti === 0) {
+          cs.push(cell(noiDungDoiThu(s.k), { w: cols[5], rowSpan: s.tp.length }));
+        } else cs.push(null);
         rows.push(new TableRow({ children: cs.filter(Boolean) }));
       });
     });
   });
   return new Table({ columnWidths: cols, width: { size: W, type: WidthType.DXA }, rows });
-}
-
-// ---------- so sánh với đối thủ ----------
-function khoiSoSanh(k) {
-  const dt = DOITHU[k];
-  if (!dt) return [];
-  const out = [];
-  out.push(new Paragraph({ spacing: { before: 160, after: 60 }, keepNext: true,
-    children: [new TextRun({ text: SP[k].ten, bold: true, color: NAVY, size: 20 })] }));
-  const cols = [2800, 3800, W - 6600];
-  const rows = [hdrRow([['ĐỐI THỦ', cols[0]], ['THÀNH PHẦN CHÍNH', cols[1]], ['TRÙNG / KHÁC HOẠT CHẤT VỚI DKX', cols[2]]])];
-  dt.doiThu.forEach(o => {
-    rows.push(new TableRow({ children: [
-      cell([P(o.ten, { run: { bold: true, size: 17 } })], { w: cols[0] }),
-      cell([P(o.tp, { run: { size: 16 } })], { w: cols[1] }),
-      cell([P(o.trung, { run: { bold: true, size: 16 } }), P(o.khacBiet, { run: { size: 16, color: MUTE } })], { w: cols[2] }),
-    ] }));
-  });
-  out.push(new Table({ columnWidths: cols, width: { size: W, type: WidthType.DXA }, rows }));
-  if (dt.rieng) out.push(P('Hoạt chất/công dụng chỉ DKX có: ' + dt.rieng, { run: { size: 17 } }));
-  if (dt.canhBao) out.push(khoiMau('CẢNH BÁO / MARKETING VS CÔNG BỐ', dt.canhBao, AMBER, AMBERFILL));
-  if (dt.gia) out.push(P(dt.gia, { run: { size: 16, color: MUTE, italics: true } }));
-  return out;
-}
-function soSanhDoiThu(v) {
-  const keys = [...new Set([...v.bo, ...v.boThem])];
-  const out = [];
-  out.push(H('SO SÁNH VỚI ĐỐI THỦ THỊ TRƯỜNG', 2));
-  out.push(P('Giá đối thủ lấy theo giá web (khác giá OTC 01/04/2025 dùng ở "Bộ sản phẩm tư vấn" trên), đối chiếu 15/09/2026. Nguồn: “So sánh thị trường - Nhóm Dành cho bé.md”.',
-    { run: { size: 15, color: MUTE, italics: true } }));
-  keys.forEach(k => out.push(...khoiSoSanh(k)));
-  return out;
 }
 
 // ---------- bảng tra nhanh ----------
@@ -214,8 +197,6 @@ VANDE.forEach((v, i) => {
       cell([P(v.kham, { run: { size: 18 } })], { w: W - 3000, fill: REDFILL }),
     ] }),
   ]}));
-  body.push(P(''));
-  body.push(...soSanhDoiThu(v));
 });
 
 body.push(new Paragraph({ pageBreakBefore: true, spacing: { after: 0 }, children: [] }));

@@ -15,8 +15,7 @@ const SP = {
 };
 
 // So sánh với đối thủ, lấy nguyên từ Danh mục sản phẩm/So sánh thị trường/So sánh thị trường - Nhóm Dành cho bé.md
-// (đối chiếu 15/09/2026, giá đối thủ là giá web — khác giá OTC 01/04/2025 dùng ở "Bộ sản phẩm tư vấn").
-// KHÔNG tự thêm đối thủ, thành phần hay nhận định nào ngoài file nguồn đó.
+// (đối chiếu 15/09/2026). KHÔNG tự thêm đối thủ, thành phần hay nhận định nào ngoài file nguồn đó.
 const DOITHU = {
   kem: {
     doiThu: [
@@ -29,7 +28,6 @@ const DOITHU = {
     ],
     rieng: 'DKX công bố thêm "da bị bỏng do gió/nắng" — không thấy ở Bepanthen/Sudocrem.',
     canhBao: 'Web DKX ghi "100% thiên nhiên, không hương liệu" nhưng thành phần công bố có Hương liệu (Fragrance) và các chất tổng hợp (Propylene glycol, Cremophor RH40, EDTA...) — không nói câu này với khách.',
-    gia: 'Giá web quy đổi: Kem Elemis ~55.700đ/10g so với Bepanthen ~24.000đ/10g và Sudocrem ~19.800đ/10g — đắt hơn rõ rệt.',
   },
   tamgoi: {
     doiThu: [
@@ -41,7 +39,6 @@ const DOITHU = {
         khacBiet: 'Kutieskin có thêm Nano Curcumin (hãng công bố kháng viêm mạnh hơn nghệ thường); công bố thêm hăm da, viêm da, lông măng — DKX không công bố các công dụng này.' },
     ],
     rieng: 'Không có hoạt chất nào DKX có mà 2 đối thủ không có — bộ thảo dược phần lớn trùng lặp.',
-    gia: 'Giá web quy đổi: Tắm gội Elemis ~109.000đ/100ml so với Dr.Papie ~50.000đ/100ml và Kutieskin ~64.000đ/100ml — đắt hơn 1,7–2,2 lần.',
   },
   gold: {
     doiThu: [
@@ -54,7 +51,6 @@ const DOITHU = {
     ],
     rieng: 'Hoạt chất kim ngân (Lonicera japonica) — không thấy trong thành phần công bố của 2 đối thủ.',
     canhBao: 'Web ghi "hệ tạo bọt tự nhiên, 100% thảo dược, không hương liệu hoá học" nhưng thành phần công bố có Sodium Laureth Ether Sulfate (SLES). Web còn ghi thêm "viêm da, hăm da" — công dụng này KHÔNG có trong hồ sơ công bố chính thức (SCB), không được nói với khách.',
-    gia: 'Giá web quy đổi: Gold ~145.000đ/100ml so với Dr.Papie ~50.000đ/100ml và Kutieskin ~64.000đ/100ml — đắt hơn rõ rệt (gấp ~2,3–2,9 lần).',
   },
   bot: {
     doiThu: [
@@ -63,7 +59,6 @@ const DOITHU = {
         khacBiet: 'Chicco đạt chuẩn EU (EC) 1223/2009, không SLS/SLES/BHT/EDTA; DKX có Aquaxyl (công nghệ dưỡng ẩm sinh học) mà Chicco không có.' },
     ],
     rieng: 'Aquaxyl (dưỡng ẩm sâu) — Chicco không liệt kê thành phần này.',
-    gia: 'Giá web quy đổi: Bọt rửa tay Elemis ~142.000đ/100ml so với Chicco ~60.000đ/100ml — đắt hơn khoảng 2,4 lần.',
   },
   dau: {
     doiThu: [
@@ -76,7 +71,6 @@ const DOITHU = {
     ],
     rieng: "Kết hợp 3 loại dầu thực vật (cám gạo + hạnh nhân + hạt nho) — Johnson's dùng dầu khoáng, Chicco chỉ có cám gạo đơn lẻ.",
     canhBao: "DKX có BHT (chất chống oxy hoá tổng hợp) trong khi cả Johnson's và Chicco đều quảng cáo \"không chứa BHT\" — không chủ động nhắc thành phần này với khách.",
-    gia: "Giá web quy đổi: Dầu massage Oriky ~163.000đ/50ml so với Johnson's ~70.000–100.000đ/50ml và Chicco ~82.000đ/50ml — đắt hơn.",
   },
   xit: {
     doiThu: [
@@ -89,7 +83,6 @@ const DOITHU = {
     ],
     rieng: '100% tinh dầu tự nhiên, không hoạt chất hoá học (Picaridin/DEET) — dùng được cho bé nhỏ hơn 2 đối thủ trên (từ 3 tháng).',
     canhBao: 'DKX công bố hiệu quả chỉ 3 giờ, ngắn hơn Remos (6 giờ) và Soffell (8 giờ) — vì vậy phải xịt lại sau 2–3 giờ như đã ghi ở "Cách dùng", không hứa hiệu quả cả ngày.',
-    gia: 'Không có dữ liệu giá quy đổi tương đương — đối thủ chưa xác định giá rõ ràng tại thời điểm đối chiếu.',
   },
   gac: {
     doiThu: [
@@ -98,8 +91,8 @@ const DOITHU = {
         khacBiet: 'DKX có thêm rau ngót, chè xanh/cúc la mã và acid boric; Dr.Papie công thức đơn giản hơn, chỉ có hẹ là dược liệu chính.' },
     ],
     rieng: 'Thêm rau ngót, chè xanh/cúc la mã — công thức đa dạng dược liệu hơn Dr.Papie.',
-    canhBao: '⚠️ CẢNH BÁO AN TOÀN CHƯA XÁC MINH: gạc rơ lưỡi Elemis chứa acid boric. Theo dược thư, không dùng dạng bôi/thuốc mỡ chứa acid boric cho trẻ dưới 2 tuổi. Sản phẩm công bố dùng "từ sơ sinh" và bôi trực tiếp khoang miệng. Chưa có số liệu nồng độ cụ thể nên KHÔNG kết luận an toàn hay nguy hiểm — phải hỏi lại R&D/QA trước khi tư vấn khách. Dr.Papie không có acid boric trong thành phần công bố mà tìm được.',
-    gia: 'Giá quy đổi ngang nhau theo hộp 30 gói — không có chênh lệch đáng kể ghi nhận được.',
+    canhBao: 'CẢNH BÁO AN TOÀN CHƯA XÁC MINH: gạc rơ lưỡi Elemis chứa acid boric. Theo dược thư, không dùng dạng bôi/thuốc mỡ chứa acid boric cho trẻ dưới 2 tuổi. Sản phẩm công bố dùng "từ sơ sinh" và bôi trực tiếp khoang miệng. Chưa có số liệu nồng độ cụ thể nên KHÔNG kết luận an toàn hay nguy hiểm — phải hỏi lại R&D/QA trước khi tư vấn khách. Dr.Papie không có acid boric trong thành phần công bố mà tìm được.',
+    canhBaoMuc: 'do',
   },
 };
 
