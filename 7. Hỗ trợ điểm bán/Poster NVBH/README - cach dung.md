@@ -100,10 +100,13 @@ Dựng lại: `node render.js "VD1 - Ham da (3 cot).html" "VD1 - Ham da (3 cot).
 | File | Nguồn |
 |---|---|
 | `sp-kem.jpg`, `sp-oriky.jpg`, `logo-dkxanh.png` | Website công ty duockhoaxanh.com (cắt từ ảnh sản phẩm) |
-| `hamta-capdo.png` (đã có sẵn) | Bộ slide Elemis của công ty |
-| `tc-hamta.jpg` | Wikimedia Commons — *Irritant_diaper_dermatitis.jpg* |
-| `dl-rauma.jpg` · `dl-ngaicuu.jpg` · `dl-chexanh.jpg` · `dl-sachanh.jpg` · `dl-tramgio.jpg` · `dl-hanhnhan.jpg` · `dl-nho.jpg` · `dl-camgao.jpg` · `hc-kemoxyd.jpg` | Wikimedia Commons — lần lượt *Centella_asiatica_(থানকুনি)_(3).jpg*, *Artemia_vulgaris_leaf.jpg*, *Csinensis.jpg*, *Lemongrass_sold_at_a_supermarket_in_the_Philippines.jpg*, *Melaleuca_cajuputi.jpg*, *Almonds_-_in_shell,_shell_cracked_open,_shelled,_blanched.jpg*, *Grapes,_Rostov-on-Don,_Russia.jpg*, *Rice_bran.jpg*, *Zinc_oxide.jpg* |
+| `capdo1..5.jpg` | Tách từ `hamta-capdo.png` (bộ slide Elemis của công ty), xếp 1 hàng ngang cho to |
+| `dl-chexanh.jpg`, `dl-sachanh.jpg` | Slide thành phần trong `Tắm gội thảo dược Elemis.pptx` |
+| `dl-tramgio.jpg`, `dl-hanhnhan.jpg`, `dl-nho.jpg`, `dl-camgao.jpg` | Slide thành phần trong `Dầu massage Oriky.pptx` |
+| `hc-dieplucto.jpg` | Ghép: ly nước diệp lục (slide Tắm gội Elemis) = công thức chlorophyllin (Wikimedia Commons *Chlorophyllin.png*) |
+| `hc-aquaxyl.jpg` | Ghép: tinh thể xylitol (Wikimedia *Xylitol_crystals.jpg*) + glucose (Wikimedia *Alpha-D-Glucopyranose.svg*). Căn cứ: nhà sản xuất Seppic mô tả Aquaxyl làm từ glucose và xylitol nguồn gốc thực vật ([SpecialChem](https://www.specialchem.com/cosmetics/product/seppic-aquaxyl)) |
+| `dl-rauma.jpg` · `dl-ngaicuu.jpg` · `hc-kemoxyd.jpg` | Wikimedia Commons — *Centella_asiatica_(থানকুনি)_(3).jpg*, *Artemia_vulgaris_leaf.jpg*, *Zinc_oxide.jpg*. Bốn file pptx công ty không có ảnh rau má, ngải cứu, kẽm oxyd |
 
-⚠️ Ảnh Wikimedia dùng giấy phép mở (phần lớn CC BY-SA) — chưa kiểm tra giấy phép từng file.
-Nếu in số lượng lớn/đưa ra ngoài, nên thay bằng ảnh dược liệu của MKT (Kiều/anh Nam) hoặc giữ dòng ghi nguồn ở chân poster.
-Ảnh hăm vùng tã là ảnh lâm sàng thật — hỏi quản lý xem có ổn khi dán quầy không; nếu không thì chỉ giữ ảnh 5 cấp độ của công ty.
+Đã bỏ ảnh lâm sàng hăm vùng tã (theo ý Nhi) — chỉ giữ ảnh 5 cấp độ của công ty.
+⚠️ Ảnh Wikimedia dùng giấy phép mở (phần lớn CC BY-SA), chưa kiểm tra từng file; chân poster có ghi nguồn.
+Nếu in số lượng lớn, nên xin MKT ảnh rau má/ngải cứu chính thức (có thể nằm trong slide Kem bôi da Elemis).

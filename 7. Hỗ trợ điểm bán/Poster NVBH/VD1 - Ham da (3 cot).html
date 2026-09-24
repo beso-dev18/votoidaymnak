@@ -21,7 +21,7 @@
   .flow i{font-style:normal;font-weight:800;font-size:calc(8pt * var(--s))}
 
   /* dấu hiệu */
-  .sign{display:grid;grid-template-columns:1.25fr 1fr 1fr;gap:2.4mm;align-items:stretch;height:calc(40mm * var(--s))}
+  .sign{display:grid;grid-template-columns:0.72fr 1.28fr;gap:2.4mm;align-items:stretch;}
   .sign .txt{background:var(--redwash);border:0.4mm solid var(--redline);border-radius:2.5mm;padding:2mm 2.6mm;
              display:flex;flex-direction:column;gap:1.2mm}
   .sign h2{color:var(--red);font-size:calc(8.6pt * var(--s));font-weight:800;letter-spacing:.04em}
@@ -35,15 +35,22 @@
   .sign figure.capdo img{object-fit:contain;padding:1mm}
   .sign figcaption{font-size:calc(6.8pt * var(--s));text-align:center;padding:.7mm 1mm;background:var(--wash);color:var(--gd);font-weight:700;line-height:1.25}
 
+  .lv{border:0.4mm solid var(--line);border-radius:2.5mm;background:#fff;padding:1.4mm 1.8mm;display:flex;flex-direction:column;gap:1mm}
+  .lvh{font-size:calc(7.6pt * var(--s));font-weight:800;color:var(--gd);letter-spacing:.02em}
+  .lvh small{font-weight:500;color:var(--mute);font-size:calc(6.4pt * var(--s))}
+  .lvr{display:grid;grid-template-columns:repeat(5,1fr);gap:1.2mm}
+  .lvr figure{display:flex;flex-direction:column;gap:.5mm}
+  .lvr img{width:100%;aspect-ratio:192/140;object-fit:cover;border-radius:1.2mm;display:block}
+  .lvr figcaption{font-size:calc(6.4pt * var(--s));font-weight:700;text-align:center;color:var(--red);line-height:1.15}
   /* 3 cột bước */
-  .cols{display:grid;grid-template-columns:1fr 1fr 1fr;gap:2.4mm;flex:1;min-height:0}
+  .cols{display:grid;grid-template-columns:0.94fr 0.97fr 1.09fr;gap:2.4mm;flex:1;min-height:0}
   .step{border:0.5mm solid var(--g);border-radius:2.5mm;overflow:hidden;display:flex;flex-direction:column;background:#fff}
   .step>.sh{background:var(--g);color:#fff;padding:1.4mm 2.4mm;display:flex;align-items:center;gap:2mm}
   .step>.sh .n{flex:0 0 6.4mm;height:6.4mm;border-radius:50%;background:#fff;color:var(--g);
                font-size:calc(10pt * var(--s));font-weight:800;display:flex;align-items:center;justify-content:center}
   .step>.sh b{font-size:calc(9.6pt * var(--s));font-weight:800;letter-spacing:.02em;line-height:1.15}
   .step>.sh small{display:block;font-size:calc(6.8pt * var(--s));font-weight:500;opacity:.92;letter-spacing:0}
-  .step .body{padding:1.8mm 2.2mm;display:flex;flex-direction:column;gap:1.8mm;flex:1}
+  .step .body{padding:1.6mm 2.2mm;display:flex;flex-direction:column;gap:1.4mm;flex:1}
 
   .prod{display:grid;grid-template-columns:15mm 1fr;gap:2mm;align-items:center;background:var(--wash2);
         border:0.4mm solid var(--line);border-radius:2mm;padding:1.2mm 1.6mm}
@@ -59,7 +66,7 @@
   .ing .ims{display:flex;gap:1.2mm;align-items:center}
   .ing .ims{flex-wrap:wrap;gap:1.6mm}
   .ing .ims figure{display:flex;flex-direction:column;align-items:center;gap:.4mm;width:11mm}
-  .ing .ims img{width:10mm;height:10mm;border-radius:50%;object-fit:cover;border:0.4mm solid var(--line);flex-shrink:0}
+  .ing .ims img{width:10mm;height:10mm;border-radius:50%;object-fit:cover;background:#fff;border:0.4mm solid var(--line);flex-shrink:0}
   .ing .ims figcaption{font-size:calc(6.2pt * var(--s));font-weight:700;color:var(--gd);line-height:1.1;text-align:center;white-space:nowrap}
   .ing .tp{font-size:calc(7.7pt * var(--s));font-weight:800;color:var(--gd);line-height:1.28}
   .ing .cc{font-size:calc(7.5pt * var(--s));line-height:1.36}
@@ -76,12 +83,15 @@
 
   .step.s3 .prod{grid-template-columns:12mm 1fr}
   .step.s3 .prod .ph{height:13mm}
+  .hc{display:flex;align-items:center;gap:1.6mm}
+  .hc img{height:10mm;width:auto;border:0.4mm solid var(--line);border-radius:1.5mm;background:#fff}
+  .hc span{font-size:calc(6.4pt * var(--s));font-weight:700;color:var(--gd);line-height:1.2}
 
   /* hàng cuối */
   .bottom{display:grid;grid-template-columns:1fr 1fr 1fr;gap:2.4mm}
   .kit{display:flex;flex-direction:column;gap:1.2mm}
   .kit .combo{display:flex;align-items:center;justify-content:center;gap:1.4mm}
-  .kit .combo img{height:15mm;width:auto;border-radius:1.2mm}
+  .kit .combo img{height:12mm;width:auto;border-radius:1.2mm}
   .kit .combo i{font-style:normal;font-weight:800;color:var(--g);font-size:calc(12pt * var(--s))}
   .kit .line{font-size:calc(7.8pt * var(--s));line-height:1.36;text-align:center}
   .kit .line b{color:var(--gd)}
@@ -118,8 +128,14 @@
       <p><b>Đỏ, rát</b> ở vùng mặc tã do <b>nước tiểu và phân</b>, hoặc trong các ngấn do <b>mồ hôi đọng</b> và <b>da cọ vào nhau</b>.</p>
       <div class="zones"><span>Vùng tã</span><span>Ngấn cổ</span><span>Nách</span><span>Bẹn</span></div>
     </div>
-    <figure><img src="assets/tc-hamta.jpg" alt="Hăm vùng tã"><figcaption>Hăm vùng tã: da đỏ, rát</figcaption></figure>
-    <figure class="capdo"><img src="assets/hamta-capdo.png" alt="5 cấp độ hăm"><figcaption>5 cấp độ hăm (ảnh tư liệu công ty)</figcaption></figure>
+    <div class="lv"><div class="lvh">5 CẤP ĐỘ HĂM — nhìn da bé để so <small>(ảnh tư liệu công ty)</small></div>
+      <div class="lvr">
+        <figure><img src="assets/capdo1.jpg" alt=""><figcaption>1 · Nhẹ</figcaption></figure>
+        <figure><img src="assets/capdo2.jpg" alt=""><figcaption>2</figcaption></figure>
+        <figure><img src="assets/capdo3.jpg" alt=""><figcaption>3 · Trung bình</figcaption></figure>
+        <figure><img src="assets/capdo4.jpg" alt=""><figcaption>4</figcaption></figure>
+        <figure><img src="assets/capdo5.jpg" alt=""><figcaption>5 · Nghiêm trọng</figcaption></figure>
+      </div></div>
   </div>
 
   <!-- ===== 3 CỘT = 3 BƯỚC ===== -->
@@ -205,6 +221,7 @@
             <div class="tp" style="font-size:calc(7.4pt * var(--s))">Aquaxyl (xylitylglucoside + anhydroxylitol)</div></div>
         </div>
         <div class="ing">
+          <div class="hc"><img src="assets/hc-aquaxyl.jpg" alt=""><span>Aquaxyl: làm từ<br>xylitol + glucose<br>nguồn thực vật</span></div>
           <div class="cc"><b>Xylitylglucoside</b> kích thích da tự tạo glycosaminoglycan (chất giữ nước tự nhiên); <b>anhydroxylitol</b> củng cố hàng rào ngoài cùng → nước khó thoát, <b>da tự giữ ẩm từ bên trong</b>. Da nếp gấp ẩm ngoài mà thiếu ẩm trong → dễ nứt khi cọ xát.</div>
         </div>
         <div class="sep"></div>
@@ -215,6 +232,8 @@
             <div class="tp" style="font-size:calc(7.4pt * var(--s))">Chlorophyllin (diệp lục tố) · EGCG (chè xanh)</div></div>
         </div>
         <div class="ing">
+          <div class="hc"><img src="assets/hc-dieplucto.jpg" alt=""><span>Diệp lục tố<br>(chlorophyllin)</span>
+            <img src="assets/dl-chexanh.jpg" alt="" style="height:10mm"><span>Chè xanh</span></div>
           <div class="cc">Trung hoà gốc tự do trên da; <b>chlorophyllin còn hút mùi mồ hôi</b> → giảm mùi hôi đọng ở ngấn cổ, nách.</div>
         </div>
         <div class="sep"></div>
@@ -236,8 +255,7 @@
         </div>
 
         <div class="win" style="margin-top:auto"><b>★ HƠN ĐỐI THỦ (Oriky)</b>
-          <i>vs Johnson's Baby Oil:</i> Johnson's dùng dầu khoáng. <i>vs Chicco:</i> chỉ có cám gạo đơn lẻ. Oriky kết hợp <b>3 dầu thực vật</b>: cám gạo + hạnh nhân + hạt nho.
-          <div class="ref">Kem bôi, tắm gội: xem “Hơn đối thủ” ở bước 2 và bước 1.</div></div>
+          <i>vs Johnson's Baby Oil:</i> Johnson's dùng dầu khoáng. <i>vs Chicco:</i> chỉ có cám gạo đơn lẻ. Oriky kết hợp <b>3 dầu thực vật</b>: cám gạo + hạnh nhân + hạt nho.</div>
       </div>
     </div>
   </div>
@@ -267,5 +285,5 @@
   </div>
 
   <div class="foot"><span>Sell-out kit theo vấn đề da bé · Mục 1/9 · Công ty TNHH Dược Khoa Xanh</span>
-    <span>Ảnh dược liệu: Wikimedia Commons · Ảnh SP: duockhoaxanh.com</span></div>
+    <span>Ảnh: slide SP &amp; website Dược Khoa Xanh · rau má, ngải cứu, kẽm oxyd, xylitol, glucose, chlorophyllin: Wikimedia Commons</span></div>
 </div></body></html>
