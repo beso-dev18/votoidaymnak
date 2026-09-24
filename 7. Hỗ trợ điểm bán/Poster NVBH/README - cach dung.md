@@ -85,7 +85,16 @@ Chuyển từng mục trong `../Sellout kit/Theo vấn đề da bé/Sell-out kit
 
 | File | Là gì |
 |---|---|
-| `VD1 - Ham da (3 cot).html` · `.pdf` · `.png` | Mục 1 — Hăm da (vùng tã và các nếp gấp) |
+| **`VD1 - Ham da (ngang gap 3).html` · `.pdf` · `.png`** | ⭐ Mục 1 — Hăm da, **A4 ngang, in 1 mặt, gấp 3 kiểu chữ Z** |
+| `VD1 - Ham da (3 cot).html` · `.pdf` · `.png` | Bản A4 dọc 3 cột trước đó, giữ lại để so sánh |
+
+### Bản ngang gấp 3
+
+- 3 tấm bằng nhau, mỗi tấm **99mm**. Có vạch gấp ngắn ở mép trên và dưới, không chữ nào vắt qua nếp gấp.
+- Gấp **chữ Z** (gấp xếp như quạt) để **tấm 1 nằm mặt trước**. Tấm 1 là bìa: tên vấn đề, 3 bước, dấu hiệu, 5 cấp độ hăm, bộ sản phẩm, khi nào khuyên đi khám — gấp lại vẫn đủ để bán nhanh.
+- Tấm 2: Bước 1 Làm sạch + Bước 2 Xử lý vấn đề. Tấm 3: Bước 3 Nuôi dưỡng & bảo vệ + Cách dùng.
+- In: A4, **khổ ngang (Landscape)**, 100% / Actual size, bật in hình nền. Cỡ chữ `--s:1.08` (mức 1.12 bắt đầu tràn).
+- `render.js` đã sửa để dựng được trang ngang (tự lấy khổ giấy từ `@page` trong file HTML).
 
 **Bố cục:** tiêu đề + chuỗi 3 bước → dải *Dấu hiệu nhận biết* (chữ + ảnh triệu chứng + 5 cấp độ hăm)
 → **3 cột = 3 bước** (Làm sạch · Xử lý vấn đề · Nuôi dưỡng & bảo vệ), mỗi cột có ảnh sản phẩm, giá,
