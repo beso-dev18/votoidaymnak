@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="vi"><head><meta charset="utf-8">
+<title>Hăm da — Poster NVBH theo vấn đề da bé</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="_chung.css">
+<!-- Nội dung: mục 1 của "Sellout kit/Theo vấn đề da bé/Sell-out kit theo vấn đề da bé.docx" (bản Nhi đã sửa, có phần so sánh đối thủ).
+     Không thêm thông tin nào ngoài file đó. Cỡ chữ chỉnh bằng --s. -->
+<style>
+  :root{--s:1}
+  .page{gap:2mm}
+
+  /* header */
+  .hd{padding:2.4mm 3.4mm;gap:3mm}
+  .hd .chip{padding:1.2mm 1.8mm}
+  .hd .chip img{height:9mm}
+  .hd .no{font-size:calc(26pt * var(--s));font-weight:800;line-height:1.3;opacity:.9}
+  .hd h1{font-size:calc(16pt * var(--s))}
+  .flow{display:flex;align-items:center;gap:1.2mm;margin-top:1mm;flex-wrap:wrap}
+  .flow span{background:#fff;color:var(--gd);font-size:calc(7.4pt * var(--s));font-weight:800;border-radius:1.2mm;padding:.6mm 1.8mm}
+  .flow i{font-style:normal;font-weight:800;font-size:calc(8pt * var(--s))}
+
+  /* dấu hiệu */
+  .sign{display:grid;grid-template-columns:1.25fr 1fr 1fr;gap:2.4mm;align-items:stretch;height:calc(40mm * var(--s))}
+  .sign .txt{background:var(--redwash);border:0.4mm solid var(--redline);border-radius:2.5mm;padding:2mm 2.6mm;
+             display:flex;flex-direction:column;gap:1.2mm}
+  .sign h2{color:var(--red);font-size:calc(8.6pt * var(--s));font-weight:800;letter-spacing:.04em}
+  .sign p{font-size:calc(8pt * var(--s));line-height:1.38}
+  .sign p b{color:var(--red)}
+  .zones{display:flex;flex-wrap:wrap;gap:1mm}
+  .zones span{background:#fff;border:0.3mm solid var(--redline);color:var(--red);border-radius:4mm;
+              font-size:calc(7pt * var(--s));font-weight:700;padding:.4mm 1.8mm}
+  .sign figure{border:0.4mm solid var(--line);border-radius:2.5mm;overflow:hidden;background:#fff;display:flex;flex-direction:column}
+  .sign figure img{width:100%;flex:1;min-height:0;object-fit:cover;display:block}
+  .sign figure.capdo img{object-fit:contain;padding:1mm}
+  .sign figcaption{font-size:calc(6.8pt * var(--s));text-align:center;padding:.7mm 1mm;background:var(--wash);color:var(--gd);font-weight:700;line-height:1.25}
+
+  /* 3 cột bước */
+  .cols{display:grid;grid-template-columns:1fr 1fr 1fr;gap:2.4mm;flex:1;min-height:0}
+  .step{border:0.5mm solid var(--g);border-radius:2.5mm;overflow:hidden;display:flex;flex-direction:column;background:#fff}
+  .step>.sh{background:var(--g);color:#fff;padding:1.4mm 2.4mm;display:flex;align-items:center;gap:2mm}
+  .step>.sh .n{flex:0 0 6.4mm;height:6.4mm;border-radius:50%;background:#fff;color:var(--g);
+               font-size:calc(10pt * var(--s));font-weight:800;display:flex;align-items:center;justify-content:center}
+  .step>.sh b{font-size:calc(9.6pt * var(--s));font-weight:800;letter-spacing:.02em;line-height:1.15}
+  .step>.sh small{display:block;font-size:calc(6.8pt * var(--s));font-weight:500;opacity:.92;letter-spacing:0}
+  .step .body{padding:1.8mm 2.2mm;display:flex;flex-direction:column;gap:1.8mm;flex:1}
+
+  .prod{display:grid;grid-template-columns:15mm 1fr;gap:2mm;align-items:center;background:var(--wash2);
+        border:0.4mm solid var(--line);border-radius:2mm;padding:1.2mm 1.6mm}
+  .prod .ph{height:17mm;display:flex;align-items:center;justify-content:center;border-radius:1.4mm;overflow:hidden;background:#EEF4FA}
+  .prod .ph img{max-width:100%;max-height:100%;object-fit:contain}
+  .prod .nm{font-size:calc(8.4pt * var(--s));font-weight:800;color:var(--gd);line-height:1.2}
+  .prod .pr{font-size:calc(7.4pt * var(--s));line-height:1.3;margin-top:.4mm}
+  .prod .pr b{color:var(--g)}
+  .prod .age{display:inline-block;margin-top:.6mm;background:var(--g);color:#fff;font-size:calc(6.4pt * var(--s));
+             font-weight:700;border-radius:1mm;padding:.2mm 1.4mm}
+
+  .ing{display:flex;flex-direction:column;gap:.8mm}
+  .ing .ims{display:flex;gap:1.2mm;align-items:center}
+  .ing .ims{flex-wrap:wrap;gap:1.6mm}
+  .ing .ims figure{display:flex;flex-direction:column;align-items:center;gap:.4mm;width:11mm}
+  .ing .ims img{width:10mm;height:10mm;border-radius:50%;object-fit:cover;border:0.4mm solid var(--line);flex-shrink:0}
+  .ing .ims figcaption{font-size:calc(6.2pt * var(--s));font-weight:700;color:var(--gd);line-height:1.1;text-align:center;white-space:nowrap}
+  .ing .tp{font-size:calc(7.7pt * var(--s));font-weight:800;color:var(--gd);line-height:1.28}
+  .ing .cc{font-size:calc(7.5pt * var(--s));line-height:1.36}
+  .ing .cc b{color:var(--gd)}
+  .chipx{display:inline-flex;align-items:center;justify-content:center;width:8.6mm;height:8.6mm;border-radius:50%;
+         background:var(--wash);border:0.4mm solid var(--line);color:var(--gd);font-size:calc(5.8pt * var(--s));font-weight:800;text-align:center;line-height:1}
+  .sep{border-top:0.3mm dashed var(--line)}
+
+  .win{background:var(--amberwash);border:0.4mm solid var(--amberline);border-radius:1.8mm;padding:1.1mm 1.8mm;
+       font-size:calc(7.2pt * var(--s));line-height:1.34}
+  .win>b:first-child{color:var(--amber);display:block;font-size:calc(7.2pt * var(--s));letter-spacing:.03em}
+  .win i{font-style:normal;font-weight:700;color:var(--amber)}
+  .ref{font-size:calc(6.8pt * var(--s));color:var(--mute);font-style:italic}
+
+  .step.s3 .prod{grid-template-columns:12mm 1fr}
+  .step.s3 .prod .ph{height:13mm}
+
+  /* hàng cuối */
+  .bottom{display:grid;grid-template-columns:1fr 1fr 1fr;gap:2.4mm}
+  .kit{display:flex;flex-direction:column;gap:1.2mm}
+  .kit .combo{display:flex;align-items:center;justify-content:center;gap:1.4mm}
+  .kit .combo img{height:15mm;width:auto;border-radius:1.2mm}
+  .kit .combo i{font-style:normal;font-weight:800;color:var(--g);font-size:calc(12pt * var(--s))}
+  .kit .line{font-size:calc(7.8pt * var(--s));line-height:1.36;text-align:center}
+  .kit .line b{color:var(--gd)}
+  .kit .add{font-size:calc(7.4pt * var(--s));line-height:1.34;background:var(--wash2);border:0.3mm dashed var(--line);
+            border-radius:1.5mm;padding:1mm 1.6mm;display:flex;gap:1.6mm;align-items:center}
+  .kit .add img{height:10mm;width:auto;border-radius:1mm}
+  ul.use{list-style:none;display:flex;flex-direction:column;gap:1mm}
+  ul.use li{font-size:calc(7.6pt * var(--s));line-height:1.36;padding-left:3.6mm;position:relative}
+  ul.use li::before{content:"▸";position:absolute;left:0;color:var(--g);font-weight:800}
+  ul.use b{color:var(--gd)}
+  .box .bd{padding:1.6mm 2.2mm}
+  .box>h2{padding:1.1mm 2.2mm;font-size:calc(8pt * var(--s))}
+  .box.warn .bd{font-size:calc(7.8pt * var(--s));line-height:1.4}
+  .box.warn .bd p+p{margin-top:1.2mm}
+  .foot{font-size:calc(6.2pt * var(--s))}
+</style></head>
+<body><div class="page">
+
+  <!-- ===== HEADER ===== -->
+  <div class="hd">
+    <div class="chip"><img src="assets/logo.png" alt="Elemis"></div>
+    <div class="no">1</div>
+    <div>
+      <h1>HĂM DA — VÙNG TÃ VÀ CÁC NẾP GẤP</h1>
+      <div class="flow"><span>1 · LÀM SẠCH</span><i>→</i><span>2 · XỬ LÝ VẤN ĐỀ</span><i>→</i><span>3 · NUÔI DƯỠNG &amp; BẢO VỆ</span></div>
+    </div>
+    <div class="chip" style="margin-left:auto"><img src="assets/logo-dkxanh.png" alt="Dược Khoa Xanh"></div>
+  </div>
+
+  <!-- ===== DẤU HIỆU ===== -->
+  <div class="sign">
+    <div class="txt">
+      <h2>● DẤU HIỆU NHẬN BIẾT</h2>
+      <p><b>Đỏ, rát</b> ở vùng mặc tã do <b>nước tiểu và phân</b>, hoặc trong các ngấn do <b>mồ hôi đọng</b> và <b>da cọ vào nhau</b>.</p>
+      <div class="zones"><span>Vùng tã</span><span>Ngấn cổ</span><span>Nách</span><span>Bẹn</span></div>
+    </div>
+    <figure><img src="assets/tc-hamta.jpg" alt="Hăm vùng tã"><figcaption>Hăm vùng tã: da đỏ, rát</figcaption></figure>
+    <figure class="capdo"><img src="assets/hamta-capdo.png" alt="5 cấp độ hăm"><figcaption>5 cấp độ hăm (ảnh tư liệu công ty)</figcaption></figure>
+  </div>
+
+  <!-- ===== 3 CỘT = 3 BƯỚC ===== -->
+  <div class="cols">
+
+    <!-- BƯỚC 1 -->
+    <div class="step">
+      <div class="sh"><div class="n">1</div><b>LÀM SẠCH<small>Tắm và vệ sinh khi thay tã</small></b></div>
+      <div class="body">
+        <div class="prod">
+          <div class="ph"><img src="assets/sanpham.png" alt="Tắm gội Elemis"></div>
+          <div><div class="nm">Tắm gội thảo dược Elemis</div>
+            <div class="pr">200 / 350 / 500ml<br><b>150.000 / 210.000 / 275.000đ</b></div>
+            <span class="age">Từ sơ sinh</span></div>
+        </div>
+
+        <div class="ing">
+          <div class="ims">
+            <figure><img src="assets/dl-dudu.png" alt=""><figcaption>Đu đủ</figcaption></figure>
+            <figure><img src="assets/dl-chanh.png" alt=""><figcaption>Chanh</figcaption></figure>
+          </div>
+          <div class="tp">Papain (đu đủ) · Acid citric (chanh)</div>
+          <div class="cc">Vùng tã, nếp gấp đọng nhiều mồ hôi và tế bào chết. <b>Papain</b> cắt liên kết giữ tế bào chết → bong nhẹ, <b>không phải chà xát</b> vùng da đang đỏ; <b>acid citric</b> làm sạch nhẹ vảy trên da.</div>
+        </div>
+        <div class="sep"></div>
+        <div class="ing">
+          <div class="ims">
+            <figure><img src="assets/dl-chexanh.jpg" alt=""><figcaption>Chè xanh</figcaption></figure>
+            <figure><img src="assets/dl-sachanh.jpg" alt=""><figcaption>Sả chanh</figcaption></figure>
+            <figure><img src="assets/dl-kinhgioi.png" alt=""><figcaption>Kinh giới</figcaption></figure>
+            <figure><img src="assets/dl-tramgio.jpg" alt=""><figcaption>Tràm gió</figcaption></figure>
+          </div>
+          <div class="tp">EGCG · Citral · Elsholtzia ketone · Cineol</div>
+          <div class="cc"><b>EGCG, citral</b> ức chế vi khuẩn thường trú; <b>elsholtzia ketone, cineol</b> phá màng tế bào vi khuẩn khi tiếp xúc. Vùng hăm tổn thương, ẩm và kín → vi khuẩn phát triển mạnh hơn da lành.</div>
+        </div>
+
+        <div class="win" style="margin-top:auto"><b>★ HƠN ĐỐI THỦ</b>
+          <i>vs Dr.Papie (230ml), Kutieskin (200ml):</i> DKX có thêm <b>dịch chiết chanh</b> và <b>tinh dầu mùi</b>.</div>
+      </div>
+    </div>
+
+    <!-- BƯỚC 2 -->
+    <div class="step">
+      <div class="sh"><div class="n">2</div><b>XỬ LÝ VẤN ĐỀ<small>Chắn ẩm · giảm ma sát · làm dịu</small></b></div>
+      <div class="body">
+        <div class="prod">
+          <div class="ph"><img src="assets/sp-kem.jpg" alt="Kem bôi da Elemis"></div>
+          <div><div class="nm">Kem bôi da Elemis</div>
+            <div class="pr">Tuýp 30g<br><b>115.000đ</b></div>
+            <span class="age">Từ sơ sinh</span></div>
+        </div>
+
+        <div class="ing">
+          <div class="ims"><figure><img src="assets/hc-kemoxyd.jpg" alt=""><figcaption>Kẽm oxyd</figcaption></figure></div>
+          <div class="tp">Kẽm oxyd nano 2%</div>
+          <div class="cc">Hạt nano liên kết thành <b>màng mỏng phủ kín da</b>. Vùng tã: ngăn nước tiểu, phân, hơi ẩm chạm vào da. Nếp gấp: vừa chắn ẩm vừa <b>giảm ma sát</b> giữa hai mặt da. Bôi ngay khi thay tã, <b>kể cả khi da chưa đỏ</b>, để phòng ngừa.</div>
+        </div>
+        <div class="sep"></div>
+        <div class="ing">
+          <div class="ims"><figure><img src="assets/dl-rauma.jpg" alt=""><figcaption>Rau má</figcaption></figure></div>
+          <div class="tp">Asiaticoside · Acid asiatic (rau má)</div>
+          <div class="cc">Da kích ứng tiết chất gây viêm → mạch giãn (<b>đỏ</b>), thần kinh nhạy (<b>rát</b>). Hai hoạt chất này giảm chất gây viêm → <b>bớt đỏ, bớt rát</b> sau khi thoa.</div>
+        </div>
+        <div class="sep"></div>
+        <div class="ing">
+          <div class="ims"><figure><img src="assets/dl-ngaicuu.jpg" alt=""><figcaption>Ngải cứu</figcaption></figure></div>
+          <div class="tp">Cineol · Long não (tinh dầu ngải cứu)</div>
+          <div class="cc">Bay hơi tạo <b>cảm giác mát</b>, đồng thời ức chế vi khuẩn tại vùng da đang tổn thương.</div>
+        </div>
+
+        <div class="win" style="margin-top:auto"><b>★ HƠN ĐỐI THỦ</b>
+          <i>vs Bepanthen Balm (30g), Sudocrem (60g):</i> DKX kết hợp <b>kẽm oxyd nano + rau má + ngải cứu</b>. DKX công bố thêm dùng cho <b>“da bị bỏng do gió/nắng”</b> — không thấy ở Bepanthen/Sudocrem.</div>
+      </div>
+    </div>
+
+    <!-- BƯỚC 3 -->
+    <div class="step s3">
+      <div class="sh"><div class="n">3</div><b>NUÔI DƯỠNG &amp; BẢO VỆ<small>Giữ ẩm · củng cố hàng rào da</small></b></div>
+      <div class="body">
+        <div class="prod">
+          <div class="ph"><img src="assets/sp-kem.jpg" alt="Kem bôi da Elemis"></div>
+          <div><div class="nm">Kem bôi da Elemis</div>
+            <div class="tp" style="font-size:calc(7.4pt * var(--s))">Aquaxyl (xylitylglucoside + anhydroxylitol)</div></div>
+        </div>
+        <div class="ing">
+          <div class="cc"><b>Xylitylglucoside</b> kích thích da tự tạo glycosaminoglycan (chất giữ nước tự nhiên); <b>anhydroxylitol</b> củng cố hàng rào ngoài cùng → nước khó thoát, <b>da tự giữ ẩm từ bên trong</b>. Da nếp gấp ẩm ngoài mà thiếu ẩm trong → dễ nứt khi cọ xát.</div>
+        </div>
+        <div class="sep"></div>
+
+        <div class="prod">
+          <div class="ph"><img src="assets/sanpham.png" alt="Tắm gội Elemis"></div>
+          <div><div class="nm">Tắm gội thảo dược Elemis</div>
+            <div class="tp" style="font-size:calc(7.4pt * var(--s))">Chlorophyllin (diệp lục tố) · EGCG (chè xanh)</div></div>
+        </div>
+        <div class="ing">
+          <div class="cc">Trung hoà gốc tự do trên da; <b>chlorophyllin còn hút mùi mồ hôi</b> → giảm mùi hôi đọng ở ngấn cổ, nách.</div>
+        </div>
+        <div class="sep"></div>
+
+        <div class="prod">
+          <div class="ph"><img src="assets/sp-oriky.jpg" alt="Dầu massage Oriky"></div>
+          <div><div class="nm">Dầu massage Oriky</div>
+            <div class="pr">Chai 60ml · <b>135.000đ</b></div>
+            <span class="age">Từ sơ sinh</span></div>
+        </div>
+        <div class="ing">
+          <div class="ims">
+            <figure><img src="assets/dl-hanhnhan.jpg" alt=""><figcaption>Hạnh nhân</figcaption></figure>
+            <figure><img src="assets/dl-nho.jpg" alt=""><figcaption>Hạt nho</figcaption></figure>
+            <figure><img src="assets/dl-camgao.jpg" alt=""><figcaption>Cám gạo</figcaption></figure>
+          </div>
+          <div class="tp">Acid oleic · Acid linoleic · Squalene</div>
+          <div class="cc">Acid béo <b>cùng loại với lipid tự nhiên của da</b> → lấp chỗ hàng rào lipid thiếu hụt, <b>khoá nước</b> trong da.</div>
+        </div>
+
+        <div class="win" style="margin-top:auto"><b>★ HƠN ĐỐI THỦ (Oriky)</b>
+          <i>vs Johnson's Baby Oil:</i> Johnson's dùng dầu khoáng. <i>vs Chicco:</i> chỉ có cám gạo đơn lẻ. Oriky kết hợp <b>3 dầu thực vật</b>: cám gạo + hạnh nhân + hạt nho.
+          <div class="ref">Kem bôi, tắm gội: xem “Hơn đối thủ” ở bước 2 và bước 1.</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== HÀNG CUỐI ===== -->
+  <div class="bottom">
+    <div class="box"><h2>BỘ SẢN PHẨM VẤN ĐỀ</h2>
+      <div class="bd kit">
+        <div class="combo"><img src="assets/sanpham.png" alt=""><i>+</i><img src="assets/sp-kem.jpg" alt=""></div>
+        <div class="line"><b>Tắm gội Elemis</b> (150.000đ) + <b>Kem bôi Elemis</b> (115.000đ)</div>
+        <div class="add"><img src="assets/sp-oriky.jpg" alt=""><div><b style="color:var(--gd)">Bán thêm</b> khi khách muốn chăm kỹ hơn: <b style="color:var(--gd)">Dầu massage Oriky</b> (135.000đ)</div></div>
+      </div>
+    </div>
+    <div class="box"><h2>CÁCH DÙNG</h2>
+      <div class="bd"><ul class="use">
+        <li><b>Tắm:</b> pha <b>5ml : 5 lít</b> nước 36–37°C. Mở các nếp gấp ra rửa kỹ, <b>lau thật khô</b> rồi mới mặc đồ / đóng tã.</li>
+        <li><b>Vệ sinh khi thay tã:</b> pha <b>2ml : 2 lít</b>, nhất là khi bé đi nặng.</li>
+        <li><b>Kem bôi:</b> thoa lớp mỏng lên vùng đã lau khô. Vùng tã: <b>mỗi lần thay tã</b>, kể cả khi da chưa đỏ. Vùng ngấn: <b>ngày 2–3 lần</b>.</li>
+      </ul></div>
+    </div>
+    <div class="box warn"><h2>⚠ KHUYÊN ĐI KHÁM, ĐỪNG BÁN — KHI</h2>
+      <div class="bd">
+        <p>Da đã <b>trợt</b>, <b>chảy dịch</b>, có <b>mụn mủ</b>, <b>mùi hôi rõ</b> hoặc <b>lan rộng nhanh</b>.</p>
+        <p>→ Khuyên mẹ <b>đưa bé đi khám trước</b>, dùng sản phẩm <b>duy trì sau</b>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="foot"><span>Sell-out kit theo vấn đề da bé · Mục 1/9 · Công ty TNHH Dược Khoa Xanh</span>
+    <span>Ảnh dược liệu: Wikimedia Commons · Ảnh SP: duockhoaxanh.com</span></div>
+</div></body></html>

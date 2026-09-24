@@ -75,3 +75,35 @@ Cỡ chữ điều khiển bằng biến `--s` trong file HTML. Bản 2 trang đ
 Mới dựng **SP1 — Tắm gội Elemis**. Chín sản phẩm còn lại trong báo giá OTC dựng theo cùng bố cục
 sau khi Nhi duyệt mẫu này. Riêng các sản phẩm khác **chưa có bộ ảnh** như tắm gội — cần xin
 thêm file giới thiệu/ảnh sản phẩm từ MKT.
+
+---
+
+# Poster theo vấn đề da bé (A4 dọc, 3 cột) — bản chạy thử
+
+Chuyển từng mục trong `../Sellout kit/Theo vấn đề da bé/Sell-out kit theo vấn đề da bé.docx` thành 1 poster A4
+để in phát cho NVBH. **Mới dựng mục 1 — Hăm da** để Nhi duyệt mẫu; 8 mục còn lại dựng theo cùng bố cục sau khi duyệt.
+
+| File | Là gì |
+|---|---|
+| `VD1 - Ham da (3 cot).html` · `.pdf` · `.png` | Mục 1 — Hăm da (vùng tã và các nếp gấp) |
+
+**Bố cục:** tiêu đề + chuỗi 3 bước → dải *Dấu hiệu nhận biết* (chữ + ảnh triệu chứng + 5 cấp độ hăm)
+→ **3 cột = 3 bước** (Làm sạch · Xử lý vấn đề · Nuôi dưỡng & bảo vệ), mỗi cột có ảnh sản phẩm, giá,
+ảnh dược liệu, thành phần – cơ chế, ô *Hơn đối thủ* → hàng cuối 3 ô: *Bộ sản phẩm vấn đề* · *Cách dùng* · *Khuyên đi khám*.
+Đủ mọi phần của mục 1 trong file Word, chỉ rút gọn câu chữ, không thêm thông tin mới.
+Riêng ô *Hơn đối thủ* của kem bôi và tắm gội lặp lại ở bước 3 trong file Word — poster chỉ ghi một lần ở bước 1–2 và dẫn chiếu.
+
+Dựng lại: `node render.js "VD1 - Ham da (3 cot).html" "VD1 - Ham da (3 cot).pdf" "VD1 - Ham da (3 cot).png"` (đang dùng `--s:1`).
+
+## Nguồn ảnh thêm mới trong `assets/`
+
+| File | Nguồn |
+|---|---|
+| `sp-kem.jpg`, `sp-oriky.jpg`, `logo-dkxanh.png` | Website công ty duockhoaxanh.com (cắt từ ảnh sản phẩm) |
+| `hamta-capdo.png` (đã có sẵn) | Bộ slide Elemis của công ty |
+| `tc-hamta.jpg` | Wikimedia Commons — *Irritant_diaper_dermatitis.jpg* |
+| `dl-rauma.jpg` · `dl-ngaicuu.jpg` · `dl-chexanh.jpg` · `dl-sachanh.jpg` · `dl-tramgio.jpg` · `dl-hanhnhan.jpg` · `dl-nho.jpg` · `dl-camgao.jpg` · `hc-kemoxyd.jpg` | Wikimedia Commons — lần lượt *Centella_asiatica_(থানকুনি)_(3).jpg*, *Artemia_vulgaris_leaf.jpg*, *Csinensis.jpg*, *Lemongrass_sold_at_a_supermarket_in_the_Philippines.jpg*, *Melaleuca_cajuputi.jpg*, *Almonds_-_in_shell,_shell_cracked_open,_shelled,_blanched.jpg*, *Grapes,_Rostov-on-Don,_Russia.jpg*, *Rice_bran.jpg*, *Zinc_oxide.jpg* |
+
+⚠️ Ảnh Wikimedia dùng giấy phép mở (phần lớn CC BY-SA) — chưa kiểm tra giấy phép từng file.
+Nếu in số lượng lớn/đưa ra ngoài, nên thay bằng ảnh dược liệu của MKT (Kiều/anh Nam) hoặc giữ dòng ghi nguồn ở chân poster.
+Ảnh hăm vùng tã là ảnh lâm sàng thật — hỏi quản lý xem có ổn khi dán quầy không; nếu không thì chỉ giữ ảnh 5 cấp độ của công ty.
