@@ -94,6 +94,7 @@ Chuyển từng mục trong `../Sellout kit/Theo vấn đề da bé/Sell-out kit
 - Gấp **chữ Z** (gấp xếp như quạt) để **tấm 1 nằm mặt trước**. Tấm 1 là bìa: tên vấn đề, 3 bước, dấu hiệu, 5 cấp độ hăm, bộ sản phẩm, khi nào khuyên đi khám — gấp lại vẫn đủ để bán nhanh.
 - Tấm 2: Bước 1 Làm sạch + Bước 2 Xử lý vấn đề. Tấm 3: Bước 3 Nuôi dưỡng & bảo vệ + Cách dùng.
 - In: A4, **khổ ngang (Landscape)**, 100% / Actual size, bật in hình nền. Cỡ chữ `--s:1.08` (mức 1.12 bắt đầu tràn).
+- Bìa: logo Dược Khoa Xanh to, **chú voi Elemis** (tách từ hình trên hộp tắm gội, slide `Tắm gội thảo dược Elemis.pptx`) — `assets/voi-elemis-trang.png` đặt trên nền xanh, `assets/voi-elemis.png` màu xanh ở chân tấm bìa. Theo ý Nhi đã bỏ số "1", dòng tóm tắt 3 bước, chữ "Mục 1/9" và dòng ghi nguồn ảnh trên poster (nguồn ảnh vẫn ghi đủ trong README này).
 - `render.js` đã sửa để dựng được trang ngang (tự lấy khổ giấy từ `@page` trong file HTML).
 
 **Bố cục:** tiêu đề + chuỗi 3 bước → dải *Dấu hiệu nhận biết* (chữ + ảnh triệu chứng + 5 cấp độ hăm)
