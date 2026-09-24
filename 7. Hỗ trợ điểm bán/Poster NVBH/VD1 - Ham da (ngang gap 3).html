@@ -9,7 +9,7 @@
      Không thêm thông tin nào ngoài file đó. Cỡ chữ chỉnh bằng --s. -->
 <style>
   @page{size:A4 landscape;margin:0}
-  :root{--s:1}
+  :root{--s:0.96}
   .page{width:297mm;height:210mm;padding:0;display:grid;grid-template-columns:repeat(3,99mm);gap:0}
   .panel{padding:5mm 5mm 4mm;display:flex;flex-direction:column;gap:1.8mm;min-height:0;overflow:hidden;position:relative}
   /* vạch gấp: chỉ vẽ ngắn ở mép trên/dưới, không đè lên chữ */
@@ -135,6 +135,27 @@
   .pchips span{display:inline-flex;gap:1mm;align-items:baseline;background:#fff;border:0.3mm solid var(--line);border-radius:1mm;
                padding:.1mm 1.2mm;font-size:calc(6.8pt * var(--s));font-weight:600;color:var(--mute)}
   .pchips b{color:var(--g);font-size:calc(7.2pt * var(--s))}
+  .sec{font-size:calc(8pt * var(--s));font-weight:800;color:var(--gd);letter-spacing:.04em;border-bottom:0.4mm solid var(--line);padding-bottom:.6mm}
+  .pv{display:grid;grid-template-columns:15mm 1fr;gap:2mm;align-items:start;background:var(--wash2);border:0.4mm solid var(--line);border-radius:2mm;padding:1.2mm 1.6mm}
+  .pv .ph{height:17mm;display:flex;align-items:center;justify-content:center;background:#EEF4FA;border-radius:1.2mm;overflow:hidden}
+  .pv .ph img{max-width:100%;max-height:100%;object-fit:contain}
+  .pv .nm{font-size:calc(8.4pt * var(--s));font-weight:800;color:var(--gd);line-height:1.2}
+  .pv .age{display:inline-block;background:var(--g);color:#fff;font-size:calc(6.2pt * var(--s));font-weight:700;border-radius:1mm;padding:.1mm 1.3mm;margin-left:1mm;vertical-align:middle}
+  ul.fix{list-style:none;display:flex;flex-direction:column;gap:.2mm}
+  ul.fix li{font-size:calc(7.2pt * var(--s));line-height:1.3;padding-left:3mm;position:relative}
+  ul.fix li::before{content:"→";position:absolute;left:0;color:var(--g);font-weight:800}
+  ul.fix b{color:var(--gd)}
+  .kit2{display:flex;flex-direction:column;gap:1mm}
+  .kit2 .k{font-size:calc(7.6pt * var(--s));line-height:1.35;border-radius:1.4mm;padding:1mm 1.8mm}
+  .kit2 .k b{display:block;font-size:calc(6.8pt * var(--s));letter-spacing:.04em}
+  .kit2 .need{background:var(--wash);border:0.3mm solid var(--line)} .kit2 .need b{color:var(--g)}
+  .kit2 .add{background:var(--amberwash);border:0.3mm dashed var(--amberline)} .kit2 .add b{color:var(--amber)}
+  .cmp{border:0.4mm solid #C9D3DB;border-radius:1.8mm;overflow:hidden;background:#F7F9FB}
+  .cmp .ch{font-size:calc(6.8pt * var(--s));font-weight:800;color:#44576A;letter-spacing:.03em;padding:.6mm 1.6mm;background:#E9EEF3}
+  .cmp table{width:100%;border-collapse:collapse}
+  .cmp th,.cmp td{font-size:calc(6.8pt * var(--s));line-height:1.3;padding:.5mm 1.6mm;border-top:0.3mm solid #DDE4EA;vertical-align:top;text-align:left}
+  .cmp th{width:27%;font-weight:700;color:#44576A;background:transparent}
+  .cmp tr:first-child th{color:var(--gd)}
 </style></head>
 <body><div class="page">
 
@@ -150,38 +171,36 @@
         <img class="voi" src="assets/voi-elemis-trang.png" alt="Chú voi Elemis"></div>
     </div>
 
-    <div class="sign">
-      <h2>● DẤU HIỆU</h2>
-      <p><b>Da đỏ, rát</b> ở vùng mặc tã, hoặc trong các ngấn da.</p>
-      <div class="zones"><span>Vùng tã</span><span>Ngấn cổ</span><span>Nách</span><span>Bẹn</span></div>
-      <h2>● NGUYÊN NHÂN</h2>
-      <ul class="why-list">
-        <li><b>Vùng tã:</b> da ngâm lâu trong <b>nước tiểu, phân</b> khi <b>thay tã chưa kịp, vệ sinh chưa kỹ, chưa lau khô</b>. Nước tiểu sinh amoniac, phân chứa enzyme → phá hàng rào da; tã bí ẩm, cọ xát làm nặng thêm.</li>
-        <li><b>Nếp gấp:</b> <b>mồ hôi đọng</b> + hai mặt da <b>cọ vào nhau</b>, nóng bí.</li>
-      </ul>
-      <div class="lvh">5 CẤP ĐỘ HĂM</div>
-      <div class="lvr">
-        <figure><img src="assets/capdo1.jpg" alt=""><figcaption>1 · Nhẹ</figcaption></figure>
-        <figure><img src="assets/capdo2.jpg" alt=""><figcaption>2</figcaption></figure>
-        <figure><img src="assets/capdo3.jpg" alt=""><figcaption>3 · T.bình</figcaption></figure>
-        <figure><img src="assets/capdo4.jpg" alt=""><figcaption>4</figcaption></figure>
-        <figure><img src="assets/capdo5.jpg" alt=""><figcaption>5 · Nặng</figcaption></figure>
-      </div>
+    <div class="sec">SẢN PHẨM → GIẢI QUYẾT VẤN ĐỀ GÌ</div>
+    <div class="pv">
+      <div class="ph"><img src="assets/sanpham.png" alt=""></div>
+      <div><div class="nm">Tắm gội thảo dược Elemis <span class="age">Từ sơ sinh</span></div>
+        <div class="pchips"><span>200ml<b>150.000đ</b></span><span>350ml<b>210.000đ</b></span><span>500ml<b>275.000đ</b></span></div>
+        <ul class="fix"><li>Làm sạch vùng tã, nếp gấp <b>không cần chà xát</b></li><li><b>Kháng khuẩn</b> vùng da đang hăm, ẩm và kín</li><li><b>Hút mùi mồ hôi</b> đọng ở ngấn cổ, nách</li></ul></div>
+    </div>
+    <div class="pv">
+      <div class="ph"><img src="assets/sp-kem.jpg" alt=""></div>
+      <div><div class="nm">Kem bôi da Elemis <span class="age">Từ sơ sinh</span></div>
+        <div class="pchips"><span>30g<b>115.000đ</b></span></div>
+        <ul class="fix"><li><b>Chắn</b> nước tiểu, phân, hơi ẩm; <b>giảm ma sát</b> ở nếp gấp</li><li><b>Làm dịu</b> đỏ, rát; mát, kháng khuẩn</li><li><b>Giữ ẩm</b> từ bên trong, da nếp gấp khó nứt</li></ul></div>
+    </div>
+    <div class="pv">
+      <div class="ph"><img src="assets/sp-oriky.jpg" alt=""></div>
+      <div><div class="nm">Dầu massage Oriky <span class="age">Từ sơ sinh</span></div>
+        <div class="pchips"><span>60ml<b>135.000đ</b></span></div>
+        <ul class="fix"><li><b>Khoá ẩm</b>, bù lớp lipid cho da sau đợt hăm</li></ul></div>
     </div>
 
-    <div class="box"><h2>BỘ SẢN PHẨM TƯ VẤN</h2>
-      <div class="bd kit">
-        <div class="lbl need">✔ CẦN THIẾT</div>
-        <div class="row"><img src="assets/sanpham.png" alt=""><i>+</i><img src="assets/sp-kem.jpg" alt="">
-          <div class="line"><b>Tắm gội Elemis</b><div class="pchips"><span>200ml<b>150.000đ</b></span><span>350ml<b>210.000đ</b></span><span>500ml<b>275.000đ</b></span></div><b>Kem bôi da Elemis</b><div class="pchips"><span>30g<b>115.000đ</b></span></div></div></div>
-        <div class="lbl add-l">＋ KHUYẾN NGHỊ DÙNG THÊM</div>
-        <div class="add"><img src="assets/sp-oriky.jpg" alt=""><div><b>Dầu massage Oriky</b> 60ml 135.000đ — dưỡng ẩm, giữ hàng rào da sau khi hết hăm, khi khách muốn chăm kỹ hơn.</div></div>
+    <div class="box"><h2>GỢI Ý BỘ SẢN PHẨM</h2>
+      <div class="bd kit2">
+        <div class="k need"><b>✔ CẦN THIẾT</b>Tắm gội Elemis + Kem bôi da Elemis</div>
+        <div class="k add"><b>＋ KHUYẾN NGHỊ DÙNG THÊM</b>Dầu massage Oriky — dưỡng da sau khi hết hăm</div>
       </div>
     </div>
 
     <div class="box warn"><h2>⚠ KHUYÊN ĐI KHÁM, ĐỪNG BÁN — KHI</h2>
       <div class="bd">
-        <p>Da đã <b>trợt</b>, <b>chảy dịch</b>, có <b>mụn mủ</b>, <b>mùi hôi rõ</b> hoặc <b>lan rộng nhanh</b> → khuyên mẹ <b>đưa bé đi khám trước</b>, dùng sản phẩm <b>duy trì sau</b>.</p>
+        <p>Da bé đã <b>trợt</b>, <b>chảy dịch</b>, có <b>mụn mủ</b>, <b>mùi hôi rõ</b> hoặc <b>lan rộng nhanh</b> → khuyên mẹ <b>đưa bé đi khám trước</b>, dùng sản phẩm <b>duy trì sau</b>.</p>
       </div>
     </div>
 
@@ -219,9 +238,7 @@
             <div class="cc"><b>EGCG</b> (chè xanh), <b>citral</b> (sả chanh) ức chế vi khuẩn thường trú; <b>elsholtzia ketone</b> (kinh giới), <b>cineol</b> (tràm gió) phá màng tế bào vi khuẩn khi tiếp xúc.</div>
             <div class="why"><b>Vì:</b> vùng hăm tổn thương, ẩm và kín → vi khuẩn phát triển mạnh hơn da lành.</div></div>
         </div>
-        <div class="win"><b>★ HƠN ĐỐI THỦ</b> — <i>vs Dr.Papie (230ml), Kutieskin (200ml):</i> Elemis có thêm 2 dịch chiết đối thủ không có:
-          <br>• <b>Chanh → acid citric:</b> làm sạch nhẹ vảy trên da.
-          <br>• <b>Tinh dầu mùi → linalool</b> (thành phần chính): làm dịu da; nghiên cứu cho thấy ức chế <b>tụ cầu vàng, liên cầu</b> gây nhiễm trùng da.</div>
+        <div class="cmp"><div class="ch">⇄ SO SÁNH THÀNH PHẦN — nước tắm thảo dược</div><table><tr><th>Elemis 200/350/500ml</th><td>Chè xanh, chanh, sài đất, khổ qua, kinh giới; tinh dầu sả chanh, mùi, tràm gió; diệp lục tố; papain</td></tr><tr><th>Dr.Papie 230ml</th><td>9 thảo dược hữu cơ (chè tuyết, khổ qua, trầu không, tràm, sả…); không xà phòng</td></tr><tr><th>Kutieskin 200ml</th><td>Nano curcumin + 12 thảo dược (sài đất, kinh giới, khổ qua, chè xanh, rau má, nha đam, tràm, sả…)</td></tr></table></div>
       </div>
     </div>
 
@@ -253,8 +270,7 @@
             <div class="cc">Bay hơi tạo <b>cảm giác mát</b>, đồng thời <b>ức chế vi khuẩn</b>.</div>
             <div class="why"><b>Vì:</b> vùng da đang tổn thương dễ bị vi khuẩn xâm nhập.</div></div>
         </div>
-        <div class="win" style="margin-top:auto"><b>★ HƠN ĐỐI THỦ</b> — <b>3 việc trong 1 tuýp</b>: chắn ẩm (kẽm oxyd nano) + làm dịu (rau má) + mát, kháng khuẩn (ngải cứu).
-          <i>Bepanthen Balm 30g</i> (dexpanthenol + lanolin): không có kẽm oxyd. <i>Sudocrem 60g</i> (kẽm oxyd + lanolin + oải hương): không có rau má, ngải cứu.</div>
+        <div class="cmp" style="margin-top:auto"><div class="ch">⇄ SO SÁNH THÀNH PHẦN — kem hăm</div><table><tr><th>Elemis 30g</th><td>Kẽm oxyd nano 2%, rau má, ngải cứu, Aquaxyl</td></tr><tr><th>Bepanthen Balm 30g</th><td>Dexpanthenol (tiền vitamin B5), lanolin</td></tr><tr><th>Sudocrem 60g</th><td>Kẽm oxyd, lanolin, tinh dầu oải hương</td></tr></table></div>
       </div>
     </div>
   </section>
@@ -299,7 +315,7 @@
             <div class="cc">Acid béo <b>cùng loại với lipid tự nhiên của da</b> → lấp chỗ hàng rào lipid thiếu hụt, <b>khoá nước</b> trong da.</div>
             <div class="why"><b>Vì:</b> da ẩm ướt kéo dài làm hỏng lớp lipid giữa các tế bào da.</div></div>
         </div>
-        <div class="win"><b>★ HƠN ĐỐI THỦ</b> — <i>Johnson's Baby Oil:</i> dầu khoáng. <i>Chicco:</i> chỉ có cám gạo. Oriky kết hợp <b>3 dầu thực vật</b>: cám gạo + hạnh nhân + hạt nho.</div>
+        <div class="cmp"><div class="ch">⇄ SO SÁNH THÀNH PHẦN — dầu massage</div><table><tr><th>Oriky 60ml</th><td>Dầu cám gạo, hạnh nhân, hạt nho; vitamin E; tinh dầu tràm gió</td></tr><tr><th>Johnson's Baby Oil 50ml</th><td>Dầu khoáng, hương liệu</td></tr><tr><th>Chicco 200ml</th><td>Dầu cám gạo, omega 3/6, vitamin E</td></tr></table></div>
       </div>
     </div>
 

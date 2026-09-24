@@ -102,6 +102,7 @@ Chuyển từng mục trong `../Sellout kit/Theo vấn đề da bé/Sell-out kit
   - Bước 3 đặt tắm gội trước kem bôi.
   - Ô "Hơn đối thủ" bước 1: chanh → acid citric; tinh dầu mùi → linalool (làm dịu da theo `Phân tích công dụng sản phẩm.md`; kháng tụ cầu vàng/liên cầu theo [Casetti 2012](https://onlinelibrary.wiley.com/doi/10.1002/ptr.3571) và [Aelenei 2019](https://academic.oup.com/lambio/article-abstract/68/2/156/6699216)). Bước 2: nêu thành phần đối thủ theo `So sánh thị trường - Nhóm Dành cho bé.md`.
   - **Cách dùng theo tình trạng** (phòng hăm / đang hăm / sau khi hết hăm). Tỉ lệ pha lấy từ slide "Hướng dẫn hỗ trợ điều trị hăm tã" (Tắm gội Elemis.pptx); kem "2–3 lần/ngày, mát-xa nhẹ" lấy từ ảnh cách dùng kem trên web công ty; Oriky "thoa lên vùng da khô, dùng trước hoặc sau tắm" lấy từ Dầu massage Oriky.pptx. Mốc "2–4 ngày hết hăm" trong slide vẫn **không** đưa vào.
+- **Bản sửa lần 4 (theo góp ý Nhi):** bìa đi theo hướng **Sản phẩm → giải quyết vấn đề gì → gợi ý bộ sản phẩm** (Cần thiết / Khuyến nghị dùng thêm). Bỏ phần mô tả hăm (dấu hiệu, nguyên nhân, 5 cấp độ) vì đã có thẻ vấn đề riêng. Các ô "Hơn đối thủ" đổi thành **bảng so sánh thành phần trung tính** (không khen/chê), số liệu lấy từ `Danh mục sản phẩm/So sánh thị trường/So sánh thị trường - Nhóm Dành cho bé.md`.
 - `render.js` đã sửa để dựng được trang ngang (tự lấy khổ giấy từ `@page` trong file HTML).
 
 **Bố cục:** tiêu đề + chuỗi 3 bước → dải *Dấu hiệu nhận biết* (chữ + ảnh triệu chứng + 5 cấp độ hăm)
