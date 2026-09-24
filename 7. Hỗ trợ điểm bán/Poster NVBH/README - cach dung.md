@@ -95,6 +95,13 @@ Chuyển từng mục trong `../Sellout kit/Theo vấn đề da bé/Sell-out kit
 - Tấm 2: Bước 1 Làm sạch + Bước 2 Xử lý vấn đề. Tấm 3: Bước 3 Nuôi dưỡng & bảo vệ + Cách dùng.
 - In: A4, **khổ ngang (Landscape)**, 100% / Actual size, bật in hình nền. Cỡ chữ `--s:1.08` (mức 1.12 bắt đầu tràn).
 - Bìa: logo Dược Khoa Xanh to, **chú voi Elemis** (tách từ hình trên hộp tắm gội, slide `Tắm gội thảo dược Elemis.pptx`) — `assets/voi-elemis-trang.png` đặt trên nền xanh, `assets/voi-elemis.png` màu xanh ở chân tấm bìa. Theo ý Nhi đã bỏ số "1", dòng tóm tắt 3 bước, chữ "Mục 1/9" và dòng ghi nguồn ảnh trên poster (nguồn ảnh vẫn ghi đủ trong README này).
+- **Bản sửa lần 3 (theo góp ý Nhi)** — chỉ áp cho bản ngang, bản dọc 3 cột chưa cập nhật:
+  - Tách **Dấu hiệu** và **Nguyên nhân**. Nguyên nhân viết lại: vùng tã = da ngâm lâu trong nước tiểu/phân do thay tã chưa kịp, vệ sinh chưa kỹ, chưa lau khô (amoniac + enzyme phân phá hàng rào da, tã bí ẩm, cọ xát); nếp gấp = mồ hôi đọng + cọ xát. Nguồn: [Medscape – Diaper dermatitis](https://emedicine.medscape.com/article/911985-overview), [Buckingham 1986 – vai trò của phân](https://pubmed.ncbi.nlm.nih.gov/3513143/), [Vinmec](https://www.vinmec.com/vie/bai-viet/ham-ta-o-tre-em-nguyen-nhan-huong-dan-xu-tri-vi).
+  - Bộ sản phẩm chia **Cần thiết** (Tắm gội + Kem bôi) / **Khuyến nghị dùng thêm** (Oriky); mọi chỗ ghi giá đều kèm dung tích.
+  - Mỗi thành phần ghi **công dụng trước**, rồi dòng **"Vì:"** (lý do từ vấn đề da).
+  - Bước 3 đặt tắm gội trước kem bôi.
+  - Ô "Hơn đối thủ" bước 1: chanh → acid citric; tinh dầu mùi → linalool (làm dịu da theo `Phân tích công dụng sản phẩm.md`; kháng tụ cầu vàng/liên cầu theo [Casetti 2012](https://onlinelibrary.wiley.com/doi/10.1002/ptr.3571) và [Aelenei 2019](https://academic.oup.com/lambio/article-abstract/68/2/156/6699216)). Bước 2: nêu thành phần đối thủ theo `So sánh thị trường - Nhóm Dành cho bé.md`.
+  - **Cách dùng theo tình trạng** (phòng hăm / đang hăm / sau khi hết hăm). Tỉ lệ pha lấy từ slide "Hướng dẫn hỗ trợ điều trị hăm tã" (Tắm gội Elemis.pptx); kem "2–3 lần/ngày, mát-xa nhẹ" lấy từ ảnh cách dùng kem trên web công ty; Oriky "thoa lên vùng da khô, dùng trước hoặc sau tắm" lấy từ Dầu massage Oriky.pptx. Mốc "2–4 ngày hết hăm" trong slide vẫn **không** đưa vào.
 - `render.js` đã sửa để dựng được trang ngang (tự lấy khổ giấy từ `@page` trong file HTML).
 
 **Bố cục:** tiêu đề + chuỗi 3 bước → dải *Dấu hiệu nhận biết* (chữ + ảnh triệu chứng + 5 cấp độ hăm)
