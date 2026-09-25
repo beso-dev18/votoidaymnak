@@ -35,6 +35,11 @@ function trangVanDe(v) {
               + `<span class="gia">${esc(p.gia)}</span><span class="tuoi">${esc(p.tuoi)}</span></td>`;
         }
         td += `<td class="lv4">${tp[0]}</td><td class="lv5">${tp[1]}</td>`;
+        // sơ đồ in 1 trang: chỉ lấy dòng "Điểm mạnh"; bản Word có đủ so sánh + câu nói với khách
+        if (ti === 0) {
+          const ss = (s.ss || []).filter(t => /^<b>Điểm mạnh/.test(t));
+          td += `<td class="lv6" rowspan="${s.tp.length}">${ss.map(t => `<p>${t}</p>`).join('') || '—'}</td>`;
+        }
         rows.push(`<tr>${td}</tr>`);
       });
     });
@@ -50,23 +55,23 @@ function trangVanDe(v) {
   <div class="hd">
     <div class="ttl"><span class="kicker">SƠ ĐỒ XỬ LÝ VẤN ĐỀ DA BÉ</span><h1>${esc(v.ten)}</h1></div>
     <div class="say" style="font-style:normal"><span>VẤN ĐỀ NÀY LÀ GÌ</span>${esc(v.phu)}</div>
-    <div class="ask"><span>CÁCH DÙNG</span><div class="cd">${v.cachDung || '⏳ Chưa có hướng dẫn trên tài liệu gốc.'}</div></div>
+    <div class="ask"><span>CÁCH DÙNG</span><div class="cd">${v.cachDung}</div></div>
   </div>
 
   <table class="tree">
-    <thead><tr><th>VẤN ĐỀ DA</th><th>BƯỚC XỬ LÝ</th><th>SẢN PHẨM</th><th>THÀNH PHẦN</th><th>CƠ CHẾ TÁC ĐỘNG</th></tr></thead>
+    <thead><tr><th>VẤN ĐỀ DA</th><th>BƯỚC XỬ LÝ</th><th>SẢN PHẨM</th><th>THÀNH PHẦN</th><th>GIÚP GÌ CHO BÉ — VÌ SAO</th><th>ĐIỂM MẠNH KHI KHÁCH SO SÁNH</th></tr></thead>
     <tbody>${rows.join('')}</tbody>
   </table>
 
   <div class="bot">
-    <div class="bo"><span class="lbl">BỘ SẢN PHẨM TƯ VẤN</span>${spBo}${spThem}</div>
+    <div class="bo"><span class="lbl">BỘ SẢN PHẨM CẦN THIẾT</span>${spBo}${spThem}</div>
     <div class="kham"><span class="lbl">KHUYÊN ĐI KHÁM, ĐỪNG BÁN — KHI</span>${esc(v.kham)}</div>
   </div>
   ${v.luuY ? `<div class="luuy"><b>Lưu ý:</b> ${v.luuY}</div>` : ''}
 
   <div class="foot">
     <span>Dược Khoa Xanh · Sơ đồ tư vấn tại quầy dành cho NVBH</span>
-    <span>Giá theo báo giá OTC 01/04/2025 · Cơ chế theo “Phân tích công dụng sản phẩm”</span>
+    <span>Giá theo báo giá OTC 01/04/2025 · Thành phần theo “Phân tích công dụng sản phẩm”</span>
   </div>
 </div></body></html>`;
 }
@@ -89,7 +94,7 @@ function trangTongQuan() {
 <div class="page">
   <div class="hd">
     <div class="ttl"><span class="kicker">SELL-OUT KIT THEO VẤN ĐỀ DA BÉ</span><h1>BẢNG TRA NHANH</h1></div>
-    <div class="say" style="flex:1"><span>Cách dùng bảng này</span>Khách nêu vấn đề của bé → dóng theo hàng → thấy ngay cần những sản phẩm nào và mỗi sản phẩm đảm nhận bước nào. Số trong ô là bước: <b>1</b> làm sạch · <b>2</b> xử lý vấn đề · <b>3</b> nuôi dưỡng &amp; bảo vệ. Chi tiết thành phần và cơ chế xem sơ đồ riêng của từng vấn đề.</div>
+    <div class="say" style="flex:1"><span>Cách dùng bảng này</span>Khách nêu vấn đề của bé → dóng theo hàng → thấy ngay cần những sản phẩm nào và mỗi sản phẩm đảm nhận bước nào. Số trong ô là bước: <b>1</b> làm sạch · <b>2</b> xử lý vấn đề · <b>3</b> nuôi dưỡng &amp; bảo vệ. Chi tiết thành phần và tác dụng xem sơ đồ riêng của từng vấn đề.</div>
   </div>
 
   <table class="matrix">
@@ -98,9 +103,9 @@ function trangTongQuan() {
   </table>
 
   <div class="chu">
-    <div class="ct"><span class="b1">1</span> <b>LÀM SẠCH</b> — lấy đi bụi, tế bào chết, vi khuẩn đang gây ra hoặc làm nặng thêm vấn đề</div>
+    <div class="ct"><span class="b1">1</span> <b>LÀM SẠCH</b> — lấy đi bụi bẩn, da chết, vi khuẩn đang gây ra hoặc làm nặng thêm vấn đề</div>
     <div class="ct"><span class="b2">2</span> <b>XỬ LÝ VẤN ĐỀ</b> — hoạt chất tác động trực tiếp lên chỗ da đang có vấn đề</div>
-    <div class="ct"><span class="b3">3</span> <b>NUÔI DƯỠNG &amp; BẢO VỆ</b> — phục hồi hàng rào da để vấn đề không quay lại</div>
+    <div class="ct"><span class="b3">3</span> <b>NUÔI DƯỠNG &amp; BẢO VỆ</b> — giúp da khoẻ lại, giữ ẩm tốt để vấn đề không quay lại</div>
   </div>
 
   <div class="luuy"><b>Độ tuổi:</b> Tắm gội thường, Kem bôi da, Dầu massage — <b>từ sơ sinh</b>. Xịt muỗi — <b>bé trên 3 tháng</b>. Elemis Gold và Bọt rửa tay — <b>bé từ 6 tháng</b>. Hỏi tuổi bé trước khi tư vấn.</div>

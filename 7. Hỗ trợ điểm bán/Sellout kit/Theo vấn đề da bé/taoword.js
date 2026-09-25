@@ -41,19 +41,12 @@ const H = (text, lvl) => new Paragraph({
 const hdrRow = labels => new TableRow({ tableHeader: true, children: labels.map(([t, w]) =>
   cell([P(t, { run: { bold: true, color: NAVY, size: 17 } })], { w, fill: FILL })) });
 
-// ---------- khối chú ý màu ----------
-function khoiMau(nhan, noiDung, mau, fill) {
-  return new Table({ columnWidths: [W], width: { size: W, type: WidthType.DXA }, rows: [new TableRow({ children: [
-    cell([ P(nhan, { run: { bold: true, color: mau, size: 17 } }), P(noiDung, { run: { size: 19 } }) ],
-      { w: W, fill })
-  ] })] });
-}
-
 // ---------- sơ đồ nhánh của 1 vấn đề ----------
 function soDo(v) {
-  const cols = [1900, 1900, 2600, 3400, 4770];
+  const cols = [1400, 1400, 1900, 1900, 4270, 3700];
   const rows = [hdrRow([['VẤN ĐỀ DA', cols[0]], ['BƯỚC XỬ LÝ', cols[1]], ['SẢN PHẨM', cols[2]],
-                        ['THÀNH PHẦN', cols[3]], ['CƠ CHẾ TÁC ĐỘNG', cols[4]]])];
+                        ['THÀNH PHẦN', cols[3]], ['GIÚP GÌ CHO BÉ — VÌ SAO', cols[4]],
+                        ['ĐIỂM MẠNH KHI KHÁCH SO SÁNH', cols[5]]])];
   const tong = v.buoc.reduce((a, b) => a + b.sp.reduce((x, s) => x + s.tp.length, 0), 0);
   let dauTien = true;
 
@@ -65,7 +58,7 @@ function soDo(v) {
       const p = SP[s.k];
       s.tp.forEach((tp, ti) => {
         const cs = [];
-        if (dauTien) { cs.push(cell([P(v.ten, { run: { bold: true, color: 'FFFFFF', size: 22 } }),
+        if (dauTien) { cs.push(cell([P(v.ten, { run: { bold: true, color: 'FFFFFF', size: 20 } }),
                                      P(v.phu, { run: { color: 'FFFFFF', size: 15 } })],
                                     { w: cols[0], rowSpan: tong, fill: NAVY, mid: true })); dauTien = false; }
         else cs.push(null);
@@ -81,37 +74,13 @@ function soDo(v) {
         } else cs.push(null);
         cs.push(cell([P(tp[0], { run: { bold: true, color: NAVY, size: 17 } })], { w: cols[3] }));
         cs.push(cell([P(tp[1], { run: { size: 17 } })], { w: cols[4] }));
+        if (ti === 0) {
+          const ss = (s.ss && s.ss.length) ? s.ss : ['—'];
+          cs.push(cell(ss.map(t => P(t, { run: { size: 16 } })), { w: cols[5], rowSpan: s.tp.length, fill: 'F4F8F3' }));
+        } else cs.push(null);
         rows.push(new TableRow({ children: cs.filter(Boolean) }));
       });
     });
-  });
-  return new Table({ columnWidths: cols, width: { size: W, type: WidthType.DXA }, rows });
-}
-
-// ---------- bảng tra nhanh ----------
-function bangTraNhanh() {
-  const keys = ['tamgoi', 'gold', 'kem', 'dau', 'xit', 'bot', 'gac'];
-  const cols = [3374, ...keys.map(() => 1599)];
-  const rows = [new TableRow({ tableHeader: true, children: [
-    cell([P('VẤN ĐỀ', { run: { bold: true, color: NAVY, size: 17 } })], { w: cols[0], fill: FILL }),
-    ...keys.map((k, i) => cell([
-      P(SP[k].ten, { run: { bold: true, color: NAVY, size: 15 } }),
-      P(giaDau(k), { run: { color: MUTE, size: 14 } }),
-    ], { w: cols[i + 1], fill: FILL })),
-  ] })];
-  VANDE.forEach(v => {
-    const map = {};
-    v.buoc.forEach((b, bi) => b.sp.forEach(s => { (map[s.k] = map[s.k] || []).push(bi + 1); }));
-    rows.push(new TableRow({ children: [
-      cell([P(v.ten, { run: { bold: true, color: NAVY, size: 16 } })], { w: cols[0], mid: true }),
-      ...keys.map((k, i) => {
-        const bs = map[k] ? [...new Set(map[k])].sort() : null;
-        return cell([new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 20, after: 20 },
-          children: bs ? bs.map(b => new TextRun({ text: ' ' + b + ' ', bold: true, size: 18,
-            color: [B1, B2, B3][b - 1] })) : [new TextRun({ text: '–', color: 'BBBBBB', size: 16 })] })],
-          { w: cols[i + 1], mid: true, fill: bs ? undefined : 'FAFAFA' });
-      }),
-    ] }));
   });
   return new Table({ columnWidths: cols, width: { size: W, type: WidthType.DXA }, rows });
 }
@@ -120,42 +89,10 @@ function bangTraNhanh() {
 const body = [];
 body.push(new Paragraph({ spacing: { after: 120 },
   children: [new TextRun({ text: 'SELL-OUT KIT THEO VẤN ĐỀ DA BÉ', bold: true, color: NAVY, size: 40, font: 'Calibri Light' })] }));
-body.push(P('Khách đến shop nêu vấn đề của bé → tra đúng mục → biết ngay cần những sản phẩm nào, mỗi sản phẩm đảm nhận bước nào, nhờ thành phần gì và theo cơ chế nào.',
-  { run: { size: 20, color: MUTE } }));
-body.push(P('Giá và quy cách lấy từ “Báo giá sản phẩm OTC tất cả sp.docx” (01/04/2025). Thành phần và cơ chế tác động lấy từ “Phân tích công dụng sản phẩm.docx”. Không thêm bất kỳ thành phần, cơ chế hay công dụng nào ngoài hai tài liệu này.',
-  { run: { size: 17, color: MUTE, italics: true } }));
-
-body.push(H('BA BƯỚC XỬ LÝ — ÁP CHO MỌI VẤN ĐỀ', 1));
-body.push(new Table({ columnWidths: [1600, 4000, W - 5600], width: { size: W, type: WidthType.DXA }, rows: [
-  hdrRow([['BƯỚC', 1600], ['TÊN BƯỚC', 4000], ['LÀM GÌ', W - 5600]]),
-  ...[['1', 'LÀM SẠCH', B1, 'Lấy đi bụi, tế bào chết và vi khuẩn đang gây ra hoặc làm nặng thêm vấn đề. Bỏ qua bước này thì bước 2 không ăn thua.'],
-      ['2', 'XỬ LÝ VẤN ĐỀ', B2, 'Hoạt chất tác động trực tiếp lên chỗ da đang có vấn đề — giảm viêm, kháng khuẩn, tạo màng chắn.'],
-      ['3', 'NUÔI DƯỠNG & BẢO VỆ', B3, 'Phục hồi hàng rào da để vấn đề không quay lại. Đây là bước khách hay bỏ, và cũng là lý do bé cứ bị đi bị lại.']]
-    .map(([n, t, c, m]) => new TableRow({ children: [
-      cell([P(n, { run: { bold: true, color: c, size: 24 } })], { w: 1600, mid: true }),
-      cell([P(t, { run: { bold: true, color: c, size: 19 } })], { w: 4000, mid: true }),
-      cell([P(m, { run: { size: 18 } })], { w: W - 5600 }),
-    ] }))
-]}));
-
-body.push(H('QUY TẮC NGÔN TỪ BẮT BUỘC', 1));
-body.push(khoiMau('KHÔNG ĐƯỢC NÓI',
-  'Các sản phẩm trong kit này là MỸ PHẨM (trừ gạc rơ lưỡi là trang thiết bị y tế tự công bố). Không dùng từ “trị / chữa / điều trị”. Chỉ dùng: hỗ trợ, giúp, làm dịu, giảm, ngừa, phòng ngừa, làm sạch. Không hứa bao nhiêu ngày thì khỏi — công ty không có số liệu lâm sàng; nói “mẹ dùng đều rồi theo dõi, tuỳ cơ địa bé”. Không nhắc câu “không lo viêm da” in trên vỏ hộp vì công dụng này không có trong công bố.',
-  RED, REDFILL));
-body.push(P(''));
-body.push(khoiMau('ĐỘ TUỔI — HỎI TUỔI BÉ TRƯỚC KHI TƯ VẤN',
-  'Tắm gội thường, Kem bôi da, Dầu massage, Gạc rơ lưỡi — từ sơ sinh. Xịt muỗi — bé trên 3 tháng. Elemis Gold và Bọt rửa tay — bé từ 6 tháng.',
-  AMBER, AMBERFILL));
-
-body.push(H('BẢNG TRA NHANH — VẤN ĐỀ NÀO CẦN SẢN PHẨM NÀO', 1));
-body.push(P('Số trong ô là bước mà sản phẩm đó đảm nhận: 1 làm sạch · 2 xử lý vấn đề · 3 nuôi dưỡng & bảo vệ.',
-  { run: { size: 17, color: MUTE, italics: true } }));
-body.push(bangTraNhanh());
-
 VANDE.forEach((v, i) => {
-  body.push(new Paragraph({ pageBreakBefore: true, spacing: { after: 0 }, children: [] }));
+  if (i) body.push(new Paragraph({ pageBreakBefore: true, spacing: { after: 0 }, children: [] }));
   body.push(H(`${i + 1}. ${v.ten}`, 1));
-  body.push(P(v.phu, { run: { size: 20, color: MUTE, italics: true } }));
+  body.push(P('<b>Dấu hiệu:</b> ' + v.phu, { run: { size: 20, color: MUTE, italics: true } }));
   body.push(P(''));
   body.push(soDo(v));
   body.push(P(''));
@@ -164,14 +101,14 @@ VANDE.forEach((v, i) => {
   const spThem = v.boThem.length ? v.boThem.map(k => `${SP[k].ten} (${giaDau(k)})`).join('  +  ') : null;
   body.push(new Table({ columnWidths: [3000, W - 3000], width: { size: W, type: WidthType.DXA }, rows: [
     new TableRow({ children: [
-      cell([P('BỘ SẢN PHẨM TƯ VẤN', { run: { bold: true, color: NAVY, size: 17 } })], { w: 3000, fill: FILL, mid: true }),
+      cell([P('BỘ SẢN PHẨM CẦN THIẾT', { run: { bold: true, color: NAVY, size: 17 } })], { w: 3000, fill: FILL, mid: true }),
       cell([P(spBo, { run: { bold: true, size: 19 } }),
             ...(spThem ? [P('Bán thêm khi khách muốn chăm kỹ hơn: ' + spThem, { run: { size: 17, color: MUTE } })] : [])],
            { w: W - 3000 }),
     ] }),
     new TableRow({ children: [
       cell([P('CÁCH DÙNG', { run: { bold: true, color: NAVY, size: 17 } })], { w: 3000, fill: FILL, mid: true }),
-      cell([P(v.cachDung || '⏳ Chưa có hướng dẫn trên tài liệu gốc.', { run: { size: 18 } })], { w: W - 3000 }),
+      cell([P(v.cachDung, { run: { size: 18 } })], { w: W - 3000 }),
     ] }),
     ...(v.luuY ? [new TableRow({ children: [
       cell([P('LƯU Ý', { run: { bold: true, color: AMBER, size: 17 } })], { w: 3000, fill: AMBERFILL, mid: true }),
@@ -183,20 +120,6 @@ VANDE.forEach((v, i) => {
     ] }),
   ]}));
 });
-
-body.push(new Paragraph({ pageBreakBefore: true, spacing: { after: 0 }, children: [] }));
-body.push(H('BA SẢN PHẨM NGOÀI PHẠM VI KIT NÀY', 1));
-body.push(P('Kit này chỉ gồm các sản phẩm dùng cho bé. Ba sản phẩm còn lại trong báo giá OTC dành cho mẹ, không xếp theo vấn đề da bé được: Cốm lợi sữa Curmilk (235.000đ), Bọt vệ sinh phụ nữ Yaocare Women (135.000đ), Nước tắm bà đẻ Dao’Spa Mama (385.000đ). Khi mẹ mua đồ cho bé, vẫn nên hỏi thêm một câu về nhu cầu của chính mẹ.',
-  { run: { size: 19 } }));
-body.push(P(''));
-body.push(H('NHỮNG CHỖ CÒN CHỜ CÔNG TY XÁC NHẬN', 1));
-[
- 'Cách dùng của Elemis Gold, Dầu massage Oriky và Bọt rửa tay chưa có trên tài liệu gốc — cần chụp hướng dẫn in trên bao bì rồi điền vào ô “Cách dùng”.',
- 'Giá: kit này dùng giá báo giá OTC 01/04/2025. Bộ sell-out kit gốc của công ty dùng giá web, cao hơn. Chưa chốt dùng bảng giá nào.',
- 'Cách xử lý ca rôm sảy, mụn nhọt: bộ slide công ty hướng dẫn xoa trực tiếp lên da 1–2 phút rồi tắm; file kit docx lại hướng dẫn pha 1ml + 10ml nước thấm 10–20 phút. Kit này dùng cách của bộ slide. Cần chốt một cách duy nhất.',
- 'Bộ slide công ty có ghi “bé bị hăm chỉ cần 2–4 ngày dùng Elemis sẽ hết hoàn toàn” và “chàm sữa 7–12 ngày mới hết hoàn toàn”. Kit này không đưa vào vì mâu thuẫn với quy tắc không hứa thời gian. Cần hỏi bộ phận phụ trách xem NVBH có được nói không.',
-].forEach(t => body.push(new Paragraph({ bullet: { level: 0 }, spacing: { before: 40, after: 40 },
-                                          children: runs(t, { size: 18 }) })));
 
 const doc = new Document({
   styles: { default: { document: { run: { font: 'Calibri', size: 20 },

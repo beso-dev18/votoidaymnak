@@ -157,7 +157,7 @@
   .cmp th{width:27%;font-weight:700;color:#44576A;background:transparent}
   .cmp tr:first-child th{color:var(--gd)}
   .kit2 .kim{display:flex;align-items:center;gap:.8mm;flex-shrink:0}
-  .kit2 .kim img{height:12.5mm;width:auto;border-radius:1mm;background:#fff}
+  .kit2 .kim img{height:12mm;width:auto;border-radius:1mm;background:#fff}
   .kit2 .kim i{font-style:normal;font-weight:800;color:var(--g);font-size:calc(10pt * var(--s))}
   .cmp .cm{font-size:calc(6.4pt * var(--s));color:var(--mute);padding:.5mm 1.6mm;border-top:0.3mm solid #DDE4EA;font-style:italic}
   /* bản sửa lần 5: giá cả bộ + tờ 2 "Bán tại quầy" */
@@ -166,7 +166,8 @@
   .box.warn .bd i{font-style:normal;color:var(--mute)}
   .page+.page{border-top:none;break-before:page}
   .to2{--s:1.1}
-  .cmp .ch i.x{font-weight:600;color:var(--mute);letter-spacing:0}
+  .win .say1{display:block;font-style:italic;margin-top:.4mm;color:var(--ink)}
+  .win>b{color:var(--gd)}
   .p2h{background:var(--g);color:#fff;border-radius:2.5mm;padding:2mm 3mm;display:flex;align-items:baseline;gap:2mm;flex-wrap:wrap}
   .p2h b{font-size:calc(13pt * var(--s));font-weight:800;line-height:1.15}
   .p2h span{font-size:calc(7.4pt * var(--s));opacity:.95}
@@ -239,19 +240,19 @@
       <div class="ph"><img src="assets/sanpham.png" alt=""></div>
       <div><div class="nm">Tắm gội thảo dược Elemis <span class="age">Từ sơ sinh</span></div>
         <div class="pchips"><span>200ml<b>150.000đ</b></span><span>350ml<b>210.000đ</b></span><span>500ml<b>275.000đ</b></span></div>
-        <ul class="fix"><li>Làm sạch vùng tã, nếp gấp <b>không cần chà xát</b></li><li><b>Hỗ trợ kháng khuẩn</b> vùng da đang hăm, ẩm và kín</li><li><b>Hút mùi mồ hôi</b> đọng ở ngấn cổ, nách</li></ul></div>
+        <ul class="fix"><li>Làm sạch chỗ da đỏ <b>không cần kỳ cọ</b></li><li><b>Hỗ trợ giảm vi khuẩn</b> — chỗ hăm không bị nhiễm trùng</li><li><b>Khử mùi mồ hôi</b> ở ngấn cổ, nách</li></ul></div>
     </div>
     <div class="pv">
       <div class="ph"><img src="assets/sp-kem.jpg" alt=""></div>
       <div><div class="nm">Kem bôi da Elemis <span class="age">Từ sơ sinh</span></div>
         <div class="pchips"><span>30g<b>115.000đ</b></span></div>
-        <ul class="fix"><li><b>Chắn</b> nước tiểu, phân, hơi ẩm; <b>giảm ma sát</b> ở nếp gấp</li><li><b>Làm dịu</b> đỏ, rát; mát, hỗ trợ kháng khuẩn</li><li><b>Giữ ẩm</b> từ bên trong, da nếp gấp khó nứt</li></ul></div>
+        <ul class="fix"><li>Lớp <b>“áo mưa” mỏng</b>: nước tiểu, phân không ngấm vào da; nếp gấp bớt cọ xát</li><li><b>Làm dịu</b> đỏ, rát (rau má)</li><li><b>Giữ nước bên trong da</b> — da mềm, không nứt</li></ul></div>
     </div>
     <div class="pv">
       <div class="ph"><img src="assets/sp-oriky.jpg" alt=""></div>
       <div><div class="nm">Dầu massage Oriky <span class="age">Từ sơ sinh</span></div>
         <div class="pchips"><span>60ml<b>135.000đ</b></span></div>
-        <ul class="fix"><li><b>Khoá ẩm</b>, bù lớp lipid cho da sau đợt hăm</li></ul></div>
+        <ul class="fix"><li><b>Bù lớp dầu tự nhiên</b> da bị mất sau đợt hăm → da mềm, không khô bong, <b>hăm khó quay lại</b></li></ul></div>
     </div>
 
     <div class="box warn"><h2>⚠ KHUYÊN ĐI KHÁM, ĐỪNG BÁN — KHI</h2>
@@ -278,9 +279,8 @@
             <figure><img src="assets/dl-dudu.png" alt=""><figcaption>Đu đủ</figcaption></figure>
             <figure><img src="assets/dl-chanh.png" alt=""><figcaption>Chanh</figcaption></figure>
           </div>
-          <div><div class="tp">Papain (đu đủ) · Acid citric (chanh)</div>
-            <div class="cc"><b>Papain</b> (enzyme đu đủ) giúp lớp bẩn, mồ hôi trôi đi khi tắm → <b>làm sạch dịu, không cần kỳ cọ</b>; <b>acid citric</b> làm sạch nhẹ.</div>
-            <div class="why"><b>Vì:</b> vùng tã, nếp gấp đọng nhiều mồ hôi, chất bẩn mà da đang đỏ thì không chịu được chà xát.</div></div>
+          <div><div class="tp">Men đu đủ (papain) · Chanh</div>
+            <div class="cc"><b>Làm sạch chỗ da đỏ mà không cần kỳ cọ.</b> Men đu đủ giúp bụi bẩn, mồ hôi, da chết bám trên da mềm ra và trôi đi khi tắm; chanh làm sạch nhẹ. Da đang đỏ mà chà xát là càng rát.</div></div>
         </div>
         <div class="sep"></div>
         <div class="ing">
@@ -290,16 +290,18 @@
             <figure><img src="assets/dl-kinhgioi.png" alt=""><figcaption>Kinh giới</figcaption></figure>
             <figure><img src="assets/dl-tramgio.jpg" alt=""><figcaption>Tràm gió</figcaption></figure>
           </div>
-          <div><div class="tp">EGCG · Citral · Elsholtzia ketone · Cineol · Linalool</div>
-            <div class="cc"><b>EGCG</b> (chè xanh), <b>citral</b> (sả chanh) hỗ trợ ức chế vi khuẩn thường trú; <b>elsholtzia ketone</b> (kinh giới), <b>cineol</b> (tràm gió) hỗ trợ ức chế vi khuẩn khi tiếp xúc; <b>linalool</b> (tinh dầu mùi) làm dịu da.</div>
-            <div class="why"><b>Vì:</b> vùng hăm tổn thương, ẩm và kín → vi khuẩn phát triển mạnh hơn da lành.</div></div>
+          <div><div class="tp">Chè xanh · Sả chanh · Kinh giới · Tràm gió</div>
+            <div class="cc"><b>Giảm vi khuẩn ở vùng hăm — chỗ đỏ không bị nhiễm trùng, nổi mụn mủ.</b> Các thảo dược có tính kháng khuẩn tự nhiên, hỗ trợ làm sạch vi khuẩn khi tắm. Vùng hăm vừa trầy, vừa ẩm, vừa bí nên vi khuẩn sinh sôi nhanh hơn da lành.</div></div>
         </div>
-        <div class="cmp"><div class="ch">⇄ THÀNH PHẦN KHÁC BIỆT — nước tắm thảo dược</div><table><tr><th>Elemis</th><td>Dịch chiết chanh, tinh dầu mùi</td></tr><tr><th>Dr.Papie</th><td>Trầu không, chè tuyết</td></tr><tr><th>Kutieskin</th><td>Nano curcumin, rau má, nha đam</td></tr></table></div>
+        <div class="win"><b>★ ĐIỂM MẠNH KHI KHÁCH SO SÁNH</b><br>
+          <b>1 chai lo 3 việc:</b> làm sạch không kỳ cọ · hỗ trợ giảm vi khuẩn · khử mùi mồ hôi (diệp lục tố).
+          <i>Dr.Papie, Kutieskin</i> cũng là nước tắm thảo dược, nhiều lá trùng nhau; Elemis có thêm <b>chanh</b> (làm sạch nhẹ) và <b>tinh dầu mùi</b> (làm dịu da).
+          <span class="say1">“Chỗ hăm đang đỏ thì mẹ đừng kỳ cọ. Nước tắm này có men đu đủ giúp chất bẩn tự trôi, thêm thảo dược hỗ trợ kháng khuẩn cho vùng tã hay ẩm bí.”</span></div>
       </div>
     </div>
 
     <div class="step grow">
-      <div class="sh"><div class="n">2</div><b>XỬ LÝ VẤN ĐỀ<small>chắn ẩm · làm dịu · hỗ trợ kháng khuẩn</small></b></div>
+      <div class="sh"><div class="n">2</div><b>XỬ LÝ VẤN ĐỀ<small>chắn · làm dịu · hỗ trợ kháng khuẩn</small></b></div>
       <div class="body">
         <div class="prod">
           <div class="ph"><img src="assets/sp-kem.jpg" alt="Kem bôi da Elemis"></div>
@@ -309,24 +311,24 @@
         <div class="ing">
           <div class="ims"><figure><img src="assets/hc-kemoxyd.jpg" alt=""><figcaption>Kẽm oxyd</figcaption></figure></div>
           <div><div class="tp">Kẽm oxyd nano 2%</div>
-            <div class="cc">Tạo <b>màng mỏng phủ kín da</b>: chắn nước tiểu, phân, hơi ẩm; <b>giảm ma sát</b> giữa hai mặt da ở nếp gấp.</div>
-            <div class="why"><b>Vì:</b> amoniac, enzyme trong phân và cọ xát trực tiếp làm hỏng da → bôi cả khi da <b>chưa đỏ</b>.</div></div>
+            <div class="cc"><b>Như một lớp “áo mưa” mỏng cho da.</b> Tạo màng mỏng phủ da, không cho nước tiểu, phân, độ ướt của tã ngấm vào — thứ trực tiếp làm da đỏ, rát. Ở ngấn cổ, nách: hai mặt da trơn hơn, bớt cọ xát. Bôi cả khi da <b>chưa đỏ</b> để phòng.</div></div>
         </div>
         <div class="sep"></div>
         <div class="ing">
           <div class="ims"><figure><img src="assets/dl-rauma.jpg" alt=""><figcaption>Rau má</figcaption></figure></div>
-          <div><div class="tp">Asiaticoside · Acid asiatic (rau má)</div>
-            <div class="cc">Giảm lượng chất gây viêm da tiết ra → <b>bớt đỏ, bớt rát</b> sau khi thoa.</div>
-            <div class="why"><b>Vì:</b> da kích ứng tiết chất gây viêm làm mạch máu giãn (<b>đỏ</b>) và thần kinh nhạy (<b>rát</b>).</div></div>
+          <div><div class="tp">Rau má</div>
+            <div class="cc"><b>Bớt đỏ, bớt rát sau khi thoa.</b> Rau má làm dịu phản ứng kích ứng — thứ làm da đỏ lên và bé thấy rát, quấy.</div></div>
         </div>
         <div class="sep"></div>
         <div class="ing">
           <div class="ims"><figure><img src="assets/dl-ngaicuu.jpg" alt=""><figcaption>Ngải cứu</figcaption></figure></div>
-          <div><div class="tp">Cineol (tinh dầu ngải cứu)</div>
-            <div class="cc">Bay hơi tạo <b>cảm giác mát</b>, đồng thời <b>hỗ trợ ức chế vi khuẩn</b>.</div>
-            <div class="why"><b>Vì:</b> vùng da đang tổn thương dễ bị vi khuẩn xâm nhập.</div></div>
+          <div><div class="tp">Tinh dầu ngải cứu</div>
+            <div class="cc"><b>Mát dịu khi thoa, hỗ trợ kháng khuẩn</b> ở chỗ da đang trầy.</div></div>
         </div>
-        <div class="cmp" style="margin-top:auto"><div class="ch">⇄ SO SÁNH THÀNH PHẦN — kem hăm <i class="x">· khách so giá: tờ 2</i></div><table><tr><th>Elemis</th><td><b>Kẽm oxyd nano 2%</b> + rau má, ngải cứu, Aquaxyl</td></tr><tr><th>Bepanthen Balm</th><td>Dexpanthenol (tiền vitamin B5), lanolin</td></tr><tr><th>Sudocrem</th><td><b>Kẽm oxyd</b>, lanolin, tinh dầu oải hương</td></tr></table></div>
+        <div class="win" style="margin-top:auto"><b>★ ĐIỂM MẠNH KHI KHÁCH SO SÁNH</b><br>
+          <b>1 tuýp làm 3 việc:</b> chắn (kẽm oxyd) + làm dịu (rau má) + giữ ẩm (Aquaxyl).
+          <i>Sudocrem</i> có kẽm oxyd chắn như Elemis nhưng không có rau má, Aquaxyl. <i>Bepanthen</i> thiên về dưỡng, không có lớp chắn kẽm.
+          <span class="say1">“Kem này vừa tạo lớp chắn như Sudocrem, vừa có rau má làm dịu đỏ rát, lại giúp da giữ ẩm — mẹ không cần mua 2–3 loại riêng.”</span></div>
       </div>
     </div>
   </section>
@@ -334,26 +336,25 @@
   <!-- ================= TẤM 3 — BƯỚC 3 + CÁCH DÙNG ================= -->
   <section class="panel">
     <div class="step grow">
-      <div class="sh"><div class="n">3</div><b>NUÔI DƯỠNG &amp; BẢO VỆ<small>giữ ẩm · hàng rào da</small></b></div>
+      <div class="sh"><div class="n">3</div><b>NUÔI DƯỠNG &amp; BẢO VỆ<small>giữ ẩm · hăm khó quay lại</small></b></div>
       <div class="body">
-        <div class="ing">
-          <div class="ims two">
-            <figure><img src="assets/sanpham.png" alt="" class="sp"><figcaption>Tắm gội</figcaption></figure>
-            <figure><img src="assets/hc-dieplucto.jpg" alt="" style="object-position:left"><figcaption>Diệp lục tố</figcaption></figure>
-          </div>
-          <div><div class="tp">Tắm gội Elemis: Chlorophyllin (diệp lục tố) · EGCG (chè xanh)</div>
-            <div class="cc">Trung hoà gốc tự do trên da; <b>chlorophyllin hút mùi mồ hôi</b>.</div>
-            <div class="why"><b>Vì:</b> mồ hôi đọng ở ngấn cổ, nách gây mùi hôi.</div></div>
-        </div>
-        <div class="sep"></div>
         <div class="ing">
           <div class="ims two">
             <figure><img src="assets/sp-kem.jpg" alt="" class="sp"><figcaption>Kem bôi</figcaption></figure>
             <figure><img src="assets/hc-aquaxyl.jpg" alt="" style="object-position:left"><figcaption>Aquaxyl</figcaption></figure>
           </div>
-          <div><div class="tp">Kem bôi Elemis: Aquaxyl (xylitylglucoside + anhydroxylitol)</div>
-            <div class="cc"><b>Xylitylglucoside</b> kích thích da tự tạo glycosaminoglycan (chất giữ nước tự nhiên); <b>anhydroxylitol</b> củng cố hàng rào ngoài cùng → <b>da tự giữ ẩm từ bên trong</b>.</div>
-            <div class="why"><b>Vì:</b> da nếp gấp ẩm bên ngoài nhưng thiếu ẩm bên trong → dễ nứt khi cọ xát.</div></div>
+          <div><div class="tp">Kem bôi Elemis: Aquaxyl</div>
+            <div class="cc"><b>Giúp da tự giữ nước bên trong — da mềm, không nứt khi cọ xát.</b> Aquaxyl giúp da tự tạo chất giữ nước, lớp da ngoài cùng khít lại nên nước khó thoát ra.</div>
+            <div class="why"><b>Vừa “chắn ẩm” vừa “giữ ẩm”?</b> Kẽm oxyd chắn cái ướt bẩn <b>bên ngoài</b> (nước tiểu, phân); Aquaxyl giữ nước sạch của da ở <b>bên trong</b>. Da nếp gấp nhìn ướt nhưng bên trong thiếu nước nên dễ nứt.</div></div>
+        </div>
+        <div class="sep"></div>
+        <div class="ing">
+          <div class="ims two">
+            <figure><img src="assets/sanpham.png" alt="" class="sp"><figcaption>Tắm gội</figcaption></figure>
+            <figure><img src="assets/hc-dieplucto.jpg" alt="" style="object-position:left"><figcaption>Diệp lục tố</figcaption></figure>
+          </div>
+          <div><div class="tp">Tắm gội Elemis: Diệp lục tố · Chè xanh</div>
+            <div class="cc"><b>Khử mùi mồ hôi ở ngấn cổ, nách</b> — bé thơm tho sau tắm. Diệp lục tố và chè xanh còn giúp bảo vệ da trước nắng, bụi.</div></div>
         </div>
         <div class="sep"></div>
         <div class="prod">
@@ -367,11 +368,12 @@
             <figure><img src="assets/dl-nho.jpg" alt=""><figcaption>Hạt nho</figcaption></figure>
             <figure><img src="assets/dl-camgao.jpg" alt=""><figcaption>Cám gạo</figcaption></figure>
           </div>
-          <div><div class="tp">Acid oleic · Acid linoleic · Squalene</div>
-            <div class="cc">Acid béo <b>cùng loại với lipid tự nhiên của da</b> → lấp chỗ hàng rào lipid thiếu hụt, <b>khoá nước</b> trong da.</div>
-            <div class="why"><b>Vì:</b> da ẩm ướt kéo dài làm hỏng lớp lipid giữa các tế bào da.</div></div>
+          <div><div class="tp">Dầu hạnh nhân · Hạt nho · Cám gạo</div>
+            <div class="cc"><b>Da mềm, không khô bong sau đợt hăm — hăm khó quay lại.</b> Ẩm ướt nhiều ngày làm da mất lớp dầu tự nhiên giữ nước, nên hết đỏ da hay khô, nứt. Ba loại dầu có chất béo giống lớp dầu đó — bôi vào để bù lại phần bị mất.</div></div>
         </div>
-        <div class="cmp"><div class="ch">⇄ SO SÁNH THÀNH PHẦN — dầu massage <i class="x">· hỏi BHT: tờ 2</i></div><table><tr><th>Oriky</th><td>Dầu cám gạo + hạnh nhân + hạt nho</td></tr><tr><th>Johnson's</th><td>Dầu khoáng, hương liệu</td></tr><tr><th>Chicco</th><td>Dầu cám gạo, omega 3/6</td></tr></table></div>
+        <div class="win"><b>★ ĐIỂM MẠNH KHI KHÁCH SO SÁNH</b><br>
+          <b>3 loại dầu thực vật</b> bù lại lớp dầu tự nhiên cho da. <i>Johnson’s</i> là dầu khoáng (phủ ngoài da, không bổ sung chất béo giống của da); <i>Chicco</i> có dầu cám gạo.
+          <span class="say1">“Hết hăm da bé hay khô, mẹ massage dầu này để da mềm lại, lần sau đỡ bị.”</span></div>
       </div>
     </div>
 

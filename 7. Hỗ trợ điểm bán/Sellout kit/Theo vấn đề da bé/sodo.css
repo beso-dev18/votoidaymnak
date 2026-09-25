@@ -34,8 +34,9 @@ table.tree{width:100%;border-collapse:collapse;table-layout:fixed;flex:1}
 table.tree col{}
 table.tree th{background:var(--wash);color:var(--gd);font-size:calc(7.4pt * var(--s));font-weight:800;
   letter-spacing:.05em;padding:1.4mm 2mm;text-align:left;border:0.4mm solid var(--line)}
-table.tree th:nth-child(1){width:34mm} table.tree th:nth-child(2){width:30mm}
-table.tree th:nth-child(3){width:43mm} table.tree th:nth-child(4){width:54mm}
+table.tree th:nth-child(1){width:28mm} table.tree th:nth-child(2){width:24mm}
+table.tree th:nth-child(3){width:36mm} table.tree th:nth-child(4){width:38mm}
+table.tree th:nth-child(6){width:62mm}
 table.tree td{border:0.4mm solid var(--line);padding:1.5mm 2mm;font-size:calc(8.2pt * var(--s));
   line-height:1.4;vertical-align:top}
 
@@ -65,6 +66,9 @@ td.lv3 .qc{color:var(--mute)}
 
 td.lv4{font-weight:700;color:var(--gd);background:#fff}
 td.lv5{color:var(--ink)}
+td.lv6{background:#F4F8F3;font-size:calc(7.6pt * var(--s))}
+td.lv6 p+p{margin-top:.6mm}
+td.lv6 b{color:var(--gd)}
 
 /* chân trang */
 .bot{display:grid;grid-template-columns:1.6fr 1fr;gap:2.4mm}
