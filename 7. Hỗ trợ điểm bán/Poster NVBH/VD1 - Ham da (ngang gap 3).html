@@ -157,9 +157,61 @@
   .cmp th{width:27%;font-weight:700;color:#44576A;background:transparent}
   .cmp tr:first-child th{color:var(--gd)}
   .kit2 .kim{display:flex;align-items:center;gap:.8mm;flex-shrink:0}
-  .kit2 .kim img{height:14mm;width:auto;border-radius:1mm;background:#fff}
+  .kit2 .kim img{height:12.5mm;width:auto;border-radius:1mm;background:#fff}
   .kit2 .kim i{font-style:normal;font-weight:800;color:var(--g);font-size:calc(10pt * var(--s))}
   .cmp .cm{font-size:calc(6.4pt * var(--s));color:var(--mute);padding:.5mm 1.6mm;border-top:0.3mm solid #DDE4EA;font-style:italic}
+  /* bản sửa lần 5: giá cả bộ + tờ 2 "Bán tại quầy" */
+  .kit2 .tot{display:block;font-size:calc(6.9pt * var(--s));color:var(--mute);margin-top:.2mm}
+  .kit2 .tot b{display:inline;font-size:calc(7.6pt * var(--s));color:var(--gd);letter-spacing:0}
+  .box.warn .bd i{font-style:normal;color:var(--mute)}
+  .page+.page{border-top:none;break-before:page}
+  .to2{--s:1.1}
+  .cmp .ch i.x{font-weight:600;color:var(--mute);letter-spacing:0}
+  .p2h{background:var(--g);color:#fff;border-radius:2.5mm;padding:2mm 3mm;display:flex;align-items:baseline;gap:2mm;flex-wrap:wrap}
+  .p2h b{font-size:calc(13pt * var(--s));font-weight:800;line-height:1.15}
+  .p2h span{font-size:calc(7.4pt * var(--s));opacity:.95}
+  .t2{font-size:calc(8.4pt * var(--s));font-weight:800;color:var(--gd);letter-spacing:.03em;display:flex;align-items:center;gap:1.6mm}
+  .t2 .n{flex:0 0 5mm;height:5mm;border-radius:50%;background:var(--g);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-size:calc(7.6pt * var(--s))}
+  .t2.r{color:var(--red)} .t2.r .n{background:var(--red)}
+  .t2.a{color:var(--amber)} .t2.a .n{background:var(--amber)}
+  ol.ask{list-style:none;display:flex;flex-direction:column;gap:1mm;counter-reset:q}
+  ol.ask li{background:var(--wash2);border:0.3mm solid var(--line);border-radius:1.6mm;padding:.9mm 1.8mm 1mm 6mm;position:relative;
+            font-size:calc(7.6pt * var(--s));line-height:1.34;counter-increment:q}
+  ol.ask li::before{content:counter(q);position:absolute;left:1.6mm;top:1mm;font-weight:800;color:var(--g)}
+  ol.ask q{display:block;font-weight:700;color:var(--gd);quotes:"“" "”"}
+  ol.ask em{font-style:normal;color:var(--mute)}
+  ol.ask em b{color:var(--ink)}
+  .route{display:flex;flex-direction:column;gap:.7mm}
+  .route div{font-size:calc(7.3pt * var(--s));line-height:1.3;border-radius:1.2mm;padding:.6mm 1.8mm;border-left:1mm solid var(--g);background:var(--wash2)}
+  .route .r2{border-color:var(--red);background:var(--redwash)}
+  .route .r3{border-color:#6B1510;background:#F7DAD6;font-weight:700}
+  .route b{color:var(--gd)} .route .r2 b,.route .r3 b{color:var(--red)}
+  ul.dot{list-style:none;display:flex;flex-direction:column;gap:.6mm}
+  ul.dot li{font-size:calc(7.4pt * var(--s));line-height:1.34;padding-left:3mm;position:relative}
+  ul.dot li::before{content:"•";position:absolute;left:.4mm;color:var(--red);font-weight:800}
+  ul.dot.g li::before{color:var(--g)}
+  ul.dot b{color:var(--ink)}
+  .say{display:grid;grid-template-columns:11mm 1fr;gap:1.8mm;align-items:center;background:var(--wash2);border:0.3mm solid var(--line);border-radius:1.6mm;padding:1mm 1.6mm}
+  .say .ph{height:12mm;display:flex;align-items:center;justify-content:center;background:#EEF4FA;border-radius:1mm;overflow:hidden}
+  .say .ph img{max-width:100%;max-height:100%;object-fit:contain}
+  .say b{font-size:calc(7.4pt * var(--s));color:var(--gd);display:block}
+  .say q{display:block;font-size:calc(7.5pt * var(--s));line-height:1.36;font-style:italic;quotes:"“" "”"}
+  table.combo{width:100%;border-collapse:collapse;border:0.4mm solid var(--line);border-radius:1.6mm;overflow:hidden}
+  table.combo th,table.combo td{font-size:calc(7.2pt * var(--s));line-height:1.3;padding:.6mm 1.6mm;border-top:0.3mm solid var(--line);text-align:left}
+  table.combo th{background:var(--wash);color:var(--gd);font-weight:800}
+  table.combo td.m{text-align:right;font-weight:800;color:var(--gd);white-space:nowrap}
+  table.combo td.u{text-align:right;color:var(--mute);white-space:nowrap}
+  .close{background:var(--wash);border-left:1.2mm solid var(--g);border-radius:0 1.6mm 1.6mm 0;padding:1mm 2mm;font-size:calc(7.5pt * var(--s));line-height:1.38}
+  .close q{font-style:italic;quotes:"“" "”"}
+  .close b{color:var(--gd)}
+  .ob{border:0.3mm solid var(--amberline);border-radius:1.6mm;overflow:hidden}
+  .ob>b{display:block;background:var(--amberwash);color:var(--amber);font-size:calc(7.4pt * var(--s));padding:.6mm 1.8mm;line-height:1.3}
+  .ob p{font-size:calc(7.2pt * var(--s));line-height:1.36;padding:.7mm 1.8mm}
+  .ob p+p{padding-top:0}
+  .ob p i{font-style:normal;font-weight:800;color:var(--amber)}
+  .ob q{font-style:italic;quotes:"“" "”"}
+  .cho{display:inline-block;font-size:calc(5.8pt * var(--s));font-weight:800;color:var(--amber);background:#fff;border:0.3mm dashed var(--amber);
+       border-radius:.8mm;padding:0 1mm;margin-left:.8mm;vertical-align:middle;font-style:normal;letter-spacing:.02em}
 </style></head>
 <body><div class="page">
 
@@ -177,8 +229,8 @@
 
     <div class="box"><h2>GỢI Ý BỘ SẢN PHẨM</h2>
       <div class="bd kit2">
-        <div class="k need"><div class="kim"><img src="assets/sanpham.png" alt=""><i>+</i><img src="assets/sp-kem.jpg" alt=""></div><div><b>✔ CẦN THIẾT</b>Tắm gội Elemis + Kem bôi da Elemis</div></div>
-        <div class="k add"><div class="kim"><img src="assets/sp-oriky.jpg" alt=""></div><div><b>＋ KHUYẾN NGHỊ DÙNG THÊM</b>Dầu massage Oriky — dưỡng da sau khi hết hăm</div></div>
+        <div class="k need"><div class="kim"><img src="assets/sanpham.png" alt=""><i>+</i><img src="assets/sp-kem.jpg" alt=""></div><div><b>✔ CẦN THIẾT</b>Tắm gội Elemis + Kem bôi da Elemis<span class="tot">Cả bộ (tắm 200ml + kem) <b>265.000đ</b></span></div></div>
+        <div class="k add"><div class="kim"><img src="assets/sp-oriky.jpg" alt=""></div><div><b>＋ KHUYẾN NGHỊ DÙNG THÊM</b>Dầu massage Oriky — dưỡng da sau khi hết hăm<span class="tot">Đủ 3 món <b>400.000đ</b></span></div></div>
       </div>
     </div>
 
@@ -187,13 +239,13 @@
       <div class="ph"><img src="assets/sanpham.png" alt=""></div>
       <div><div class="nm">Tắm gội thảo dược Elemis <span class="age">Từ sơ sinh</span></div>
         <div class="pchips"><span>200ml<b>150.000đ</b></span><span>350ml<b>210.000đ</b></span><span>500ml<b>275.000đ</b></span></div>
-        <ul class="fix"><li>Làm sạch vùng tã, nếp gấp <b>không cần chà xát</b></li><li><b>Kháng khuẩn</b> vùng da đang hăm, ẩm và kín</li><li><b>Hút mùi mồ hôi</b> đọng ở ngấn cổ, nách</li></ul></div>
+        <ul class="fix"><li>Làm sạch vùng tã, nếp gấp <b>không cần chà xát</b></li><li><b>Hỗ trợ kháng khuẩn</b> vùng da đang hăm, ẩm và kín</li><li><b>Hút mùi mồ hôi</b> đọng ở ngấn cổ, nách</li></ul></div>
     </div>
     <div class="pv">
       <div class="ph"><img src="assets/sp-kem.jpg" alt=""></div>
       <div><div class="nm">Kem bôi da Elemis <span class="age">Từ sơ sinh</span></div>
         <div class="pchips"><span>30g<b>115.000đ</b></span></div>
-        <ul class="fix"><li><b>Chắn</b> nước tiểu, phân, hơi ẩm; <b>giảm ma sát</b> ở nếp gấp</li><li><b>Làm dịu</b> đỏ, rát; mát, kháng khuẩn</li><li><b>Giữ ẩm</b> từ bên trong, da nếp gấp khó nứt</li></ul></div>
+        <ul class="fix"><li><b>Chắn</b> nước tiểu, phân, hơi ẩm; <b>giảm ma sát</b> ở nếp gấp</li><li><b>Làm dịu</b> đỏ, rát; mát, hỗ trợ kháng khuẩn</li><li><b>Giữ ẩm</b> từ bên trong, da nếp gấp khó nứt</li></ul></div>
     </div>
     <div class="pv">
       <div class="ph"><img src="assets/sp-oriky.jpg" alt=""></div>
@@ -204,7 +256,7 @@
 
     <div class="box warn"><h2>⚠ KHUYÊN ĐI KHÁM, ĐỪNG BÁN — KHI</h2>
       <div class="bd">
-        <p>Da bé đã <b>trợt</b>, <b>chảy dịch</b>, có <b>mụn mủ</b>, <b>mùi hôi rõ</b> hoặc <b>lan rộng nhanh</b> → khuyên mẹ <b>đưa bé đi khám trước</b>, dùng sản phẩm <b>duy trì sau</b>.</p>
+        <p>Da <b>trợt</b>, <b>chảy dịch</b>, <b>mụn mủ</b>, <b>mùi hôi</b>, <b>lan nhanh</b>; bé <b>sốt</b>; chăm đúng vài ngày <b>không đỡ</b>; <b>đỏ tươi có chấm nhỏ</b> xung quanh (nghi nấm) → khuyên <b>đi khám trước</b>, dùng sản phẩm <b>duy trì sau</b>. <i>Chi tiết: tờ 2.</i></p>
       </div>
     </div>
 
@@ -227,8 +279,8 @@
             <figure><img src="assets/dl-chanh.png" alt=""><figcaption>Chanh</figcaption></figure>
           </div>
           <div><div class="tp">Papain (đu đủ) · Acid citric (chanh)</div>
-            <div class="cc"><b>Papain</b> cắt liên kết giữ tế bào chết → bong nhẹ, <b>không phải chà xát</b>; <b>acid citric</b> làm sạch nhẹ vảy trên da.</div>
-            <div class="why"><b>Vì:</b> vùng tã, nếp gấp đọng nhiều mồ hôi, tế bào chết mà da đang đỏ thì không chịu được chà xát.</div></div>
+            <div class="cc"><b>Papain</b> (enzyme đu đủ) giúp lớp bẩn, mồ hôi trôi đi khi tắm → <b>làm sạch dịu, không cần kỳ cọ</b>; <b>acid citric</b> làm sạch nhẹ.</div>
+            <div class="why"><b>Vì:</b> vùng tã, nếp gấp đọng nhiều mồ hôi, chất bẩn mà da đang đỏ thì không chịu được chà xát.</div></div>
         </div>
         <div class="sep"></div>
         <div class="ing">
@@ -238,8 +290,8 @@
             <figure><img src="assets/dl-kinhgioi.png" alt=""><figcaption>Kinh giới</figcaption></figure>
             <figure><img src="assets/dl-tramgio.jpg" alt=""><figcaption>Tràm gió</figcaption></figure>
           </div>
-          <div><div class="tp">EGCG · Citral · Elsholtzia ketone · Cineol</div>
-            <div class="cc"><b>EGCG</b> (chè xanh), <b>citral</b> (sả chanh) ức chế vi khuẩn thường trú; <b>elsholtzia ketone</b> (kinh giới), <b>cineol</b> (tràm gió) phá màng tế bào vi khuẩn khi tiếp xúc.</div>
+          <div><div class="tp">EGCG · Citral · Elsholtzia ketone · Cineol · Linalool</div>
+            <div class="cc"><b>EGCG</b> (chè xanh), <b>citral</b> (sả chanh) hỗ trợ ức chế vi khuẩn thường trú; <b>elsholtzia ketone</b> (kinh giới), <b>cineol</b> (tràm gió) hỗ trợ ức chế vi khuẩn khi tiếp xúc; <b>linalool</b> (tinh dầu mùi) làm dịu da.</div>
             <div class="why"><b>Vì:</b> vùng hăm tổn thương, ẩm và kín → vi khuẩn phát triển mạnh hơn da lành.</div></div>
         </div>
         <div class="cmp"><div class="ch">⇄ THÀNH PHẦN KHÁC BIỆT — nước tắm thảo dược</div><table><tr><th>Elemis</th><td>Dịch chiết chanh, tinh dầu mùi</td></tr><tr><th>Dr.Papie</th><td>Trầu không, chè tuyết</td></tr><tr><th>Kutieskin</th><td>Nano curcumin, rau má, nha đam</td></tr></table></div>
@@ -247,7 +299,7 @@
     </div>
 
     <div class="step grow">
-      <div class="sh"><div class="n">2</div><b>XỬ LÝ VẤN ĐỀ<small>chắn ẩm · làm dịu · kháng khuẩn</small></b></div>
+      <div class="sh"><div class="n">2</div><b>XỬ LÝ VẤN ĐỀ<small>chắn ẩm · làm dịu · hỗ trợ kháng khuẩn</small></b></div>
       <div class="body">
         <div class="prod">
           <div class="ph"><img src="assets/sp-kem.jpg" alt="Kem bôi da Elemis"></div>
@@ -270,11 +322,11 @@
         <div class="sep"></div>
         <div class="ing">
           <div class="ims"><figure><img src="assets/dl-ngaicuu.jpg" alt=""><figcaption>Ngải cứu</figcaption></figure></div>
-          <div><div class="tp">Cineol · Long não (tinh dầu ngải cứu)</div>
-            <div class="cc">Bay hơi tạo <b>cảm giác mát</b>, đồng thời <b>ức chế vi khuẩn</b>.</div>
+          <div><div class="tp">Cineol (tinh dầu ngải cứu)</div>
+            <div class="cc">Bay hơi tạo <b>cảm giác mát</b>, đồng thời <b>hỗ trợ ức chế vi khuẩn</b>.</div>
             <div class="why"><b>Vì:</b> vùng da đang tổn thương dễ bị vi khuẩn xâm nhập.</div></div>
         </div>
-        <div class="cmp" style="margin-top:auto"><div class="ch">⇄ THÀNH PHẦN KHÁC BIỆT — kem hăm</div><table><tr><th>Elemis</th><td>Rau má, ngải cứu, Aquaxyl</td></tr><tr><th>Bepanthen Balm</th><td>Dexpanthenol (tiền vitamin B5), lanolin</td></tr><tr><th>Sudocrem</th><td>Lanolin, tinh dầu oải hương</td></tr></table></div>
+        <div class="cmp" style="margin-top:auto"><div class="ch">⇄ SO SÁNH THÀNH PHẦN — kem hăm <i class="x">· khách so giá: tờ 2</i></div><table><tr><th>Elemis</th><td><b>Kẽm oxyd nano 2%</b> + rau má, ngải cứu, Aquaxyl</td></tr><tr><th>Bepanthen Balm</th><td>Dexpanthenol (tiền vitamin B5), lanolin</td></tr><tr><th>Sudocrem</th><td><b>Kẽm oxyd</b>, lanolin, tinh dầu oải hương</td></tr></table></div>
       </div>
     </div>
   </section>
@@ -319,23 +371,114 @@
             <div class="cc">Acid béo <b>cùng loại với lipid tự nhiên của da</b> → lấp chỗ hàng rào lipid thiếu hụt, <b>khoá nước</b> trong da.</div>
             <div class="why"><b>Vì:</b> da ẩm ướt kéo dài làm hỏng lớp lipid giữa các tế bào da.</div></div>
         </div>
-        <div class="cmp"><div class="ch">⇄ THÀNH PHẦN KHÁC BIỆT — dầu massage</div><table><tr><th>Oriky</th><td>Dầu hạnh nhân, dầu hạt nho, tinh dầu tràm gió</td></tr><tr><th>Johnson's</th><td>Dầu khoáng, hương liệu</td></tr><tr><th>Chicco</th><td>Omega 3/6</td></tr></table></div>
+        <div class="cmp"><div class="ch">⇄ SO SÁNH THÀNH PHẦN — dầu massage <i class="x">· hỏi BHT: tờ 2</i></div><table><tr><th>Oriky</th><td>Dầu cám gạo + hạnh nhân + hạt nho</td></tr><tr><th>Johnson's</th><td>Dầu khoáng, hương liệu</td></tr><tr><th>Chicco</th><td>Dầu cám gạo, omega 3/6</td></tr></table></div>
       </div>
     </div>
 
     <div class="box"><h2>CÁCH DÙNG THEO TÌNH TRẠNG</h2>
       <div class="bd use3">
         <div class="ph3 p1"><b>PHÒNG HĂM — da bé bình thường</b>
-          <ul><li>Tắm hằng ngày: <b>5ml Elemis : 5 lít</b> nước 36–37°C, mở nếp gấp rửa kỹ, <b>lau thật khô</b> rồi mới mặc đồ / đóng tã.</li>
-          <li>Mỗi lần thay tã: thoa <b>lớp kem mỏng</b> vùng tã.</li></ul></div>
+          <ul><li>Pha <b>1ml Elemis : 1 lít</b> nước 36–37°C (chậu 5 lít → 5ml). Tắm hằng ngày, mở nếp gấp rửa kỹ, <b>lau thật khô</b>.</li>
+          <li>Mỗi lần thay tã: lau sạch → <b>thấm khô</b> → thoa <b>lớp kem mỏng phủ kín</b> vùng tã.</li></ul></div>
         <div class="ph3 p2"><b>ĐANG BỊ HĂM</b>
           <ul><li>Vẫn tắm hằng ngày như trên.</li>
-          <li>Mỗi lần thay tã (nhất là khi đi nặng): lau vệ sinh bằng <b>2ml Elemis : 2 lít</b> nước, thấm khô.</li>
-          <li>Kem: bôi vừa đủ, mát-xa nhẹ — vùng tã <b>mỗi lần thay tã</b>, vùng ngấn <b>2–3 lần/ngày</b>.</li></ul></div>
+          <li>Thay tã (nhất là khi đi nặng): rửa bằng chậu nhỏ <b>pha cùng tỉ lệ</b> (VD 2ml : 2 lít), <b>thấm khô</b> rồi mới bôi kem.</li>
+          <li>Kem: <b>lớp mỏng phủ kín</b>, mát-xa nhẹ — vùng tã <b>mỗi lần thay tã</b>, vùng ngấn <b>2–3 lần/ngày</b>.</li></ul></div>
         <div class="ph3 p3"><b>SAU KHI HẾT HĂM — dưỡng da</b>
           <ul><li>Quay lại chế độ <b>phòng hăm</b>; thoa <b>dầu Oriky</b> lên vùng da khô, mát-xa nhẹ (trước hoặc sau tắm).</li></ul></div>
       </div>
     </div>
+  </section>
+
+
+</div>
+
+<!-- ================= TỜ 2 — BÁN TẠI QUẦY (in mặt sau hoặc tờ riêng) ================= -->
+<div class="page to2">
+
+  <!-- TẤM 4 — HỎI TRƯỚC + KHUYÊN ĐI KHÁM -->
+  <section class="panel">
+    <div class="p2h"><b>HĂM DA — BÁN TẠI QUẦY</b><span>Hỏi → Nói → Chốt → Xử lý từ chối</span></div>
+    <div class="t2"><span class="n">1</span>HỎI TRƯỚC KHI TƯ VẤN</div>
+    <ol class="ask">
+      <li><q>Bé nhà mình được mấy tháng rồi ạ?</q><em>Bé còn rất nhỏ <span class="cho">CHỜ XÁC NHẬN MỐC TUỔI</span> → khuyên hỏi bác sĩ trước.</em></li>
+      <li><q>Bé bị ở vùng tã hay ở ngấn cổ, nách, bẹn ạ?</q><em>Chọn cách bôi kem: <b>vùng tã</b> mỗi lần thay tã, <b>vùng ngấn</b> 2–3 lần/ngày.</em></li>
+      <li><q>Da bé chỉ đỏ hay đã trợt, chảy dịch, có mủ ạ?</q><em>Trợt / dịch / mủ → <b>khuyên đi khám</b>, chưa bán.</em></li>
+      <li><q>Bé bị mấy ngày rồi, mẹ đã bôi gì chưa?</q><em>Đã chăm đúng cách vài ngày mà không đỡ → <b>khuyên đi khám</b>.</em></li>
+      <li><q>Nhà đang tắm cho bé bằng gì ạ?</q><em>Mở lời gợi ý <b>bộ tắm + kem</b> thay vì chỉ bán lẻ 1 món.</em></li>
+    </ol>
+    <div class="route">
+      <div><b>Da bình thường</b>, mẹ muốn phòng → cách dùng <b>PHÒNG HĂM</b></div>
+      <div class="r2"><b>Đỏ, rát, da còn nguyên</b> → cách dùng <b>ĐANG BỊ HĂM</b></div>
+      <div class="r3">Có bất kỳ dấu hiệu ở ô đỏ bên dưới → <b>KHUYÊN ĐI KHÁM</b></div>
+    </div>
+    <div class="box warn"><h2>⚠ KHUYÊN ĐI KHÁM, ĐỪNG BÁN — KHI</h2>
+      <div class="bd"><ul class="dot">
+        <li>Da đã <b>trợt</b>, <b>chảy dịch</b>, có <b>mụn mủ</b>, <b>mùi hôi rõ</b>, hoặc <b>lan rộng nhanh</b>.</li>
+        <li>Bé <b>sốt</b>, <b>quấy khóc nhiều</b>, bỏ bú.</li>
+        <li><b>Chăm đúng cách vài ngày mà không đỡ</b> <span class="cho">CHỜ XÁC NHẬN SỐ NGÀY</span>.</li>
+        <li>Mảng <b>đỏ tươi, bờ rõ</b>, có <b>chấm đỏ nhỏ</b> rải xung quanh — hay gặp khi <b>nhiễm nấm</b>; kem kẽm oxyd không xử lý được nấm.</li>
+        <li>Bé còn rất nhỏ <span class="cho">CHỜ XÁC NHẬN MỐC TUỔI</span>.</li>
+      </ul>
+      <p style="margin-top:1mm">→ Khuyên mẹ <b>đưa bé đi khám trước</b>, dùng sản phẩm <b>duy trì sau</b>. Bán lúc này, bé không đỡ thì mẹ sẽ nghĩ <b>sản phẩm không hiệu quả</b>.</p></div>
+    </div>
+  </section>
+
+  <!-- TẤM 5 — NÓI + CHỐT -->
+  <section class="panel">
+    <div class="t2"><span class="n">2</span>NÓI VỚI KHÁCH — 1 CÂU MỖI SẢN PHẨM</div>
+    <div class="say"><div class="ph"><img src="assets/sanpham.png" alt=""></div>
+      <div><b>Tắm gội thảo dược Elemis</b><q>Nước tắm thảo dược làm sạch dịu, mẹ không cần kỳ cọ chỗ da đang đỏ; có chè xanh, sả chanh, tràm gió hỗ trợ kháng khuẩn cho vùng tã ẩm, bí.</q></div></div>
+    <div class="say"><div class="ph"><img src="assets/sp-kem.jpg" alt=""></div>
+      <div><b>Kem bôi da Elemis</b><q>Kem tạo lớp màng mỏng chắn nước tiểu, phân và cọ xát; có rau má làm dịu đỏ rát. Bôi cả khi da chưa đỏ để phòng luôn ạ.</q></div></div>
+    <div class="say"><div class="ph"><img src="assets/sp-oriky.jpg" alt=""></div>
+      <div><b>Dầu massage Oriky</b><q>Hết hăm da bé hay khô; dầu có 3 loại dầu thực vật giúp khoá ẩm, mẹ massage cho bé sau tắm.</q></div></div>
+
+    <div class="t2"><span class="n">3</span>CHỐT BỘ</div>
+    <table class="combo">
+      <tr><th>Bộ</th><th style="text-align:right">Tổng</th></tr>
+      <tr><td>Tắm <b>200ml</b> + Kem 30g — <i>mua lần đầu</i></td><td class="m">265.000đ</td></tr>
+      <tr><td>Tắm <b>350ml</b> + Kem 30g</td><td class="m">325.000đ</td></tr>
+      <tr><td>Tắm <b>500ml</b> + Kem 30g — <i>dùng lâu dài</i></td><td class="m">390.000đ</td></tr>
+      <tr><td>Thêm Dầu Oriky 60ml</td><td class="m">+135.000đ</td></tr>
+    </table>
+    <table class="combo">
+      <tr><th>Tắm gội — đơn giá</th><th style="text-align:right">đ/ml</th><th style="text-align:right">Tắm 5ml/ngày</th></tr>
+      <tr><td>200ml · 150.000đ</td><td class="u">750</td><td class="u">~40 ngày</td></tr>
+      <tr><td>350ml · 210.000đ</td><td class="u">600</td><td class="u">~70 ngày</td></tr>
+      <tr><td>500ml · 275.000đ</td><td class="u">550</td><td class="u">~100 ngày</td></tr>
+    </table>
+    <div class="why" style="margin-top:0">Số ngày chỉ tính tắm; khi đang hăm, lau thêm lúc thay tã nên chai hết nhanh hơn.</div>
+    <div class="close"><b>Câu chốt:</b> <q>Tắm để làm sạch, kem để che chắn — đi cùng nhau thì vùng tã mới được bảo vệ cả ngày. Mẹ lấy bộ tắm + kem cho bé nhé.</q></div>
+    <div class="close"><b>Khách chỉ lấy 1 món:</b><br>• Có kem rồi → <q>Kem chỉ chắn tốt khi vùng tã được làm sạch dịu và thấm khô trước ạ.</q><br>• Có sữa tắm rồi → <q>Vùng tã ướt cả ngày, mình cần thêm lớp kem chắn giữa các lần thay tã ạ.</q></div>
+  </section>
+
+  <!-- TẤM 6 — TỪ CHỐI + DẶN MẸ -->
+  <section class="panel">
+    <div class="t2 a"><span class="n">4</span>KHÁCH TỪ CHỐI — RIÊNG HĂM DA</div>
+    <div class="ob"><b>“Bác sĩ bảo dùng Bepanthen / Sudocrem rồi.”</b>
+      <p><i>Đừng</i> chê kem khách đang dùng.</p>
+      <p><q>Dạ mẹ cứ dùng kem bác sĩ dặn. Kem nào cũng cần vùng tã được làm sạch dịu, thấm khô trước — nước tắm Elemis là cho bước đó ạ.</q></p></div>
+    <div class="ob"><b>“Kem 30g mà 115 nghìn? Sudocrem cũng có kẽm mà rẻ hơn.”</b>
+      <p><i>Nhận thật:</i> tính theo gam, kem Elemis cao hơn Bepanthen, Sudocrem.</p>
+      <p><q>Dạ đúng, kẽm oxyd là chất chắn ẩm phổ biến. Kem Elemis có kẽm oxyd nano 2%, thêm rau má làm dịu đỏ rát, ngải cứu cho cảm giác mát, Aquaxyl giữ ẩm — một tuýp lo cả chắn, dịu và giữ ẩm ạ.</q></p>
+      <p><i>Tránh:</i> nói kem Elemis "mạnh hơn / tốt hơn" Sudocrem.</p></div>
+    <div class="ob"><b>“Dầu Oriky có BHT à? Chicco ghi không có BHT.”</b>
+      <p><q>Dạ có ạ, BHT là chất chống oxy hoá giúp dầu thực vật không bị ôi, được ghi rõ trên bao bì. Dầu chỉ là bước dùng thêm sau khi hết hăm, mẹ cân nhắc thêm cũng được ạ.</q></p>
+      <p><i>Tránh:</i> nói "không có" hoặc né câu hỏi.</p></div>
+    <div class="ob"><b>“Bôi bao lâu thì khỏi? Có dứt điểm không?”</b>
+      <p><q>Tuỳ da từng bé mẹ ạ. Sản phẩm hỗ trợ làm dịu và che chắn; mẹ giữ vùng tã sạch, khô và bôi đều. Vài ngày không đỡ thì mẹ đưa bé đi khám nhé.</q></p>
+      <p><i>Tránh:</i> hứa số ngày, dùng chữ "trị", "chữa khỏi", "dứt điểm".</p></div>
+
+    <div class="t2"><span class="n">5</span>DẶN MẸ THÊM <span class="cho">CHỜ XÁC NHẬN</span></div>
+    <ul class="dot g">
+      <li><b>Thay tã ngay</b> khi ướt hoặc bẩn, nhất là sau khi bé đi nặng.</li>
+      <li>Mỗi ngày để bé <b>thoáng, không đóng tã</b> một lúc.</li>
+      <li>Rửa bằng nước ấm, khăn mềm; <b>tránh khăn ướt có cồn, hương liệu</b>.</li>
+      <li><b>Không rắc phấn rôm</b> lên vùng đang hăm.</li>
+      <li><b>Thấm thật khô</b> rồi mới bôi kem, đóng tã.</li>
+    </ul>
+    <div class="foot">Giá theo báo giá OTC từ 01/04/2025 (chờ xác nhận giá lẻ) · Sell-out kit theo vấn đề da bé · Công ty TNHH Dược Khoa Xanh</div>
   </section>
 
 </div></body></html>
