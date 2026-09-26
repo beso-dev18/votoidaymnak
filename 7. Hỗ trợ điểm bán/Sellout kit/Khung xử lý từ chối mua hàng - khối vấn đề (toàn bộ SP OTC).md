@@ -54,7 +54,7 @@ Các câu mở dưới đây là **khung câu — không phải kịch bản h�
 
 **Câu mở dẫn dắt (sandwich 3 lớp):**
 1. Đồng cảm: "Em hiểu giá là điều anh/chị cân nhắc kỹ, nhất là khi so với các lựa chọn khác trên thị trường."
-2. Làm rõ + nêu lợi thế: "Mình đang so theo giá tổng hộp, hay theo đơn giá trên từng ml/gói ạ? Nếu quy đổi theo đơn vị nhỏ nhất thì mức chênh lệch sẽ khác, và đi kèm giá này còn có chương trình [nêu đúng mức mua X tặng Y đang áp dụng cho sản phẩm đó]."
+2. Làm rõ + nêu lợi thế: "Mình đang so theo giá tổng hộp, hay theo đơn giá trên từng ml/gói ạ? Nếu quy đổi theo đơn vị nhỏ nhất thì mức chênh lệch sẽ khác, và đi kèm giá này còn có [ưu đãi cho khách lẻ nếu shop đang áp dụng — không phải chương trình mua X tặng Y dành cho shop nhập hàng]."
 3. Điều hướng: "Mình thử chọn quy cách [quy cách có đơn giá tốt hơn] trước để tối ưu chi phí, rồi mình đánh giá lại theo thực tế ạ."
 
 **Phương hướng trả lời:**
