@@ -93,7 +93,7 @@ const VANDE = [
     ],
     bo: ['tamgoi', 'kem'],
     boThem: ['dau'],
-    kham: 'Da đã trợt, chảy dịch, có mụn mủ, có mùi hôi rõ hoặc lan rộng nhanh; bé sốt, quấy nhiều; chăm đúng cách vài ngày mà không đỡ; mảng đỏ tươi có chấm đỏ nhỏ rải xung quanh (hay gặp khi nhiễm nấm — kem kẽm không xử lý được nấm) → khuyên mẹ đưa bé đi khám trước, dùng sản phẩm duy trì sau.',
+    kham: 'Da đã trợt, chảy dịch, có mụn mủ, có mùi hôi rõ hoặc lan rộng nhanh; bé sốt, quấy nhiều; mảng đỏ tươi có chấm đỏ nhỏ rải xung quanh (hay gặp khi nhiễm nấm — kem kẽm không xử lý được nấm) → khuyên mẹ đưa bé đi khám trước, dùng sản phẩm duy trì sau.',
   },
 
   // ======================= 2. RÔM SẢY, MẨN NGỨA, MỤN NHỌT =======================
