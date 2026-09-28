@@ -8,7 +8,6 @@ const { TP, SP, COMBO, THU_TU, dong, tongGia, chiTietGia } = require('./dulieu.j
 const W = 14570;                                  // bề ngang vùng nội dung, A4 ngang, lề 2cm
 const NAVY = '365F91', BLUE = '4F81BD', FILL = 'E7EEF7', GREEN = '2F9036', GD = '1E6B26', GFILL = 'EAF5E8';
 const RED = 'B3261E', REDFILL = 'FCEEEC', AMBER = '8A5A00', AMBERFILL = 'FDF3DF', MUTE = '5B6E60';
-const MAU_BUOC = ['0E7490', 'B45309', GREEN];
 const bd = { style: BorderStyle.SINGLE, size: 4, color: 'auto' };
 const BORDERS = { top: bd, bottom: bd, left: bd, right: bd };
 
@@ -48,34 +47,29 @@ const trước = (k, ks) => [k, ...ks.filter(x => x !== k)];     // SP khách đ
 
 // ---------- bảng tra nhanh ----------
 function traNhanh() {
-  const cols = [2300, 3200, 3000, 4270, 1800];
-  const rows = [hdrRow([['KHÁCH HỎI MUA', cols[0]], ['HỎI THÊM', cols[1]], ['VẤN ĐỀ', cols[2]],
-                        ['COMBO GỢI Ý', cols[3]], ['GIÁ CẢ BỘ', cols[4]]])];
+  const cols = [2600, 3600, 6070, 2300];
+  const rows = [hdrRow([['KHÁCH HỎI MUA', cols[0]], ['COMBO GỢI Ý', cols[1]], ['GIẢI QUYẾT ĐƯỢC', cols[2]], ['GIÁ CẢ BỘ', cols[3]]])];
   let nhomTruoc = null;
   THU_TU.forEach(k => {
     const s = SP[k];
     if (s.nhom !== nhomTruoc) {
       nhomTruoc = s.nhom;
-      rows.push(new TableRow({ cantSplit: true, children: [cell([P(s.nhom === 'me' ? 'SẢN PHẨM CHO MẸ' : 'SẢN PHẨM CHO BÉ', { bold: true, color: 'FFFFFF', size: 18 })], { w: W, span: 5, fill: NAVY })] }));
+      rows.push(new TableRow({ cantSplit: true, children: [cell([P(s.nhom === 'me' ? 'SẢN PHẨM CHO MẸ' : 'SẢN PHẨM CHO BÉ', { bold: true, color: 'FFFFFF', size: 18 })], { w: W, span: 4, fill: NAVY })] }));
     }
-    const ds = s.combo.length ? s.combo.map(id => COMBO[id]) : [null];
-    ds.forEach((c, i) => {
+    const ds = s.combo.length ? s.combo : [null];
+    ds.forEach((id, i) => {
       const cs = [];
       if (i === 0) cs.push(cell([P(s.ten, { bold: true, color: GD, size: 18 }), P(s.tuoi, { color: MUTE, size: 15 })],
                                 { w: cols[0], rowSpan: ds.length, mid: true, fill: GFILL }));
-      if (!c) {
-        const r = s.rieng;
-        cs.push(cell([P('“' + r.hoi + '”', { size: 16, italics: true })], { w: cols[1] }));
-        cs.push(cell([P(r.vande, { bold: true, size: 17 })], { w: cols[2] }));
-        cs.push(cell([P('Sell-out 1 mình: ' + s.ngan, { bold: true, size: 17 })], { w: cols[3] }));
-        cs.push(cell([P(dong(s.gia[0][1]), { bold: true, size: 17, color: GREEN })], { w: cols[4] }));
+      if (!id) {
+        cs.push(cell([P('Sell-out 1 mình', { bold: true, size: 17 })], { w: cols[1] }));
+        cs.push(cell([P(s.rieng.vande, { size: 17 })], { w: cols[2] }));
+        cs.push(cell([P(dong(s.gia[0][1]), { bold: true, size: 17, color: GREEN })], { w: cols[3] }));
       } else {
-        cs.push(cell([P('“' + c.hoi + '”', { size: 16, italics: true })], { w: cols[1] }));
-        cs.push(cell([P(c.vande, { bold: true, size: 17 })], { w: cols[2] }));
-        cs.push(cell([P(trước(k, c.sp).map(x => SP[x].ngan).join(' + '), { bold: true, size: 17 }),
-                      ...(c.them.length ? [P('+ khuyến nghị thêm: ' + c.them.map(x => SP[x].ngan).join(', '), { size: 15, color: MUTE })] : [])], { w: cols[3] }));
-        cs.push(cell([P(dong(tongGia(c.sp)), { bold: true, size: 17, color: GREEN }),
-                      ...(c.them.length ? [P('Đủ bộ: ' + dong(tongGia([...c.sp, ...c.them])), { size: 15, color: MUTE })] : [])], { w: cols[4] }));
+        const c = COMBO[id];
+        cs.push(cell([P(trước(k, c.sp).map(x => SP[x].ngan).join(' + '), { bold: true, size: 17 })], { w: cols[1] }));
+        cs.push(cell(c.vande.map(v => P('• ' + v.ten, { size: 17 })), { w: cols[2] }));
+        cs.push(cell([P(dong(tongGia(c.sp)), { bold: true, size: 17, color: GREEN })], { w: cols[3] }));
       }
       rows.push(new TableRow({ cantSplit: true, children: cs }));
     });
@@ -123,67 +117,49 @@ function phanB(k) {
   return out;
 }
 
-// ---------- C. 3 bước của 1 combo / sell-out 1 mình ----------
-function bangBuoc(k, buoc, them = []) {
-  const cols = [1700, 2000, 2600, 4200, 4070];
-  const rows = [hdrRow([['BƯỚC', cols[0]], ['SẢN PHẨM', cols[1]], ['THÀNH PHẦN', cols[2]],
-                        ['HOẠT ĐỘNG THẾ NÀO', cols[3]], ['ĐỂ LÀM GÌ (cho vấn đề này)', cols[4]]])];
-  buoc.forEach((b, bi) => {
-    const nB = b.sp.reduce((a, x) => a + x.tp.length, 0);
-    let dauBuoc = true;
-    b.sp.forEach(x => {
-      x.tp.forEach(([id, lamGi], ti) => {
-        const cs = [];
-        if (dauBuoc) { cs.push(cell([P(`${bi + 1}. ${b.ten}`, { bold: true, color: MAU_BUOC[bi], size: 18 })], { w: cols[0], rowSpan: nB, mid: true })); dauBuoc = false; }
-        if (ti === 0) cs.push(cell([P(SP[x.k].ngan, { bold: true, color: GD, size: 18 }),
-                                    ...(them.includes(x.k) ? [P('(khuyến nghị thêm)', { size: 15, color: AMBER, italics: true })] : [])],
-                                   { w: cols[1], rowSpan: x.tp.length, mid: true, fill: GFILL }));
-        cs.push(cell([P(TP[id].ten, { bold: true, color: NAVY, size: 17 })], { w: cols[2] }));
-        cs.push(cell([P(TP[id].ngan.charAt(0).toUpperCase() + TP[id].ngan.slice(1) + '.', { size: 17 })], { w: cols[3] }));
-        cs.push(cell([P(lamGi, { size: 17 })], { w: cols[4] }));
-        rows.push(new TableRow({ cantSplit: true, children: cs }));
-      });
-    });
+// ---------- C. combo → các vấn đề → mỗi sản phẩm làm gì ----------
+function bangVanDe(v, so, sp) {
+  const c0 = 3000;
+  const rows = [
+    new TableRow({ cantSplit: true, children: [cell([P(`${so}: ${v.ten.toUpperCase()}`, { bold: true, color: 'FFFFFF', size: 20 })], { w: W, span: 2, fill: NAVY })] }),
+    nhanRow('DẤU HIỆU', [v.dauHieu], NAVY, FILL, c0),
+    nhanRow('HỎI KHÁCH', ['“' + v.hoi + '”'], NAVY, FILL, c0),
+  ];
+  v.lam.forEach(([k, buoc, loi]) => {
+    const them = (v.them || []).includes(k);
+    rows.push(new TableRow({ cantSplit: true, children: [
+      cell([P(SP[k].ngan, { bold: true, color: GD, size: 19 }), P(buoc, { size: 15, color: MUTE, italics: true }),
+            ...(them ? [P(`Khuyến nghị thêm · ${dong(SP[k].gia[0][1])} (đủ bộ ${dong(tongGia([...sp, k]))})`, { size: 15, color: AMBER, bold: true })] : [])],
+           { w: c0, fill: them ? AMBERFILL : GFILL, mid: true }),
+      cell([P(loi, { size: 19 })], { w: W - c0 })] }));
   });
-  return bang(cols, rows);
+  rows.push(nhanRow('CÂU CHỐT', [v.chot], GD, GFILL, c0));
+  rows.push(nhanRow('CÁCH DÙNG', [v.cachDung], NAVY, FILL, c0));
+  if (v.luuY) rows.push(nhanRow('LƯU Ý', [v.luuY], AMBER, AMBERFILL, c0));
+  rows.push(nhanRow('KHUYÊN ĐI KHÁM, ĐỪNG BÁN — KHI', [v.kham], RED, REDFILL, c0));
+  return bang([c0, W - c0], rows);
 }
 
 function phanC(k) {
   const s = SP[k], out = [];
   if (!s.combo.length) {
     const r = s.rieng;
-    out.push(H(`C. Sell-out 1 mình — ${r.vande}`, 2));
-    out.push(bang([3000, W - 3000], [
-      nhanRow('DẤU HIỆU', [r.dauHieu], NAVY, FILL),
-      nhanRow('CÂU HỎI MỞ', ['“' + r.hoi + '”'], NAVY, FILL),
-      nhanRow('GIÁ', [`${s.ngan} ${giaSP(k)}`], GD, GFILL),
-    ]));
-    out.push(P(''));
-    out.push(bangBuoc(k, r.buoc));
-    out.push(P(''));
-    out.push(bang([3000, W - 3000], [nhanRow('KHUYÊN ĐI KHÁM, ĐỪNG BÁN — KHI', [r.kham], RED, REDFILL)]));
+    out.push(H(`C. Sell-out 1 mình — ${s.ngan} ${giaSP(k)}`, 2));
+    out.push(bangVanDe({ ten: r.vande, dauHieu: r.dauHieu, hoi: r.hoi, lam: r.lam, chot: s.chot, cachDung: s.cachDung, kham: r.kham }, 'Vấn đề', [k]));
     return out;
   }
-  out.push(H(`C. Từ ${s.ngan} → combo theo vấn đề`, 2));
+  out.push(H(`C. Từ ${s.ngan} → combo → các vấn đề combo giải quyết được`, 2));
   s.combo.forEach((id, i) => {
-    const c = COMBO[id];
-    const giaDong = ['<b>' + chiTietGia(trước(k, c.sp)) + '</b>'];
-    if (c.them.length) giaDong.push('Thêm ' + c.them.map(x => SP[x].ngan).join(', ') + ' (khuyến nghị): ' + chiTietGia(trước(k, [...c.sp, ...c.them])));
-    out.push(H(`C${i + 1}. ${c.vande}`, 3));
+    const c = COMBO[id], ds = trước(k, c.sp);
+    out.push(H(`Combo ${i + 1}: ${ds.map(x => SP[x].ngan).join(' + ')} — ${dong(tongGia(c.sp))}`, 3));
     out.push(bang([3000, W - 3000], [
-      nhanRow('DẤU HIỆU', [c.dauHieu], NAVY, FILL),
-      nhanRow('CÂU HỎI MỞ', ['“' + c.hoi + '”'], NAVY, FILL),
-      nhanRow('COMBO & GIÁ CẢ BỘ', giaDong, GD, GFILL),
+      nhanRow('GIÁ CẢ BỘ', ['<b>' + chiTietGia(ds) + '</b>'], GD, GFILL),
+      nhanRow('GIẢI QUYẾT ĐƯỢC', [c.vande.map((v, j) => `${j + 1}. ${v.ten}`).join('   ·   ') + (c.ghiChu ? '   (' + c.ghiChu + ')' : '')], GD, GFILL),
     ]));
-    out.push(P('', {}, { spacing: { before: 0, after: 60 } }));
-    out.push(bangBuoc(k, c.buoc, c.them));
-    out.push(P('', {}, { spacing: { before: 0, after: 60 } }));
-    out.push(bang([3000, W - 3000], [
-      nhanRow('CÂU CHỐT COMBO', [c.chot], GD, GFILL),
-      nhanRow('CÁCH DÙNG', [c.cachDung], NAVY, FILL),
-      ...(c.luuY ? [nhanRow('LƯU Ý', [c.luuY], AMBER, AMBERFILL)] : []),
-      nhanRow('KHUYÊN ĐI KHÁM, ĐỪNG BÁN — KHI', [c.kham], RED, REDFILL),
-    ]));
+    c.vande.forEach((v, j) => {
+      out.push(P('', {}, { spacing: { before: 0, after: 60 } }));
+      out.push(bangVanDe(v, `Vấn đề ${j + 1}`, c.sp));
+    });
   });
   return out;
 }
@@ -191,7 +167,7 @@ function phanC(k) {
 // ---------- ghép tài liệu ----------
 const body = [];
 body.push(new Paragraph({ spacing: { after: 60 }, children: [new TextRun({ text: 'SELL-OUT KIT THEO SẢN PHẨM', bold: true, color: NAVY, size: 40, font: 'Calibri Light' })] }));
-body.push(P('Khách hỏi mua sản phẩm → hỏi thêm vấn đề → gợi ý combo 2–3 sản phẩm xử lý vấn đề đó theo 3 bước: làm sạch → xử lý vấn đề → bảo vệ / dưỡng da. Sản phẩm chưa có combo thì sell-out 1 mình.', { size: 21, color: MUTE, italics: true }));
+body.push(P('Khách hỏi mua sản phẩm → gợi ý combo 2–3 sản phẩm → combo đó giải quyết được những vấn đề nào → với từng vấn đề, mỗi sản phẩm làm gì (lời dễ hiểu để đọc lên cho khách). Sản phẩm chưa có combo thì sell-out 1 mình.', { size: 21, color: MUTE, italics: true }));
 body.push(H('BẢNG TRA NHANH: SẢN PHẨM → COMBO', 1));
 body.push(traNhanh());
 body.push(P('Giá bán lẻ theo báo giá OTC 01/04/2025. Không có giá combo hay khuyến mãi riêng — giá cả bộ là cộng giá bán lẻ từng sản phẩm, lấy quy cách nhỏ nhất (tắm gội 200ml, xịt muỗi 50ml).', { size: 15, color: MUTE, italics: true }));
@@ -200,7 +176,7 @@ THU_TU.forEach((k, i) => {
   const s = SP[k];
   body.push(new Paragraph({ pageBreakBefore: true, spacing: { after: 0 }, children: [] }));
   body.push(H(`${i + 1}. ${s.ten.toUpperCase()}`, 1));
-  const giaiQuyet = s.combo.length ? s.combo.map(id => COMBO[id].vande).join('; ') : s.rieng.vande;
+  const giaiQuyet = s.combo.length ? [...new Set(s.combo.flatMap(id => COMBO[id].vande.map(v => v.ten)))].join('; ') : s.rieng.vande;
   body.push(P(`<b>Quy cách, giá:</b> ${giaSP(k)}   ·   <b>Dùng cho:</b> ${s.tuoi}${s.loai ? `   ·   <b>Loại:</b> ${s.loai}` : ''}`, { size: 19 }));
   body.push(P(`<b>Giải quyết:</b> ${giaiQuyet}`, { size: 19 }));
   body.push(H(`A. Thành phần → hoạt động thế nào → để làm gì cho ${choAi(k).toLowerCase()}`, 2));

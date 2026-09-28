@@ -3,8 +3,8 @@
 //  - Phần A: mỗi thành phần có "hoạt động thế nào" (cơ chế, nói dễ hiểu) + "để làm gì" (lợi ích cho bé/mẹ).
 //    Không dùng: cắt liên kết tế bào, phá màng tế bào, gốc tự do, hàng rào lipid, củng cố hàng rào…
 //  - Phần B: điểm NỔI BẬT của sản phẩm (đưa lên đầu, có bảng so sánh); điểm yếu để riêng ở "Lưu ý".
-//  - Phần C: combo trình bày theo 3 bước làm sạch → xử lý vấn đề → bảo vệ/dưỡng, mỗi bước nêu cơ chế.
-//    Sản phẩm không có combo thì "sell-out 1 mình", vẫn theo 3 bước.
+//  - Phần C (sửa lần 2): COMBO → các vấn đề combo giải quyết được → mỗi SP làm gì cho vấn đề đó,
+//    viết bằng lời nói thường để NV đọc lên cho khách. Sản phẩm không có combo thì "sell-out 1 mình".
 //  - Không có giá combo/khuyến mãi: giá cả bộ = cộng giá bán lẻ OTC.
 //  - Thêm 3 sản phẩm cho mẹ: Curmilk, Yaocare Women, Dao'Spa Mama.
 //
@@ -193,7 +193,7 @@ const SP = {
       'Bao bì in “Không lo viêm da” — không nằm trong công bố chính thức, khi tư vấn không nhắc lại.',
     ],
     cachDung: 'Pha <b>1ml Elemis : 1 lít nước</b> 36–37°C (chậu 5 lít → 5ml), <b>không tráng lại</b>. Lau mặt khi bé bị chàm: pha 2ml : 2 lít nước sạch.',
-    combo: ['ham', 'rom', 'cham', 'dakho', 'cuttrau'],
+    combo: ['TK', 'TKD', 'TD'],
   },
 
   kem: {
@@ -225,7 +225,7 @@ const SP = {
       'Kem chưa công bố chỉ số chống nắng (SPF) → không giới thiệu là kem chống nắng.',
     ],
     cachDung: '<b>Rửa → thấm khô → thoa lớp mỏng phủ kín</b>, ngày 2–3 lần. Vùng tã: thoa <b>mỗi lần thay tã</b>, kể cả khi da chưa đỏ.',
-    combo: ['ham', 'rom', 'man', 'cham', 'muoi', 'seo', 'tay'],
+    combo: ['TK', 'TKD', 'KD', 'GK', 'XK', 'BK'],
   },
 
   dau: {
@@ -254,7 +254,7 @@ const SP = {
       'Giá cao hơn (~112.500đ/50ml so với Johnson’s ~70.000–100.000đ, Chicco ~82.000đ) → bán bằng giá trị “3 dầu thực vật”.',
     ],
     cachDung: 'Thoa lên vùng da khô, <b>mát-xa nhẹ</b>, dùng trước hoặc sau khi tắm.',
-    combo: ['cham', 'dakho', 'cuttrau', 'seo'],
+    combo: ['TKD', 'TD', 'KD'],
   },
 
   gold: {
@@ -281,7 +281,7 @@ const SP = {
       'Gold không có sài đất, khổ qua, kinh giới, tràm gió → đừng nói “Gold có mọi thứ bản thường có”. Web ghi “100% thảo dược”, “hăm da, viêm da” nhưng không có trong công bố → không nhắc lại.',
     ],
     cachDung: '⏳ Cách dùng Elemis Gold chưa có trên tài liệu gốc — chờ công ty xác nhận.',
-    combo: ['man'],
+    combo: ['GK'],
   },
 
   xit: {
@@ -309,7 +309,7 @@ const SP = {
       'Không nói “100% tự nhiên, không hoá chất” vì sản phẩm có cồn và phụ gia.',
     ],
     cachDung: 'Xịt lên quần áo và vùng da hở, <b>tránh mặt và bàn tay bé</b>; xịt lại sau <b>2–3 giờ</b>.',
-    combo: ['muoi'],
+    combo: ['XK'],
   },
 
   bot: {
@@ -336,7 +336,7 @@ const SP = {
       'Không nói “kháng khuẩn mạnh hơn” vì chưa có số liệu so sánh.',
     ],
     cachDung: '⏳ Hướng dẫn chi tiết chưa có trên tài liệu gốc — làm theo nhãn sản phẩm.',
-    combo: ['tay'],
+    combo: ['BK'],
   },
 
   gac: {
@@ -370,10 +370,10 @@ const SP = {
       vande: 'Tưa lưỡi, nấm lưỡi; vệ sinh miệng hằng ngày',
       dauHieu: 'Mảng trắng bám trên lưỡi, lau nước không ra; bé bú kém, miệng có mùi.',
       hoi: 'Lưỡi bé có mảng trắng không chị? Mẹ đang rơ lưỡi cho bé bằng gì?',
-      buoc: [
-        { ten: 'LÀM SẠCH', sp: [{ k: 'gac', tp: [['muoiGly', 'Lấy sạch cặn sữa — “thức ăn” của nấm tưa.']] }] },
-        { ten: 'XỬ LÝ VẤN ĐỀ', sp: [{ k: 'gac', tp: [['soda', 'Miệng bớt chua nên nấm tưa khó phát triển.'], ['laHe', 'Hỗ trợ hạn chế nấm và vi khuẩn trong miệng.']] }] },
-        { ten: 'BẢO VỆ', sp: [{ k: 'gac', tp: [['xylitol', 'Hạn chế mảng bám, miệng bớt hôi, bảo vệ răng sắp mọc.'], ['cucGac', 'Dịu nướu khi bé mọc răng.']] }] },
+      lam: [
+        ['gac', 'Bước 1 · Làm sạch', 'Muối cùng động tác lau nhẹ của gạc cuốn sạch cặn sữa trên lưỡi, nướu, má trong — cặn sữa chính là “thức ăn” của nấm tưa. Glycerin giữ gạc ẩm mềm nên lau không xước miệng bé.'],
+        ['gac', 'Bước 2 · Xử lý', 'Cặn sữa lên men làm miệng bé chua, nấm tưa rất thích môi trường chua. Baking soda làm miệng bớt chua nên nấm khó phát triển. Lá hẹ có chất lưu huỳnh (giống chất trong tỏi), cùng chè xanh làm nấm và vi khuẩn khó sinh sôi; rau ngót là lá các bà vẫn dùng rơ lưỡi cho trẻ.'],
+        ['gac', 'Bước 3 · Bảo vệ', 'Vi khuẩn sâu răng ăn đường rồi thải ra chất chua làm mòn răng; xylitol là loại “đường” chúng không ăn được, nên miệng bớt mảng bám, bớt hôi, răng sắp mọc được bảo vệ. Bản không mùi có cúc la mã làm dịu nướu khi bé mọc răng.'],
       ],
       kham: 'Mảng trắng dày lau không ra, bé bỏ bú hoàn toàn, sốt hoặc quấy nhiều.',
     },
@@ -411,10 +411,10 @@ const SP = {
       vande: 'Mẹ ít sữa, lo tắc tia sữa',
       dauHieu: 'Mẹ sau sinh thấy sữa không đủ cho con bú; bầu ngực căng tức, có chỗ cứng, đau khi cho bú.',
       hoi: 'Sữa về có đủ cho bé bú không chị? Có bị căng tức, tắc tia sữa bao giờ chưa?',
-      buoc: [
-        { ten: 'BỔ SUNG NỀN', sp: [{ k: 'curmilk', tp: [['chumngay', 'Cơ thể mẹ đủ dinh dưỡng làm nguyên liệu tạo sữa.']] }] },
-        { ten: 'XỬ LÝ VẤN ĐỀ', sp: [{ k: 'curmilk', tp: [['thongthao', 'Hỗ trợ tuyến sữa lưu thông, cải thiện tình trạng ít sữa.']] }] },
-        { ten: 'BẢO VỆ', sp: [{ k: 'curmilk', tp: [['curcumin', 'Hỗ trợ giảm nguy cơ tắc sữa, và nguy cơ viêm khi tắc sữa kéo dài.']] }] },
+      lam: [
+        ['curmilk', 'Bổ sung nền', 'Lá chùm ngây giàu vitamin, khoáng chất — đây là “nguyên liệu” để cơ thể mẹ tạo sữa, mà mẹ sau sinh hay bị thiếu. Nghiên cứu còn ghi nhận chùm ngây làm tăng prolactin — hormone ra lệnh cho tuyến vú tạo sữa.'],
+        ['curmilk', 'Xử lý · Ít sữa', 'Thông thảo là vị thuốc cổ truyền dùng lâu đời trong các bài lợi sữa, giúp tuyến sữa lưu thông.'],
+        ['curmilk', 'Bảo vệ · Tắc sữa', 'Tắc sữa thường do ống dẫn sữa bị sưng viêm nên sữa khó chảy. Curcumin trong nghệ làm giảm viêm, ống dẫn sữa bớt sưng, sữa chảy dễ hơn.'],
       ],
       kham: 'Vú sưng đỏ, đau nhiều, có cục cứng kèm sốt (dấu hiệu viêm tuyến vú) → khuyên mẹ đi khám ngay, không chỉ dùng sản phẩm.',
     },
@@ -453,10 +453,10 @@ const SP = {
       vande: 'Vệ sinh vùng kín hằng ngày; ngứa, có mùi',
       dauHieu: 'Chị em hay dùng sữa tắm để vệ sinh vùng kín; than ngứa, có mùi; mẹ sau sinh, kỳ kinh nguyệt cần vệ sinh nhiều hơn.',
       hoi: 'Chị đang vệ sinh vùng kín bằng gì? Có hay bị ngứa hay có mùi không?',
-      buoc: [
-        { ten: 'LÀM SẠCH', sp: [{ k: 'yaocare', tp: [['sles', 'Sạch dịch tiết, khô thoáng.']] }] },
-        { ten: 'XỬ LÝ VẤN ĐỀ', sp: [{ k: 'yaocare', tp: [['lactic', 'Giữ lợi khuẩn, ngừa mùi, hạn chế vi khuẩn, nấm gây hại.'], ['trau', 'Hỗ trợ giảm ngứa, giảm mùi.'], ['ngheDang', 'Làm dịu kích ứng.']] }] },
-        { ten: 'BẢO VỆ / DƯỠNG', sp: [{ k: 'yaocare', tp: [['bacHa', 'Mát, dịu, không khô rát khi dùng hằng ngày.']] }] },
+      lam: [
+        ['yaocare', 'Bước 1 · Làm sạch', 'Bọt bao lấy dịch tiết, bã nhờn rồi trôi theo nước — vùng kín sạch, khô thoáng.'],
+        ['yaocare', 'Bước 2 · Xử lý', 'Vùng kín khoẻ có độ chua tự nhiên do lợi khuẩn tạo ra — chính độ chua này giữ vi khuẩn, nấm gây hại không phát triển được. Sữa tắm, xà phòng thường làm mất độ chua đó nên dễ ngứa, có mùi. Acid lactic trong Yaocare giữ lại đúng độ chua ấy. Lá trầu không làm yếu vi khuẩn, nấm gây ngứa, gây mùi; nghệ đắng làm dịu chỗ bị kích ứng.'],
+        ['yaocare', 'Bước 3 · Bảo vệ', 'Bạc hà tạo cảm giác mát, lấn át cảm giác ngứa ngay khi dùng; lô hội giữ nước, làm dịu nên dùng hằng ngày không bị khô rát.'],
       ],
       kham: 'Khí hư bất thường, ngứa nhiều, đau, mùi hôi kéo dài → khuyên đi khám phụ khoa, sản phẩm không thay thuốc điều trị.',
     },
@@ -493,200 +493,206 @@ const SP = {
       vande: 'Mẹ sau sinh đau mỏi, dễ lạnh, kiêng tắm nước lạnh',
       dauHieu: 'Mẹ đau mỏi toàn thân, người yếu, dễ lạnh; mệt mỏi, khó ngủ; lo mùi cơ thể sau sinh.',
       hoi: 'Chị sinh được bao lâu rồi? Người có hay đau mỏi, ớn lạnh không?',
-      buoc: [
-        { ten: 'LÀM SẠCH', sp: [{ k: 'daospa', tp: [['mangtang', 'Sạch, hết mùi “bà đẻ”, thơm thảo mộc.']] }] },
-        { ten: 'XỬ LÝ VẤN ĐỀ', sp: [{ k: 'daospa', tp: [['comchay', 'Người ấm lên, hỗ trợ giảm đau mỏi.']] }] },
-        { ten: 'THƯ GIÃN / PHỤC HỒI', sp: [{ k: 'daospa', tp: [['chuadu', 'Thư giãn, dễ ngủ, bớt mệt.']] }] },
+      lam: [
+        ['daospa', 'Bước 1 · Làm sạch', 'Màng tang có citral (chất cũng có trong sả chanh) làm yếu vi khuẩn phân huỷ mồ hôi, sản dịch — thứ gây ra mùi “bà đẻ”; tắm xong người sạch, thơm mùi thảo mộc.'],
+        ['daospa', 'Bước 2 · Xử lý', 'Pha nước ấm tắm, xông: hơi ấm làm mạch máu dưới da giãn ra, máu lưu thông, cơ đang mỏi mềm ra, người ấm lên. Cơm cháy, hoa ông lão, liên đằng hoa nhỏ là các vị thuốc trong bài tắm của người Dao, hỗ trợ giảm đau nhức.'],
+        ['daospa', 'Bước 3 · Thư giãn', 'Khi xông, hơi tinh dầu chùa dù, màng tang đi vào mũi cho cảm giác ấm, thông thoáng, dễ chịu; người ấm lên rồi hạ nhiệt sau tắm giúp mẹ dễ ngủ hơn.'],
       ],
       kham: 'Đau nhiều, kéo dài, sốt, hoặc ra sản dịch bất thường → khuyên đi khám.',
     },
   },
 };
 
-// ============ COMBO: 1 vấn đề = 2–3 sản phẩm, theo 3 bước ============
-// sp = combo chính · them = khuyến nghị thêm · buoc = 3 bước, mỗi bước: [{ k, tp: [[mã thành phần, để làm gì cho vấn đề này]] }]
-const B = (ten, ...sp) => ({ ten, sp });
-const S = (k, ...tp) => ({ k, tp });
-
+// ============ COMBO: 1 bộ 2–3 sản phẩm → các vấn đề bộ đó giải quyết được ============
+// Bản sửa 28/09/2026 (lần 2) theo góp ý của Nhi: đi từ COMBO → các vấn đề combo giải quyết →
+// với mỗi vấn đề, từng sản phẩm làm gì. Viết bằng lời nói thường để NV đọc lên cho khách nghe được:
+// tên chất (nếu cần) → nó làm gì trên da → vì sao giải quyết được vấn đề.
+// lam = [[mã SP, bước, lời giải thích]]; SP nằm trong `them` là khuyến nghị thêm.
 const COMBO = {
-  ham: {
-    vande: 'Hăm da (vùng tã, nếp gấp)',
-    dauHieu: 'Đỏ, rát ở vùng mặc tã, hoặc trong ngấn cổ, nách, bẹn.',
-    hoi: 'Bé nhà mình có hay bị đỏ vùng mặc tã, hay ở ngấn cổ, nách không chị?',
-    sp: ['tamgoi', 'kem'], them: ['dau'],
-    buoc: [
-      B('LÀM SẠCH',
-        S('tamgoi', ['papain', 'Vùng tã, nếp gấp sạch mà không phải chà xát chỗ da đang đỏ — chà xát làm da càng trầy, rát.'],
-                    ['laKK', 'Vùng hăm vừa trầy, vừa ẩm, vừa bí nên vi khuẩn sinh sôi nhanh — giảm vi khuẩn để chỗ đỏ không nổi mụn mủ.'])),
-      B('XỬ LÝ VẤN ĐỀ',
-        S('kem', ['kemoxyd', 'Nước tiểu, phân ngấm lâu vào da là nguyên nhân trực tiếp gây hăm — chặn tiếp xúc là xử lý đúng gốc. Ở nếp gấp: bớt cọ xát.'],
-                 ['rauma', 'Chỗ hăm bớt đỏ, bớt rát, bé bớt quấy; chỗ trầy mau liền.'],
-                 ['ngaicuu', 'Mát dịu khi thoa, chỗ trầy ít bị nhiễm khuẩn.'])),
-      B('BẢO VỆ / DƯỠNG DA',
-        S('kem', ['aquaxyl', 'Da vùng tã đủ nước bên trong thì mềm, không nứt khi bé cử động.']),
-        S('tamgoi', ['diepluc', 'Khử mùi mồ hôi đọng ở ngấn cổ, nách.']),
-        S('dau', ['dau3', 'Sau đợt hăm da hay khô bong vì mất lớp dầu tự nhiên — vá lại để da mềm, hăm khó quay lại.'])),
-    ],
-    chot: '“Chỗ hăm đang đỏ thì mẹ đừng kỳ cọ: tắm bằng Elemis cho sạch, thấm khô rồi thoa kem tạo lớp chắn. Hết hăm thì massage dầu Oriky để da mềm lại, lần sau đỡ bị.”',
-    cachDung: 'Tắm: pha 1ml : 1 lít nước, mở nếp gấp rửa kỹ, <b>lau thật khô</b>. Thay tã (nhất là khi đi nặng): rửa bằng chậu nhỏ pha cùng tỉ lệ (VD 2ml : 2 lít). Kem: lớp mỏng phủ kín — vùng tã <b>mỗi lần thay tã</b>, vùng ngấn 2–3 lần/ngày. Dầu: sau khi hết hăm, thoa vùng da khô.',
-    kham: 'Da trợt, chảy dịch, mụn mủ, mùi hôi, lan nhanh; bé sốt, quấy nhiều; mảng đỏ tươi có chấm đỏ nhỏ xung quanh (nghi nấm — kem kẽm không xử lý được nấm).',
-  },
-  rom: {
-    vande: 'Rôm sảy, mụn nhọt',
-    dauHieu: 'Hột đỏ li ti ở cổ, lưng, trán; nốt sưng đỏ có đầu mủ nhỏ.',
-    hoi: 'Trời nóng bé có hay nổi rôm ở cổ, lưng không chị?',
+  TK: {
     sp: ['tamgoi', 'kem'], them: [],
-    buoc: [
-      B('LÀM SẠCH',
-        S('tamgoi', ['papain', 'Rôm sảy bắt đầu khi da chết, bụi bít miệng lỗ thoát mồ hôi, mồ hôi kẹt lại dưới da thành nốt. Làm bong lớp bít đó để mồ hôi thoát ra, nốt rôm không nổi thêm.'],
-                    ['nuocTD', 'Tắm xong da không khô — da khô làm ngứa nặng hơn, bé gãi nhiều hơn.'])),
-      B('XỬ LÝ VẤN ĐỀ',
-        S('tamgoi', ['saidat', 'Nốt rôm đã nổi bớt đỏ, bớt ngứa.'],
-                    ['laKK', 'Nốt rôm bị gãi rồi gặp vi khuẩn là thành mụn nhọt — giảm vi khuẩn để chặn bước này.']),
-        S('kem', ['rauma', 'Chấm lên nốt bé gãi đỏ: bớt đỏ, mau lành.'], ['ngaicuu', 'Mát, chỗ gãi trầy ít bị nhiễm khuẩn.'])),
-      B('BẢO VỆ / DƯỠNG DA',
-        S('tamgoi', ['tdLuu', 'Da mát sau tắm — đúng thứ bé bị rôm cần; nhớ không tráng lại.']),
-        S('kem', ['aquaxyl', 'Giữ da đủ nước để bớt ngứa.'])),
+    vande: [
+      {
+        ten: 'Hăm da (vùng tã, nếp gấp)',
+        dauHieu: 'Đỏ, rát ở vùng mặc tã, hoặc trong ngấn cổ, nách, bẹn.',
+        hoi: 'Bé nhà mình có hay bị đỏ vùng mặc tã, hay ở ngấn cổ, nách không chị?',
+        them: ['dau'],
+        lam: [
+          ['tamgoi', 'Bước 1 · Làm sạch', 'Men đu đủ trong nước tắm làm mềm lớp da chết và chất bẩn bám trên da, nên chỉ cần dội nước là sạch — mẹ không phải kỳ cọ vào chỗ đang đỏ (càng kỳ càng trầy, càng rát). Lá chè xanh, sả, tràm gió có chất kháng khuẩn tự nhiên, làm giảm vi khuẩn ở vùng tã — chỗ hăm vì thế không bị nhiễm trùng, nổi mụn mủ. Diệp lục tố khử mùi mồ hôi ở ngấn cổ, nách.'],
+          ['kem', 'Bước 2 · Xử lý + Bước 3 · Bảo vệ', 'Kẽm oxyd trong kem tạo một lớp màng mỏng như áo mưa phủ lên da: nước tiểu, phân không ngấm vào da được — mà ngấm lâu chính là thứ làm da bé đỏ, rát. Rau má làm dịu chỗ đỏ nên bé bớt rát, bớt quấy, chỗ trầy mau liền. Aquaxyl giữ nước bên trong da nên da mềm, không nứt khi bé cử động.'],
+          ['dau', 'Sau khi hết hăm', 'Da bị ẩm ướt nhiều ngày mất lớp dầu tự nhiên, nên hết đỏ thì hay khô bong. Dầu Oriky có chất béo giống lớp dầu của da, thoa vào để da mềm lại — da khoẻ thì lần sau khó bị hăm.'],
+        ],
+        chot: '“Chỗ hăm đang đỏ thì mẹ đừng kỳ cọ: tắm bằng Elemis cho sạch, thấm khô rồi thoa kem — kem tạo lớp như áo mưa, nước tiểu không ngấm vào da được. Hết hăm thì massage dầu Oriky để da mềm lại, lần sau đỡ bị.”',
+        cachDung: 'Tắm: pha 1ml : 1 lít nước 36–37°C, mở nếp gấp rửa kỹ, <b>lau thật khô</b>. Thay tã (nhất là khi đi nặng): rửa bằng chậu nhỏ pha cùng tỉ lệ (VD 2ml : 2 lít). Kem: lớp mỏng phủ kín — vùng tã <b>mỗi lần thay tã</b> (kể cả khi da chưa đỏ), vùng ngấn 2–3 lần/ngày. Dầu: thoa vùng da khô sau khi hết hăm.',
+        kham: 'Da trợt, chảy dịch, mụn mủ, mùi hôi, lan nhanh; bé sốt, quấy nhiều; mảng đỏ tươi có chấm đỏ nhỏ xung quanh (nghi nấm — kem kẽm không xử lý được nấm).',
+      },
+      {
+        ten: 'Rôm sảy, mụn nhọt',
+        dauHieu: 'Hột đỏ li ti ở cổ, lưng, trán; nốt sưng đỏ có đầu mủ nhỏ.',
+        hoi: 'Trời nóng bé có hay nổi rôm ở cổ, lưng không chị?',
+        lam: [
+          ['tamgoi', 'Bước 1 · Làm sạch + Bước 2 · Xử lý', 'Rôm nổi lên là do da chết, bụi bít lỗ chân lông, mồ hôi kẹt lại dưới da. Men đu đủ làm bong lớp bít đó, mồ hôi thoát ra được nên nốt rôm không nổi thêm. Sài đất làm nốt rôm đã nổi bớt đỏ, bớt ngứa. Các lá chè xanh, sả, kinh giới, tràm, khổ qua có chất kháng khuẩn — nốt rôm bé gãi không bị nhiễm khuẩn thành mụn nhọt. Tắm xong không tráng lại: tinh dầu tràm, sả còn trên da bay hơi làm bé mát.'],
+          ['kem', 'Bước 2 · Xử lý + Bước 3 · Bảo vệ', 'Chấm lên nốt bé gãi đỏ: rau má làm dịu, bớt đỏ, mau lành; tinh dầu ngải cứu cho cảm giác mát và giúp chỗ gãi trầy không bị nhiễm khuẩn. Aquaxyl giữ da đủ nước — da khô làm ngứa nặng hơn.'],
+        ],
+        chot: '“Rôm là do lỗ chân lông bị bít. Mẹ tắm nước thảo dược này cho thông thoáng, bé mát; nốt nào bé gãi đỏ thì chấm kem cho dịu, đỡ nhiễm khuẩn thành mụn.”',
+        cachDung: 'Tắm: pha 5ml : 5 lít nước 36–37°C, không tráng lại. Chỗ rôm, mụn nhiều: xoa trực tiếp Elemis lên vùng da đó 1–2 phút rồi mới tắm. Kem: lớp mỏng 2–3 lần/ngày lên nốt.',
+        luuY: '⏳ Hai tài liệu công ty hướng dẫn khác nhau cho ca rôm sảy (pha đậm 1ml + 10ml thấm 10–20 phút / xoa trực tiếp 1–2 phút). Kit đang dùng cách của bộ slide — chờ công ty chốt.',
+        kham: 'Nốt có mủ, chảy dịch; nhọt sưng to, nóng, mọc thành cụm; mẩn lan nhanh toàn thân; bé sốt kèm nổi ban. Không tự nặn.',
+      },
     ],
-    chot: '“Rôm là do lỗ chân lông bị bít. Mẹ tắm nước thảo dược này cho thông thoáng, bé mát; nốt nào bé gãi đỏ thì chấm kem cho dịu, đỡ nhiễm khuẩn thành mụn.”',
-    cachDung: 'Tắm: pha 5ml : 5 lít nước 36–37°C, không tráng lại. Chỗ rôm, mụn nhiều: xoa trực tiếp Elemis lên vùng da đó 1–2 phút rồi mới tắm. Kem: lớp mỏng 2–3 lần/ngày lên nốt.',
-    kham: 'Nốt có mủ, chảy dịch; nhọt sưng to, nóng, mọc thành cụm; mẩn lan nhanh toàn thân; bé sốt kèm nổi ban. Không tự nặn.',
-    luuY: '⏳ Hai tài liệu công ty hướng dẫn khác nhau cho ca rôm sảy (pha đậm 1ml + 10ml thấm 10–20 phút / xoa trực tiếp 1–2 phút). Kit đang dùng cách của bộ slide — chờ công ty chốt.',
   },
-  man: {
-    vande: 'Mẩn ngứa nhiều, da nhạy cảm (bé từ 6 tháng)',
-    dauHieu: 'Nổi mẩn từng đám gây ngứa, bé gãi nhiều; da hay khô.',
-    hoi: 'Bé được mấy tháng rồi chị? Bé có hay nổi mẩn, gãi nhiều không?',
-    sp: ['gold', 'kem'], them: [],
-    buoc: [
-      B('LÀM SẠCH',
-        S('gold', ['papainGold', 'Sạch nhẹ, không kỳ cọ chỗ da đang mẩn; giữ nước trên da ngay khi tắm — da khô làm ngứa nặng hơn.'])),
-      B('XỬ LÝ VẤN ĐỀ',
-        S('gold', ['kimngan', 'Nốt mẩn bớt đỏ, bớt ngứa — thành phần chỉ bản Gold có.'], ['huongnhu', 'Nốt bé gãi không bị nhiễm khuẩn.']),
-        S('kem', ['rauma', 'Chấm lên chỗ gãi đỏ cho dịu, mau lành.'], ['ngaicuu', 'Mát, chỗ gãi trầy ít bị nhiễm khuẩn.'])),
-      B('BẢO VỆ / DƯỠNG DA',
-        S('kem', ['aquaxyl', 'Giữ nước bên trong da — bớt khô ngứa, bé bớt gãi.'])),
-    ],
-    chot: '“Bé mẩn ngứa nhiều thì mẹ tắm bản Gold, có kim ngân làm dịu da và giữ ẩm tốt hơn; chỗ nào bé gãi đỏ thì chấm thêm kem.”',
-    cachDung: 'Gold: ⏳ cách dùng chưa có trên tài liệu gốc, chờ công ty xác nhận. Kem: lớp mỏng 2–3 lần/ngày lên nốt.',
-    kham: 'Mẩn lan nhanh toàn thân, nốt có mủ, chảy dịch, hoặc bé sốt kèm nổi ban.',
-    luuY: 'Elemis Gold chỉ dành cho <b>bé từ 6 tháng</b>. Bé nhỏ hơn → chuyển sang combo Rôm sảy (Tắm gội thường + Kem bôi).',
-  },
-  cham: {
-    vande: 'Chàm sữa',
-    dauHieu: 'Mảng đỏ khô, bong vảy ở hai má, trán; bé hay cọ mặt.',
-    hoi: 'Má bé có mảng đỏ khô, bong vảy không chị? Bé có hay dụi mặt không?',
+
+  TKD: {
     sp: ['tamgoi', 'kem', 'dau'], them: [],
-    buoc: [
-      B('LÀM SẠCH',
-        S('tamgoi', ['nuocTD', 'Da chàm vốn thiếu dầu, rất dễ khô sau tắm — làm sạch mà không rửa trôi lớp dầu còn lại; pha loãng lau mặt nhiều lần trong ngày.'],
-                    ['laKK', 'Bé hay cọ mặt, chỗ bong tróc dễ nhiễm khuẩn hơn da lành.'])),
-      B('XỬ LÝ VẤN ĐỀ',
-        S('kem', ['rauma', 'Mảng chàm bớt đỏ, bớt rát; chỗ nứt, bong được lấp dần.'], ['ngaicuu', 'Mát dịu, bé bớt cọ mặt.'])),
-      B('BẢO VỆ / DƯỠNG DA',
-        S('kem', ['aquaxyl', 'Quan trọng nhất với da chàm: lớp da ngoài cùng của da chàm “hở” nên nước thoát ra rất nhanh — Aquaxyl giúp khít lại, giữ nước.']),
-        S('dau', ['dau3', 'Da chàm thiếu chính lớp dầu tự nhiên — vá lại để da mềm, bớt bong vảy.'], ['caprylic', 'Thấm nhanh, thoa được da mặt bé.'])),
+    vande: [
+      {
+        ten: 'Chàm sữa',
+        dauHieu: 'Mảng đỏ khô, bong vảy ở hai má, trán; bé hay cọ mặt.',
+        hoi: 'Má bé có mảng đỏ khô, bong vảy không chị? Bé có hay dụi mặt không?',
+        lam: [
+          ['tamgoi', 'Bước 1 · Làm sạch', 'Sữa tắm nhiều bọt rửa trôi luôn lớp dầu tự nhiên trên da, da chàm vốn đã khô càng khô hơn. Nước tắm thảo dược làm sạch nhẹ, không lấy đi lớp dầu đó — dịu đến mức pha loãng lau mặt cho bé nhiều lần trong ngày được. Chè xanh, sả giảm vi khuẩn ở chỗ da bong tróc bé hay cọ.'],
+          ['kem', 'Bước 2 · Xử lý', 'Rau má làm mảng chàm bớt đỏ, bớt rát, và giúp chỗ nứt, bong mau liền. Aquaxyl giúp da tự giữ nước — da chàm “hở” nên nước thoát ra rất nhanh, đây là việc quan trọng nhất.'],
+          ['dau', 'Bước 3 · Dưỡng da', 'Da khoẻ có một lớp dầu mỏng như cái nắp đậy giữ nước trong da; da chàm thiếu chính lớp này. 3 loại dầu thực vật (hạnh nhân, hạt nho, cám gạo) có chất béo giống lớp dầu đó, thoa vào là “đậy nắp” lại: da mềm, bớt bong vảy. Thấm nhanh, không bết, thoa được cả mặt.'],
+        ],
+        chot: '“Da chàm vừa thiếu nước vừa thiếu dầu. Mẹ tắm, lau mặt bằng Elemis pha loãng để da không khô thêm, thoa kem cho dịu và giữ nước, rồi thoa dầu để khoá lại — đủ 3 bước thì da bé mới đỡ bong.”',
+        cachDung: 'Tắm: 5ml : 5 lít. Lau mặt: pha 2ml : 2 lít nước sạch, 4–6 giờ lau một lần và sau khi bú, ăn dặm. Kem: lớp mỏng 2–3 lần/ngày. Dầu: thoa sau tắm.',
+        kham: 'Chàm rỉ dịch, đóng vảy vàng, lan rộng hoặc bé quấy khóc nhiều. Bé đang dùng thuốc bác sĩ kê thì dùng sản phẩm để duy trì, không thay thuốc.',
+      },
+      {
+        ten: 'Da khô, nứt nẻ, đỏ rát do gió nắng',
+        dauHieu: 'Da khô ráp, có chỗ nứt; má, vùng da hở đỏ ửng, rát sau khi ra ngoài.',
+        hoi: 'Da bé có chỗ nứt nẻ, hay má đỏ rát sau khi ra ngoài trời không chị?',
+        lam: [
+          ['tamgoi', 'Bước 1 · Làm sạch', 'Đây là bước hay bị làm sai nhất: sữa tắm nhiều bọt rửa trôi lớp dầu, tắm xong da càng khô. Đổi sang nước tắm thảo dược thì da sạch mà không căng, không khô thêm.'],
+          ['kem', 'Bước 2 · Xử lý', 'Chỗ đã nứt nẻ: rau má giúp da tạo tế bào mới nên chỗ nứt liền dần, má đỏ rát bớt nhanh. Thoa trước khi ra ngoài: lớp kẽm oxyd che bớt gió hanh. Trong 3 loại kem phổ biến, đây là loại duy nhất công bố dùng cho da bỏng do gió, nắng.'],
+          ['dau', 'Bước 3 · Dưỡng da', 'Gió hanh làm mỏng lớp dầu giữ nước của da. Dầu thực vật có chất béo giống lớp dầu đó, thoa sau tắm để khoá nước lại — da hết ráp. Vitamin E, chất chống oxy hoá từ cám gạo bảo vệ da khi ra nắng, bụi.'],
+        ],
+        chot: '“Da bé khô thì phải đổi nước tắm trước — nước thảo dược này sạch mà da không căng. Chỗ nứt, đỏ rát thì thoa kem cho mau liền, rồi massage dầu để khoá ẩm.”',
+        cachDung: 'Tắm: 5ml : 5 lít, không tráng lại. Kem: lớp mỏng 2–3 lần/ngày và trước khi ra ngoài trời gió hanh, nắng. Dầu: thoa sau tắm, mát-xa nhẹ.',
+        luuY: 'Sản phẩm <b>chưa công bố chỉ số chống nắng (SPF/PA)</b> — không giới thiệu là kem chống nắng.',
+        kham: 'Da nứt sâu chảy máu, phồng rộp, nổi bọng nước, hoặc bé sốt sau khi phơi nắng lâu.',
+      },
     ],
-    chot: '“Da chàm vừa thiếu nước vừa thiếu dầu. Mẹ tắm và lau mặt bằng Elemis pha loãng để da không khô thêm, thoa kem cho dịu và giữ nước, rồi thoa dầu để khoá lại — đủ 3 bước thì da bé mới đỡ bong.”',
-    cachDung: 'Tắm: 5ml : 5 lít. Lau mặt: pha 2ml : 2 lít nước sạch, 4–6 giờ lau một lần và sau khi bú, ăn dặm. Kem: lớp mỏng 2–3 lần/ngày. Dầu: thoa sau tắm.',
-    kham: 'Chàm rỉ dịch, đóng vảy vàng, lan rộng hoặc bé quấy khóc nhiều. Bé đang dùng thuốc bác sĩ kê thì dùng sản phẩm để duy trì, không thay thuốc.',
   },
-  dakho: {
-    vande: 'Da khô, nứt nẻ, đỏ rát do gió nắng',
-    dauHieu: 'Da khô ráp, bong vảy, có chỗ nứt; má, vùng da hở đỏ ửng, rát sau khi ra ngoài.',
-    hoi: 'Da bé có hay khô ráp, hay má đỏ rát sau khi ra ngoài trời không chị?',
-    sp: ['tamgoi', 'dau'], them: ['kem'],
-    buoc: [
-      B('LÀM SẠCH',
-        S('tamgoi', ['nuocTD', 'Bước hay bị làm sai nhất: sữa tắm nhiều bọt rửa trôi lớp dầu, tắm xong da càng khô. Đổi sang nước tắm thảo dược để da không khô thêm.'])),
-      B('XỬ LÝ VẤN ĐỀ',
-        S('dau', ['dau3', 'Vá lại lớp dầu, khoá nước trong da — da mềm, hết ráp, không bong vảy.'], ['caprylic', 'Thấm nhanh, không bết.']),
-        S('kem', ['rauma', 'Chỗ đã nứt nẻ liền dần; má đỏ rát do gió nắng bớt nhanh.'])),
-      B('BẢO VỆ / DƯỠNG DA',
-        S('dau', ['vitE', 'Bảo vệ da trước nắng, bụi — da không khô sạm.']),
-        S('kem', ['kemoxyd', 'Thoa trước khi ra ngoài: lớp màng hạn chế gió hanh tác động trực tiếp lên da.'])),
+
+  TD: {
+    sp: ['tamgoi', 'dau'], them: [],
+    vande: [
+      {
+        ten: 'Cứt trâu (vảy da đầu)',
+        dauHieu: 'Mảng vảy vàng, cứng bám trên da đầu bé.',
+        hoi: 'Da đầu bé có mảng vảy vàng bám không chị?',
+        lam: [
+          ['dau', 'Bước 1 · Làm mềm vảy', 'Thoa dầu lên mảng vảy, để một lúc: dầu ngấm vào làm lớp vảy khô cứng mềm ra và tách khỏi da đầu — mẹ không phải cạy, da đầu bé không bị trầy.'],
+          ['tamgoi', 'Bước 2 · Gội sạch', 'Men đu đủ và chanh trong nước tắm gội làm phần vảy đã mềm trôi đi theo nước, không cần chà xát. Lá chè xanh, sả giảm vi khuẩn trên da đầu sau khi bong vảy.'],
+          ['dau', 'Bước 3 · Dưỡng', 'Dùng tiếp chai dầu thoa da đầu để da mềm, vảy không đóng dày lại như cũ.'],
+        ],
+        chot: '“Mẹ đừng cạy vảy. Thoa dầu lên chỗ vảy, để một lúc cho mềm rồi gội bằng Elemis, vảy sẽ tự trôi. Chai dầu dùng tiếp để dưỡng da đầu.”',
+        cachDung: 'Thoa dầu lên vảy, để một lúc cho mềm, rồi gội bằng Elemis pha 5ml : 5 lít. Không chà xát, không cạy vảy.',
+        kham: 'Da đầu dưới vảy đỏ rực, rỉ dịch, có mùi, hoặc lan xuống mặt và người.',
+      },
+      {
+        ten: 'Da khô ráp (chưa nứt nẻ)',
+        dauHieu: 'Da bé sờ thấy ráp, hơi bong vảy, nhất là mùa hanh khô; chưa có chỗ nứt, đỏ rát.',
+        hoi: 'Da bé sờ có bị ráp, khô không chị? Mẹ đang tắm cho bé bằng gì?',
+        lam: [
+          ['tamgoi', 'Bước 1 · Làm sạch', 'Sữa tắm nhiều bọt rửa trôi lớp dầu tự nhiên của da, tắm xong da càng khô. Nước tắm thảo dược làm sạch nhẹ, không lấy đi lớp dầu đó.'],
+          ['dau', 'Bước 2 · Xử lý + Bước 3 · Dưỡng', 'Da khoẻ có lớp dầu mỏng như cái nắp đậy giữ nước; da khô là do nắp đó mỏng đi. Dầu hạnh nhân, hạt nho, cám gạo có chất béo giống lớp dầu của da, thoa sau tắm để đậy nắp lại — da mềm, hết ráp. Thấm nhanh, không bết; tinh dầu tràm gió thơm ấm, massage xong bé dễ ngủ.'],
+        ],
+        chot: '“Da bé khô thì mẹ đổi sang nước tắm thảo dược cho da không khô thêm, tắm xong massage dầu này để khoá ẩm. Nếu đã nứt nẻ, đỏ rát thì mẹ lấy thêm kem bôi.”',
+        cachDung: 'Tắm: 5ml : 5 lít, không tráng lại. Dầu: thoa sau tắm, mát-xa nhẹ.',
+        kham: 'Da nứt sâu chảy máu, đỏ lan rộng, ngứa nhiều làm bé mất ngủ.',
+      },
     ],
-    chot: '“Da bé khô thì phải đổi nước tắm trước — nước thảo dược này sạch mà da không căng; tắm xong mẹ massage dầu để khoá ẩm. Chỗ nào đã nứt, đỏ rát thì thoa thêm kem.”',
-    cachDung: 'Tắm: 5ml : 5 lít, không tráng lại. Dầu: thoa sau tắm, mát-xa nhẹ. Kem: lớp mỏng 2–3 lần/ngày và trước khi ra ngoài trời gió hanh, nắng.',
-    kham: 'Da nứt sâu chảy máu, phồng rộp, nổi bọng nước, hoặc bé sốt sau khi phơi nắng lâu.',
-    luuY: 'Sản phẩm <b>chưa công bố chỉ số chống nắng (SPF/PA)</b> — không giới thiệu là kem chống nắng.',
   },
-  muoi: {
-    vande: 'Muỗi đốt, côn trùng cắn',
-    dauHieu: 'Nốt sưng đỏ, ngứa; bé gãi trầy da.',
-    hoi: 'Nhà mình có nhiều muỗi không chị? Bé có hay bị đốt, gãi trầy không?',
-    sp: ['xit', 'kem'], them: ['tamgoi'],
-    buoc: [
-      B('LÀM SẠCH',
-        S('tamgoi', ['tdLuu', 'Tắm sạch mồ hôi; mùi sả còn lưu trên da sau tắm hỗ trợ xua muỗi nhẹ — chỉ là lợi ích thêm.'])),
-      B('XỬ LÝ VẤN ĐỀ',
-        S('xit', ['xitDiu', 'Xịt lên nốt vừa bị đốt: mát ngay, bớt ngứa.']),
-        S('kem', ['rauma', 'Nốt đốt bớt sưng đỏ, vết gãi trầy mau liền, hạn chế thâm.'], ['ngaicuu', 'Chỗ gãi trầy ít bị nhiễm khuẩn.'])),
-      B('BẢO VỆ',
-        S('xit', ['xitTD', 'Phòng muỗi đốt tiếp — kể cả muỗi sốt xuất huyết.'], ['antuc', 'Giữ hiệu quả lâu hơn sau mỗi lần xịt.'])),
+
+  KD: {
+    sp: ['kem', 'dau'], them: [],
+    vande: [
+      {
+        ten: 'Vết thâm, sẹo mới sau khi da đã lành',
+        dauHieu: 'Da đã liền nhưng còn thâm, sẹo mới sau rôm sảy, muỗi đốt, trầy xước.',
+        hoi: 'Chỗ bé bị trước đây giờ còn thâm không chị?',
+        lam: [
+          ['kem', 'Bước 2 · Xử lý', 'Rau má (asiaticoside) thúc da tạo thêm tế bào mới và sợi collagen — loại sợi giúp da liền và chắc — nên da non mới lên phẳng, đều màu hơn: hỗ trợ làm mờ thâm, sẹo còn mới. Aquaxyl giữ nước cho vùng da non, da đủ nước thì liền đẹp hơn.'],
+          ['dau', 'Bước 3 · Bảo vệ', 'Da non gặp nắng dễ thâm hơn da lành. Vitamin E và chất chống oxy hoá trong cám gạo như tấm khiên, chặn tác hại của nắng, bụi lên da. Dầu còn giữ vùng da non mềm.'],
+        ],
+        chot: '“Da bé lành rồi thì mẹ thoa kem rau má đều đặn để hỗ trợ vết thâm mờ dần, thêm dầu để da non mềm, đỡ thâm khi ra nắng. Sẹo càng mới thì càng dễ.”',
+        cachDung: 'Kem: lớp mỏng lên vùng da <b>đã lành</b>, 2–3 lần/ngày, dùng đều thời gian dài; không thoa lên vết thương hở. Dầu: thoa sau tắm.',
+        luuY: 'Chỉ nói <b>“hỗ trợ làm mờ”</b> — <b>không hứa hết sẹo, không hứa số ngày</b>.',
+        kham: 'Sẹo lồi, sẹo co kéo, sẹo do bỏng sâu → khuyên khám da liễu, sản phẩm không xử lý được nhóm này.',
+      },
     ],
-    chot: '“Mẹ xịt để phòng muỗi, còn nốt nào đã bị đốt, bé gãi đỏ thì chấm kem cho dịu, đỡ nhiễm khuẩn — một món phòng, một món xử lý.”',
-    cachDung: 'Xịt: lên quần áo và da hở, tránh mặt và bàn tay bé, xịt lại sau 2–3 giờ. Kem: lớp mỏng lên nốt đã đốt.',
-    kham: 'Nốt đốt sưng to bất thường, lan rộng, có mủ, hoặc bé sốt.',
-    luuY: 'Xịt muỗi dùng cho <b>bé trên 3 tháng</b>. Bé nhỏ hơn thì dùng màn và quần áo dài.',
   },
-  cuttrau: {
-    vande: 'Cứt trâu (vảy da đầu)',
-    dauHieu: 'Mảng vảy vàng, cứng bám trên da đầu bé.',
-    hoi: 'Da đầu bé có mảng vảy vàng bám không chị?',
-    sp: ['dau', 'tamgoi'], them: [],
-    buoc: [
-      B('LÀM SẠCH',
-        S('tamgoi', ['chanh', 'Gội sạch nhẹ lớp vảy mỏng, bụi bẩn trên da đầu.'])),
-      B('XỬ LÝ VẤN ĐỀ',
-        S('dau', ['dauVay', 'Vảy mềm ra, tự bong — không phải cạy, không làm trầy da đầu bé.']),
-        S('tamgoi', ['papain', 'Gội trôi phần vảy đã được dầu làm mềm, không phải chà xát.'])),
-      B('BẢO VỆ / DƯỠNG DA',
-        S('dau', ['dau3', 'Giữ da đầu mềm để vảy không đóng dày lại như cũ.']),
-        S('tamgoi', ['laKK', 'Hỗ trợ giảm vi khuẩn trên da đầu sau khi bong vảy.'])),
+
+  GK: {
+    sp: ['gold', 'kem'], them: [], ghiChu: 'Chỉ cho bé từ 6 tháng — bé nhỏ hơn bán combo Tắm gội + Kem bôi.',
+    vande: [
+      {
+        ten: 'Mẩn ngứa nhiều, da nhạy cảm',
+        dauHieu: 'Nổi mẩn từng đám gây ngứa, bé gãi nhiều; da hay khô.',
+        hoi: 'Bé được mấy tháng rồi chị? Bé có hay nổi mẩn, gãi nhiều không?',
+        lam: [
+          ['gold', 'Bước 1 · Làm sạch + Bước 2 · Xử lý', 'Khi da bị kích ứng, da tiết ra những chất gây viêm làm nốt đỏ lên và ngứa. Kim ngân (có acid chlorogenic, luteolin) làm giảm các chất này nên nốt mẩn bớt đỏ, bớt ngứa — thành phần chỉ bản Gold mới có. Hương nhu, chè xanh, sả kháng khuẩn tự nhiên, nốt bé gãi không bị nhiễm khuẩn. Glycerin giữ nước trên da ngay khi tắm — da khô làm ngứa nặng hơn.'],
+          ['kem', 'Bước 2 · Xử lý + Bước 3 · Bảo vệ', 'Chấm lên chỗ bé gãi đỏ: rau má làm dịu, mau lành; ngải cứu mát, chỗ gãi trầy ít bị nhiễm khuẩn. Aquaxyl giữ nước bên trong da — bớt khô ngứa, bé bớt gãi.'],
+        ],
+        chot: '“Bé mẩn ngứa nhiều thì mẹ tắm bản Gold, có kim ngân làm dịu da mà các loại khác không có, lại giữ ẩm tốt hơn; chỗ nào bé gãi đỏ thì chấm thêm kem.”',
+        cachDung: 'Gold: ⏳ cách dùng chưa có trên tài liệu gốc, chờ công ty xác nhận. Kem: lớp mỏng 2–3 lần/ngày lên nốt.',
+        kham: 'Mẩn lan nhanh toàn thân, nốt có mủ, chảy dịch, hoặc bé sốt kèm nổi ban.',
+      },
+      {
+        ten: 'Rôm sảy, mụn nhọt (bé từ 6 tháng)',
+        dauHieu: 'Hột đỏ li ti ở cổ, lưng, trán; nốt sưng đỏ có đầu mủ nhỏ.',
+        hoi: 'Trời nóng bé có hay nổi rôm không chị? Bé được mấy tháng rồi?',
+        lam: [
+          ['gold', 'Bước 1 · Làm sạch + Bước 2 · Xử lý', 'Men đu đủ làm bong lớp da chết bít lỗ chân lông, mồ hôi thoát ra được nên nốt rôm không nổi thêm. Kim ngân làm nốt đã nổi bớt đỏ, bớt ngứa. Hương nhu, chè xanh, sả kháng khuẩn tự nhiên — nốt rôm không bị nhiễm khuẩn thành mụn nhọt.'],
+          ['kem', 'Bước 2 · Xử lý + Bước 3 · Bảo vệ', 'Chấm lên nốt bé gãi đỏ: rau má làm dịu, mau lành; ngải cứu mát, ngừa nhiễm khuẩn chỗ gãi.'],
+        ],
+        chot: '“Bé lớn rồi hay nổi rôm, mẩn thì mẹ dùng bản Gold, có kim ngân làm dịu nốt; nốt nào bé gãi đỏ thì chấm kem.”',
+        cachDung: 'Gold: ⏳ cách dùng chưa có trên tài liệu gốc, chờ công ty xác nhận. Kem: lớp mỏng 2–3 lần/ngày lên nốt.',
+        luuY: 'Gold không có sài đất, khổ qua như bản thường → đừng nói “Gold có mọi thứ bản thường có”.',
+        kham: 'Nốt có mủ, chảy dịch; nhọt sưng to, nóng, mọc thành cụm; bé sốt kèm nổi ban. Không tự nặn.',
+      },
     ],
-    chot: '“Mẹ đừng cạy vảy. Thoa dầu lên chỗ vảy, để một lúc cho mềm rồi gội bằng Elemis, vảy sẽ tự trôi. Chai dầu dùng tiếp để dưỡng da đầu.”',
-    cachDung: 'Thoa dầu lên vảy, để một lúc cho mềm, rồi gội bằng Elemis pha 5ml : 5 lít. Không chà xát, không cạy vảy.',
-    kham: 'Da đầu dưới vảy đỏ rực, rỉ dịch, có mùi, hoặc lan xuống mặt và người.',
   },
-  seo: {
-    vande: 'Vết thâm, sẹo mới sau khi da đã lành',
-    dauHieu: 'Da đã liền nhưng còn thâm, sẹo mới sau rôm sảy, muỗi đốt, trầy xước.',
-    hoi: 'Chỗ bé bị trước đây giờ còn thâm không chị?',
-    sp: ['kem', 'dau'], them: ['tamgoi'],
-    buoc: [
-      B('LÀM SẠCH',
-        S('tamgoi', ['nuocTD', 'Da non mới liền không bị khô, bong sau tắm.'])),
-      B('XỬ LÝ VẤN ĐỀ',
-        S('kem', ['rauma', 'Hỗ trợ làm mờ thâm, sẹo còn mới: da non lên phẳng, đều màu hơn.'])),
-      B('BẢO VỆ / DƯỠNG DA',
-        S('kem', ['aquaxyl', 'Da đủ nước thì da non liền đẹp hơn.']),
-        S('dau', ['vitE', 'Da non gặp nắng dễ thâm hơn da lành — chống oxy hoá giúp hạn chế thâm thêm.'], ['dau3', 'Giữ vùng da non mềm.'])),
+
+  XK: {
+    sp: ['xit', 'kem'], them: [], ghiChu: 'Xịt muỗi dùng cho bé trên 3 tháng.',
+    vande: [
+      {
+        ten: 'Muỗi đốt, côn trùng cắn',
+        dauHieu: 'Nốt sưng đỏ, ngứa; bé gãi trầy da.',
+        hoi: 'Nhà mình có nhiều muỗi không chị? Bé có hay bị đốt, gãi trầy không?',
+        them: ['tamgoi'],
+        lam: [
+          ['xit', 'Bảo vệ · Phòng muỗi đốt', 'Muỗi tìm người bằng cách ngửi mùi cơ thể và hơi thở. Tinh dầu sả Java, sả chanh, bạch đàn chanh có chất citronellal, citral bay hơi liên tục, tạo một lớp mùi quanh da bé — lớp mùi này đánh lạc khứu giác của muỗi, muỗi mất phương hướng, không bay lại gần. An tức hương bay hơi chậm, giữ mùi lại trên da lâu hơn; nhưng tinh dầu vẫn bay hết dần nên xịt lại sau 2–3 giờ. Xịt lên nốt vừa bị đốt: cồn bay hơi làm mát ngay, bạch đàn chanh làm dịu, bớt ngứa.'],
+          ['kem', 'Xử lý · Nốt đã bị đốt', 'Nốt đã sưng đỏ, bé gãi: rau má làm bớt sưng đỏ, bớt rát; ngải cứu mát và giúp chỗ gãi trầy không bị nhiễm khuẩn. Dùng tiếp vài ngày để vết trầy mau liền, hạn chế để lại thâm.'],
+          ['tamgoi', 'Làm sạch', 'Tắm sạch mồ hôi; mùi sả còn lưu trên da sau tắm hỗ trợ xua muỗi nhẹ — chỉ là lợi ích thêm, không thay được xịt muỗi.'],
+        ],
+        chot: '“Mùi tinh dầu sả trong xịt này làm muỗi không ngửi ra bé, nên không bay lại gần; nốt nào đã bị đốt, bé gãi đỏ thì chấm kem cho dịu, đỡ nhiễm khuẩn — một món phòng, một món xử lý.”',
+        cachDung: 'Xịt: lên quần áo và vùng da hở, tránh mặt và bàn tay bé, xịt lại sau 2–3 giờ. Kem: lớp mỏng lên nốt đã đốt.',
+        luuY: 'Hiệu quả công bố 3 giờ (Remos 6 giờ, Soffell 8 giờ) → chủ động dặn khách xịt lại. Bé dưới 3 tháng: dùng màn và quần áo dài.',
+        kham: 'Nốt đốt sưng to bất thường, lan rộng, có mủ, hoặc bé sốt.',
+      },
     ],
-    chot: '“Da bé lành rồi thì mẹ thoa kem rau má đều đặn để hỗ trợ vết thâm mờ dần, thêm dầu để da non mềm, đỡ thâm khi ra nắng. Sẹo càng mới thì càng dễ.”',
-    cachDung: 'Kem: lớp mỏng lên vùng da <b>đã lành</b>, 2–3 lần/ngày, dùng đều thời gian dài; không thoa lên vết thương hở. Dầu: thoa sau tắm.',
-    kham: 'Sẹo lồi, sẹo co kéo, sẹo do bỏng sâu → khuyên khám da liễu, sản phẩm không xử lý được nhóm này.',
-    luuY: 'Chỉ nói <b>“hỗ trợ làm mờ”</b> — <b>không hứa hết sẹo, không hứa số ngày</b>.',
   },
-  tay: {
-    vande: 'Da tay khô rát do rửa tay nhiều',
-    dauHieu: 'Bé đi lớp rửa tay nhiều lần, mu bàn tay khô ráp, đỏ, nứt.',
-    hoi: 'Bé đi lớp rồi phải không chị? Tay bé có bị khô ráp không?',
-    sp: ['bot', 'kem'], them: [],
-    buoc: [
-      B('LÀM SẠCH',
-        S('bot', ['betaine', 'Sạch tay mà không khô tay dù rửa nhiều lần.'], ['saTX', 'Bớt vi khuẩn còn lại trên tay.'])),
-      B('XỬ LÝ VẤN ĐỀ',
-        S('bot', ['loHoiCuc', 'Tay rửa nhiều lần không bị rát đỏ.']),
-        S('kem', ['rauma', 'Mu bàn tay đã nứt mau liền.'])),
-      B('BẢO VỆ / DƯỠNG DA',
-        S('bot', ['gluAqua', 'Rửa xong tay vẫn mềm.']),
-        S('kem', ['aquaxyl', 'Thoa trước khi ngủ, giữ nước cho da tay qua đêm.'])),
+
+  BK: {
+    sp: ['bot', 'kem'], them: [], ghiChu: 'Bọt rửa tay dùng cho bé từ 6 tháng.',
+    vande: [
+      {
+        ten: 'Da tay khô rát do rửa tay nhiều',
+        dauHieu: 'Bé đi lớp rửa tay nhiều lần, mu bàn tay khô ráp, đỏ, nứt.',
+        hoi: 'Bé đi lớp rồi phải không chị? Tay bé có bị khô ráp không?',
+        lam: [
+          ['bot', 'Bước 1 · Làm sạch + Bước 3 · Bảo vệ', 'Xà phòng thường rửa trôi cả lớp dầu tự nhiên nên tay bé khô ráp. Bọt rửa tay dùng chất tạo bọt dịu từ dầu dừa: một đầu bám vào bẩn, một đầu bám vào nước, xả nước là bẩn trôi mà ít lấy đi dầu của da. Có thêm Aquaxyl, glycerin, lô hội giữ nước — rửa nhiều lần tay vẫn mềm; cúc la mã làm dịu nên tay không rát đỏ; sả chanh, trà xanh giảm vi khuẩn còn sót trên tay.'],
+          ['kem', 'Bước 2 · Xử lý', 'Mu bàn tay đã nứt: rau má giúp da tạo tế bào mới nên chỗ nứt mau liền; Aquaxyl giữ nước cho da tay qua đêm — thoa trước khi đi ngủ.'],
+        ],
+        chot: '“Rửa tay nhiều thì mẹ đổi sang bọt rửa tay có chất giữ ẩm để tay không khô thêm; chỗ nào đã nứt thì tối thoa kem cho mau lành.”',
+        cachDung: 'Bọt: dùng mỗi lần rửa tay. Kem: lớp mỏng lên mu bàn tay sau khi rửa, nhất là trước khi đi ngủ.',
+        kham: 'Tay nứt sâu chảy máu, hoặc nổi mụn nước ngứa nhiều.',
+      },
     ],
-    chot: '“Rửa tay nhiều thì mẹ đổi sang bọt rửa tay có chất giữ ẩm để tay không khô thêm; chỗ nào đã nứt thì tối thoa kem cho mau lành.”',
-    cachDung: 'Bọt: dùng mỗi lần rửa tay. Kem: lớp mỏng lên mu bàn tay sau khi rửa, nhất là trước khi đi ngủ.',
-    kham: 'Tay nứt sâu chảy máu, hoặc nổi mụn nước ngứa nhiều.',
-    luuY: 'Bọt rửa tay dành cho <b>bé từ 6 tháng</b>.',
   },
 };
 
