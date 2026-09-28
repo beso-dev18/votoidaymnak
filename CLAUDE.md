@@ -141,7 +141,7 @@ Nhi/
 │   ├── SP1 - Tam goi Elemis (1 trang).html/.pdf/.png  ← bản 1 trang, dán quầy
 │   ├── SP1 - Tam goi Elemis (2 trang).html/.pdf/.png  ← bản 2 trang, phát cho NVBH giữ; trang 2 là phần cần học (4 bước tắm có hình, cách dùng khi chàm sữa/hăm tã, bảng 5 cấp độ hăm, giấy kiểm nghiệm)
 │   ├── ⭐ SP - 0 - Bang tra nhanh combo.html/.pdf/.png  ← 1 trang A4 ngang dán quầy: khách hỏi mua SP nào → các combo gợi ý (ảnh SP + giá cả bộ)
-│   ├── ⭐ SP - 1..7 - <tên SP>.html/.pdf/.png  ← BẢN ĐANG DÙNG (28/09/2026, sếp yêu cầu làm theo sản phẩm): mỗi SP một poster A4 ngang gấp 3: bìa SP → giải quyết vấn đề gì → thành phần → điểm mạnh khi so sánh → cách dùng → combo 2–3 SP theo từng vấn đề da. Tắm gội, Kem bôi có 2 tờ; còn lại 1 tờ. Sinh tự động từ `Sellout kit/Theo sản phẩm/dulieu.js`
+│   ├── ⭐ SP - 1..7 - <tên SP>.html/.pdf/.png  ← BẢN ĐANG DÙNG (28/09/2026, sếp yêu cầu làm theo sản phẩm): mỗi SP một poster A4 ngang gấp 3: bìa SP → giải quyết vấn đề gì → thành phần → điểm mạnh khi so sánh → cách dùng → combo 2–3 SP theo từng vấn đề da. Tắm gội, Kem bôi có 2 tờ; còn lại 1 tờ. Sinh từ `Sellout kit/Theo sản phẩm/dulieu.js` — ⚠️ đang theo bản trước, chưa cập nhật theo bản Word sửa 28/09 (taoposter.js cần viết lại cho cấu trúc dữ liệu mới)
 │   ├── taoposter.js · sp-poster.css · canhco.js  ← sinh HTML poster SP, kiểu poster, tự dò cỡ chữ + tự chia tờ 2
 │   └── _Luu tru - theo van de da be/   ← poster VD1 Hăm da (bản theo vấn đề da bé, sếp chưa duyệt), giữ để tham khảo
 └── Sellout kit/                        ← chuyển từ Phân tích công việc/7. Hỗ trợ điểm bán/ sang, gom mọi tài liệu ngoài "Phân tích công việc.md" và "Câu hỏi làm rõ.md"
@@ -150,7 +150,7 @@ Nhi/
     ├── Bảng khối vấn đề từ chối mua hàng (1 trang A4).docx/.pdf  ← bản rút gọn của file trên, đủ 9 khối và 6 cột, gói trong 1 trang A4 ngang (chữ 7pt) để in dán quầy/phát NV shop. Sửa nội dung thì sửa cả 2 bản
     ├── _Lưu trữ - bản theo vấn đề da bé (sếp chưa duyệt)/  ← kit cũ xếp theo 9 vấn đề da bé (Word + sơ đồ PDF). Sếp yêu cầu làm lại theo sản phẩm vì shop bán theo sản phẩm; giữ để tham khảo
     └── Theo sản phẩm/                  ← tài liệu sell-out kit gắn theo từng sản phẩm cụ thể
-        ├── ⭐ Sell-out kit theo sản phẩm.docx  ← BẢN CHÍNH (28/09/2026), Word A4 ngang: bảng tra nhanh SP → combo, rồi mỗi SP (7 SP cho bé) một mục: thành phần → giúp gì · điểm mạnh khi so sánh + cách dùng · từ SP → combo 2–3 SP theo vấn đề da (câu hỏi mở, giá cả bộ, việc của từng SP, câu chốt, khuyên đi khám)
+        ├── ⭐ Sell-out kit theo sản phẩm.docx  ← BẢN CHÍNH (sửa 28/09/2026 theo góp ý Nhi), Word A4 ngang, 10 SP (7 cho bé + Curmilk, Yaocare Women, Dao'Spa Mama): bảng tra nhanh SP → combo; mỗi SP: A. thành phần → hoạt động thế nào (nói dễ hiểu) → để làm gì · B. điểm nổi bật + bảng so sánh đối thủ + câu chốt + lưu ý · C. combo 2–3 SP theo 3 bước làm sạch → xử lý → bảo vệ/dưỡng (SP không có combo thì sell-out 1 mình). Giá cả bộ = cộng giá bán lẻ OTC
         ├── README - Sell-out kit combo.md  ← danh sách 9 combo, nguồn dữ liệu, cách dựng lại, điểm chờ công ty xác nhận
         ├── dulieu.js · taoword.js      ← dulieu.js là nguồn duy nhất của cả bản Word lẫn poster SP
         ├── Xử lý từ chối mua hàng - script cho NVBH.md  ← câu hỏi/từ chối thường gặp của NTD tại quầy + câu trả lời gợi ý, theo từng sản phẩm trong sell-out kit

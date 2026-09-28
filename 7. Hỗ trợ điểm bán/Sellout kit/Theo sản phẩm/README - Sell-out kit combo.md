@@ -4,31 +4,28 @@
 khách cầm một sản phẩm → NVBH hỏi thêm vấn đề của bé → gợi ý **combo 2–3 sản phẩm** để xử lý đúng vấn đề đó.
 Bản cũ vẫn giữ để tham khảo trong `../_Lưu trữ - bản theo vấn đề da bé (sếp chưa duyệt)/`.
 
+## Bản sửa 28/09/2026 (theo góp ý của Nhi) — mới sửa bản Word, poster làm sau
+
+- **Phần A** — mỗi thành phần 3 cột: *Thành phần → Hoạt động thế nào* (cơ chế, nói dễ hiểu, có ví dụ đời thường) *→ Để làm gì cho bé/mẹ*.
+  Bỏ hẳn các cách nói khó hiểu (“cắt liên kết tế bào chết”, “phá màng tế bào vi khuẩn”, “trung hoà gốc tự do”, “củng cố hàng rào”, “lấp hàng rào lipid”).
+  Có giải thích riêng vì sao kem vừa “chắn ẩm” vừa “dưỡng ẩm” (ướt bên ngoài ≠ nước bên trong da).
+  Ghi chú: “papain cắt liên kết giữ tế bào chết” không sai về bản chất (men đu đủ làm mềm lớp “keo” đạm giữ da chết) — chỉ là cách nói khó hiểu, đã viết lại.
+- **Phần B** — *Điểm nổi bật* đưa lên đầu (3–5 điểm, mỗi điểm nêu rõ đối thủ không có gì), kèm **bảng so sánh** (✔ = mình hơn).
+  Điểm yếu, lời cần tránh gom riêng vào ô *Lưu ý khi tư vấn*.
+- **Phần C** — mỗi combo trình bày theo **3 bước: làm sạch → xử lý vấn đề → bảo vệ / dưỡng da**; mỗi bước nêu sản phẩm, thành phần, cơ chế, và để làm gì cho đúng vấn đề đó.
+  Giá cả bộ ghi rõ từng món (VD: Tắm gội 200ml 150.000đ + Kem 115.000đ = 265.000đ).
+- Sản phẩm không có combo → **sell-out 1 mình**, vẫn theo 3 bước: Gạc rơ lưỡi, và 3 sản phẩm của mẹ.
+- **Thêm 3 sản phẩm của mẹ:** Curmilk, Yaocare Women, Dao’Spa Mama (mục 8–10).
+- Không có giá combo / khuyến mãi → giá cả bộ = cộng giá bán lẻ OTC.
+
 ## File
 
 | File | Là gì |
 |---|---|
-| **`Sell-out kit theo sản phẩm.docx`** | ⭐ Bản Word A4 ngang. Trang đầu: **bảng tra nhanh** (khách hỏi mua SP nào → hỏi gì → combo nào → giá cả bộ). Sau đó mỗi sản phẩm một mục: A. Thành phần → giúp gì cho bé · B. Điểm mạnh khi khách so sánh + cách dùng · C. **Từ sản phẩm → combo theo vấn đề da** (vấn đề + câu hỏi mở · combo & giá cả bộ · việc của từng SP trong combo · câu nói chốt combo + cách dùng · khi nào khuyên đi khám) |
-| `../../Poster NVBH/SP - 0 - Bang tra nhanh combo.pdf` | 1 trang A4 ngang, dán quầy: 7 sản phẩm × các combo, có ảnh SP và giá cả bộ |
-| `../../Poster NVBH/SP - 1..7 - <tên SP>.pdf` | Poster NVBH từng sản phẩm, A4 ngang gấp 3 (xem README trong thư mục Poster NVBH) |
-| `dulieu.js` | **Nguồn duy nhất** của cả bản Word lẫn poster. Sửa ở đây rồi chạy lại script |
+| **`Sell-out kit theo sản phẩm.docx`** | ⭐ Bản Word A4 ngang: bảng tra nhanh (10 SP) → mỗi SP một mục A · B · C như trên |
+| `dulieu.js` | **Nguồn duy nhất.** `TP` = thư viện thành phần (cơ chế đầy đủ + 1 câu ngắn); `SP` = 10 sản phẩm; `COMBO` = 9 combo theo 3 bước |
 | `taoword.js` | Sinh bản Word từ `dulieu.js` |
-
-## 7 sản phẩm, 9 combo
-
-| Khách hỏi mua | Combo (vấn đề → sản phẩm) |
-|---|---|
-| Tắm gội Elemis | Hăm da · Rôm sảy (+ Kem) · Chàm sữa (+ Kem + Oriky) · Da khô gió nắng (+ Oriky) · Cứt trâu (+ Oriky) |
-| Kem bôi Elemis | Hăm da · Rôm sảy (+ Tắm gội) · Mẩn ngứa (+ Gold) · Chàm sữa (+ Tắm gội + Oriky) · Muỗi đốt (+ Xịt) · Thâm sẹo (+ Oriky) · Tay khô (+ Bọt rửa tay) |
-| Dầu Oriky | Chàm sữa · Da khô gió nắng · Cứt trâu · Thâm sẹo |
-| Elemis Gold | Mẩn ngứa, da nhạy cảm, bé từ 6 tháng (+ Kem) |
-| Xịt muỗi | Muỗi đốt (+ Kem) |
-| Bọt rửa tay | Tay khô do rửa nhiều (+ Kem) |
-| Gạc rơ lưỡi | Tưa lưỡi — **bán riêng**, tài liệu công ty chưa có combo |
-
-Combo lấy đúng “bộ sản phẩm cần thiết” của từng vấn đề trong bản cũ (đã duyệt câu chữ), không thêm cặp mới.
-Riêng **Mẩn ngứa (Gold + Kem)** tách ra thành combo riêng vì bản cũ ghi Gold là lựa chọn cho bé mẩn ngứa nhiều, từ 6 tháng.
-**Giá cả bộ** = cộng giá OTC 01/04/2025 của quy cách nhỏ nhất (tắm gội 200ml, xịt muỗi 50ml).
+| `../../Poster NVBH/SP - …` | Poster theo bản trước — ⚠️ **chưa cập nhật** theo bản sửa này; `taoposter.js` cần viết lại cho khớp cấu trúc dữ liệu mới |
 
 ## Nguồn dữ liệu — không có gì tự nghĩ ra
 
@@ -52,9 +49,7 @@ rồi thêm id combo vào mảng `combo` của các sản phẩm nằm trong com
 
 ## ⚠️ Còn chờ công ty xác nhận
 
-1. **Cách dùng Elemis Gold** và **Bọt rửa tay** chưa có trên tài liệu gốc — kit đang ghi “⏳ chờ xác nhận”.
-2. **Gạc rơ lưỡi** chưa có combo — hỏi sếp có muốn ghép với sản phẩm nào không.
+1. **Cách dùng** chưa có trên tài liệu gốc: Elemis Gold, Bọt rửa tay, Yaocare Women; **liều dùng Curmilk**; tỷ lệ pha / thời gian / mốc sau sinh của Dao’Spa Mama.
+2. **Thành phần Curmilk:** báo giá và hồ sơ công bố ghi khác nhau (chè vằng, bồ công anh, piperin) — điểm nổi bật “curcumin + piperin” phụ thuộc vào việc này.
 3. Hai tài liệu công ty hướng dẫn khác nhau cho ca rôm sảy (pha đậm 1ml + 10ml thấm 10–20 phút / xoa trực tiếp 1–2 phút).
-4. Dùng giá báo giá OTC hay giá web; và có giá combo / khuyến mãi riêng cho NTD không (hiện chỉ cộng giá lẻ).
-5. Acid boric trong gạc rơ lưỡi — chờ R&D xác nhận nồng độ.
-6. Ba sản phẩm cho mẹ (Curmilk, Yaocare Women, Dao'Spa Mama) chưa đưa vào kit combo vì không thuộc nhóm xử lý vấn đề da bé.
+4. Acid boric trong gạc rơ lưỡi — chờ R&D xác nhận nồng độ.
