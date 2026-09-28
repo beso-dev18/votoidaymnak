@@ -2,7 +2,7 @@
 // Bản sửa 28/09/2026 (lần 3) theo hướng Nhi chốt:
 //   sản phẩm → 1 combo đầy đủ đi theo sản phẩm đó (gồm mọi SP ghép được) → từng SP trong combo
 //   → các vấn đề SP đó giải quyết → 1 câu then chốt về cơ chế (lời dễ hiểu để NV đọc cho khách).
-// Sau phần combo là điểm nổi bật khi khách so sánh (bảng so sánh đối thủ, câu chốt, lưu ý).
+// Thứ tự mỗi SP: A. Thành phần → hoạt động thế nào → để làm gì · B. Điểm nổi bật khi khách so sánh · C. Combo.
 // SP không ghép được combo thì sell-out 1 mình. Không có giá combo/khuyến mãi: giá cả bộ = cộng giá bán lẻ OTC.
 //
 // Nguồn (không thêm gì ngoài các file này):
@@ -13,14 +13,164 @@
 //  - Tỷ lệ pha, cách dùng: bộ slide Elemis / Oriky / Xịt muỗi của công ty (file gốc không nằm trong repo)
 // Quy tắc lời: luôn "hỗ trợ"; không "trị / chữa / điều trị"; không nêu long não, không nêu acid boric như điểm bán; không hứa số ngày.
 
+// ============ THƯ VIỆN THÀNH PHẦN ============
+// ten · coChe = hoạt động thế nào (bản đầy đủ, dùng ở phần A) · ngan = 1 câu cơ chế (dùng ở phần C)
+const TP = {
+  // --- tắm gội Elemis ---
+  papain: { ten: 'Men đu đủ (papain)',
+    coChe: 'Men đu đủ là một loại men tự nhiên làm mềm được chất đạm. Lớp da chết già trên bề mặt được giữ dính vào da bằng một lớp “keo” có bản chất là đạm. Khi tắm, men đu đủ làm lớp keo này mềm ra, nên da chết và bụi bẩn bám theo nó tự bong và trôi đi theo nước — không cần kỳ cọ.',
+    ngan: 'làm mềm lớp “keo” giữ da chết → da chết, bụi bẩn tự trôi theo nước' },
+  chanh: { ten: 'Chanh (acid citric)',
+    coChe: 'Vị chua nhẹ của chanh giúp làm tan lớp bụi bẩn, vảy mỏng bám trên da và da đầu.',
+    ngan: 'vị chua nhẹ làm tan bụi bẩn, vảy mỏng' },
+  laKK: { ten: 'Chè xanh, sả chanh, kinh giới, tràm gió, khổ qua',
+    coChe: 'Mỗi loại lá có chất kháng khuẩn tự nhiên riêng (chè xanh có EGCG, sả chanh có citral, tràm gió có cineol, khổ qua có momordicin…). Khi tắm, các chất này chạm vào vi khuẩn trên bề mặt da, làm vi khuẩn yếu đi và khó sinh sôi — cùng lý do ông bà xưa nấu nước lá tắm cho trẻ.',
+    ngan: 'chất kháng khuẩn tự nhiên trong lá làm vi khuẩn trên da yếu đi, khó sinh sôi' },
+  saidat: { ten: 'Sài đất',
+    coChe: 'Khi da bị kích ứng, da tiết ra các chất gây viêm: chúng làm mạch máu dưới da giãn ra (nên đỏ, sưng) và làm dây thần kinh nhạy lên (nên ngứa). Chất wedelolactone trong sài đất làm giảm lượng chất gây viêm này.',
+    ngan: 'giảm các chất gây viêm da tiết ra → nốt bớt sưng đỏ, bớt ngứa' },
+  nuocTD: { ten: 'Dịch chiết thảo dược dạng nước, tinh dầu mùi',
+    coChe: 'Da khoẻ có một lớp dầu mỏng trên bề mặt để giữ nước. Xà phòng, sữa tắm nhiều bọt có tính kiềm rửa trôi luôn lớp dầu này, nên tắm xong da căng, khô. Nước tắm dạng dịch chiết thảo dược làm sạch nhẹ, không kéo lớp dầu đi; tinh dầu mùi (linalool) làm dịu da.',
+    ngan: 'làm sạch nhẹ, không rửa trôi lớp dầu giữ nước của da' },
+  diepluc: { ten: 'Diệp lục tố, chè xanh',
+    coChe: 'Diệp lục tố hút và giữ lại các phân tử gây mùi mồ hôi. Diệp lục tố và chè xanh còn là chất chống oxy hoá: khi da gặp nắng, khói bụi, trên da sinh ra những chất làm “hỏng” tế bào da và lớp dầu trên da (giống miếng táo cắt để ngoài không khí bị thâm); chất chống oxy hoá chặn quá trình đó lại.',
+    ngan: 'hút mùi mồ hôi; chống oxy hoá, bảo vệ da trước nắng, bụi' },
+  tdLuu: { ten: 'Tinh dầu tràm gió, sả chanh (còn lại trên da sau tắm)',
+    coChe: 'Tinh dầu bay hơi từ từ trên da, mang theo một chút hơi nóng nên da thấy mát. Phần còn lưu lại trên da tiếp tục kháng khuẩn nhẹ thêm vài giờ — vì thế hướng dẫn tắm xong không tráng lại nước sạch.',
+    ngan: 'bay hơi làm mát da; phần còn lưu lại tiếp tục kháng khuẩn nhẹ' },
+  // --- Elemis Gold ---
+  kimngan: { ten: 'Kim ngân',
+    coChe: 'Kim ngân chứa acid chlorogenic và luteolin — hai chất làm giảm các chất gây viêm mà da tiết ra khi bị kích ứng (chính các chất này làm nốt đỏ và ngứa).',
+    ngan: 'giảm các chất gây viêm → nốt mẩn bớt đỏ, bớt ngứa' },
+  huongnhu: { ten: 'Hương nhu, chè xanh, sả chanh',
+    coChe: 'Eugenol (hương nhu), EGCG (chè xanh), citral (sả chanh) là các chất kháng khuẩn tự nhiên. Khi tắm, chúng chạm vào vi khuẩn trên da, làm vi khuẩn yếu đi, khó sinh sôi.',
+    ngan: 'chất kháng khuẩn tự nhiên làm vi khuẩn trên da yếu đi' },
+  papainGold: { ten: 'Men đu đủ (papain), glycerin',
+    coChe: 'Men đu đủ làm mềm lớp “keo” đạm giữ da chết, để da chết bong nhẹ khi tắm, lỗ chân lông thông thoáng. Glycerin như miếng bọt biển siêu nhỏ: hút nước và giữ nước lại trên bề mặt da ngay khi tắm.',
+    ngan: 'men đu đủ làm da chết bong nhẹ; glycerin hút và giữ nước trên da' },
+  // --- kem bôi ---
+  kemoxyd: { ten: 'Kẽm oxyd nano 2%',
+    coChe: 'Các hạt kẽm oxyd siêu nhỏ trải đều và kết lại thành một lớp màng mỏng phủ kín da — giống một tấm áo mưa. Nước tiểu, phân, mồ hôi đọng bị chặn ở bên ngoài lớp màng, không chạm trực tiếp vào da. Lớp màng cũng làm mặt da trơn hơn, nên hai mặt da ở ngấn cổ, nách, bẹn bớt cọ vào nhau.',
+    ngan: 'tạo lớp màng mỏng như áo mưa, chặn nước tiểu, phân, mồ hôi chạm vào da' },
+  rauma: { ten: 'Rau má (asiaticoside, acid asiatic)',
+    coChe: 'Acid asiatic làm giảm các chất da tiết ra khi bị kích ứng — những chất làm mạch máu giãn (đỏ) và dây thần kinh nhạy (rát). Asiaticoside thúc da làm việc nhanh hơn: tạo thêm tế bào da mới và sợi collagen (loại sợi làm da liền và chắc), nên chỗ nứt, trầy được lấp dần.',
+    ngan: 'giảm chất gây đỏ, rát; thúc da tạo tế bào mới và collagen để chỗ tổn thương mau liền' },
+  ngaicuu: { ten: 'Tinh dầu ngải cứu',
+    coChe: 'Tinh dầu ngải cứu (cineol) bay hơi nhẹ trên da tạo cảm giác mát, đồng thời làm vi khuẩn ở chỗ da đang trầy yếu đi.',
+    ngan: 'bay hơi tạo cảm giác mát; làm yếu vi khuẩn ở chỗ trầy' },
+  aquaxyl: { ten: 'Aquaxyl (chiết từ đường thực vật)',
+    coChe: 'Aquaxyl giúp da tự tạo thêm chất giữ nước của chính nó, và làm các tế bào ở lớp da ngoài cùng xếp khít lại — như bức tường gạch được trét kín vữa — nên nước bên trong da không bay hơi ra ngoài.<br><b>Vì sao kem vừa “chắn ẩm” lại vừa “dưỡng ẩm”?</b> Vì có hai loại “ẩm” khác nhau. (1) <b>Ướt bên ngoài</b>: nước tiểu, phân, mồ hôi đọng trên da — loại này có hại, làm da bị ngâm, bở, dễ trầy (giống tay ngâm nước lâu bị nhăn, bở). Kẽm oxyd chặn loại này. (2) <b>Nước bên trong da</b>: nước nằm trong các lớp da, giúp da căng, mềm, co giãn khi bé cử động — loại này cần giữ, và Aquaxyl giữ loại này. Da vùng tã nhìn ướt nhưng bên trong vẫn có thể thiếu nước, nên rất dễ nứt.',
+    ngan: 'giúp da tự giữ nước bên trong, lớp da ngoài cùng khít lại nên nước không bay ra' },
+  // --- dầu Oriky ---
+  dau3: { ten: 'Dầu hạnh nhân, dầu hạt nho, dầu cám gạo',
+    coChe: 'Da khoẻ có sẵn một lớp dầu mỏng trên bề mặt, như cái nắp đậy giữ nước trong da không bay hơi. Tắm nhiều, da ngâm ẩm lâu, gió hanh làm lớp dầu này mỏng đi → nước trong da bay mất → da khô, ráp, nứt, ngứa. Dầu hạnh nhân (acid oleic), dầu hạt nho (acid linoleic), dầu cám gạo (squalene) có loại chất béo giống chính lớp dầu tự nhiên đó, nên bôi vào là “vá” lại cái nắp đậy.',
+    ngan: 'chất béo giống lớp dầu tự nhiên của da → vá lại “nắp đậy” giữ nước' },
+  dauVay: { ten: 'Dầu hạnh nhân, dầu hạt nho, dầu cám gạo',
+    coChe: 'Dầu ngấm vào lớp vảy khô cứng trên da đầu, làm vảy mềm ra và tách khỏi da đầu.',
+    ngan: 'dầu ngấm vào vảy khô cứng, làm mềm và tách vảy khỏi da đầu' },
+  caprylic: { ten: 'Caprylic triglyceride (tinh chế từ dầu dừa)',
+    coChe: 'Phân tử nhỏ nên thấm vào da nhanh, kéo cả hỗn hợp dầu thấm theo — bôi xong không nhờn dính.',
+    ngan: 'phân tử nhỏ, thấm nhanh, không nhờn dính' },
+  vitE: { ten: 'Vitamin E, gamma-oryzanol (cám gạo)',
+    coChe: 'Là chất chống oxy hoá: chặn những chất có hại sinh ra khi da gặp nắng, khói bụi, giúp lớp dầu trên da không bị “hỏng” và da không khô sạm.',
+    ngan: 'chống oxy hoá, bảo vệ da trước nắng, bụi' },
+  tramOriky: { ten: 'Tinh dầu tràm gió',
+    coChe: 'Mùi thơm ấm của tinh dầu tràm (cineol) đi qua mũi tạo cảm giác quen thuộc, dễ chịu; khi massage, tay mẹ làm ấm cơ, bé thư giãn. Tràm gió cũng kháng khuẩn nhẹ ở vùng da thoa.',
+    ngan: 'mùi thơm ấm giúp bé thư giãn; kháng khuẩn nhẹ' },
+  // --- xịt muỗi ---
+  xitTD: { ten: 'Tinh dầu sả Java, sả chanh, bạch đàn chanh',
+    coChe: 'Muỗi tìm người nhờ ngửi mùi cơ thể và hơi thở. Tinh dầu bay hơi liên tục tạo một “đám mây mùi” quanh vùng da đã xịt, che mất mùi của bé — muỗi không định vị được nên bay đi chỗ khác. Tinh dầu bay hết dần nên cần xịt lại sau 2–3 giờ.',
+    ngan: 'tạo “đám mây mùi” che mùi cơ thể bé → muỗi không tìm được chỗ đốt' },
+  antuc: { ten: 'An tức hương, vanillin',
+    coChe: 'Hai chất này bay hơi rất chậm, như cái neo giữ các tinh dầu nhẹ lại trên da lâu hơn.',
+    ngan: 'bay hơi chậm, “neo” tinh dầu lại trên da lâu hơn' },
+  xitDiu: { ten: 'Bạch đàn chanh, cồn',
+    coChe: 'Cồn bay hơi rất nhanh, lấy đi hơi nóng trên da nên mát ngay; tinh dầu bạch đàn chanh làm dịu chỗ vừa bị đốt; citral, citronellal trong tinh dầu làm vi khuẩn ở chỗ bé gãi yếu đi.',
+    ngan: 'cồn bay hơi làm mát ngay; bạch đàn chanh làm dịu nốt đốt' },
+  // --- bọt rửa tay ---
+  betaine: { ten: 'Chất tạo bọt dịu gốc dầu dừa (cocamidopropyl betaine)',
+    coChe: 'Mỗi phân tử có hai đầu: một đầu bám vào dầu mỡ, bụi bẩn; đầu kia bám vào nước. Khi xả nước, đầu bám nước kéo luôn chất bẩn trôi đi. Chất này dịu hơn xà phòng nên lấy đi rất ít lớp dầu tự nhiên của da tay.',
+    ngan: 'một đầu bám bẩn, một đầu bám nước → xả là bẩn trôi; dịu hơn xà phòng' },
+  saTX: { ten: 'Sả chanh, trà xanh',
+    coChe: 'Citral (sả chanh) và EGCG (trà xanh) là chất kháng khuẩn tự nhiên, làm yếu vi khuẩn còn sót lại trên tay sau khi rửa; citral còn cho mùi thơm dễ chịu.',
+    ngan: 'chất kháng khuẩn tự nhiên làm yếu vi khuẩn còn sót trên tay' },
+  loHoiCuc: { ten: 'Lô hội, cúc la mã',
+    coChe: 'Lô hội (acemannan) tạo một lớp gel rất mỏng giữ nước và làm dịu da; cúc la mã (bisabolol) làm giảm kích ứng.',
+    ngan: 'lô hội giữ nước, làm dịu; cúc la mã giảm kích ứng' },
+  gluAqua: { ten: 'Glycerin + Aquaxyl',
+    coChe: 'Glycerin hút và giữ nước trên bề mặt da tay; Aquaxyl giúp da tự giữ nước ở bên trong (xem giải thích ở Kem bôi da Elemis).',
+    ngan: 'glycerin giữ nước bề mặt, Aquaxyl giữ nước bên trong da' },
+  // --- gạc rơ lưỡi ---
+  muoiGly: { ten: 'Muối ăn, glycerin',
+    coChe: 'Muối cùng động tác lau nhẹ của gạc cuốn cặn sữa khỏi lưỡi, nướu, má trong. Glycerin giữ gạc luôn ẩm mềm, lau không làm xước lớp niêm mạc mỏng của bé.',
+    ngan: 'muối + động tác lau cuốn sạch cặn sữa; glycerin giữ gạc ẩm mềm' },
+  soda: { ten: 'Baking soda (natri bicarbonat)',
+    coChe: 'Cặn sữa còn lại lên men làm miệng bé chua — nấm tưa (Candida) rất thích môi trường chua này. Baking soda trung hoà bớt độ chua.',
+    ngan: 'trung hoà độ chua trong miệng — môi trường nấm tưa ưa thích' },
+  laHe: { ten: 'Lá hẹ, chè xanh, rau ngót',
+    coChe: 'Lá hẹ có hợp chất lưu huỳnh (cùng họ với chất trong tỏi) làm nấm và vi khuẩn khó phát triển; chè xanh (EGCG) kìm vi khuẩn gây viêm nướu; rau ngót là lá dân gian quen dùng rơ lưỡi phòng tưa cho trẻ.',
+    ngan: 'hẹ, chè xanh làm nấm và vi khuẩn khó phát triển; rau ngót dân gian phòng tưa' },
+  xylitol: { ten: 'Xylitol',
+    coChe: 'Vi khuẩn gây sâu răng ăn đường rồi thải ra chất chua làm mòn men răng. Xylitol là một loại “đường” mà chúng không ăn được, nên không sinh chất chua, mảng bám khó hình thành.',
+    ngan: '“đường” vi khuẩn sâu răng không ăn được → không sinh chất chua' },
+  cucGac: { ten: 'Cúc la mã (chỉ có ở bản không mùi)',
+    coChe: 'Bisabolol, apigenin trong cúc la mã làm dịu phần nướu đang sưng.',
+    ngan: 'làm dịu nướu đang sưng' },
+  // --- Curmilk ---
+  chumngay: { ten: 'Lá chùm ngây',
+    coChe: 'Giàu vitamin và khoáng chất (vitamin A, C, canxi, sắt) — dinh dưỡng là “nguyên liệu” để cơ thể mẹ tạo sữa, mà mẹ sau sinh hay bị thiếu do mất máu khi sinh và nhu cầu tăng khi cho con bú. Nghiên cứu lâm sàng còn ghi nhận lá chùm ngây làm tăng prolactin — hormone ra lệnh cho tuyến vú tạo sữa.',
+    ngan: 'bổ sung dinh dưỡng làm “nguyên liệu” tạo sữa; nghiên cứu ghi nhận tăng hormone tạo sữa' },
+  thongthao: { ten: 'Thông thảo (theo hồ sơ công bố có thêm chè vằng)',
+    coChe: 'Vị thuốc y học cổ truyền dùng lâu đời trong các bài lợi sữa, với công năng “thông nhũ” — giúp tuyến sữa lưu thông.',
+    ngan: 'vị thuốc cổ truyền giúp tuyến sữa lưu thông' },
+  curcumin: { ten: 'Curcumin (nghệ)',
+    coChe: 'Tắc sữa thường đi kèm ống dẫn sữa bị sưng viêm, làm sữa càng khó chảy. Curcumin làm giảm các chất gây viêm → ống dẫn sữa bớt sưng, sữa lưu thông dễ hơn. Theo hồ sơ công bố, Curmilk có thêm piperin (chất cay trong hạt tiêu) giúp cơ thể hấp thu curcumin tốt hơn nhiều lần, và bồ công anh — vị thuốc dân gian dùng khi tắc tia sữa.',
+    ngan: 'giảm viêm → ống dẫn sữa bớt sưng, sữa lưu thông dễ hơn' },
+  // --- Yaocare Women ---
+  sles: { ten: 'Chất tạo bọt (natri laureth sulfat)',
+    coChe: 'Bọt bao lấy dịch tiết, bã nhờn rồi trôi theo nước.',
+    ngan: 'bọt bao lấy dịch tiết, bã nhờn rồi trôi theo nước' },
+  lactic: { ten: 'Acid lactic',
+    coChe: 'Vùng kín khoẻ có môi trường hơi chua (pH 3,8–4,5) do lợi khuẩn tự tạo ra; chính độ chua này giữ cho vi khuẩn và nấm gây hại không phát triển được. Xà phòng, sữa tắm thường có tính kiềm, dùng rửa vùng kín sẽ làm mất độ chua đó. Acid lactic bổ sung đúng loại acid mà lợi khuẩn tạo ra, giữ pH ở mức tự nhiên.',
+    ngan: 'giữ độ chua tự nhiên của vùng kín — lợi khuẩn sống tốt, vi khuẩn, nấm hại khó phát triển' },
+  trau: { ten: 'Lá trầu không',
+    coChe: 'Chavicol và eugenol trong lá trầu chạm vào vi khuẩn và nấm gây mùi, gây ngứa, làm chúng yếu đi. Dân gian vẫn dùng nước lá trầu để rửa vùng kín.',
+    ngan: 'làm yếu vi khuẩn, nấm gây mùi và ngứa' },
+  ngheDang: { ten: 'Nghệ đắng, bạch đồng nữ',
+    coChe: 'Nghệ đắng làm giảm phản ứng viêm tại chỗ, nên bớt ngứa rát do kích ứng; bạch đồng nữ là vị thuốc y học cổ truyền dùng cho khí hư, viêm nhiễm phụ khoa, có tính thanh nhiệt, tiêu viêm.',
+    ngan: 'giảm viêm tại chỗ, bớt ngứa rát' },
+  bacHa: { ten: 'Tinh dầu bạc hà, lô hội, oải hương',
+    coChe: 'Menthol (bạc hà) kích hoạt cảm giác mát trên da, lấn át cảm giác ngứa; lô hội tạo lớp gel mỏng giữ nước, làm dịu vùng da nhạy cảm; oải hương cho mùi thơm dễ chịu.',
+    ngan: 'mát lấn át ngứa; lô hội giữ nước, làm dịu' },
+  // --- Dao'Spa Mama ---
+  mangtang: { ten: 'Tinh dầu màng tang',
+    coChe: 'Citral trong màng tang (cùng chất có trong sả chanh) làm yếu vi khuẩn phân huỷ mồ hôi, sản dịch — thứ gây ra mùi “bà đẻ”; chính citral cũng là mùi thơm chanh sả.',
+    ngan: 'làm yếu vi khuẩn gây mùi mồ hôi, sản dịch; tạo mùi thơm' },
+  comchay: { ten: 'Nước ấm + cơm cháy, hoa ông lão, liên đằng hoa nhỏ',
+    coChe: 'Nước ấm làm mạch máu dưới da giãn ra, máu lưu thông ra da nhiều hơn, cơ đang co cứng mềm ra. Cơm cháy, hoa ông lão, liên đằng hoa nhỏ là các vị thuốc của bài tắm người Dao, y học cổ truyền dùng để hoạt huyết, giảm đau nhức (“khu phong trừ thấp”).',
+    ngan: 'nước ấm giãn mạch, mềm cơ; dược liệu cổ truyền hỗ trợ giảm đau nhức' },
+  chuadu: { ten: 'Chùa dù (và hơi tinh dầu khi xông)',
+    coChe: 'Cineol trong chùa dù chạm vào da và theo hơi nước vào mũi, tạo cảm giác ấm và thông thoáng; mùi tinh dầu (citral, cineol) đi qua khứu giác giúp thần kinh thư giãn. Thân nhiệt tăng nhẹ khi tắm rồi hạ xuống sau tắm là tín hiệu tự nhiên giúp dễ ngủ.',
+    ngan: 'hơi tinh dầu tạo cảm giác ấm, thông thoáng, thư giãn' },
+};
+
 // ============ SẢN PHẨM ============
-// noiBat = [[điểm nổi bật, giải thích + đối thủ]]
+// tp = [[mã thành phần, để làm gì]] · noiBat = [[điểm nổi bật, giải thích + đối thủ]]
 // ssanh = bảng so sánh { cot: [tên cột], dong: [[tiêu chí, giá trị SP mình, đối thủ 1, đối thủ 2…]] } — "✔" = điểm mình nổi bật
 // chot = câu chốt · luuY = điểm yếu / lời cần tránh
 const SP = {
   tamgoi: {
     ten: 'Tắm gội thảo dược Elemis', ngan: 'Tắm gội Elemis', anh: 'sanpham.png', nhom: 'be',
     gia: [['200ml', 150000], ['350ml', 210000], ['500ml', 275000]], tuoi: 'Từ sơ sinh',
+    tp: [
+      ['papain', 'Tắm sạch mà không phải kỳ cọ — da bé mỏng, chà xát dễ trầy, nhất là chỗ đang hăm, đang rôm. Lỗ chân lông thông thoáng thì mồ hôi thoát ra được, không nổi rôm.'],
+      ['chanh', 'Làm sạch nhẹ vảy trên da đầu, hỗ trợ gội trôi vảy cứt trâu đã làm mềm.'],
+      ['laKK', 'Da bé hay bị trầy, ẩm, bí và bé hay gãi — vi khuẩn nhân lên ở những chỗ đó gây mụn mủ, nhiễm trùng. Giảm vi khuẩn trên da để chỗ hăm, nốt rôm không chuyển thành mụn nhọt.'],
+      ['saidat', 'Nốt rôm, mẩn đã nổi bớt đỏ, bớt ngứa — bé bớt gãi, bớt quấy.'],
+      ['nuocTD', 'Tắm xong da không căng, không khô ráp. Đặc biệt quan trọng với bé da khô, bé bị chàm — dịu đến mức pha loãng lau mặt nhiều lần trong ngày được.'],
+      ['diepluc', 'Bé mũm mĩm hay có mùi ở ngấn cổ, nách — tắm xong thơm tho. Bảo vệ da khi bé ra ngoài nắng, bụi.'],
+      ['tdLuu', 'Tắm xong da bé mát — đúng thứ bé hay nóng, hay rôm cần.'],
+    ],
     noiBat: [
       ['Một chai lo 4 việc cho da bé', 'Làm sạch không cần kỳ cọ (men đu đủ) · hỗ trợ kháng khuẩn (5 loại lá) · làm dịu nốt rôm (sài đất) · khử mùi mồ hôi (diệp lục tố). Dùng cả tắm và gội, từ sơ sinh.'],
       ['Dịu đến mức lau mặt nhiều lần trong ngày được', 'Dạng dịch chiết thảo dược, không rửa trôi lớp dầu giữ nước của da như sữa tắm nhiều bọt → bé da khô, bé bị chàm vẫn dùng được; pha 2ml : 2 lít để lau mặt cho bé.'],
@@ -45,6 +195,12 @@ const SP = {
   kem: {
     ten: 'Kem bôi da Elemis', ngan: 'Kem bôi Elemis', anh: 'sp-kem.jpg', nhom: 'be',
     gia: [['Tuýp 30g', 115000]], tuoi: 'Từ sơ sinh',
+    tp: [
+      ['kemoxyd', 'Nước tiểu và phân chứa chất gây kích ứng; ngấm lâu vào da là nguyên nhân trực tiếp gây hăm. Chặn không cho chúng chạm vào da là xử lý đúng gốc — nên thoa cả khi da chưa đỏ để phòng. Ở ngấn cổ, nách: bớt cọ xát. Khi ra ngoài: hạn chế gió hanh tác động trực tiếp lên da.'],
+      ['rauma', 'Chỗ hăm, nốt muỗi đốt, má đỏ do gió nắng bớt đỏ, bớt rát nhanh — bé bớt quấy. Chỗ nứt nẻ, trầy mau liền; da non mới lên phẳng và đều màu hơn nên hỗ trợ làm mờ thâm, sẹo còn mới.'],
+      ['ngaicuu', 'Thoa lên thấy mát dịu; chỗ da trầy, chỗ bé gãi ít bị nhiễm khuẩn, ngừa mụn.'],
+      ['aquaxyl', 'Da đủ nước bên trong thì mềm, co giãn khi bé cử động mà không nứt. Da nứt là “cửa” cho vi khuẩn vào, và làm bé rát.'],
+    ],
     noiBat: [
       ['Một tuýp làm đủ 3 việc: chắn + làm dịu, làm liền + giữ ẩm', 'Sudocrem mạnh phần <b>chắn</b> (kẽm oxyd); Bepanthen mạnh phần <b>dưỡng</b> (dexpanthenol). Kem Elemis có cả lớp chắn kẽm oxyd, rau má làm dịu và làm liền da, và Aquaxyl giữ nước bên trong da — mẹ không cần mua 2–3 loại.'],
       ['Duy nhất trong 3 loại kem công bố dùng cho da bỏng do gió, nắng', 'Bepanthen, Sudocrem không công bố công dụng này → bé ra ngoài về má đỏ rát, nứt nẻ thì Elemis là lựa chọn đúng.'],
@@ -70,6 +226,12 @@ const SP = {
   dau: {
     ten: 'Dầu massage Oriky', ngan: 'Dầu Oriky', anh: 'sp-oriky.jpg', nhom: 'be',
     gia: [['Chai 60ml', 135000]], tuoi: 'Từ sơ sinh',
+    tp: [
+      ['dau3', 'Da giữ được nước → mềm, không bong vảy, bớt ngứa nên bé bớt gãi. Rất cần cho bé da khô, bé bị chàm (da chàm thiếu chính lớp dầu này), da sau đợt hăm, da hanh khô mùa đông.'],
+      ['caprylic', 'Bôi xong không bết dính — thoa được cả da mặt bé, mặc quần áo ngay được.'],
+      ['vitE', 'Da không khô sạm khi ra nắng; vùng da non mới lành bớt bị thâm.'],
+      ['tramOriky', 'Massage trước giờ ngủ bé thư giãn, dễ vào giấc.'],
+    ],
     noiBat: [
       ['3 loại dầu thực vật trong 1 chai', 'Cám gạo + hạnh nhân + hạt nho — chất béo giống lớp dầu tự nhiên của da nên “vá” được lớp giữ nước. Johnson’s là dầu khoáng (chỉ phủ bên ngoài, không bổ sung chất béo giống của da); Chicco chỉ có dầu cám gạo.'],
       ['Thấm nhanh, không nhờn dính', 'Có caprylic triglyceride phân tử nhỏ — thoa được cả da mặt, không bết.'],
@@ -92,6 +254,11 @@ const SP = {
   gold: {
     ten: 'Gel tắm gội Elemis Gold', ngan: 'Elemis Gold', anh: 'sp-gold.jpg', nhom: 'be',
     gia: [['220ml', 220000]], tuoi: 'Bé từ 6 tháng',
+    tp: [
+      ['kimngan', 'Bé mẩn ngứa nhiều bớt đỏ, bớt ngứa, bớt gãi.'],
+      ['huongnhu', 'Nốt bé gãi trầy không bị nhiễm khuẩn thành mụn.'],
+      ['papainGold', 'Làm sạch nhẹ mà da không khô — da khô làm ngứa nặng hơn. Gold thiên về giữ ẩm hơn bản thường.'],
+    ],
     noiBat: [
       ['Có kim ngân — chỉ bản Gold mới có', 'Kim ngân làm dịu nốt mẩn. Dr.Papie, Kutieskin và cả bản Elemis thường đều không có. Khách hỏi “sao Gold đắt hơn” thì đây là câu trả lời.'],
       ['Có hương nhu — hai hãng kia không có', 'Hương nhu kháng khuẩn tự nhiên, không thấy trong thành phần Dr.Papie, Kutieskin công bố.'],
@@ -113,6 +280,11 @@ const SP = {
   xit: {
     ten: 'Xịt muỗi thảo dược Elemis', ngan: 'Xịt muỗi Elemis', anh: 'sp-xit.jpg', nhom: 'be',
     gia: [['50ml', 90000], ['120ml', 195000]], tuoi: 'Bé trên 3 tháng',
+    tp: [
+      ['xitTD', 'Bé không bị muỗi đốt — kể cả muỗi truyền sốt xuất huyết.'],
+      ['antuc', 'Hiệu quả xua muỗi kéo dài hơn sau mỗi lần xịt.'],
+      ['xitDiu', 'Nốt vừa bị đốt mát ngay, bớt ngứa — bé bớt gãi, bớt trầy.'],
+    ],
     noiBat: [
       ['Dùng được cho bé từ 3 tháng', 'Remos Baby dùng từ 6 tháng, Soffell không dùng cho trẻ dưới 4 tuổi → bé 3–6 tháng thì trong 3 loại chỉ Elemis dùng được. Dùng được cả cho phụ nữ có thai.'],
       ['Xua muỗi bằng tinh dầu thực vật', 'Sả Java, sả chanh, bạch đàn chanh — không dùng Picaridin (Remos) hay DEET (Soffell).'],
@@ -135,6 +307,12 @@ const SP = {
   bot: {
     ten: 'Bọt rửa tay Elemis', ngan: 'Bọt rửa tay Elemis', anh: 'sp-bot.jpg', nhom: 'be',
     gia: [['Chai 250ml', 245000]], tuoi: 'Bé từ 6 tháng',
+    tp: [
+      ['betaine', 'Tay sạch mà không khô, dù bé rửa nhiều lần trong ngày ở nhà, ở lớp.'],
+      ['saTX', 'Bớt vi khuẩn trên tay — bé hay đưa tay lên mắt, mũi, miệng.'],
+      ['loHoiCuc', 'Rửa nhiều lần tay không bị rát đỏ.'],
+      ['gluAqua', 'Rửa xong tay vẫn mềm, không ráp.'],
+    ],
     noiBat: [
       ['Giữ ẩm kép: Aquaxyl + glycerin + lô hội', 'Rửa nhiều lần trong ngày tay không khô — Chicco không có Aquaxyl.'],
       ['Dạng bọt ra sẵn, bé tự bơm, tự rửa', 'Không cần xoa tạo bọt, mỗi lần dùng ít — tiện cho bé tập thói quen rửa tay.'],
@@ -155,6 +333,13 @@ const SP = {
   gac: {
     ten: 'Gạc rơ lưỡi Elemis', ngan: 'Gạc rơ lưỡi Elemis', anh: 'sp-gac.jpg', nhom: 'be',
     gia: [['Hộp 30 gói', 115000]], tuoi: 'Từ sơ sinh',
+    tp: [
+      ['muoiGly', 'Miệng bé sạch cặn sữa — cặn sữa là “thức ăn” của nấm tưa.'],
+      ['soda', 'Nấm tưa khó phát triển.'],
+      ['laHe', 'Phòng tưa lưỡi, nấm lưỡi, viêm nướu.'],
+      ['xylitol', 'Hạn chế mảng bám, miệng bớt hôi, bảo vệ răng sắp mọc.'],
+      ['cucGac', 'Bé dễ chịu hơn khi mọc răng.'],
+    ],
     noiBat: [
       ['Ngang giá Dr.Papie nhưng nhiều dược liệu hơn', '115.000đ/30 gói (Dr.Papie 110.000–120.000đ/30 gói). Elemis có thêm <b>rau ngót</b> và <b>chè xanh</b> (hoặc cúc la mã) — Dr.Papie chỉ có lá hẹ.'],
       ['Công bố làm được nhiều việc hơn', 'Phòng tưa lưỡi, nấm lưỡi, viêm nướu, hôi miệng; ngừa sâu răng; giảm khó chịu khi mọc răng. Dr.Papie chỉ công bố làm sạch hằng ngày.'],
@@ -177,6 +362,11 @@ const SP = {
   curmilk: {
     ten: 'Cốm lợi sữa Curmilk', ngan: 'Curmilk', anh: null, nhom: 'me', loai: 'Thực phẩm bảo vệ sức khoẻ',
     gia: [['Hộp 20 gói x 5g', 235000]], tuoi: 'Mẹ sau sinh, đang cho con bú',
+    tp: [
+      ['chumngay', 'Mẹ có đủ “nguyên liệu” để tạo sữa — hỗ trợ cải thiện tình trạng ít sữa.'],
+      ['thongthao', 'Hỗ trợ tuyến sữa lưu thông.'],
+      ['curcumin', 'Hỗ trợ giảm nguy cơ tắc tia sữa — tắc sữa gây đau, kéo dài dễ dẫn tới viêm tuyến vú.'],
+    ],
     noiBat: [
       ['Lo cả 2 nỗi lo của mẹ: ít sữa và tắc sữa', 'Chùm ngây, thông thảo hỗ trợ cải thiện tình trạng ít sữa; curcumin hỗ trợ giảm nguy cơ tắc sữa.'],
       ['Có curcumin (nghệ) — Mabio không có', 'Theo hồ sơ công bố còn có piperin giúp hấp thu curcumin tốt hơn nhiều lần; Mabio không có curcumin lẫn piperin.'],
@@ -200,6 +390,13 @@ const SP = {
   yaocare: {
     ten: 'Bọt vệ sinh phụ nữ Yaocare Women', ngan: 'Yaocare Women', anh: null, nhom: 'me',
     gia: [['Chai 100ml', 135000]], tuoi: 'Phụ nữ — dùng được cả cho nam',
+    tp: [
+      ['sles', 'Vùng kín sạch, khô thoáng.'],
+      ['lactic', 'Giữ lợi khuẩn — ngừa mùi hôi, hạn chế viêm nhiễm, nấm ngứa. Đây là lý do không nên dùng sữa tắm thường để vệ sinh vùng kín.'],
+      ['trau', 'Hỗ trợ giảm ngứa, giảm mùi.'],
+      ['ngheDang', 'Hỗ trợ làm dịu kích ứng, bớt ngứa rát.'],
+      ['bacHa', 'Mát, dịu, không khô rát khi vệ sinh hằng ngày; thơm nhẹ.'],
+    ],
     noiBat: [
       ['Giữ đúng độ chua tự nhiên của vùng kín', 'Có acid lactic — cùng loại acid lợi khuẩn tự tạo ra. Khác hẳn việc dùng sữa tắm, xà phòng (tính kiềm) làm mất độ chua, dễ ngứa, có mùi.'],
       ['Có nghệ đắng và bạch đồng nữ — Lactacyd, Dạ Hương không có', 'Hai dược liệu cổ truyền dùng cho các vấn đề phụ khoa; thêm lá trầu không quen thuộc.'],
@@ -223,6 +420,11 @@ const SP = {
   daospa: {
     ten: 'Nước tắm Dao’Spa Mama', ngan: 'Dao’Spa Mama', anh: null, nhom: 'me',
     gia: [['Hộp 3 lọ x 250ml', 385000]], tuoi: 'Mẹ sau sinh',
+    tp: [
+      ['mangtang', 'Sạch, hết mùi “bà đẻ”, thơm mùi thảo mộc.'],
+      ['comchay', 'Người ấm lên, hỗ trợ giảm đau mỏi sau sinh — hợp với mẹ kiêng tắm nước lạnh.'],
+      ['chuadu', 'Thư giãn, dễ ngủ — mẹ sau sinh hay mệt, căng thẳng.'],
+    ],
     noiBat: [
       ['Rẻ hơn đối thủ cùng phân khúc', 'Hộp 3 lọ 385.000đ = <b>~51.300đ/100ml</b>, rẻ hơn Lovin’Skin Mama (~71.000đ/100ml). Sản phẩm hiếm hoi của công ty có giá tốt hơn đối thủ trực tiếp — nhớ dùng lý lẽ này.'],
       ['Bài tắm của người Dao', '5 dược liệu vùng cao (cơm cháy, hoa ông lão, liên đằng hoa nhỏ, chùa dù, màng tang) — Lovin’Skin Mama dùng bộ dược liệu khác hẳn.'],
@@ -361,4 +563,4 @@ const chiTietGia = ks => ks.map(k => `${SP[k].ngan}${SP[k].gia.length > 1 ? ' ' 
 const qcTinh = ks => ks.filter(k => SP[k].gia.length > 1)
   .map(k => ({ tamgoi: 'tắm', xit: 'xịt' }[k] || SP[k].ngan) + ' ' + SP[k].gia[0][0]).join(', ');
 
-module.exports = { SP, VD, COMBO, THU_TU, dong, giaMin, tongGia, chiTietGia, qcTinh };
+module.exports = { TP, SP, VD, COMBO, THU_TU, dong, giaMin, tongGia, chiTietGia, qcTinh };

@@ -8,19 +8,18 @@ Bản cũ vẫn giữ để tham khảo trong `../_Lưu trữ - bản theo vấn
 
 **Sản phẩm → 1 combo đầy đủ → từng SP trong combo → các vấn đề SP đó giải quyết → 1 câu then chốt vì sao giải quyết được.**
 
-Mỗi sản phẩm một mục:
-- **A. Combo** — giá cả bộ ghi rõ từng món; mỗi SP trong combo một bảng: *vấn đề giải quyết* | *vì sao giải quyết được* (1 câu, lời nói thường để NV đọc cho khách: vấn đề xảy ra thế nào → chất gì → làm gì → vì sao hết), kèm cách dùng; cuối combo có câu chốt và khi nào khuyên đi khám.
-  Ví dụ xịt muỗi: “Muỗi tìm người bằng cách ngửi mùi cơ thể và hơi thở. Tinh dầu sả, bạch đàn chanh có chất citronellal, citral bay hơi, tạo một lớp mùi quanh da bé. Lớp mùi này đánh lạc khứu giác của muỗi, muỗi mất phương hướng, không bay lại gần.”
+Mỗi sản phẩm một mục, theo thứ tự Nhi chốt:
+- **A. Thành phần → hoạt động thế nào → để làm gì cho bé/mẹ** — bảng 3 cột, cơ chế nói dễ hiểu, có ví dụ đời thường (giải thích riêng vì sao kem vừa “chắn ẩm” vừa “dưỡng ẩm”).
 - **B. Điểm nổi bật khi khách so sánh** — điểm nổi bật, bảng so sánh đối thủ (✔ = mình hơn), câu chốt, lưu ý.
-
-Bảng phân tích thành phần chi tiết (bản sửa lần 1) đã bỏ — thay bằng câu then chốt ở từng vấn đề. Cơ chế đầy đủ vẫn ở `Danh mục sản phẩm/Phân tích công dụng/`.
+- **C. Combo** — giá cả bộ ghi rõ từng món; mỗi SP trong combo một bảng: *vấn đề giải quyết* | *vì sao giải quyết được* (1 câu then chốt, lời nói thường để NV đọc cho khách), kèm cách dùng; cuối combo có câu chốt và khi nào khuyên đi khám.
+  Ví dụ xịt muỗi: “Muỗi tìm người bằng cách ngửi mùi cơ thể và hơi thở. Tinh dầu sả, bạch đàn chanh có chất citronellal, citral bay hơi, tạo một lớp mùi quanh da bé. Lớp mùi này đánh lạc khứu giác của muỗi, muỗi mất phương hướng, không bay lại gần.”
 
 ## File
 
 | File | Là gì |
 |---|---|
-| **`Sell-out kit theo sản phẩm.docx`** | ⭐ Bản Word A4 ngang: bảng tra nhanh (10 SP → combo → vấn đề) + mỗi SP một mục A · B |
-| `dulieu.js` | **Nguồn duy nhất.** `SP` = thông tin + điểm nổi bật; `VD` = vấn đề mỗi SP giải quyết + câu then chốt; `COMBO` = combo đầy đủ theo từng SP |
+| **`Sell-out kit theo sản phẩm.docx`** | ⭐ Bản Word A4 ngang: bảng tra nhanh (10 SP → combo → vấn đề) + mỗi SP một mục A · B · C |
+| `dulieu.js` | **Nguồn duy nhất.** `TP` = thư viện thành phần (cơ chế); `SP` = thông tin, thành phần, điểm nổi bật; `VD` = vấn đề mỗi SP giải quyết + câu then chốt; `COMBO` = combo đầy đủ theo từng SP |
 | `taoword.js` | Sinh bản Word từ `dulieu.js` |
 | `../../Poster NVBH/SP - …` | Poster theo bản đầu — ⚠️ **chưa cập nhật**; `taoposter.js` cần viết lại cho cấu trúc dữ liệu mới |
 

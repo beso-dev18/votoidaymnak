@@ -3,7 +3,7 @@
 const fs = require('fs');
 const { Document, Packer, Paragraph, TextRun, Table, TableRow, TableCell, WidthType,
         ShadingType, BorderStyle, VerticalAlign, PageOrientation } = require('docx');
-const { SP, VD, COMBO, THU_TU, dong, tongGia, chiTietGia } = require('./dulieu.js');
+const { TP, SP, VD, COMBO, THU_TU, dong, tongGia, chiTietGia } = require('./dulieu.js');
 
 const W = 14570;                                  // bề ngang vùng nội dung, A4 ngang, lề 2cm
 const NAVY = '365F91', BLUE = '4F81BD', FILL = 'E7EEF7', GREEN = '2F9036', GD = '1E6B26', GFILL = 'EAF5E8';
@@ -40,6 +40,8 @@ const bang = (cols, rows) => new Table({ columnWidths: cols, width: { size: W, t
 const nhanRow = (nhan, noi, mau, nen, w0 = 3000) => new TableRow({ cantSplit: true, children: [
   cell([P(nhan, { bold: true, color: mau, size: 17 })], { w: w0, fill: nen, mid: true }),
   cell(noi.map(t => P(t, { size: 18 })), { w: W - w0, fill: nen })] });
+const choAi = k => SP[k].nhom === 'me' ? 'MẸ' : 'BÉ';
+const Ps = (t, run = {}) => String(t).split('<br>').map(x => P(x, run));
 const giaSP = k => SP[k].gia.map(([q, g]) => `${q} ${dong(g)}`).join(' · ');
 const trước = (k, ks) => [k, ...ks.filter(x => x !== k)];     // SP khách đang cầm luôn đứng đầu
 
@@ -65,6 +67,16 @@ function traNhanh() {
     ] }));
   });
   return bang(cols, rows);
+}
+
+// ---------- A. thành phần → hoạt động thế nào → để làm gì ----------
+function phanA(k) {
+  const cols = [2800, 6770, 5000];
+  return bang(cols, [hdrRow([['THÀNH PHẦN', cols[0]], ['HOẠT ĐỘNG THẾ NÀO', cols[1]], [`ĐỂ LÀM GÌ CHO ${choAi(k)}`, cols[2]]]),
+    ...SP[k].tp.map(([id, lamGi]) => new TableRow({ cantSplit: true, children: [
+      cell([P(TP[id].ten, { bold: true, color: NAVY, size: 18 })], { w: cols[0] }),
+      cell(Ps(TP[id].coChe, { size: 18 }), { w: cols[1] }),
+      cell([P(lamGi, { size: 18, bold: false })], { w: cols[2], fill: GFILL })] }))]);
 }
 
 // ---------- B. điểm nổi bật ----------
@@ -96,7 +108,7 @@ function phanB(k) {
   return out;
 }
 
-// ---------- A. combo → SP trong combo → vấn đề SP giải quyết → 1 câu cơ chế ----------
+// ---------- C. combo → SP trong combo → vấn đề SP giải quyết → 1 câu cơ chế ----------
 function bangSP(c, x, chinh) {
   const c0 = 3300, sp = SP[x];
   const rows = [
@@ -115,7 +127,7 @@ function bangSP(c, x, chinh) {
 
 function phanCombo(k) {
   const c = COMBO[k], out = [], le = c.sp.length === 1;
-  out.push(H(le ? `A. Sell-out 1 mình — ${SP[k].ngan}` : `A. Combo: ${c.sp.map(x => SP[x].ngan).join(' + ')} — ${dong(tongGia(c.sp))}`, 2));
+  out.push(H(le ? `C. Sell-out 1 mình — ${SP[k].ngan}` : `C. Combo: ${c.sp.map(x => SP[x].ngan).join(' + ')} — ${dong(tongGia(c.sp))}`, 2));
   if (!le) out.push(bang([3000, W - 3000], [
     nhanRow('GIÁ CẢ BỘ', ['<b>' + chiTietGia(c.sp) + '</b>'], GD, GFILL),
     ...(c.ghiChu ? [nhanRow('GHI CHÚ', [c.ghiChu], AMBER, AMBERFILL)] : []),
@@ -135,7 +147,7 @@ function phanCombo(k) {
 // ---------- ghép tài liệu ----------
 const body = [];
 body.push(new Paragraph({ spacing: { after: 60 }, children: [new TextRun({ text: 'SELL-OUT KIT THEO SẢN PHẨM', bold: true, color: NAVY, size: 40, font: 'Calibri Light' })] }));
-body.push(P('Sản phẩm → combo đầy đủ đi theo sản phẩm đó → từng sản phẩm trong combo → các vấn đề sản phẩm đó giải quyết → 1 câu vì sao giải quyết được (lời dễ hiểu để đọc lên cho khách). Sản phẩm chưa ghép được combo thì sell-out 1 mình.', { size: 21, color: MUTE, italics: true }));
+body.push(P('Mỗi sản phẩm: A. thành phần → hoạt động thế nào → để làm gì · B. điểm nổi bật khi khách so sánh · C. combo đầy đủ đi theo sản phẩm đó → từng sản phẩm trong combo → các vấn đề sản phẩm đó giải quyết → 1 câu vì sao giải quyết được (lời dễ hiểu để đọc lên cho khách). Sản phẩm chưa ghép được combo thì sell-out 1 mình.', { size: 21, color: MUTE, italics: true }));
 body.push(H('BẢNG TRA NHANH: SẢN PHẨM → COMBO', 1));
 body.push(traNhanh());
 body.push(P('Giá bán lẻ theo báo giá OTC 01/04/2025. Không có giá combo hay khuyến mãi riêng — giá cả bộ là cộng giá bán lẻ từng sản phẩm, lấy quy cách nhỏ nhất (tắm gội 200ml, xịt muỗi 50ml).', { size: 15, color: MUTE, italics: true }));
@@ -145,9 +157,11 @@ THU_TU.forEach((k, i) => {
   body.push(new Paragraph({ pageBreakBefore: true, spacing: { after: 0 }, children: [] }));
   body.push(H(`${i + 1}. ${s.ten.toUpperCase()}`, 1));
   body.push(P(`<b>Quy cách, giá:</b> ${giaSP(k)}   ·   <b>Dùng cho:</b> ${s.tuoi}${s.loai ? `   ·   <b>Loại:</b> ${s.loai}` : ''}`, { size: 19 }));
-  phanCombo(k).forEach(x => body.push(x));
+  body.push(H(`A. Thành phần → hoạt động thế nào → để làm gì cho ${choAi(k).toLowerCase()}`, 2));
+  body.push(phanA(k));
   body.push(H(`B. Điểm nổi bật của ${s.ngan} khi khách so sánh`, 2));
   phanB(k).forEach(x => body.push(x));
+  phanCombo(k).forEach(x => body.push(x));
 });
 
 const doc = new Document({
