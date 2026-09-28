@@ -12,7 +12,7 @@ Bản cũ vẫn giữ để tham khảo trong `../_Lưu trữ - bản theo vấn
   Ghi chú: “papain cắt liên kết giữ tế bào chết” không sai về bản chất (men đu đủ làm mềm lớp “keo” đạm giữ da chết) — chỉ là cách nói khó hiểu, đã viết lại.
 - **Phần B** — *Điểm nổi bật* đưa lên đầu (3–5 điểm, mỗi điểm nêu rõ đối thủ không có gì), kèm **bảng so sánh** (✔ = mình hơn).
   Điểm yếu, lời cần tránh gom riêng vào ô *Lưu ý khi tư vấn*.
-- **Phần C** — mỗi combo trình bày theo **3 bước: làm sạch → xử lý vấn đề → bảo vệ / dưỡng da**; mỗi bước nêu sản phẩm, thành phần, cơ chế, và để làm gì cho đúng vấn đề đó.
+- **Phần C (sửa lần 2)** — đi từ **combo → các vấn đề combo đó giải quyết được → mỗi sản phẩm làm gì cho vấn đề đó**. Phần “làm gì” viết bằng lời nói thường để NV đọc lên cho khách nghe hiểu ngay: tên chất → nó làm gì → vì sao giải quyết được vấn đề (VD xịt muỗi: citronellal, citral bay hơi tạo lớp mùi quanh da bé, đánh lạc khứu giác của muỗi nên muỗi mất phương hướng, không bay lại gần). Mỗi dòng có nhãn bước (làm sạch / xử lý / bảo vệ). Giá cả bộ ghi rõ từng món.
   Giá cả bộ ghi rõ từng món (VD: Tắm gội 200ml 150.000đ + Kem 115.000đ = 265.000đ).
 - Sản phẩm không có combo → **sell-out 1 mình**, vẫn theo 3 bước: Gạc rơ lưỡi, và 3 sản phẩm của mẹ.
 - **Thêm 3 sản phẩm của mẹ:** Curmilk, Yaocare Women, Dao’Spa Mama (mục 8–10).
@@ -23,9 +23,24 @@ Bản cũ vẫn giữ để tham khảo trong `../_Lưu trữ - bản theo vấn
 | File | Là gì |
 |---|---|
 | **`Sell-out kit theo sản phẩm.docx`** | ⭐ Bản Word A4 ngang: bảng tra nhanh (10 SP) → mỗi SP một mục A · B · C như trên |
-| `dulieu.js` | **Nguồn duy nhất.** `TP` = thư viện thành phần (cơ chế đầy đủ + 1 câu ngắn); `SP` = 10 sản phẩm; `COMBO` = 9 combo theo 3 bước |
+| `dulieu.js` | **Nguồn duy nhất.** `TP` = thư viện thành phần (cơ chế đầy đủ + 1 câu ngắn); `SP` = 10 sản phẩm; `COMBO` = 7 combo, mỗi combo → các vấn đề → lời giải thích từng SP |
 | `taoword.js` | Sinh bản Word từ `dulieu.js` |
 | `../../Poster NVBH/SP - …` | Poster theo bản trước — ⚠️ **chưa cập nhật** theo bản sửa này; `taoposter.js` cần viết lại cho khớp cấu trúc dữ liệu mới |
+
+## 10 sản phẩm, 7 combo
+
+| Combo | Giá cả bộ | Giải quyết được |
+|---|---|---|
+| Tắm gội + Kem bôi | 265.000đ | Hăm da (khuyến nghị thêm Oriky) · Rôm sảy, mụn nhọt |
+| Tắm gội + Kem bôi + Dầu Oriky | 400.000đ | Chàm sữa · Da khô, nứt nẻ, đỏ rát do gió nắng |
+| Tắm gội + Dầu Oriky | 285.000đ | Cứt trâu · Da khô ráp (chưa nứt) |
+| Kem bôi + Dầu Oriky | 250.000đ | Vết thâm, sẹo mới |
+| Elemis Gold + Kem bôi | 335.000đ | Mẩn ngứa, da nhạy cảm · Rôm sảy, mụn nhọt (bé từ 6 tháng) |
+| Xịt muỗi + Kem bôi | 205.000đ | Muỗi đốt, côn trùng cắn |
+| Bọt rửa tay + Kem bôi | 360.000đ | Da tay khô rát do rửa tay nhiều |
+
+Sell-out 1 mình: Gạc rơ lưỡi, Curmilk, Yaocare Women, Dao’Spa Mama. Mỗi sản phẩm liệt kê các combo có nó (Kem bôi có 6 combo, Tắm gội và Dầu Oriky mỗi loại 3).
+“Da khô ráp (chưa nứt)” tách riêng để có bậc bán: da mới ráp → Tắm gội + Oriky; đã nứt, đỏ rát → thêm Kem bôi.
 
 ## Nguồn dữ liệu — không có gì tự nghĩ ra
 
