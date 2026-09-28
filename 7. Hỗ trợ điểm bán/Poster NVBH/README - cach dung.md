@@ -1,5 +1,39 @@
 # Poster NVBH — cách dựng và in
 
+## ⭐ Bản đang dùng: poster THEO SẢN PHẨM → COMBO (dựng lại 28/09/2026)
+
+Theo yêu cầu của sếp: shop bán theo sản phẩm, nên mỗi poster là **một sản phẩm**, đi từ sản phẩm → hỏi vấn đề của bé →
+**combo 2–3 sản phẩm** cho vấn đề đó. Nội dung sinh tự động từ `../Sellout kit/Theo sản phẩm/dulieu.js` — cùng nguồn với bản Word.
+
+| File | Là gì |
+|---|---|
+| `SP - 0 - Bang tra nhanh combo.pdf` | 1 trang A4 ngang dán quầy: khách hỏi mua SP nào → các combo gợi ý, có ảnh SP và giá cả bộ |
+| `SP - 1 - Tam goi Elemis.pdf` · `SP - 2 - Kem boi Elemis.pdf` | A4 ngang gấp 3, **2 tờ** (nhiều combo): tờ 1 = sản phẩm + thành phần + điểm mạnh + combo đầu; tờ 2 = các combo còn lại |
+| `SP - 3 - Dau massage Oriky.pdf` … `SP - 7 - Gac ro luoi Elemis.pdf` | A4 ngang gấp 3, 1 tờ |
+| `taoposter.js` · `sp-poster.css` · `canhco.js` | Sinh HTML từ dữ liệu · kiểu poster · tự dò cỡ chữ và tự chia sang tờ 2 khi cần |
+
+**Bố cục mỗi poster:** bìa (tên SP, ảnh, giá theo dung tích, độ tuổi) → *Giải quyết vấn đề gì cho bé* → *Thành phần → giúp gì cho bé* →
+*Điểm mạnh khi khách so sánh* → *Cách dùng* → **Từ sản phẩm → combo**: bảng combo 1 dòng (vấn đề · SP · giá cả bộ), rồi mỗi combo một thẻ:
+câu hỏi mở · ảnh các SP + giá cả bộ · việc của từng SP · câu nói chốt combo · cách dùng · lưu ý · khi nào khuyên đi khám.
+Nội dung tự chảy qua 3 tấm, không thẻ nào vắt qua nếp gấp.
+
+Dựng lại (không sửa tay file HTML — sửa `dulieu.js`):
+
+```bash
+node taoposter.js
+node canhco.js "SP - "*.html
+for f in "SP - "*.html; do node render.js "$f" "${f%.html}.pdf" "${f%.html}.png"; done
+```
+
+`canhco.js` ưu tiên gói trong 1 tờ nếu cỡ chữ vẫn ≥ 0.9; không được thì dời các thẻ combo cuối sang tờ 2 (chỉ poster tắm gội, kem bôi có tờ 2).
+Poster ít nội dung (Gold, xịt muỗi, bọt rửa tay, gạc) dùng cỡ chữ trần 1.45 nên tấm 3 còn trống một phần.
+Logo Elemis trong `assets/` tách từ hộp tắm gội (có chữ “Tắm gội trẻ em”) nên chỉ đặt trên poster tắm gội.
+Ảnh `sp-gold.jpg`, `sp-xit.jpg`, `sp-bot.jpg`, `sp-gac.jpg`: ảnh sản phẩm trên web duockhoaxanh.com, đã cắt lấy phần sản phẩm.
+
+---
+
+## Các bản cũ
+
 Poster khổ **A4 dọc**, dùng dán sau quầy hoặc phát cho nhân viên bán hàng tại shop.
 Nội dung rút từ `../Sellout kit/Theo sản phẩm/Bộ sell-out kit theo sản phẩm.md`,
 hình ảnh lấy từ bộ slide giới thiệu Elemis chính thức của công ty (file gốc không nằm trong repo).
@@ -78,7 +112,7 @@ thêm file giới thiệu/ảnh sản phẩm từ MKT.
 
 ---
 
-# Poster theo vấn đề da bé (A4 dọc, 3 cột) — bản chạy thử
+# Poster theo vấn đề da bé — ĐÃ CHUYỂN VÀO `_Luu tru - theo van de da be/` (sếp yêu cầu làm theo sản phẩm)
 
 Chuyển từng mục trong `../Sellout kit/Theo vấn đề da bé/Sell-out kit theo vấn đề da bé.docx` thành 1 poster A4
 để in phát cho NVBH. **Mới dựng mục 1 — Hăm da** để Nhi duyệt mẫu; 8 mục còn lại dựng theo cùng bố cục sau khi duyệt.

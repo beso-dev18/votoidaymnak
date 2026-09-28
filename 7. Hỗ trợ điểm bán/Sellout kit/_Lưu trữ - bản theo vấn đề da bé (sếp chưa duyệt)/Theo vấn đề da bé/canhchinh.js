@@ -1,7 +1,7 @@
 // Tự dò cỡ chữ lớn nhất mà trang không bị tràn, rồi ghi thẳng vào file HTML.
 const { chromium } = require('playwright');
 const fs = require('fs'), path = require('path');
-const kiemtra = require('../../Poster NVBH/kiemtra.js');
+const kiemtra = require('../../../Poster NVBH/kiemtra.js');
 
 (async () => {
   const files = process.argv.slice(2);
