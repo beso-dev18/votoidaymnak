@@ -180,11 +180,14 @@ Danh mục sản phẩm/                      ← phân loại sản phẩm côn
 │   ├── Phân tích công dụng sản phẩm.md     ← với 13 SP trong bảng giá OTC: mỗi công dụng chính = 1 dòng, nêu rõ hoạt chất (tên thông dụng/hoá học) + dược liệu chứa nó + cơ chế; bảng hoạt chất lặp lại — tài liệu dùng để bán hàng, không có phần cảnh báo/caveat
 │   └── Phân tích công dụng sản phẩm.docx   ← bản .docx xuất từ file .md cùng tên
 └── Câu hỏi làm rõ.md                   ← điểm chưa chắc chắn cần Nhi xác nhận
-Thư cảm ơn 10 năm/                      ← thư cảm ơn khách hàng/đối tác dự Lễ kỷ niệm 10 năm (14/10/2026). Nội dung giữ nguyên 100% so với ảnh gốc ở mọi mẫu — chỉ khác thiết kế. Sửa nội dung thì sửa cả 4 file HTML
+Thư cảm ơn 10 năm/                      ← thư cảm ơn khách hàng/đối tác dự Lễ kỷ niệm 10 năm (14/10/2026). Mẫu 1–4: nội dung giữ nguyên 100% so với ảnh gốc, chỉ khác thiết kế (sửa nội dung thì sửa cả 4 file). Nội dung A–C: lời thư mới, giữ thông tin công ty, dấu, chữ ký. Không lưu đè lên bản cũ — luôn tạo file mới
 ├── Thu cam on 10 nam - Mau 1 khung vien.html/.pdf/.png      ← A4, nền kem, khung viền đôi xanh–vàng, nhành lá 2 góc, trích dẫn trong ô xanh nhạt
 ├── Thu cam on 10 nam - Mau 2 bang xanh.html/.pdf/.png       ← băng xanh đầu trang (tiêu đề chữ trắng), logo trong huy hiệu trắng, trích dẫn có ngoặc kép vàng
 ├── Thu cam on 10 nam - Mau 3 cot xanh.html/.pdf/.png        ← cột xanh bên trái có số "10" viền vàng + nhành lá, nội dung căn trái
 ├── Thu cam on 10 nam - Mau 4 thiep trang nha.html/.pdf/.png ← kiểu thiệp: tờ giấy nổi trên nền kem, viền vàng góc vát, bố cục căn giữa
+├── Thu cam on 10 nam - Noi dung A - Tri an trang trong.html/.pdf/.png       ← NỘI DUNG MỚI (Claude soạn, chờ sếp duyệt) trên khung Mẫu 1: trang trọng, nhắc nguồn gốc ĐH Dược Hà Nội + tiêu chí An toàn – Hiệu quả – Khoa học
+├── Thu cam on 10 nam - Noi dung B - Am ap gan gui.html/.pdf/.png            ← NỘI DUNG MỚI trên khung Mẫu 4: giọng ấm áp, "cùng mẹ và bé", kết "Thân ái và trân trọng cảm ơn!"
+├── Thu cam on 10 nam - Noi dung C - Ngan gon huong tuong lai.html/.pdf/.png ← NỘI DUNG MỚI trên khung Mẫu 2: ngắn gọn, "thay mặt BGĐ", hướng tới thập kỷ mới
 ├── render.js                           ← `node render.js` dựng PDF (A4) + PNG cho mọi file HTML (hoặc truyền tên 1 file); báo nếu chữ tràn trang
 ├── assets/                             ← logo, dấu + chữ ký (tách từ ảnh gốc, nền trong suốt), phông EB Garamond + Playfair Display
 └── Thu cam on 10 nam - ban sua.png     ← bản cũ sửa trực tiếp trên ảnh gốc (sếp chưa duyệt), giữ để tham khảo

@@ -16,7 +16,11 @@ const path = require('path');
     const tran = await p.evaluate(() => [...document.querySelectorAll('.page *:not(svg):not(svg *)')]
       .filter(e => { const r = e.getBoundingClientRect(); return r.width && (r.bottom > 1123 || r.right > 794); })
       .map(e => e.className || e.tagName));
-    console.log(ten, tran.length ? '!! tràn: ' + tran.join(', ') : 'OK');
+    const kc = await p.evaluate(() => {
+      const m = document.querySelector('main'), k = document.querySelector('.ky');
+      return m && k ? Math.round(k.getBoundingClientRect().top - m.getBoundingClientRect().bottom) : null;
+    });
+    console.log(ten, tran.length ? '!! tràn: ' + tran.join(', ') : 'OK', '| khoảng cách thân thư → chữ ký:', kc, 'px');
     await p.pdf({ path: path.join(__dirname, ten + '.pdf'), format: 'A4', printBackground: true, margin: { top: 0, right: 0, bottom: 0, left: 0 } });
     await p.screenshot({ path: path.join(__dirname, ten + '.png'), clip: { x: 0, y: 0, width: 794, height: 1123 } });
     await p.close();
