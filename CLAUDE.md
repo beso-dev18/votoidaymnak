@@ -188,6 +188,7 @@ Thư cảm ơn 10 năm/                      ← thư cảm ơn khách hàng/đ�
 ├── Thu cam on 10 nam - Noi dung A - Tri an trang trong.html/.pdf/.png       ← NỘI DUNG MỚI (Claude soạn, chờ sếp duyệt) trên khung Mẫu 1: trang trọng, nhắc nguồn gốc ĐH Dược Hà Nội + tiêu chí An toàn – Hiệu quả – Khoa học
 ├── Thu cam on 10 nam - Noi dung B - Am ap gan gui.html/.pdf/.png            ← NỘI DUNG MỚI trên khung Mẫu 4: giọng ấm áp, "cùng mẹ và bé", kết "Thân ái và trân trọng cảm ơn!"
 ├── Thu cam on 10 nam - Noi dung C - Ngan gon huong tuong lai.html/.pdf/.png ← NỘI DUNG MỚI trên khung Mẫu 2: ngắn gọn, "thay mặt BGĐ", hướng tới thập kỷ mới
+├── Thu cam on 10 nam - Noi dung A/B/C (bo sung) - ....html/.pdf/.png  ← ⭐ BẢN MỚI NHẤT: A–C thêm 3 ý Nhi yêu cầu — ghi nhận sự tôn trọng và đồng hành của khách thời gian qua · lời xin lỗi nếu có thiếu sót trong buổi lễ · lời chúc và cam kết cho tương lai. Cùng thiết kế với bản A–C, chữ nhỏ hơn chút để vừa trang
 ├── render.js                           ← `node render.js` dựng PDF (A4) + PNG cho mọi file HTML (hoặc truyền tên 1 file); báo nếu chữ tràn trang
 ├── assets/                             ← logo, dấu + chữ ký (tách từ ảnh gốc, nền trong suốt), phông EB Garamond + Playfair Display
 └── Thu cam on 10 nam - ban sua.png     ← bản cũ sửa trực tiếp trên ảnh gốc (sếp chưa duyệt), giữ để tham khảo
