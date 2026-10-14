@@ -180,10 +180,13 @@ Danh mục sản phẩm/                      ← phân loại sản phẩm côn
 │   ├── Phân tích công dụng sản phẩm.md     ← với 13 SP trong bảng giá OTC: mỗi công dụng chính = 1 dòng, nêu rõ hoạt chất (tên thông dụng/hoá học) + dược liệu chứa nó + cơ chế; bảng hoạt chất lặp lại — tài liệu dùng để bán hàng, không có phần cảnh báo/caveat
 │   └── Phân tích công dụng sản phẩm.docx   ← bản .docx xuất từ file .md cùng tên
 └── Câu hỏi làm rõ.md                   ← điểm chưa chắc chắn cần Nhi xác nhận
-Thư cảm ơn 10 năm/                      ← thư cảm ơn khách hàng/đối tác dự Lễ kỷ niệm 10 năm (14/10/2026)
-├── ⭐ Thu cam on 10 nam - thiet ke moi.html/.pdf/.png  ← BẢN THIẾT KẾ LẠI (sếp chưa ưng bản sửa trên ảnh gốc): A4 dọc, khung viền đôi xanh–vàng, nội dung giữ nguyên 100% so với ảnh gốc. Sửa HTML rồi chạy `node render.js` để dựng lại PDF + PNG
-├── render.js                           ← dựng PDF (A4) + PNG từ file HTML bằng Chromium
-├── assets/                             ← logo, dấu + chữ ký (tách từ ảnh gốc, đã làm trong nền), phông EB Garamond + Playfair Display
+Thư cảm ơn 10 năm/                      ← thư cảm ơn khách hàng/đối tác dự Lễ kỷ niệm 10 năm (14/10/2026). Nội dung giữ nguyên 100% so với ảnh gốc ở mọi mẫu — chỉ khác thiết kế. Sửa nội dung thì sửa cả 4 file HTML
+├── Thu cam on 10 nam - Mau 1 khung vien.html/.pdf/.png      ← A4, nền kem, khung viền đôi xanh–vàng, nhành lá 2 góc, trích dẫn trong ô xanh nhạt
+├── Thu cam on 10 nam - Mau 2 bang xanh.html/.pdf/.png       ← băng xanh đầu trang (tiêu đề chữ trắng), logo trong huy hiệu trắng, trích dẫn có ngoặc kép vàng
+├── Thu cam on 10 nam - Mau 3 cot xanh.html/.pdf/.png        ← cột xanh bên trái có số "10" viền vàng + nhành lá, nội dung căn trái
+├── Thu cam on 10 nam - Mau 4 thiep trang nha.html/.pdf/.png ← kiểu thiệp: tờ giấy nổi trên nền kem, viền vàng góc vát, bố cục căn giữa
+├── render.js                           ← `node render.js` dựng PDF (A4) + PNG cho mọi file HTML (hoặc truyền tên 1 file); báo nếu chữ tràn trang
+├── assets/                             ← logo, dấu + chữ ký (tách từ ảnh gốc, nền trong suốt), phông EB Garamond + Playfair Display
 └── Thu cam on 10 nam - ban sua.png     ← bản cũ sửa trực tiếp trên ảnh gốc (sếp chưa duyệt), giữ để tham khảo
 Báo cáo tuần/                           ← báo cáo công việc tuần gửi cấp trên, mỗi tuần 1 bộ file
 ├── Mẫu gốc công ty - Bao cao ket qua tuan DKX (phong ban).docx  ← ⭐ MẪU CHÍNH THỨC sếp cung cấp, bản dùng cho phòng ban; có header logo + MST công ty. Khung O-P-I: I. Tổng kết kết quả tuần (1.1 bảng Mục tiêu/Kế hoạch/Thực hiện/Note → 1.2 bảng Mục tiêu/Yếu tố/Giải pháp/Note → 1.3 số liệu → 1.4 yếu tố quản trị O-P-I → 1.5 nhân sự) → II. Tổng kết (tài sản gia tăng / rủi ro cần tránh) → III. Kiến nghị BGĐ (5 nhóm) → IV. Kế hoạch tuần tới. Cuối file có phần "Lưu ý" hướng dẫn: nhân viên BP Kinh doanh có 3 mục tiêu trọng tâm = (1) khách hàng mới/cũ, (2) giá trị cốt lõi DN, (3) phát triển năng lực bản thân
