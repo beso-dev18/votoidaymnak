@@ -186,6 +186,8 @@ Báo cáo tuần/                           ← báo cáo công việc tuần g�
 ├── Mẫu DKX (cá nhân) - ... tuần 21-26.09.2026.docx  ← báo cáo tuần 21–26/09 theo bản cá nhân; các ô [Điền] là số liệu Nhi tự bổ sung (AMIS, doanh số, shop, ngày công)
 ├── Mẫu 1 - Báo cáo công việc tuần ....docx  ← mẫu bảng hành chính 6 cột (STT, tên công việc, thời gian, kết quả làm được, chưa làm được, hướng giải quyết), khổ A4 ngang — tham khảo, không phải mẫu công ty
 └── Mẫu 2 - Báo cáo kết quả công việc tuần ....docx  ← mẫu theo mục: mục tiêu tuần → công việc & kết quả (bảng) → vấn đề xin ý kiến → kế hoạch tuần tới, khổ A4 dọc — tham khảo, không phải mẫu công ty
+Kế hoạch thử việc/                      ← mục tiêu, kế hoạch cho giai đoạn thử việc 2 tháng
+└── Mục tiêu và kế hoạch tháng thử việc thứ 2.md  ← nhìn lại tháng 1 (đã làm / còn treo) → 5 mục tiêu MT1–MT5 theo khung báo cáo DKX (ưu tiên Nhóm 1 AMIS + Nhóm 5 số liệu) → kế hoạch 5 tuần 15/10–13/11 → lịch cố định trong ngày → câu hỏi cần hỏi ngay → rủi ro. Mốc thời gian tạm tính (bắt đầu thử việc 14/09), các ô [Điền] là chỉ tiêu/số liệu Nhi bổ sung
 ```
 
 Cập nhật mục này khi có thêm file/thư mục con.
