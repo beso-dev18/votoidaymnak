@@ -1,192 +1,253 @@
 # Mục tiêu và kế hoạch tháng thử việc thứ 2
 
-Người lập: Vũ Trần Thuý Nhi — Sales Admin, Phòng Kinh doanh, Công ty TNHH Dược Khoa Xanh
-Lập ngày: 15/10/2026
-Căn cứ: 7 file `Phân tích công việc/*/Phân tích công việc.md` + `Câu hỏi làm rõ.md`, 2 báo cáo tuần (14–20/09, 21–26/09) và các tài liệu đã có trong repo.
+Người lập: Vũ Trần Thuý Nhi, Sales Admin, Phòng Kinh doanh, Công ty TNHH Dược Khoa Xanh
+Cập nhật: 15/10/2026 (bản 2: thêm số liệu báo cáo tuần 28/09–03/10 và 05/10–10/10, thêm 2 việc mới được giao)
+Căn cứ:
+- Danh mục công việc bàn giao (`List_CongViec_Admin.xlsx`) và 7 file `Phân tích công việc/*`
+- 4 báo cáo tuần của tháng 1, trong folder `Báo cáo tuần/`
+- Bộ công cụ ASM sếp giao, lưu tại `4. Quản lý khách hàng của bộ phận/DKX_Bo_Cong_Cu_ASM_Quan_Tri_Dia_Ban.xlsx`
 
-> ⚠️ **Mốc thời gian đang tạm tính.** Báo cáo tuần đầu tiên bắt đầu từ 14/09/2026 nên tạm coi tháng thử việc 1 là 14/09–13/10 và **tháng 2 là 14/10–13/11/2026**. Nhi sửa lại theo ngày ghi trên hợp đồng/quyết định thử việc nếu khác.
->
-> ⚠️ **Repo chưa có báo cáo từ 27/09 trở đi.** Phần "Nhìn lại tháng 1" chỉ dựa trên những gì đã có trong repo. Những việc Nhi đã làm ngoài repo (số đơn AMIS, hoá đơn, doanh số…) cần bổ sung vào các ô `[Điền]`.
+> ⚠️ **Mốc thời gian đang tạm tính.** Tháng 1 có 4 báo cáo tuần, từ 14/09 đến 10/10. Vì vậy tạm coi **tháng 2 là 12/10–13/11/2026**, gồm 5 tuần, tuần cuối dùng để tổng kết thử việc. Nhi sửa theo ngày ghi trên hợp đồng thử việc nếu khác.
 
 ---
 
-## 1. Nhìn lại tháng thử việc 1
+## 1. Nhìn lại tháng 1 (14/09–10/10)
 
-### Đã làm được (có trong repo)
-
-| Nhóm việc | Kết quả |
-|---|---|
-| 7. Hỗ trợ điểm bán | Phần lớn thời gian dồn vào đây. Có: sell-out kit theo sản phẩm (bản Word sửa lần 3, 28/09: 10 SP, combo), khung + bảng 9 khối vấn đề từ chối mua hàng (bản đầy đủ và bản 1 trang A4), poster NVBH theo sản phẩm (7 SP + bảng tra nhanh combo), poster Tắm gội Elemis, script xử lý từ chối, bài đào tạo NV shop |
-| Danh mục sản phẩm (nền cho nhóm 3, 4, 6, 7) | Phân loại SP theo 3 cách, so sánh thị trường 16 SP, phân tích công dụng 13 SP, 8 bài giới thiệu SP, bảng giá + chương trình OTC |
-| 5. Báo cáo (phần báo cáo bản thân) | Dựng mẫu báo cáo tuần cá nhân từ mẫu gốc DKX; nộp 2 báo cáo tuần |
-| Chung | Phân tích công việc + câu hỏi làm rõ cho cả 7 nhóm việc |
-
-### Chưa làm được / còn treo
-
-| Việc | Tình trạng theo báo cáo tuần | Mức ưu tiên |
+| Tuần | Trọng tâm thực tế | Kết quả chính |
 |---|---|---|
-| **1.1 Lên đơn trên AMIS** (⭐ ưu tiên tuần đầu theo bản bàn giao) | Cả 2 báo cáo tuần đều ghi "chưa thành thạo" | Cao nhất |
-| **Nhóm 5 — tổng hợp doanh số, KPI tuần, phân tích dữ liệu** (⭐ ưu tiên tuần đầu) | Chưa có file/công cụ nào trong repo; ô số liệu trong báo cáo tuần còn `[Điền]` | Cao nhất |
-| Nhóm 4 — danh sách shop | Chỉ liên hệ trực tiếp được khoảng 50% shop; chưa có danh sách đã xác thực | Cao |
-| Chạy thử kit tại 1–2 shop | Đã đề xuất 2 tuần liền, chưa triển khai | Cao |
-| Các điểm chờ công ty xác nhận | Acid boric gạc rơ lưỡi; Yaocare Women (SLES/hương liệu); Yaocare mama thiếu công bố; giá in tài liệu (OTC hay web); cách dùng rôm sảy; mốc "hết hăm 2–4 ngày"; cách dùng Elemis Gold/Bọt rửa tay/Yaocare Women/Dao'Spa Mama; liều + thành phần Curmilk; ảnh chính thức từ MKT | Trung bình — cần chốt trước khi in số lượng lớn |
-| Poster theo SP | Đang sinh từ dữ liệu bản trước, chưa cập nhật theo bản Word 28/09 | Trung bình |
-| Nhóm 2, 3, 6 | Chưa có sản phẩm công việc nào trong repo | Trung bình |
-| Bọt biển tắm bé (phát sinh) | Có tên nhà máy + số điện thoại, chưa gặp đúng người phụ trách | Thấp — `[Điền tình trạng mới]` |
+| 14–20/09 | Nhóm 7 + danh mục SP | Sell-out kit 9 nhóm SP, phân loại SP, so sánh 16 SP với đối thủ, phân tích công dụng 13 SP, 8 bài giới thiệu SP |
+| 21–26/09 | Nhóm 7 | Kit theo vấn đề da bé (sếp yêu cầu làm lại theo SP), bảng 9 khối từ chối mua hàng, 2 mẫu poster |
+| 28/09–03/10 | Định giá + quy trình bán hàng | Khảo sát giá thị trường; **đề xuất giá** Elemis kem 30g (125.000đ, phương án 135.000đ) và Oriky dầu 80ml (199.000đ); bộ hướng dẫn bán hàng Elemis A4 (còn nhiều chữ); soạn "Quy trình bán hàng cho Shop" (6 quy trình) |
+| 05–10/10 | Công cụ điểm bán + công cụ ASM | Sell-out kit Elemis **bản thống nhất** (2 mặt, chia khối, chờ phản hồi); khung xử lý từ chối dùng chung; nhận và rà soát bộ công cụ ASM; tài liệu đào tạo kem bôi da (PowerPoint) |
 
-### Nhận định chính
+**Theo từng đầu việc trong bản bàn giao:**
 
-Tháng 1 Nhi làm **rất nhiều tài liệu chất lượng** cho nhóm 7, nhưng chính 2 báo cáo tuần đã tự chỉ ra: **hai hạng mục ưu tiên trong bản bàn giao (AMIS và Nhóm 5) chưa đạt**. Tháng 2 là tháng người quản lý quyết định có ký hợp đồng chính thức hay không — họ sẽ nhìn vào việc **Nhi có tự chủ được việc hàng ngày cốt lõi của Sales Admin không**, chứ không chỉ khối lượng tài liệu.
+| Nhóm việc | Tháng 1 | Đánh giá |
+|---|---|---|
+| 1. Đơn hàng (AMIS, hoá đơn, theo dõi đơn) ⭐ | 2 tuần đầu ghi "chưa thành thạo AMIS"; 2 tuần sau không còn nhắc đến | ❓ Chưa rõ tình trạng, cần Nhi xác nhận |
+| 2. Giấy tờ, chứng từ | Chưa có việc ghi nhận | Chưa bắt đầu |
+| 3. Tư liệu (MKT, CTV miền Trung) ⭐ | Có xin ảnh MKT cho poster; dùng bộ giới thiệu SP do đồng nghiệp soạn | Mới chạm |
+| 4. Quản lý khách hàng (shop) | Chỉ liên hệ trực tiếp được khoảng 50% shop. Mới nhận bộ công cụ ASM | Bắt đầu tháng 2 |
+| 5. Báo cáo, số liệu ⭐ | Báo cáo tuần cá nhân đều đặn; khảo sát giá có số liệu tốt. Chưa làm báo cáo doanh số/KPI bộ phận | Một phần |
+| 6. Chương trình, đề xuất | Đề xuất giá Elemis 30g và Oriky 80ml (02/10) | Đã làm 1 đề xuất, chưa rõ đã duyệt chưa |
+| 7. Hỗ trợ điểm bán | Phần lớn thời gian tháng 1 | Nhiều tài liệu, **chưa thử tại điểm bán** |
+| Việc phát sinh: bọt biển tắm bé | Có file tổng hợp nhãn hiệu và giá; chưa gặp đúng người phụ trách nhà máy | Treo 3 tuần |
 
-→ **Hướng của tháng 2:** đảo lại trọng tâm.
-- Nhóm 1 + Nhóm 5 lên hàng đầu, có giờ cố định mỗi ngày.
-- Nhóm 7 chuyển từ "làm thêm tài liệu" sang "**đưa tài liệu đã có tới shop và đo phản hồi**" — không mở thêm bộ tài liệu mới nếu sếp không yêu cầu.
-- Bắt đầu chạm vào nhóm 2, 4, 6 ở mức nắm quy trình.
-
----
-
-## 2. Mục tiêu tháng 2
-
-Xếp theo khung 3 mục tiêu trọng tâm trong mẫu báo cáo DKX (khách hàng — giá trị cốt lõi — năng lực bản thân) + nghiệp vụ hàng ngày, để chép thẳng vào báo cáo tuần được.
-
-Các con số khối lượng (số đơn, số shop…) **để trống** vì công ty chưa giao chỉ tiêu định lượng (Nhi đã kiến nghị ở báo cáo tuần 14–20/09). Việc đầu tiên tuần này là xin chỉ tiêu này.
-
-### MT1 — Nghiệp vụ đơn hàng tự chủ (Nhóm 1) ⭐
-
-| Kết quả cần đạt cuối tháng | Cách đo |
-|---|---|
-| Tự lên đơn trên AMIS **không cần người kèm** | Từ tuần 3: số đơn tự lên `[Điền chỉ tiêu]`, số đơn phải sửa do Nhi nhập sai = 0 |
-| Chạy trọn quy trình xác nhận hoá đơn 5 bước (nháp → khách xác nhận → kế toán ký số → gửi đối tác có ghi rõ đơn → cập nhật thanh toán vào nhóm kế toán) | Không có hoá đơn nào gửi kế toán ký trước khi khách xác nhận |
-| Cập nhật tình trạng đi đơn cho NVKD/khách trong ngày | Có file Excel theo dõi đơn (xem MT2) |
-| Có **ghi chú quy trình AMIS của riêng Nhi** (các trường bắt buộc, lỗi hay gặp, cách sửa/huỷ đơn) | 1 file, lưu vào folder `1. Đơn hàng/` |
-
-### MT2 — Báo cáo, số liệu đúng hạn (Nhóm 5) ⭐
-
-| Kết quả cần đạt cuối tháng | Cách đo |
-|---|---|
-| **File Excel tổng hợp doanh số** ngày/tuần/tháng dùng thật: dữ liệu gốc dạng Excel Table, Data Validation cho cột NVKD/kênh/khu vực/SP, SUMIFS cho bảng tổng hợp, PivotTable khi cần cắt nhanh | File chạy được, sếp dùng được số |
-| **Lịch nhắc NVKD cập nhật doanh số** cố định (giờ chốt theo quy định công ty) | Không tuần nào trễ báo cáo vì thiếu số |
-| **Báo cáo KPI tuần** gửi PGĐ đúng hạn, số khớp với file doanh số | 4/4 tuần đúng hạn; ô số liệu trong báo cáo tuần không còn `[Điền]` |
-| **1 bản phân tích tháng 10** (theo kênh / SP / khu vực / so với tháng 9 — tuỳ PGĐ muốn góc nào) | Nộp trước ngày `[Điền — hỏi PGĐ]` |
-
-### MT3 — Khách hàng là shop (Nhóm 4 + 7 + 3)
-
-| Kết quả cần đạt cuối tháng | Cách đo |
-|---|---|
-| **Danh sách shop đã xác thực** bằng Excel: tên, địa bàn, NVKD phụ trách, người liên hệ, kênh liên hệ (Zalo/điện thoại), trạng thái liên hệ được/chưa, đã nhận kit chưa | Tỷ lệ shop liên hệ trực tiếp được: từ ~50% lên `[Điền mục tiêu]` |
-| **Chạy thử kit** (sell-out kit theo SP + bảng 9 khối từ chối + poster) tại 1–2 shop, ghi lại phản hồi NV quầy | Có biên bản phản hồi + danh sách điểm cần sửa |
-| Gửi kit tới các shop đã liên hệ được, theo đúng địa bàn | Số shop đã nhận kit: `[Điền]` |
-| Nắm lịch nội dung tháng của MKT (Kiều, anh Nam) để gửi bài/chương trình cho shop và CTV miền Trung đúng lịch | Có lịch gửi bài theo tháng |
-
-### MT4 — Giá trị cốt lõi: đúng quy trình, đúng pháp lý (Nhóm 2 + 6 + chốt tồn đọng)
-
-| Kết quả cần đạt cuối tháng | Cách đo |
-|---|---|
-| **Chốt các điểm chờ xác nhận** (danh sách ở mục 1) rồi cập nhật kit/poster một lần | Số điểm còn treo: `[Điền]` → càng ít càng tốt; poster theo SP khớp bản Word mới nhất |
-| Nắm các loại hợp đồng mẫu (mua bán, ký gửi, tích luỹ) và **checklist đối chiếu hợp đồng** (thông tin pháp nhân khớp ĐKKD, điều khoản giá/chiết khấu/công nợ, đổi trả) | Có checklist trong folder `2. Giấy tờ, chứng từ/`; làm ít nhất 1 hợp đồng thật có chị Tươi check |
-| Nắm **quy trình duyệt chương trình** (chị Hà, anh Đức — thứ tự nào) và **thông báo Sở Công Thương** (ngưỡng, thời hạn, ai nộp) | Trả lời được hết câu hỏi mục 6.2, 6.4 trong `Câu hỏi làm rõ.md` |
-| Góp số liệu cho **1 đề xuất chương trình** tháng 12 hoặc dịp cuối năm (nếu bộ phận có làm) — dùng số liệu từ MT2 | Có bản tham vấn/đề xuất nộp NVKD |
-
-### MT5 — Năng lực bản thân và kết thúc thử việc
-
-| Kết quả cần đạt cuối tháng | Cách đo |
-|---|---|
-| AMIS: tự chủ phần lên đơn (MT1) | Người hướng dẫn xác nhận không cần kèm |
-| Tự tư vấn được 10 SP trong kit cho NV shop/khách mà không cần mở tài liệu | Tự kiểm tra bằng bảng 9 khối từ chối |
-| **Bản tổng kết 2 tháng thử việc** (đã làm gì, đo được gì, đề xuất gì cho giai đoạn chính thức) | Nộp trước ngày đánh giá thử việc `[Điền]` |
+**Nhận định.**
+- Tháng 1 Nhi làm ra rất nhiều tài liệu. Tuần 3 và 4 chuyển dần sang việc gần với kinh doanh hơn: định giá, quy trình, quản trị địa bàn.
+- Điểm yếu lặp lại trong cả 4 báo cáo: tài liệu xong nhưng **chưa ra tới shop, chưa có phản hồi thật**.
+- Các việc theo kế hoạch tuần (bọt biển, rút gọn quy trình) bị dời từ tuần này sang tuần khác.
 
 ---
 
-## 3. Kế hoạch theo tuần
+## 2. Trọng tâm tháng 2
 
-Tuần tính từ thứ Hai đến thứ Bảy, giống các báo cáo tuần trước.
-
-### Tuần 1 (15–17/10) — Chốt đầu bài
-
-| Việc | Ai làm cùng |
-|---|---|
-| Xin sếp: **chỉ tiêu định lượng** cho việc hàng ngày, **ngày kết thúc thử việc** và **tiêu chí đánh giá thử việc** | Sếp trực tiếp / PGĐ |
-| Hẹn lịch được kèm lên đơn AMIS — xin làm thử trên đơn thật có người kiểm tra | NVKD, kế toán |
-| Hỏi rõ nguồn và giờ chốt doanh số; xin file báo cáo cũ (nếu có) | NVKD, PGĐ |
-| Xin danh sách shop hiện có (NPP bàn giao / NVKD) | NVKD |
-| Gửi lại 1 danh sách gộp các điểm chờ xác nhận (mục 1) cho sếp — 1 lần, có hạn trả lời | Sếp / BGĐ |
-| Bổ sung vào báo cáo tuần các số liệu thật đã có từ tháng 1 | — |
-
-### Tuần 2 (19–24/10) — AMIS + dựng công cụ số liệu
-
-| Việc | Ghi chú |
-|---|---|
-| Lên đơn AMIS có người kèm mỗi ngày; ghi chú lỗi/trường bắt buộc vào file quy trình riêng | MT1 |
-| Làm trọn quy trình hoá đơn 5 bước cho các đơn mới | MT1 |
-| Dựng **file Excel tổng hợp doanh số** (bản 1) + **file theo dõi đơn hàng** (ngày đặt, ngày khách thanh toán, ngày kho gửi, dự kiến giao) | MT2 — làm trên dữ liệu thật tuần này |
-| Bắt đầu nhắc NVKD cập nhật doanh số theo lịch cố định | MT2 |
-| Dựng **file danh sách shop** (Excel Table + Data Validation khu vực/NVKD) và bắt đầu gọi xác thực | MT3 |
-| Báo cáo KPI tuần đầu tiên có số thật | MT2 |
-
-### Tuần 3 (26–31/10) — Tự chủ + chạy thử tại shop + chốt số tháng 10
-
-| Việc | Ghi chú |
-|---|---|
-| **Tự lên đơn AMIS không cần kèm**; chỉ hỏi khi gặp tình huống mới | MT1 |
-| Chạy thử kit tại 1–2 shop (đã chọn từ danh sách xác thực); ghi phản hồi NV quầy | MT3 |
-| Chốt doanh số tháng 10 cuối tuần | MT2 |
-| Hỏi chị Tươi về các loại hợp đồng; lập checklist đối chiếu hợp đồng | MT4 |
-| Cập nhật kit/poster theo các điểm đã được xác nhận (nếu có trả lời) | MT4 |
-
-### Tuần 4 (02–07/11) — Phân tích + mở rộng
-
-| Việc | Ghi chú |
-|---|---|
-| **Bản phân tích tháng 10** gửi PGĐ (góc nhìn theo yêu cầu đã hỏi ở tuần 1) | MT2 |
-| Sửa kit theo phản hồi chạy thử, gửi tới các shop đã xác thực theo địa bàn | MT3 |
-| Hỏi quy trình duyệt chương trình + thông báo Sở Công Thương; góp số liệu cho đề xuất chương trình tháng 12 (nếu có) | MT4 |
-| Lấy lịch nội dung tháng 11 từ MKT, lên lịch gửi bài cho shop/CTV miền Trung | MT3 |
-
-### Tuần 5 (09–13/11) — Tổng kết thử việc
-
-| Việc | Ghi chú |
-|---|---|
-| Duy trì việc hàng ngày (đơn, hoá đơn, doanh số) | MT1, MT2 |
-| Viết **bản tổng kết 2 tháng thử việc**: kết quả theo 5 mục tiêu, số liệu đo được, tài sản đã tạo cho công ty, đề xuất cho giai đoạn chính thức | MT5 — dùng khung O-P-I của mẫu báo cáo DKX |
-| Hoàn thiện các file quy trình riêng (AMIS, hoá đơn, checklist hợp đồng) để bàn giao/dùng lâu dài | MT5 |
+1. **Hai việc sếp mới giao là ưu tiên số 1:** chuẩn hoá 1 quy trình bán hàng chung, và dùng được bộ công cụ ASM cùng NVKD. Cả hai đều cần làm cùng NVKD, nên gộp chung lịch gặp NVKD cho hai việc.
+2. **Dùng hai việc mới để học luôn việc hàng ngày.**
+   - Quy trình bán hàng chứa đúng các bước của nhóm 1 (lên đơn, hoá đơn, giao hàng, công nợ) và nhóm 2 (hợp đồng).
+   - Bộ công cụ ASM chính là công cụ của nhóm 4 (quản lý shop) và nhóm 5 (số liệu).
+   - Vì vậy không cần làm song song nhiều thứ, cũng không cần dựng thêm file danh sách shop riêng.
+3. **Nhóm 7: dừng làm mới, chuyển sang thử và sửa.** Đưa sell-out kit Elemis bản thống nhất ra điểm bán, lấy phản hồi, rồi mới nhân rộng.
+4. **Việc nào treo quá 2 tuần thì báo sếp để chốt:** làm tiếp, đổi cách hay dừng (ví dụ: bọt biển).
 
 ---
 
-## 4. Lịch cố định trong ngày (đề xuất)
+## 3. Mục tiêu và kế hoạch theo từng đầu công việc
 
-Báo cáo tuần 21–26/09 tự rút ra: "để việc làm tài liệu lấn thời gian của nghiệp vụ ưu tiên". Cách chặn: **việc hàng ngày làm trước, tài liệu làm sau**. Giờ cụ thể Nhi chỉnh theo giờ chốt đơn/kho/doanh số thực tế của công ty.
+Mỗi mục có: mục tiêu cuối tháng → hành động → cách đo → làm cùng ai. Có thể chép thẳng vào bảng "Kế hoạch tuần tiếp theo" của báo cáo tuần.
 
-| Khung | Việc |
+### ★ Việc mới A — Chuẩn hoá 1 quy trình bán hàng chung
+
+**Tình trạng hiện tại:**
+- Nhi đã soạn "Quy trình bán hàng cho Shop" gồm 6 quy trình.
+- Tài liệu sẵn có của công ty có 5 quy trình: bán hàng, giao hàng, thu tiền và đối soát công nợ, hậu mãi, kế toán và báo cáo.
+- Riêng phần bán hàng chia 4 đối tượng (CTV, Shop, NPP, Hệ thống), mỗi đối tượng 8–9 bước.
+- Mục tiêu "rút gọn thành 1 quy trình chung" có trong kế hoạch 2 tuần liền nhưng chưa ghi nhận kết quả.
+
+**Mục tiêu cuối tháng:** sếp duyệt **1 quy trình bán hàng chung**, gồm 3 phần:
+1. **1 sơ đồ trục chính 1 trang.** Gồm các bước mà đối tượng nào cũng đi qua, từ tiếp cận/báo giá đến chốt đơn, lên đơn AMIS, hoá đơn, giao hàng, thu tiền/công nợ, hậu mãi và báo cáo.
+2. **1 bảng "khác nhau theo đối tượng".** Mỗi đối tượng (CTV / Shop / NPP / Hệ thống) là 1 cột; dòng là các điểm khác nhau như loại hợp đồng, chính sách giá, điều kiện thanh toán, ai giao hàng. Các bước giống nhau thì không viết lại 4 lần.
+3. **Cột "Ai làm – Ai duyệt – Giấy tờ đi kèm" cho từng bước.** Cột này cho biết rõ phần nào là việc của Sales Admin.
+
+| Tuần | Hành động |
 |---|---|
-| Đầu giờ sáng | Kiểm tra đơn mới, hoá đơn chờ khách xác nhận, tình trạng thanh toán → cập nhật nhóm kế toán |
-| Trong buổi sáng | Lên đơn AMIS theo yêu cầu NVKD; hỏi kho lịch gửi hàng cho đơn đã thanh toán |
-| Đầu giờ chiều | Cập nhật tình trạng đi đơn cho NVKD/khách; gửi hoá đơn đã ký số |
-| Giữa buổi chiều | Việc theo tuần: danh sách shop, kit, hợp đồng, phân tích |
-| Trước giờ chốt doanh số | Nhắc NVKD cập nhật → tổng hợp vào file doanh số |
-| Cuối tuần (theo hạn nộp) | Báo cáo KPI tuần cho PGĐ + báo cáo tuần cá nhân |
+| 1 (12–17/10) | Gộp tài liệu công ty với bản 6 quy trình của Nhi, đánh dấu chỗ trùng và chỗ khác nhau. Hẹn mỗi NVKD 20–30 phút, cùng **đi lại từng bước của 1 đơn thật gần nhất** để thấy thực tế khác giấy tờ ở đâu |
+| 2 (19–24/10) | Bản nháp v1 (sơ đồ + bảng khác biệt). Hỏi kế toán (chị Giang/chị Tươi) về bước hoá đơn, công nợ; hỏi kho (chị Dung/chị Phương) về bước giao hàng |
+| 3 (26–31/10) | Gửi NVKD góp ý, sửa ra v2, trình sếp |
+| 4 (02–07/11) | Sửa theo ý sếp, chốt bản chính thức. Làm bản 1 trang để phổ biến |
+| 5 (09–13/11) | Phổ biến cho NVKD. Ghi nhận các bước còn vướng |
+
+**Cách đo:** quy trình được sếp duyệt; tất cả NVKD đã góp ý.
+**Làm cùng:** NVKD (chính), kế toán, kho, sếp.
+
+### ★ Việc mới B — Dùng được bộ công cụ ASM quản trị địa bàn
+
+**Bộ công cụ có 13 sheet** (xem phụ lục ở mục 6). Nhi đã rà soát file trong tuần 05–10/10. Hiện file **chưa có dữ liệu thật**.
+
+**Mục tiêu cuối tháng:**
+- Biết sheet nào cần dữ liệu gì, ai cung cấp, bao lâu cập nhật một lần.
+- Cùng NVKD đưa dữ liệu thật của **ít nhất 1 NPP và các shop của NPP đó** vào file.
+- Dashboard (sheet 07) ra số đúng.
+- Chạy được **1 lần họp tuần** theo nhịp trong file. Nhịp tuần 60 phút gồm: doanh số → độ phủ → shop → mã hàng → bán ra → rủi ro NPP → hành động khắc phục.
+- Có **1 trang hướng dẫn nhập liệu bằng tiếng Việt** cho NVKD.
+
+| Tuần | Hành động |
+|---|---|
+| 1 (12–17/10) | Hỏi sếp: ai là ASM, ai nhập dữ liệu (Nhi hay NVKD), file để ở đâu cho mọi người cùng dùng. Lập bảng thuật ngữ Anh–Việt (phụ lục) để Nhi và NVKD hiểu giống nhau |
+| 2 (19–24/10) | Ngồi cùng 1 NVKD nhập **thử 1 NPP**: sheet 02 (hồ sơ NPP), 03 (shop của NPP đó), 01 (bản đồ điểm bán). Ghi lại chỗ NVKD không có số liệu hoặc hiểu khác |
+| 3 (26–31/10) | Nhập dữ liệu bán ra/tồn (sheet 04) và đối thủ (sheet 09) cho NPP thử. Kiểm tra dashboard 07 và chấm điểm 05 với số thật |
+| 4 (02–07/11) | Chạy họp tuần lần đầu với NVKD. Ghi hành động vào sheet 10 (nhật ký hành động). Viết trang hướng dẫn nhập liệu |
+| 5 (09–13/11) | Mở rộng sang NPP/NVKD tiếp theo (nếu sếp đồng ý). Đưa số từ dashboard vào báo cáo tuần |
+
+**Cách đo:** số NPP và số shop có dữ liệu thật trong file `[Điền]`; dashboard ra số khớp với số NVKD báo; 1 buổi họp tuần đã chạy.
+**Làm cùng:** NVKD, sếp (người giao công cụ).
+
+### Nhóm 1 — Đơn hàng ⭐
+
+**Mục tiêu:** tự lên đơn AMIS khi NVKD cần; chạy đúng quy trình hoá đơn 5 bước; báo được tình trạng đi đơn trong ngày.
+
+- Tuần 1: **xác nhận với sếp** xem tháng 2 Nhi có nhận lên đơn/hoá đơn hằng ngày không. Hai báo cáo gần nhất không nhắc tới việc này.
+- Nếu có nhận: tuần 1–2 làm có người kèm; từ tuần 3 tự làm. Ghi chú quy trình AMIS riêng (trường bắt buộc, lỗi hay gặp, cách sửa/huỷ đơn) vào folder `1. Đơn hàng/`.
+- Gắn với việc mới A: các bước lên đơn, hoá đơn, giao hàng chính là 1 đoạn của quy trình bán hàng chung. Học các bước này cũng là viết phần đó của quy trình.
+
+**Cách đo:** số đơn tự lên `[Điền chỉ tiêu]`; 0 hoá đơn gửi kế toán ký số trước khi khách xác nhận.
+
+### Nhóm 2 — Giấy tờ, chứng từ
+
+**Mục tiêu:** biết công ty có những loại hợp đồng nào (mua bán, ký gửi, tích luỹ…) và mỗi loại dùng cho đối tượng nào.
+
+- Tuần 2–3: trong lúc làm việc mới A, hỏi chị Tươi để điền vào bảng "khác nhau theo đối tượng" (đối tượng nào dùng loại hợp đồng nào).
+- Từ đó lập **checklist đối chiếu hợp đồng**: thông tin pháp nhân khớp ĐKKD; điều khoản giá, chiết khấu, công nợ, đổi trả. Lưu vào folder `2. Giấy tờ, chứng từ/`.
+
+**Cách đo:** có checklist; làm ít nhất 1 hợp đồng thật có chị Tươi check (nếu phát sinh).
+
+### Nhóm 3 — Tư liệu ⭐
+
+**Mục tiêu:** có kênh làm việc ổn định với MKT (Kiều: content; anh Nam: ảnh, video) để có tư liệu cho sell-out kit và gửi shop/CTV miền Trung.
+
+- Tuần 1–2: hỏi MKT lịch nội dung tháng 11. Xin ảnh chính thức cho các SP còn dùng ảnh tạm.
+- Tuần 3–4: gửi bài/chương trình tháng 11 tới shop và CTV theo địa bàn. Ghi lại đã gửi cho ai.
+
+**Cách đo:** có lịch nội dung tháng 11; danh sách đã gửi.
+
+### Nhóm 4 — Quản lý khách hàng của bộ phận (shop)
+
+**Mục tiêu:** dùng **sheet 03_SHOP_MASTER của bộ công cụ ASM** làm danh sách shop chính thức, không dựng file riêng.
+
+- Shop nào đã liên hệ được, ở địa bàn nào, NVKD/NPP nào phụ trách, đang ở trạng thái nào (đang mua / ngủ / mất / tiềm năng) đều nằm trong sheet 03. Việc này gộp với việc mới B.
+- Nâng tỷ lệ shop liên hệ trực tiếp được, hiện khoảng 50%, lên `[Điền mục tiêu]`.
+- 4.3 thắc mắc của người tiêu dùng: hỏi sếp phạm vi xử lý của Nhi. Ghi từng ca vào cột "Vấn đề / Giải pháp / Follow-up" của sheet 03.
+
+**Cách đo:** số shop có đủ dữ liệu trong sheet 03 `[Điền]`; tỷ lệ shop liên hệ được.
+
+### Nhóm 5 — Báo cáo, phân tích số liệu ⭐
+
+**Mục tiêu:**
+- Báo cáo tuần cá nhân đúng hạn, **có số liệu**.
+- Đưa số từ dashboard ASM (sheet 07) vào báo cáo tuần/KPI cho PGĐ.
+
+Việc cần làm:
+- Tuần 1: hỏi PGĐ báo cáo doanh số/KPI tuần hiện ai làm, số lấy từ đâu, Nhi có phải tổng hợp không.
+- Báo cáo tuần: điền đủ mục II.2 (rủi ro) và III (kiến nghị). Hai mục này đang để trống trong 2 báo cáo gần nhất.
+- Từ tuần 4: báo cáo tuần có thêm 1 đoạn số liệu địa bàn lấy từ dashboard ASM.
+
+**Cách đo:** 5/5 báo cáo tuần nộp đúng hạn, không còn mục trống; ít nhất 1 báo cáo có số liệu địa bàn thật.
+
+### Nhóm 6 — Chương trình, đề xuất
+
+**Mục tiêu:** đưa đề xuất giá Elemis kem 30g và Oriky dầu 80ml (lập 02/10) đến kết quả cuối: duyệt, sửa hay không dùng.
+
+- Tuần 1: hỏi tình trạng duyệt. Nếu được duyệt, cập nhật giá mới vào sell-out kit và tài liệu điểm bán.
+- Tuần 3–4: hỏi quy trình duyệt chương trình (chị Hà, anh Đức, thứ tự nào). Hỏi việc thông báo Sở Công Thương (ngưỡng giá trị, thời hạn, ai nộp). Đưa 2 bước này vào quy trình bán hàng chung nếu liên quan.
+
+**Cách đo:** đề xuất giá có kết luận; trả lời được các câu hỏi 6.2, 6.4 trong `Câu hỏi làm rõ.md`.
+
+### Nhóm 7 — Hỗ trợ điểm bán
+
+**Mục tiêu:** sell-out kit Elemis bản thống nhất được **dùng thử thật tại điểm bán** và sửa theo phản hồi, rồi mới nhân rộng khung 2 mặt cho các SP còn lại.
+
+- Tuần 1–2: đưa bản thống nhất cho NVKD mang đi thử tại 1–2 shop. Hỏi NV quầy 3 câu: dùng được không, chỗ nào khó hiểu, thiếu gì.
+- Tuần 3: sửa theo phản hồi. Chốt khung.
+- Tuần 4–5: nhân khung cho SP tiếp theo (thứ tự SP do sếp/NVKD chọn). Dùng tài liệu đào tạo kem bôi da để đào tạo NV shop nếu có dịp.
+
+**Cách đo:** số shop đã thử `[Điền]`; có bản ghi phản hồi; số SP đã có kit bản chốt.
+
+### Việc phát sinh — Bọt biển tắm bé
+
+Việc này treo 3 tuần. **Tuần 1 báo sếp tình trạng** (đã gọi hotline nhưng chưa gặp đúng người; đã có file tổng hợp nhãn hiệu và giá) và đề xuất 1 trong 2 hướng:
+- Hướng 1: đặt mua mẫu qua sàn hoặc NPP có sẵn để dùng thử trước.
+- Hướng 2: nhờ sếp/NVKD giới thiệu đầu mối.
+
+Còn lấy giá các hãng thiếu (Johnson's, Penaten, Dexeryl, Cetaphil 70g, Aveeno) thì làm trong tuần 1.
 
 ---
 
-## 5. Câu hỏi cần hỏi ngay trong tuần 1
+## 4. Lịch tổng hợp 5 tuần
 
-Lấy từ các file `Câu hỏi làm rõ.md`, chỉ giữ những câu chặn việc của tháng 2. Nếu đã hỏi trong tháng 1 thì gạch đi.
+| Tuần | Việc chính |
+|---|---|
+| **1 (12–17/10)** | Hỏi sếp các câu ở mục 5 · gộp tài liệu quy trình + hẹn NVKD đi lại 1 đơn thật · bảng thuật ngữ ASM · kit Elemis ra điểm bán thử · báo tình trạng bọt biển + đề xuất giá |
+| **2 (19–24/10)** | Quy trình v1 · nhập thử 1 NPP vào bộ ASM · hỏi kế toán/kho các bước của họ · hỏi MKT lịch tháng 11 |
+| **3 (26–31/10)** | Quy trình v2 trình sếp · nhập bán ra/tồn, kiểm tra dashboard · sửa kit theo phản hồi · checklist hợp đồng |
+| **4 (02–07/11)** | Chốt quy trình · họp tuần ASM lần đầu + hướng dẫn nhập liệu · nhân kit cho SP tiếp theo · hỏi quy trình duyệt CT + Sở Công Thương |
+| **5 (09–13/11)** | Phổ biến quy trình · mở rộng ASM · **bản tổng kết 2 tháng thử việc** (theo khung O-P-I của mẫu báo cáo DKX) |
 
-1. Ngày kết thúc thử việc là ngày nào? Tiêu chí đánh giá thử việc gồm những gì, ai đánh giá?
-2. Chỉ tiêu định lượng cho việc hàng ngày (số đơn, số shop chăm sóc…) là bao nhiêu?
-3. AMIS: phân hệ nào, ai kèm, có đơn mẫu để tập không, sửa/huỷ đơn sai thế nào?
-4. NVKD cập nhật doanh số vào đâu, chốt lúc mấy giờ? Báo cáo KPI tuần nộp PGĐ hôm nào, qua kênh nào?
-5. PGĐ muốn "phân tích dữ liệu bộ phận" theo góc nào (kênh / khu vực / SP / cùng kỳ)? Có mẫu cũ không?
-6. Danh sách shop hiện có ở đâu? Ai phụ trách nhóm 4?
-7. Thời gian chuẩn từ lúc khách thanh toán đến lúc kho gửi hàng?
+**Gợi ý cách làm việc với NVKD:** gom việc A và B vào **cùng 1 buổi**. Ví dụ 30 phút đầu đi lại 1 đơn cho quy trình, 30 phút sau nhập dữ liệu NPP vào bộ ASM. NVKD ít bị làm phiền hơn, Nhi có lịch cố định.
 
 ---
 
-## 6. Rủi ro và cách phòng
+## 5. Cần hỏi/xác nhận ngay trong tuần 1
 
-| Rủi ro | Cách phòng |
+1. Ngày kết thúc thử việc là ngày nào? Tiêu chí đánh giá thử việc gồm những gì?
+2. Tháng 2 Nhi có nhận lên đơn AMIS và hoá đơn hằng ngày không, hay tập trung vào quy trình và ASM?
+3. Quy trình bán hàng chung: sếp muốn mức chi tiết nào (1 trang sơ đồ hay tài liệu đầy đủ)? Hạn trình ngày nào?
+4. Bộ công cụ ASM: ai là ASM? Ai nhập dữ liệu? Bắt đầu với NPP/địa bàn nào? File để ở đâu cho mọi người cùng dùng?
+5. Đề xuất giá Elemis 30g và Oriky 80ml đã duyệt chưa?
+6. Bọt biển tắm bé: tiếp tục, đổi cách hay dừng?
+
+---
+
+## 6. Phụ lục — Bộ công cụ ASM: đọc nhanh
+
+### 13 sheet và ai cấp dữ liệu (dự kiến, cần xác nhận với NVKD)
+
+| Sheet | Nội dung | Dữ liệu nhập tay hay tự tính | Nguồn dự kiến |
+|---|---|---|---|
+| 00 Hướng dẫn | Mục tiêu, nhịp ngày/tuần/tháng | — | — |
+| 01 Market Master | Bản đồ điểm bán: tỉnh, quận, loại điểm bán, NPP phục vụ, đang mua DKX chưa, đối thủ | Nhập tay | NVKD/NPP |
+| 02 NPP Master | Hồ sơ NPP: số shop, shop đang mua/ngủ/mất, số mã hàng DKX, doanh số tháng trước, tồn kho → **tự chấm điểm và xếp hạng A/B/C/D** | Nhập tay + công thức | NVKD, kế toán (doanh số) |
+| 03 Shop Master | Từng shop: hạng, trạng thái, ngày mua gần nhất, doanh số 30 ngày, tồn → **tự tính khoảng thiếu doanh số so với tiềm năng (GAP)** | Nhập tay + công thức | NVKD |
+| 04 Sales & Sell-out | Nhập–tồn–bán ra theo shop, mã hàng → **tự tính bán ra và số ngày tồn** | Nhập tay + công thức | NVKD/NPP |
+| 05 NPP Scorecard | Chấm điểm NPP theo 9 tiêu chí, tổng 100 | Nhập điểm, tự cộng | NVKD/ASM |
+| 06 NPP Growth Plan | Kế hoạch tăng trưởng từng NPP: mục tiêu, thực đạt, nguyên nhân, giải pháp, ai làm, hạn | Nhập tay + công thức | ASM + NPP |
+| 07 Dashboard | 1 trang tổng hợp, tự lấy số từ sheet 01, 02 | Tự tính | — |
+| 08 NPP Business Review | 6 bước họp tháng với NPP | Hướng dẫn | — |
+| 09 Competitor | Đối thủ: giá, chính sách, phản hồi shop | Nhập tay | NVKD (Nhi đã có số liệu khảo sát giá) |
+| 10 Action Log | Nhật ký hành động: vấn đề → việc làm → kết quả | Nhập tay | Sau mỗi buổi họp |
+| 11 KPI ASM | 10 KPI có trọng số | Nhập mục tiêu và thực đạt | Sếp giao mục tiêu |
+| 12 Solution Matrix | 6 vấn đề thường gặp → giải pháp → không được làm gì | Tham khảo | — |
+| 13 Checklist | Việc theo ngày/tuần/tháng/quý | Đánh dấu trạng thái | ASM |
+
+### Thuật ngữ Anh–Việt trong file
+
+| Trong file | Nghĩa |
 |---|---|
-| Lại bị cuốn vào làm tài liệu nhóm 7 theo yêu cầu phát sinh | Nhận việc phát sinh nhưng **báo sếp việc đó đẩy lùi việc gì**, để sếp chọn thứ tự |
-| Không có người kèm AMIS đúng lúc | Hẹn lịch cố định từ tuần 1; nếu trễ thì ghi vào kiến nghị báo cáo tuần |
-| NVKD cập nhật doanh số trễ → báo cáo trễ | Nhắc theo giờ cố định; ghi rõ trong báo cáo số nào là số tạm |
-| Các điểm chờ xác nhận không ai trả lời | Gửi 1 danh sách gộp, có hạn; trong lúc chờ thì không in số lượng lớn |
-| Kết thúc thử việc mà không có số liệu chứng minh | Từ tuần 2, mỗi báo cáo tuần phải có số thật ở MT1, MT2 |
+| Coverage | Độ phủ: số shop đang mua hàng DKX / tổng số shop trong địa bàn |
+| Active 30D / Dormant / Lost / Prospect | Shop có mua trong 30 ngày / shop "ngủ" (31–90 ngày không mua) / shop đã mất / shop tiềm năng chưa mua |
+| Sell-in / Sell-out | Hàng công ty bán vào NPP/shop / hàng shop bán ra cho người tiêu dùng |
+| SKU | Mã hàng (từng sản phẩm, từng quy cách) |
+| GAP | Khoảng thiếu giữa mục tiêu (hoặc tiềm năng) và thực đạt |
+| Root cause | Nguyên nhân gốc |
+| Owner / Deadline | Người chịu trách nhiệm / hạn chót |
+| Reactivation | Kích hoạt lại shop ngủ |
+| Cross-sell / AOV | Bán kèm sản phẩm khác / giá trị trung bình mỗi đơn |
+| Days inventory (Ngày tồn) | Số ngày hàng tồn đủ bán |
+| DS T-1 | Doanh số tháng trước |
+
+### Điểm cần hỏi khi dùng thật (từ việc đọc công thức trong file)
+
+- **Sheet 02: số shop đang mua/ngủ/mất đang nhập tay**, không tự đếm từ sheet 03. Nếu nhập ở cả 2 nơi dễ lệch số. Có thể dùng COUNTIFS đếm từ sheet 03 để nhập 1 lần. Hỏi sếp trước khi sửa file.
+- **Sheet 04: công thức "ngày tồn" = tồn cuối ÷ bán ra × 30.** Công thức này chỉ đúng nếu mỗi dòng là số liệu **1 tháng**. Nếu nhập theo tuần thì phải đổi ×30 thành ×7. Cần chốt mỗi dòng là kỳ nào.
+- **Sheet 07: ô "Shop đang mua DKX" chỉ đếm khi cột I sheet 01 ghi đúng chữ "Có".** File đã có danh sách chọn (Có / Chưa / Chưa xác định), nên phải chọn từ danh sách, không gõ tay.
+- **Sheet 02: điểm NPP đã có sẵn 20 điểm nền** (công thức +20). Nên hỏi sếp cách chấm này trước khi dùng điểm để xếp hạng NPP.
+- **Sheet 07: phần "Top GAP" chưa có công thức**, phải điền tay sau mỗi lần rà soát.

@@ -129,7 +129,8 @@ Nhi/
 1. Đơn hàng/                            ← trống, để dành nội dung riêng ứng với nhóm việc 1 (đồng cấp Phân tích công việc, tên trùng với folder con cùng tên trong đó)
 2. Giấy tờ, chứng từ/                   ← trống, để dành nội dung riêng ứng với nhóm việc 2
 3. Tư liệu/                             ← trống, để dành nội dung riêng ứng với nhóm việc 3
-4. Quản lý khách hàng của bộ phận/      ← trống, để dành nội dung riêng ứng với nhóm việc 4
+4. Quản lý khách hàng của bộ phận/      ← nội dung riêng ứng với nhóm việc 4
+└── DKX_Bo_Cong_Cu_ASM_Quan_Tri_Dia_Ban.xlsx  ← bộ công cụ ASM quản trị địa bàn qua NPP sếp giao (10/2026), 13 sheet (Market/NPP/Shop Master, Sales & Sell-out, Scorecard, Growth Plan, Dashboard…), chưa có dữ liệu thật. Nhi cần làm cùng NVKD để dùng được; sheet 03_SHOP_MASTER dùng làm danh sách shop chính thức. Đọc nhanh + thuật ngữ Anh–Việt: phụ lục trong `Kế hoạch thử việc/`
 5. Báo cáo, phân tích số liệu/          ← trống, để dành nội dung riêng ứng với nhóm việc 5
 6. Chương trình, đề xuất/               ← trống, để dành nội dung riêng ứng với nhóm việc 6
 7. Hỗ trợ điểm bán/
@@ -184,10 +185,11 @@ Báo cáo tuần/                           ← báo cáo công việc tuần g�
 ├── Mẫu gốc công ty - Bao cao ket qua tuan DKX (phong ban).docx  ← ⭐ MẪU CHÍNH THỨC sếp cung cấp, bản dùng cho phòng ban; có header logo + MST công ty. Khung O-P-I: I. Tổng kết kết quả tuần (1.1 bảng Mục tiêu/Kế hoạch/Thực hiện/Note → 1.2 bảng Mục tiêu/Yếu tố/Giải pháp/Note → 1.3 số liệu → 1.4 yếu tố quản trị O-P-I → 1.5 nhân sự) → II. Tổng kết (tài sản gia tăng / rủi ro cần tránh) → III. Kiến nghị BGĐ (5 nhóm) → IV. Kế hoạch tuần tới. Cuối file có phần "Lưu ý" hướng dẫn: nhân viên BP Kinh doanh có 3 mục tiêu trọng tâm = (1) khách hàng mới/cũ, (2) giá trị cốt lõi DN, (3) phát triển năng lực bản thân
 ├── Mẫu DKX (cá nhân) - Báo cáo kết quả công việc tuần ....docx  ← bản cá nhân của Nhi dựng từ mẫu gốc trên (sửa trực tiếp file nên giữ nguyên header/logo/font). Khác bản phòng ban: 1.5 đổi thành "Tự đánh giá bản thân", bỏ phần "Lưu ý" hướng dẫn và phần mục tiêu của Trưởng bộ phận. Đây là bản dùng để gửi sếp
 ├── Mẫu DKX (cá nhân) - ... tuần 21-26.09.2026.docx  ← báo cáo tuần 21–26/09 theo bản cá nhân; các ô [Điền] là số liệu Nhi tự bổ sung (AMIS, doanh số, shop, ngày công)
+├── BaoCaoTuan_Nhi_28.09-03.10.2026.docx · BaoCaoTuan_Nhi_05.10-10.10.2026.docx  ← báo cáo tuần 3 và 4 Nhi tự làm (khảo sát + đề xuất giá Elemis 30g/Oriky 80ml, quy trình bán hàng cho shop, sell-out kit Elemis bản thống nhất, nhận bộ công cụ ASM)
 ├── Mẫu 1 - Báo cáo công việc tuần ....docx  ← mẫu bảng hành chính 6 cột (STT, tên công việc, thời gian, kết quả làm được, chưa làm được, hướng giải quyết), khổ A4 ngang — tham khảo, không phải mẫu công ty
 └── Mẫu 2 - Báo cáo kết quả công việc tuần ....docx  ← mẫu theo mục: mục tiêu tuần → công việc & kết quả (bảng) → vấn đề xin ý kiến → kế hoạch tuần tới, khổ A4 dọc — tham khảo, không phải mẫu công ty
 Kế hoạch thử việc/                      ← mục tiêu, kế hoạch cho giai đoạn thử việc 2 tháng
-└── Mục tiêu và kế hoạch tháng thử việc thứ 2.md  ← nhìn lại tháng 1 (đã làm / còn treo) → 5 mục tiêu MT1–MT5 theo khung báo cáo DKX (ưu tiên Nhóm 1 AMIS + Nhóm 5 số liệu) → kế hoạch 5 tuần 15/10–13/11 → lịch cố định trong ngày → câu hỏi cần hỏi ngay → rủi ro. Mốc thời gian tạm tính (bắt đầu thử việc 14/09), các ô [Điền] là chỉ tiêu/số liệu Nhi bổ sung
+└── Mục tiêu và kế hoạch tháng thử việc thứ 2.md  ← (bản 2, 15/10) nhìn lại 4 tuần tháng 1 theo 7 nhóm việc → trọng tâm tháng 2 → mục tiêu + kế hoạch theo từng đầu việc: 2 việc mới (A. chuẩn hoá 1 quy trình bán hàng chung cùng NVKD; B. dùng bộ công cụ ASM cùng NVKD) + nhóm 1–7 + bọt biển → lịch 5 tuần 12/10–13/11 → câu hỏi tuần 1 → phụ lục đọc nhanh bộ ASM (13 sheet, thuật ngữ Anh–Việt, điểm cần hỏi về công thức). Mốc thời gian tạm tính, ô [Điền] là chỉ tiêu Nhi bổ sung
 ```
 
 Cập nhật mục này khi có thêm file/thư mục con.
