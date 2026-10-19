@@ -190,6 +190,8 @@ Báo cáo tuần/                           ← báo cáo công việc tuần g�
 └── Mẫu 2 - Báo cáo kết quả công việc tuần ....docx  ← mẫu theo mục: mục tiêu tuần → công việc & kết quả (bảng) → vấn đề xin ý kiến → kế hoạch tuần tới, khổ A4 dọc — tham khảo, không phải mẫu công ty
 Kế hoạch thử việc/                      ← mục tiêu, kế hoạch cho giai đoạn thử việc 2 tháng
 └── Mục tiêu và kế hoạch tháng thử việc thứ 2.md  ← (bản 2, 15/10) nhìn lại 4 tuần tháng 1 theo 7 nhóm việc → trọng tâm tháng 2 → mục tiêu + kế hoạch theo từng đầu việc: 2 việc mới (A. chuẩn hoá 1 quy trình bán hàng chung cùng NVKD; B. dùng bộ công cụ ASM cùng NVKD) + nhóm 1–7 + bọt biển → lịch 5 tuần 12/10–13/11 → câu hỏi tuần 1 → phụ lục đọc nhanh bộ ASM (13 sheet, thuật ngữ Anh–Việt, điểm cần hỏi về công thức). Mốc thời gian tạm tính, ô [Điền] là chỉ tiêu Nhi bổ sung
+Tổng kết thử việc/                      ← Nhi dừng thử việc (10/2026), HR yêu cầu tổng hợp việc đã làm
+└── Tổng hợp công việc tháng thử việc thứ nhất - Vũ Trần Thuý Nhi.docx  ← gửi HR, dựng trên nền mẫu báo cáo DKX (giữ header logo). Chỉ tháng 1 (14/09–10/10), 1 bảng: việc đã làm → kết quả cuối cùng → tình trạng, không kể quá trình. Ô [Điền] là chỗ Nhi tự bổ sung
 ```
 
 Cập nhật mục này khi có thêm file/thư mục con.
